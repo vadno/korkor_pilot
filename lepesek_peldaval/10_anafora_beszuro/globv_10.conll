@@ -1,0 +1,286 @@
+# text = A szervezett bűnözést és korrupciót vizsgáló szervezet , az OCCRP , a macedón Nova TV , és a cseh oknyomozó újságírás központja oknyomozó riportot jelentetett meg Szaso Mijalkov , a macedón titkosszolgálat vezetőjének felhalmozott vagyonáról , aki mellesleg a jelenlegi macedón miniszterelnök unokatestvére .
+# sent_id = 1
+1	A	a	DET	DET	Definite=Def|PronType=Art	3	DET	_	
+2	szervezett	szervezett	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	3	ATT	_	
+3	bűnözést	bűnözés	NOUN	NOUN	Case=Acc|Number=Sing	6	OBJ	_	
+4	és	és	CONJ	CONJ	_	3	CONJ	_	
+5	korrupciót	korrupció	NOUN	NOUN	Case=Acc|Number=Sing	4	COORD	_	
+6	vizsgáló	vizsgáló	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	7	ATT	_	
+7	szervezet	szervezet	NOUN	NOUN	Case=Nom|Number=Sing	25	SUBJ	_	
+8	,	,	PUNCT	PUNCT	_	7	PUNCT	_	
+9	az	az	DET	DET	Definite=Def|PronType=Art	10	DET	_	
+10	OCCRP	OCCRP	PROPN	PROPN	Case=Nom|Number=Sing	7	COORD	_	
+11	,	,	PUNCT	PUNCT	_	10	PUNCT	_	
+12	a	a	DET	DET	Definite=Def|PronType=Art	15	DET	_	
+13	macedón	macedón	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	15	ATT	_	
+14	Nova	Nova	PROPN	PROPN	Case=Nom|Number=Sing	15	NE	_	
+15	TV	TV	PROPN	PROPN	Case=Nom|Number=Sing	10	COORD	_	
+16	,	,	PUNCT	PUNCT	_	15	PUNCT	_	
+17	és	és	CONJ	CONJ	_	15	CONJ	_	
+18	a	a	DET	DET	Definite=Def|PronType=Art	21	DET	_	
+19	cseh	cseh	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	21	ATT	_	
+20	oknyomozó	oknyomozó	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	21	ATT	_	
+21	újságírás	újságírás	NOUN	NOUN	Case=Nom|Number=Sing	22	POSS	_	
+22	központja	központ	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	COORD	_	
+23	oknyomozó	oknyomozó	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	24	ATT	_	
+24	riportot	riport	NOUN	NOUN	Case=Acc|Number=Sing	25	OBJ	_	
+25	jelentetett	jelenik	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	ROOT	_	
+26	meg	meg	PART	PART	_	25	PREVERB	_	
+27	Szaso	Szaso	PROPN	PROPN	Case=Nom|Number=Sing	28	NE	_	
+28	Mijalkov	Mijalkov	POSS	PROPN	Case=Nom|Number=Sing	35	POSS	_	
+29	,	,	PUNCT	PUNCT	_	28	PUNCT	_	
+30	a	a	DET	DET	Definite=Def|PronType=Art	32	DET	_	
+31	macedón	macedón	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	32	ATT	_	
+32	titkosszolgálat	titkosszolgálat	NOUN	NOUN	Case=Nom|Number=Sing	33	POSS	_	
+33	vezetőjének	vezető	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	28	COORD	_	
+34	felhalmozott	felhalmozott	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	35	ATT	_	
+35	vagyonáról	vagyon	NOUN	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	25	OBL	_	
+36	,	,	PUNCT	PUNCT	_	25	PUNCT	_	
+37	aki	aki	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	43.1	SUBJ	_	
+38	mellesleg	mellesleg	ADV	ADV	_	43	MODE	_	
+39	a	a	DET	DET	Definite=Def|PronType=Art	42	DET	_	
+40	jelenlegi	jelenlegi	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	42	ATT	_	
+41	macedón	macedón	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	42	ATT	_	
+42	miniszterelnök	miniszterelnök	NOUN	NOUN	Case=Nom|Number=Sing	43	POSS	_	
+43	unokatestvére	unokatestvér	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	43.1	PRED	_	
+43.1	KOPULA	van	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	ATT	_	
+44	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = A cikk többek között a következőket említi .
+# sent_id = 2
+1	A	a	DET	DET	Definite=Def|PronType=Art	2	DET	_	
+2	cikk	cikk	NOUN	NOUN	Case=Nom|Number=Sing	7	SUBJ	_	
+3	többek	sok	NOUN	NOUN	Case=Nom|Number=Plur	4	ATT	_	
+4	között	között	ADP	ADP	_	7	MODE	_	
+5	a	a	DET	DET	Definite=Def|PronType=Art	6	DET	_	
+6	következőket	következő	NOUN	NOUN	Case=Acc|Number=Plur	7	OBJ	_	
+7	említi	említ	VERB	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	
+8	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Mijalkov a Macedóniát irányító legbefolyásosabb emberek szűk köréhez tartozik , melyek közt megtaláljuk unokatestvérét és vőfélyét is .
+# sent_id = 3
+1	Mijalkov	Mijalkov	PROPN	PROPN	Case=Nom|Number=Sing	9	SUBJ	_	
+2	a	a	DET	DET	Definite=Def|PronType=Art	6	DET	_	
+3	Macedóniát	Macedónia	PROPN	PROPN	Case=Acc|Number=Sing	4	OBJ	_	
+4	irányító	irányító	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	6	ATT	_	
+5	legbefolyásosabb	befolyásos	ADJ	ADJ	Case=Nom|Degree=Sup|Number=Sing	6	ATT	_	
+6	emberek	ember	NOUN	NOUN	Case=Nom|Number=Plur	8	POSS	_	
+7	szűk	szűk	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	8	ATT	_	
+8	köréhez	kör	NOUN	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	TO	_	
+9	tartozik	tartozik	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	
+10	,	,	PUNCT	PUNCT	_	9	PUNCT	_	
+11	melyek	amely	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	12	ATT	_	
+12	közt	közt	ADP	ADP	_	13	MODE	_	
+13	megtaláljuk	megtalál	VERB	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	ATT	_	
+13.SUBJ	DROP	mi	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	SUBJ	_	
+14	unokatestvérét	unokatestvér	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	OBJ	_	
+14.POSS	DROP	ő/az	POSS	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	POSS	_	
+15	és	és	CONJ	CONJ	_	14	CONJ	_	
+16	vőfélyét	vőfély	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	COORD	_	
+17	is	is	ADV	ADV	_	14	MODE	_	
+18	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Eközben vezetése alatt rendszeres kritika érte a titkosszolgálatot vizsgálati módszerei kapcsán , melyek nem feleltek meg az EU-s normáknak , illetve a szolgálat illetéktelen beavatkozásai miatt .
+# sent_id = 4
+1	Eközben	eközben	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	
+2	vezetése	vezetés	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	ATT	_	
+3	alatt	alatt	ADP	ADP	_	6	MODE	_	
+4	rendszeres	rendszeres	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	5	ATT	_	
+5	kritika	kritika	NOUN	NOUN	Case=Nom|Number=Sing	6	SUBJ	_	
+6	érte	ér	VERB	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+7	a	a	DET	DET	Definite=Def|PronType=Art	8	DET	_	
+8	titkosszolgálatot	titkosszolgálat	NOUN	NOUN	Case=Acc|Number=Sing	6	OBJ	_	
+9	vizsgálati	vizsgálati	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	10	ATT	_	
+10	módszerei	módszer	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	ATT	_	
+11	kapcsán	kapcsán	ADP	ADP	_	6	MODE	_	
+12	,	,	PUNCT	PUNCT	_	6	PUNCT	_	
+13	melyek	amely	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	15	SUBJ	_	
+14	nem	nem	ADV	ADV	PronType=Neg	15	NEG	_	
+15	feleltek	felel	VERB	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	ATT	_	
+16	meg	meg	PART	PART	_	15	PREVERB	_	
+17	az	az	DET	DET	Definite=Def|PronType=Art	19	DET	_	
+18	EU-s	EU-s	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	19	ATT	_	
+19	normáknak	norma	NOUN	NOUN	Case=Dat|Number=Plur	15	DAT	_	
+20	,	,	PUNCT	PUNCT	_	6	PUNCT	_	
+21	illetve	illetve	CONJ	CONJ	_	6	CONJ	_	
+22	a	a	DET	DET	Definite=Def|PronType=Art	23	DET	_	
+23	szolgálat	szolgálat	NOUN	NOUN	Case=Nom|Number=Sing	25	POSS	_	
+24	illetéktelen	illetéktelen	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	25	ATT	_	
+25	beavatkozásai	beavatkozás	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	26	ATT	_	
+26	miatt	miatt	ADP	ADP	_	21	COORD	_	
+27	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = A kormányzati karrier kiaknázására szakosodott tisztviselő számos üzletet , ingatlant birtokol Macedóniában és Csehországban , ahol édesapja , Jordan Mijalkov egy nemzetközi kereskedelmi cég vezetője volt a szocialista Jugoszlávia idejében .
+# sent_id = 5
+1	A	a	DET	DET	Definite=Def|PronType=Art	3	DET	_	
+2	kormányzati	kormányzati	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	3	ATT	_	
+3	karrier	karrier	NOUN	NOUN	Case=Nom|Number=Sing	4	ATT	_	
+4	kiaknázására	kiaknázás	NOUN	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	OBL	_	
+5	szakosodott	szakosodott	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	6	ATT	_	
+6	tisztviselő	tisztviselő	NOUN	NOUN	Case=Nom|Number=Sing	11	SUBJ	_	
+7	számos	számos	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	8	ATT	_	
+8	üzletet	üzlet	NOUN	NOUN	Case=Acc|Number=Sing	11	OBJ	_	
+9	,	,	PUNCT	PUNCT	_	8	PUNCT	_	
+10	ingatlant	ingatlan	NOUN	NOUN	Case=Acc|Number=Sing	8	COORD	_	
+11	birtokol	birtokol	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	
+12	Macedóniában	Macedónia	PROPN	PROPN	Case=Ine|Number=Sing	11	LOCY	_	
+13	és	és	CONJ	CONJ	_	12	CONJ	_	
+14	Csehországban	Csehország	PROPN	PROPN	Case=Ine|Number=Sing	13	COORD	_	
+15	,	,	PUNCT	PUNCT	_	11	PUNCT	_	
+16	ahol	ahol	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	26	LOCY	_	
+17	édesapja	édesapa	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	SUBJ	_	
+17.POSS	DROP	ő/az	POSS	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	POSS	_	
+18	,	,	PUNCT	PUNCT	_	17	PUNCT	_	
+19	Jordan	Jordan	PROPN	PROPN	Case=Nom|Number=Sing	20	NE	_	
+20	Mijalkov	Mijalkov	PROPN	PROPN	Case=Nom|Number=Sing	17	COORD	_	
+21	egy	egy	DET	DET	Definite=Ind|PronType=Art	24	DET	_	
+22	nemzetközi	nemzetközi	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	24	ATT	_	
+23	kereskedelmi	kereskedelmi	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	24	ATT	_	
+24	cég	cég	NOUN	NOUN	Case=Nom|Number=Sing	25	ATT	_	
+25	vezetője	vezető	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	PRED	_	
+26	volt	van	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	ATT	_	
+27	a	a	DET	DET	Definite=Def|PronType=Art	29	DET	_	
+28	szocialista	szocialista	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	29	ATT	_	
+29	Jugoszlávia	Jugoszlávia	PROPN	PROPN	Case=Nom|Number=Sing	30	POSS	_	
+30	idejében	idő	NOUN	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	TLOCY	_	
+31	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = A Mijalkov-Gruevszki-dinasztia sokáig birtokolta a hatalmat Macedónia leválását követően .
+# sent_id = 6
+1	A	a	DET	DET	Definite=Def|PronType=Art	2	DET	_	
+2	Mijalkov-Gruevszki-dinasztia	Mijalkov-Gruevszki-dinasztia	PROPN	PROPN	Case=Nom|Number=Sing	4	SUBJ	_	
+3	sokáig	sokáig	ADV	ADV	_	4	TTO	_	
+4	birtokolta	birtokol	VERB	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+5	a	a	DET	DET	Definite=Def|PronType=Art	6	DET	_	
+6	hatalmat	hatalom	NOUN	NOUN	Case=Acc|Number=Sing	4	OBJ	_	
+7	Macedónia	Macedónia	PROPN	PROPN	Case=Nom|Number=Sing	8	POSS	_	
+8	leválását	leválás	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	OBJ	_	
+9	követően	követő	ADJ	ADJ	Case=Ess|Degree=Pos|Number=Sing	4	TLOCY	_	
+10	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Jordan Mijalkov lett az első belügyminiszter az ország függetlenedése után , amíg el nem hunyt egy autóbalesetben .
+# sent_id = 7
+1	Jordan	Jordan	PROPN	PROPN	Case=Nom|Number=Sing	2	NE	_	
+2	Mijalkov	Mijalkov	PROPN	PROPN	Case=Nom|Number=Sing	3	SUBJ	_	
+3	lett	lesz	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+4	az	az	DET	DET	Definite=Def|PronType=Art	6	DET	_	
+5	első	egy	ADJ	ADJ	Case=Nom|Number=Sing|NumType=Ord	6	ATT	_	
+6	belügyminiszter	belügyminiszter	NOUN	NOUN	Case=Nom|Number=Sing	3	PRED	_	
+7	az	az	DET	DET	Definite=Def|PronType=Art	8	DET	_	
+8	ország	ország	NOUN	NOUN	Case=Nom|Number=Sing	9	POSS	_	
+9	függetlenedése	függetlenedés	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	ATT	_	
+10	után	után	ADP	ADP	_	3	TLOCY	_	
+11	,	,	PUNCT	PUNCT	_	3	PUNCT	_	
+12	amíg	amíg	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	15	TTO	_	
+13	el	el	ADV	ADV	_	15	PREVERB	_	
+14	nem	nem	ADV	ADV	PronType=Neg	15	NEG	_	
+15	hunyt	huny	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ATT	_	
+15.SUBJ	DROP	ő/az	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	SUBJ	_	
+16	egy	egy	DET	DET	Definite=Ind|PronType=Art	17	DET	_	
+17	autóbalesetben	autóbaleset	NOUN	NOUN	Case=Ine|Number=Sing	15	OBL	_	
+18	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Unokaöccse , Nikola Gruevszki pénzügyminiszteri posztot vállalt 1999 és 2002 között , majd miniszterelnöki pozíciót 2006-tól 2014-ig .
+# sent_id = 8
+1	Unokaöccse	unokaöcs	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	SUBJ	_	
+1.POSS	DROP	ő/az	POSS	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	POSS	_	
+2	,	,	PUNCT	PUNCT	_	1	PUNCT	_	
+3	Nikola	Nikola	PROPN	PROPN	Case=Nom|Number=Sing	4	NE	_	
+4	Gruevszki	Gruevszki	PROPN	PROPN	Case=Nom|Number=Sing	1	COORD	_	
+5	pénzügyminiszteri	pénzügyminiszteri	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	6	ATT	_	
+6	posztot	poszt	NOUN	NOUN	Case=Acc|Number=Sing	7	OBJ	_	
+7	vállalt	vállal	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+8	1999	1999	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	11	ATT	_	
+9	és	és	CONJ	CONJ	_	8	CONJ	_	
+10	2002	2002	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	9	COORD	_	
+11	között	között	ADP	ADP	_	7	TLOCY	_	
+12	,	,	PUNCT	PUNCT	_	7	PUNCT	_	
+13	majd	majd	CONJ	CONJ	_	7	CONJ	_	
+14	miniszterelnöki	miniszterelnöki	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	15	ATT	_	
+15	pozíciót	pozíció	NOUN	NOUN	Case=Acc|Number=Sing	15.1	OBJ	_	
+15.1	ZÉRÓ_vállalt	vállal	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	COORD	_	
+15.1.SUBJ	DROP	ő/az	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	15.1	SUBJ	_	8:1
+16	2006-tól	2006	NUM	NUM	Case=Abl|Number=Sing|NumType=Card	15.1	TFROM	_	
+17	2014-ig	2014	NUM	NUM	Case=Ter|Number=Sing|NumType=Card	15.1	TTO	_	
+18	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = A fia , Szaso Mijalkov szürke eminenciásként állt a trón mögött , annak idején Jugoszláviában együtt szolgált testvérével Joszip Broz Tito testőrségében mint katonai rendész .
+# sent_id = 9
+1	A	a	DET	DET	Definite=Def|PronType=Art	2	DET	_	
+2	fia	fiú	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	SUBJ	_	
+2.POSS	DROP	ő/az	POSS	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	POSS	_	
+3	,	,	PUNCT	PUNCT	_	2	PUNCT	_	
+4	Szaso	Szaso	PROPN	PROPN	Case=Nom|Number=Sing	5	NE	_	
+5	Mijalkov	Mijalkov	PROPN	PROPN	Case=Nom|Number=Sing	2	COORD	_	
+6	szürke	szürke	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	7	ATT	_	
+7	eminenciásként	eminenciás	NOUN	NOUN	Case=Ess|Number=Sing	8	OBL	_	
+8	állt	áll	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+9	a	a	DET	DET	Definite=Def|PronType=Art	10	DET	_	
+10	trón	trón	NOUN	NOUN	Case=Nom|Number=Sing	11	ATT	_	
+11	mögött	mögött	ADP	ADP	_	8	LOCY	_	
+12	,	,	PUNCT	PUNCT	_	8	PUNCT	_	
+13	annak	az	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	14	ATT	_	
+14	idején	idő	NOUN	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	TLOCY	_	
+15	Jugoszláviában	Jugoszlávia	PROPN	PROPN	Case=Ine|Number=Sing	17	LOCY	_	
+16	együtt	együtt	ADV	ADV	_	17	MODE	_	
+17	szolgált	szolgál	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	COORD	_	
+17.SUBJ	DROP	ő/az	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	SUBJ	_	
+18	testvérével	testvér	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	OBL	_	
+19	Joszip	Joszip	PROPN	PROPN	Case=Nom|Number=Sing	20	NE	_	
+20	Broz	Broz	PROPN	PROPN	Case=Nom|Number=Sing	21	NE	_	
+21	Tito	Tito	PROPN	PROPN	Case=Nom|Number=Sing	22	ATT	_	
+22	testőrségében	testőrség	NOUN	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	
+23	mint	mint	ADP	ADP	_	17	MODE	_	
+24	katonai	katonai	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	25	ATT	_	
+25	rendész	rendész	NOUN	NOUN	Case=Nom|Number=Sing	23	ATT	_	
+26	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Szaso magas pozíciókat töltött be a Védelmi- és Belügyminisztériumban is 1998 óta .
+# sent_id = 10
+1	Szaso	Szaso	PROPN	PROPN	Case=Nom|Number=Sing	4	SUBJ	_	
+2	magas	magas	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	3	ATT	_	
+3	pozíciókat	pozíció	NOUN	NOUN	Case=Acc|Number=Plur	4	OBJ	_	
+4	töltött	tölt	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+5	be	be	PART	PART	_	4	PREVERB	_	
+6	a	a	DET	DET	Definite=Def|PronType=Art	7	DET	_	
+7	Védelmi-	Védelmi	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	4	OBL	_	
+8	és	és	CONJ	CONJ	_	7	CONJ	_	
+9	Belügyminisztériumban	belügyminisztérium	NOUN	NOUN	Case=Ine|Number=Sing	8	COORD	_	
+10	is	is	ADV	ADV	_	7	MODE	_	
+11	1998	1998	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	12	ATT	_	
+12	óta	óta	ADP	ADP	_	4	TFROM	_	
+13	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+
+# text = Ő volt a Global Voices-on nemrég megjelent cikk főszereplője , mely azt írta le , hogyan alkalmazott rágalmazási pereket büntetésként , hogy elhallgattassa a független média hangját .
+# sent_id = 11
+1	Ő	ő	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	SUBJ	_	
+2	volt	van	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	
+3	a	a	DET	DET	Definite=Def|PronType=Art	5	DET	_	
+4	Global	Global	PROPN	PROPN	Case=Nom|Number=Sing	5	NE	_	
+5	Voices-on	Voices	PROPN	PROPN	Case=Sup|Number=Sing	7	LOCY	_	
+6	nemrég	nemrég	ADV	ADV	_	7	TLOCY	_	
+7	megjelent	megjelent	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	8	ATT	_	
+8	cikk	cikk	NOUN	NOUN	Case=Nom|Number=Sing	9	POSS	_	
+9	főszereplője	főszereplő	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	PRED	_	
+10	,	,	PUNCT	PUNCT	_	2	PUNCT	_	
+11	mely	amely	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	13	SUBJ	_	
+12	azt	az	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	13	OBJ	_	11:1
+13	írta	ír	VERB	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ATT	_	
+14	le	le	PART	PART	_	13	PREVERB	_	
+15	,	,	PUNCT	PUNCT	_	13	PUNCT	_	
+16	hogyan	hogyan	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	17	MODE	_	
+17	alkalmazott	alkalmaz	VERB	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	ATT	_	
+17.SUBJ	DROP	ő/az	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	SUBJ	_	11:11
+18	rágalmazási	rágalmazási	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	19	ATT	_	
+19	pereket	per	NOUN	NOUN	Case=Acc|Number=Plur	17	OBJ	_	
+20	büntetésként	büntetés	NOUN	NOUN	Case=Ess|Number=Sing	17	OBL	_	
+21	,	,	PUNCT	PUNCT	_	17	PUNCT	_	
+22	hogy	hogy	SCONJ	SCONJ	_	17	CONJ	_	
+23	elhallgattassa	elhallgat	VERB	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	22	ATT	_	
+23.SUBJ	DROP	ő/az	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	SUBJ	_	11:17.SUBJ
+24	a	a	DET	DET	Definite=Def|PronType=Art	26	DET	_	
+25	független	független	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	26	ATT	_	
+26	média	média	POSS	NOUN	Case=Nom|Number=Sing	27	POSS	_	
+27	hangját	hang	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	OBJ	_	
+28	.	.	PUNCT	PUNCT	_	0	PUNCT	_	
+

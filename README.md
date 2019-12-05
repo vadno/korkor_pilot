@@ -124,23 +124,21 @@ ana.py
 bemenet: conll-u  
 kimenet: conll-u
     
-## 11. fájl előkészítése a kézi ellenőrzésre és annotálásra
-előkészíti a fájlt a google spreadsheetshez
- 
-
-ana_preproc.py  
-bemenet: conll-u  
-kimenet: tsv
-    
-## 12. kézi javítás és koreferenciabeszúrás a google spreadsheetsben  
+## 11. kézi javítás és koreferenciabeszúrás a google spreadsheetsben  
 rövid feladatleírás, annotálási útmutató
 
 bemenet: tsv, fájl a feltételes formázásokkal, importálás
 kimenet: exportált tsv
+
+## 12. a google spreadsheetsből nyert fájl feldolgozása  
+
+proc.py  
+bemenet: tsv  
+kimenet: xtsv
     
 ## 13. korpuszfájlok előállítása
 összesimítja a tsv oszlopait azokkal, amelyek a webanno miatt elvesztek  
 
-merge.py  
-bemenet: tsv  
+merge.py, afterkor.py   
+bemenet: xtsv  
 kimenet: xtsv

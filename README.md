@@ -139,6 +139,6 @@ kimenet: xtsv
 ## 13. korpuszfájlok előállítása
 összesimítja a tsv oszlopait azokkal, amelyek a webanno miatt elvesztek  
 
-merge.py, afterkor.py   
+merge.py  
 bemenet: xtsv  
 kimenet: xtsv

@@ -41,6 +41,7 @@ def read_xtsv(infile):
                 fields = dict()
                 for field in header:
                     fields[field] = line[header.index(field)]
+                fields.pop('lemma')
                 lines.append(fields)
             else:
                 lines.append('')
@@ -111,9 +112,9 @@ def print_corpus(file, zipped):
 def main():
 
     filename = sys.argv[1]
-    # print(filename + ' feldolgozása...')
+    print(filename + ' feldolgozása...')
 
-    xtsv_file = 'merged/' + filename + '.xtsv'
+    xtsv_file = '../2_proc_google/processed_tsv/all/' + filename + '.tsv'
     coref_file = '../6_proc_google/processed/' + filename + '.xtsv'
 
     xtsv_lines = read_xtsv(xtsv_file)
@@ -121,7 +122,7 @@ def main():
 
     zipped = merge_files(xtsv_lines, coref_lines)
 
-    ofile = 'mergedkoref/' + filename + '.xtsv'
+    ofile = 'merged/' + filename + '.xtsv'
     print_corpus(ofile, zipped)
 
 

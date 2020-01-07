@@ -1,0 +1,16 @@
+A kommunikációs csatorna arra a médiumra utal, amely az információ továbbításánál a küldő és a fogadó között az információt átviszi (vagy továbbítja).
+
+Egy csatorna több formában is megjelenhet.
+
+A kommunikációs csatornák a információ továbbításához – ha az lehetséges – megosztják a jellemzőiket egymással és egymás között. Az információk jelzések, jelek formájában jutnak át a csatornákon.
+
+Egy csatorna fizikai viselkedése azokkal a fizikai folyamatokkal modellezhetőek, amelyek segítségével számszerűsíthető az átvitt jelekre gyakorolt hatásuk. Például, a drót nélküli átvitel esetén a környezeti tárgyakról történő visszaverődés okozta hatások modellezhetők. Véletlenszerűen kiválasztott számok hozzáadásával a fizikai modellnél a külső interfészekből származó és/vagy a elektromos vagy elektronikus zajok hatását lehet a vevőoldalon vizsgálni. 
+
+Statisztikailag a kommunikációs csatornák általában olyan 3-asokkal jellemezhetők, amelyek egy bejövő ábécéből, egy kimenő ábécéből és a ki- és bejövő elemekből alkotott párokból állnak. Minden ilyen (i, o) párhoz tartozik egy átmeneti valószínűség p(i, o). Az átmeneti valószínűség megmutatja, hogy milyen valószínűséggel lesz egy adott o szimbólumból a csatornán való áthaladás után i szimbólum. 
+
+A statisztikai és fizikai modellezés kombinálható. Például a drót nélküli kommunikációs csatornát gyakran modellezik egy, az átvitt jel véletlenszerű csillapításával (ez a fading jelenség), amit még kiegészítenek zaj hozzáadásával is. A csillapítás jelképezi azt a fizikai folyamatot, amely hatással van a csatorna átviteli képességére és az átvihető jel szintjére (teljesítményére). Zaj a külső környezetből, az interfészekből származó elektromos és/vagy elektronikus zavarok vevő oldali torzító hatását modellezi. Ha a csillapítási paramétereket kellően komplexre választják, akkor ezzel például leírható az a folyamat, amely a jeleknek a csatornában való eltérő terjedési idejét okozza (ez az úgynevezett fáziseltolódás). A szimuláció során alkalmazott véletlenszerű csillapítás mértéke és jellemzői előzetes mérésekkel meghatározhatók.
+
+A csatornák viselkedését szimuláló modellek folytonosak, tehát a pontosságuk nem korlátozott. 
+
+A kommunikációs csatornák vizsgálatainál diszkrét ábécéket használnak. Ez összhangban van a tényleges kommunikációs rendszerek működési elveivel, ahol általában az analóg → digitális illetve a digitális → analóg átalakítók is a rendszerhez tartoznak, és a viselkedésüket figyelembe kell venni a tervezésnél. A matematikai modell a lehetséges bemeneti sorozatok és a kimeneti ábécé átmeneti valószínűségeinek eloszlásán alapul. Az információelméletben általában az emlékezet nélküli csatornák szerepelnek, amelyekben a kimeneti valószínűségek eloszlása csak az aktuális bemenettől függ.
+

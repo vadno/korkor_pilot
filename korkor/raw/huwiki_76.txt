@@ -1,0 +1,10 @@
+A TeveClub egy internetes nevelde, melyben egypúpú tevéket lehet nevelni. Regisztrációkor választható a teve neme, valamint hogy világos- vagy sötétbarna legyen. A TeveClub grafikáját Göndöcs Gergely készítette.
+
+Tétova Teve Club néven alapították 1997-ben. 2000-ben új arculatot kapott az oldal, ekkor rövidítették le a nevét Teveclubra. 2006 áprilisában elindult a Teveclub Magazin, a TC közösségi magazinja, melyből havonta 3000 példányt nyomtattak. Ebben az időszakban közel 200000 tevét neveltek, és naponta átlagosan 70 ezer látogatást tett az oldalon kb. 50 ezer felhasználó. 2007 novembere óta már három nyelven is elérhető a tevenevelde.
+
+A tevének enni és inni kell adni, hogy ne pusztuljon el. Egyszerre hét napra elegendő ételt és italt lehet kikészíteni.
+A virtuális tevéhez bejelentkezve láthatóak az aktuális kedv- és súlyadatok. A kedv csökken, ha több napon keresztül nem jelentkeznek be, viszont nő, ha a gazdák minél gyakrabban látogatják az oldalt. A súly attól függ, hogy az etetőben van-e ennivaló.
+Lehetőségünk van a tevéket tanítani különböző trükkökre. Ma már több mint 300 megtanítható trükk létezik. Egy trükk elsajátításához különböző számú leckét kell megtanítani. A teve naponta egy leckét, amennyiben a kedv-szintje 95% fölött van, egyszerre két leckét tud megtanulni. A trükkök megtanulásáért különböző tevés animációkat kapnak.
+
+A Teveclubon emelt díjas SMS-ekért cserébe datolyákat lehet kapni. A datolya fizetőeszközként szolgál: néhány datolyáért a teve azonnal megtanulhat trükköket, másfajta ételeket és italokat választhat, vagy szuper tevévé változhat. A szuper tevék egyes megtanult trükköknél nem animációt, hanem Flash-alapú játékokat kapnak. Bizonyos trükköket csak a szuper tevék tudnak megtanulni. A datolyákkal sajnos sokan visszaéltek.
+

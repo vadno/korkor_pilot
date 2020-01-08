@@ -9,13 +9,13 @@ A korpusz két alkorpuszra osztható aszerint, hogy az annotálás melyik fázis
 | | dokumentum        | mondat           | token  |
 |:----------| -------------:|-------------:| -----:|
 |koreferencia annotálva | 95     | 1436 | 31492 |
-|függőségi ellenőrizve (7. lépés)|  26     | kb. 460 | kb. 8800 |
+|függőségi elemzés ellenőrizve |  26     | kb. 460 | kb. 8800 |
 
 A tokenszámba a kézzel ellenőrzött függőségi elemzés szintjéig kész részkorpusz esetében az írásjelek, a koreferenciakapcsolatokkal annotált részkorpusz esetében az írásjelek, a testetlen igék és a testetlen névmások is beleszámítanak.
 
 ## szövegek
 
-A szövegek az [OPUS gyűjteményéből](http://opus.nlpl.eu/) származnak. Egy részük a magyar Wikipédiáról származik, másrészt a [GlobalVoices hírportál](https://hu.globalvoices.org) magyar nyelvre lefordított hírei közül. A KorKorpusz örökli ezeknek a forrásoknak a nyílt hozzáférhetőségét. A szövegek helyesírása kézzel ellenőrizve lett.
+A szövegek az [OPUS gyűjteményéből](http://opus.nlpl.eu/) származnak. Egyrészt a magyar Wikipédiáról származik, másrészt a [GlobalVoices hírportál](https://hu.globalvoices.org) magyar nyelvre lefordított hírei közül. A KorKorpusz örökli ezeknek a forrásoknak a nyílt hozzáférhetőségét. A szövegek helyesírása kézzel ellenőrizve lett.
 
 A szövegek hossza 5 és 27 mondat között, a mondatok hossza 3 és 71 token között van (az írásjeleket külön tokennek számolva).
 
@@ -26,19 +26,19 @@ A szövegek hossza 5 és 27 mondat között, a mondatok hossza 3 és 71 token k�
 
 ## formátum
 
-A korpusz fájlonként egy domunemtumból áll. A dokumentumok formátuma az [xtsv](https://github.com/dlt-rilmta/xtsv) formátumát követi, ami egy fejléces tsv fájl jelent. Soronként egy tokent tartalmaz, a mondatokat üres sor választja el. A nyelvi annotációk TAB karakterrel elválasztott oszlopokban kapnak helyet. Az oszlopok sorrendje nem kötöttt, sorrendjüket a fejléc határozza meg.
+A korpusz fájlonként egy dokunemtumból áll. A dokumentumok formátuma az [xtsv](https://github.com/dlt-rilmta/xtsv) formátumának megfelelő, ami egy fejléces tsv fájl jelent. Soronként egy tokent tartalmaznak, a mondatokat üres sor választja el. A nyelvi annotációk TAB karakterrel elválasztott oszlopokban kapnak helyet. Az oszlopok sorrendje nem kötöttt, sorrendjüket a fejléc határozza meg.
 
 A korpuszfájlok a következő elemzéseket tartalmazzák (zárójelben az xtsv-ben megfelelő oszlopnevekkel):
 
 * token (form)
 * lehetséges morfológiai elemzések (anas)
 * egyértelműsített tő (lemma)
-* egyértelműsített morfológiai elemzés, emMorph címkekészlet (xpostag)
+* egyértelműsített morfológiai elemzés (xpostag)
 * konvertált szófaj (upos)
 * konvertált inflexiós jegyek (feats)
 * index, mondatbeli sorszám (id)
-* függőségi kapcsolat típusa (deprel)
 * anyacsomópont mondatbeli sorszáma (head)
+* függőségi kapcsolat típusa (deprel)
 * előzmény mondatbeli sorszáma (corefhead)
 * anafora- vagy koreferenciakapcsolat típusa (coreftype)
 
@@ -54,17 +54,19 @@ A morfológiai elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emMorph
 
 ### egyértelműsítés és tövesítés
 
-Az egyértelműsítést és a tövesítést az [emtsv](https://github.com/dlt-rilmta/emtsv) emTag modulja végzi. Kimenete az [emMorph címkekészletében](http://e-magyar.hu/hu/textmodules/emmorph_codelist) megfogalmazott, szófajt, derivációt és inflexiós jegyeket tartalmazó morfológiai címke és a hozzá tartozó tő.
+Az egyértelműsítést és a tövesítést az [emtsv](https://github.com/dlt-rilmta/emtsv) emTag modulja végzi. Kimenete az [emMorph címkekészletében](http://e-magyar.hu/hu/textmodules/emmorph_codelist) megfogalmazott, szófajt, derivációt és inflexiós jegyeket tartalmazó morfológiai címke és a hozzá tartozó tő az **xpostag** és a **lemma** oszlopokban.
 
 ### konvertált szófaj és inflexiós jegyek
 
-Az emMorph címkét a [Universal Dependencies](https://universaldependencies.org) kereteiben meghatározott, magyarra adaptált címkekészletre az [emtsv](https://github.com/dlt-rilmta/emtsv) emmorph2ud konvertálja.
+Az emMorph címkét a [Universal Dependencies](https://universaldependencies.org) kereteiben meghatározott, magyarra adaptált címkekészletre az [emtsv](https://github.com/dlt-rilmta/emtsv) emmorph2ud konvertálja. Kimenete a szófajcímke és az inflexiós jegyek a **pos** és a **feats** oszlopokban.
 
 A címkekészletekről bővebben [itt](https://github.com/dlt-rilmta/panmorph) lehet tájékozódni.
 
 ### függőségi elemzés
 
-A függőségi elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emDep modulja végzi. A KorKor annotációja a függőségi elemző címkekészletéhez képest eltéréseket tartalmaz:
+A függőségi elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emDep modulja végzi. Kimenete az **id**, a **head** és a **deprel** oszlopok tartalma, amelyek a token mondatbeli indexét, az anyacsomópont indexét és a köztünk fennálló függőségi kapcsolat típusát tartalmazzák.
+
+A KorKor annotációja a függőségi elemző címkekészletéhez képest eltéréseket tartalmaz:
  * a birtokos és a birtok között fennálló függőségi kapcsolat típusa **POSS**
  * a *meg* igekötőn kívül minden igekötő **PREVERB** típussal kapcsolódik az igéhez 
  
@@ -90,11 +92,13 @@ A testetlen névmásokat egy saját szkript illeszti be, amely az [emtsv](https:
 * birtok birtokosának, ha annak nem volt testes birtokosa
 * ragozott és ragozatlan infinitívusz alanyának
 
-A testetlen névmások esetében az alany az ige után, a tárgy az ige (és a testetlen alany) után, a birtokos pedig a birtok után kerül és egy kombinált ID-t kap, ami az őt megelőző elem ID-jéből és a zéró elem szintaktikai szerepének rövidítéséből (SUBJ, OBJ, POSS) áll.
+A testetlen névmások esetében az alany az ige után, a tárgy az ige (és a testetlen alany) után, a birtokos pedig a birtok után kerül új tokenként és egy kombinált ID-t kap, ami az őt megelőző elem ID-jéből és a zéró elem szintaktikai szerepének rövidítéséből (SUBJ, OBJ, POSS) áll.
 
-### anaforikus kapcsolatok
+### anafora és koreferencia
 
-Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú program csak a személyes névmások előzményét keresi a szövegben, a többi névmástípus előzményét kézzel kell beilleszteni. A következő névmástípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
+Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú program csak a személyes névmások előzményét keresi a szövegben, a többi névmástípus előzményét kézzel kell beilleszteni. A koreferenciakapcsolatokat kézzel kell beilleszteni. Az annotáció a **corefhead** és a **coreftype** oszlopokba kerül, ahol az előzmény indexét és a visszautalás vagy a koreferencia típusát jelöli.
+
+A következő névmástípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 
 | névmástípus | jelölés a korpuszban  | előfordulás  |
 |:----------| :-------------|-------------:|
@@ -107,16 +111,14 @@ Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú pro
 | beszélő| **speak** | 5 |
 | címzett | **addr** | 1 |
 
-Az anaforikus kapcsolatok címkekészletével kapcsolatban [az annotációs útmutatóból](utmutatok/koref_annot_guide.pdf) lehet tájékozódni.
-
-### koreferenciakapcsolatok
-
-A koreferenciakapcsolatokat kézzel kell beilleszteni.  A következő koreferenciatípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
+ A következő koreferenciatípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 
 | koreferenciatípus | jelölés a korpuszban  | előfordulás  |
 |:----------| :-------------|-------------:|
 | koreferencia | **coref** | 1582 |
 | rész-egész kapcsolat | **holo** | 202 |
+
+Az anaforikus kapcsolatok címkekészletével kapcsolatban [az annotációs útmutatóból](utmutatok/koref_annot_guide.pdf) lehet tájékozódni.
 
 # Licensz
 Az erőforrás [CC-BY-4.0](LICENSE) licensz alatt használható.

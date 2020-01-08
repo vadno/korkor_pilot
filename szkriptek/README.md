@@ -1,2 +1,1 @@
-# Licensz
-GNU General Public License v3.0
+A szkriptek [GNU General Public License v3.0](LICENSE) alatt használhatók.

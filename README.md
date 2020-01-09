@@ -9,7 +9,7 @@ A korpusz két alkorpuszra osztható aszerint, hogy az annotálás melyik fázis
 | | dokumentum        | mondat           | token  |
 |:----------| -------------:|-------------:| -----:|
 |koreferencia annotálva | 95     | 1436 | 31492 |
-|függőségi elemzés ellenőrizve |  26     | kb. 460 | kb. 8800 |
+|függőségi elemzés ellenőrizve |  26     | 463 | 8853 |
 
 A tokenszámba a kézzel ellenőrzött függőségi elemzés szintjéig kész részkorpusz esetében az írásjelek, a koreferenciakapcsolatokkal annotált részkorpusz esetében az írásjelek, a testetlen igék és a testetlen névmások is beleszámítanak.
 

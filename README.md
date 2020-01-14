@@ -86,7 +86,7 @@ A testetlen igék beillesztésével kapcsolatban [az annotációs útmutatóból
 
 ### testetlen névmások
 
-A testetlen névmásokat egy saját szkript illeszti be, amely az [emtsv](https://github.com/dlt-rilmta/emtsv) keretrendszerében önálló modulként (emZero) is használható. A szabályalapú program a következő helyekre illeszt be névmást:
+A testetlen névmásokat egy saját szkript, az [emZero](https://github.com/vadno/emzero) illeszti be, amely az [emtsv](https://github.com/dlt-rilmta/emtsv) keretrendszerében önálló modulként is használható. A szabályalapú program a következő helyekre illeszt be névmást:
 * finit ige alanyának, ha annak nem volt testes alanya
 * határozott ragozású finit ige tárgyának, ha annak nem volt testes tárgya
 * birtok birtokosának, ha annak nem volt testes birtokosa

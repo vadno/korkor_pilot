@@ -96,7 +96,7 @@ A testetlen névmások esetében az alany az ige után, a tárgy az ige (és a t
 
 ### anafora és koreferencia
 
-Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú program csak a személyes névmások előzményét keresi a szövegben, a többi névmástípus előzményét kézzel kell beilleszteni. A koreferenciakapcsolatokat kézzel kell beilleszteni. Az annotáció a **corefhead** és a **coreftype** oszlopokba kerül, ahol az előzmény indexét és a visszautalás vagy a koreferencia típusát jelöli.
+Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú program csak a személyes névmások előzményét keresi a szövegben, a többi névmástípus előzményét kézzel kell beilleszteni. A koreferenciakapcsolatokat kézzel kell beilleszteni. Az annotáció a **corefhead** és a **coreftype** oszlopokba kerül, ahol az előzmény indexét (mondat sorszáma:token indexe) és a visszautalás vagy a koreferencia típusát jelöli.
 
 A következő névmástípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 

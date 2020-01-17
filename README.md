@@ -111,6 +111,8 @@ A következő névmástípusok vannak jelölve a korpuszban (zárójelben az el�
 | beszélő| **speak** | 5 |
 | címzett | **addr** | 1 |
 
+Az **arb**, **speak** és **addr** típusoknak nem kötelező, hogy van előzményük (a **corefhead** mező üres maradhat), a többi típus esetében mindig ki van töltve.
+
  A következő koreferenciatípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 
 | koreferenciatípus | jelölés a korpuszban  | előfordulás  |

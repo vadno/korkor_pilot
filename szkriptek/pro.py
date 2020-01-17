@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
     author: Noémi Vadász
-    last update: 2019.09.24.
+    last update: 2020.01.17.
 
 """
 
@@ -12,7 +12,7 @@ import sys
 import csv
 
 
-pron_persnum = {('Sing', '1'): 'én',
+PRON_PERSNUM = {('Sing', '1'): 'én',
                 ('Sing', '2'): 'te',
                 ('Sing', '3'): 'ő/az',
                 ('Plur', '1'): 'mi',
@@ -20,10 +20,11 @@ pron_persnum = {('Sing', '1'): 'én',
                 ('Plur', '3'): 'ők/azok',
                 ('X', 'X'): 'X'}
 
-# emmorph_number = {'Sing': 'Sg',
-#                   'Plur': 'Pl'}
+ARGUMENTS = {'SUBJ', 'OBJ', 'OBL', 'DAT', 'ATT', 'INF', 'LOCY'}
+NOMINALS = {'NOUN', 'PROPN', 'ADJ', 'NUM', 'DET', 'PRON'}
+VERBS = {'VERB'}
 
-conllu = ['id', 'form', 'lemma', 'upos', 'xpos', 'feats', 'head', 'deprel', 'deps', 'misc']
+CONLLU = ['id', 'form', 'lemma', 'upos', 'xpos', 'feats', 'head', 'deprel', 'deps', 'misc']
 
 
 class Word:
@@ -44,7 +45,8 @@ class Word:
         self.misc = None
 
     def print_token(self):
-        print('\t'.join([self.id, self.form, self.lemma, self.upos, self.xpos, self.feats, self.head, self.deprel, self.deps, self.misc]))
+        print('\t'.join([self.id, self.form, self.lemma, self.upos, self.xpos, self.feats, self.head, self.deprel,
+                         self.deps, self.misc]))
 
 
 def base_features(pro, head):
@@ -66,14 +68,7 @@ def parse_udfeats(feats):
     :return: dictbe rendezett kulcs-érték párok
     """
 
-    featdict = dict()
-
-    if feats != '_':
-        for feat in feats.split('|'):
-            feat = feat.split('=')
-            featdict[feat[0]] = feat[1]
-
-    return featdict
+    return dict(feat.split('=', maxsplit=1) for feat in feats.split('|') if feats != '_')
 
 
 def pro_default_features(dropped):
@@ -106,7 +101,7 @@ def pro_calc_features(head, role):
     """
 
     pro = Word()
-    pro.id = head.id + '.' + role     # TODO ha alany és tárgy is van, a tárgy .2 legyen (az alany pedig .1)
+    pro.id = head.id + '.' + role
     pro.sent_nr = head.sent_nr
     pro.abs_index = head.abs_index
     pro.deprel = role
@@ -128,7 +123,6 @@ def pro_calc_features(head, role):
                 pro.feats['Number'] = head.feats['Number']
 
             elif head.feats['VerbForm'] == 'Inf':
-                # TODO check INF alanya
                 if 'Person' in head.feats:
                     pro.feats['Person'] = head.feats['Person']
                     pro.feats['Number'] = head.feats['Number']
@@ -140,9 +134,8 @@ def pro_calc_features(head, role):
         pro.feats['Person'] = head.feats['Person[psor]']
         pro.feats['Number'] = head.feats['Number[psor]']
 
-    # pro.xpos = '[/N|Pro][' + pro.feats['Person'] + emmorph_number[pro.feats['Number']] + '][' + pro.feats['Case'] + ']'
     pro.xpos = 'PRON'
-    pro.lemma = pron_persnum[(pro.feats['Number'], pro.feats['Person'])]
+    pro.lemma = PRON_PERSNUM[(pro.feats['Number'], pro.feats['Person'])]
     pro.feats = '|'.join(feat + '=' + pro.feats[feat] for feat in sorted(pro.feats, key=str.lower))
     pro.anas = '[]'
 
@@ -165,7 +158,7 @@ def actor_features(corpus):
                 if dep.head == head.id:
                     deps.append((head, dep))
 
-            if head.upos in ('VERB',) and head not in deps:   # TODO nem csak igék! minden vonzatos cucc (hat.in, fn.in stb)
+            if head.upos in VERBS and head not in deps:
                 deps.append((head, head))
 
         # egy elemhez hozzarendeli az osszes ramutato fuggosegi viszonyt
@@ -176,7 +169,7 @@ def actor_features(corpus):
 
         for head in deps_dict:
 
-            if head.upos in ('VERB',):   # TODO nem csak igék! minden vonzatos cucc (hat.in, fn.in stb)
+            if head.upos in VERBS:
 
                 verb = Word()
                 base_features(verb, head)
@@ -186,7 +179,7 @@ def actor_features(corpus):
                 actors[verb] = []
 
                 for dep in deps_dict[head]:
-                    if dep.deprel in ('SUBJ', 'OBJ', 'OBL', 'DAT', 'POSS', 'INF', 'LOCY'):  # TODO egyéb határozók
+                    if dep.deprel in ARGUMENTS:
 
                         actor = Word()
                         base_features(actor, dep)
@@ -198,8 +191,7 @@ def actor_features(corpus):
 
                             for ifposs in sent.toks:
                                 if ifposs.head == dep.id and ifposs.deprel == 'POSS'\
-                                        and ifposs.upos in ('NOUN', 'PROPN', 'ADJ', 'NUM', 'DET', 'PRON'):
-                                    # ifposs.print_token()
+                                        and ifposs.upos in NOMINALS:
                                     ifposs.upos = 'POSS'
 
                                     newactor = Word()
@@ -224,59 +216,40 @@ def remove_dropped(head, deps, role):
     :return:
     """
 
-    subj_obj_poss = False
-    for actor in deps:
-        if actor.head == head and actor.deprel == role and actor.form != 'DROP':
-            subj_obj_poss = True
+    if any(actor.head == head and actor.deprel == role and actor.form != 'DROP' for actor in deps):
+        deps = [actor for actor in deps if actor.head != head or actor.deprel != role or actor.form != 'DROP']
 
-    if subj_obj_poss:
-        for actor in deps:
-            if actor.head == head and actor.deprel == role and actor.form == 'DROP':
-                deps.remove(actor)
+    return deps
 
 
-def insert_pro(actor_list):
+def insert_pro(actorlist):
     """
     letrehoz droppolt alanyt, targyat
     alanyt: minden igenek
     targyat: csak a definit ragozasu igeknek
-    :param actor_list: a actors adatszerkezete
+    :param actorlist: a actors adatszerkezete
     :return:
     """
 
-    for actors in actor_list:
-        for verb, deps in actors.items():
+    for actors in actorlist:
+
+        for verb in actors.keys():
 
             subj = pro_calc_features(verb, 'SUBJ')
             actors[verb].append(subj)
+            actors[verb] = remove_dropped(verb.id, actors[verb], 'SUBJ')
 
-            if 'Definite' in verb.feats and verb.feats['Definite'] in ('Def', '2'):
+            if 'Definite' in verb.feats and verb.feats['Definite'] in {'Def', '2'} \
+                    and not any(actor.deprel == 'INF' for actor in actors[verb]):
+                obj = pro_calc_features(verb, 'OBJ')
+                actors[verb].append(obj)
+                actors[verb] = remove_dropped(verb.id, actors[verb], 'OBJ')
 
-                inf = False
-                for actor in actors[verb]:
-                    if actor.deprel == 'INF':
-                        inf = True
-                        break
-
-                if not inf:
-                    obj = pro_calc_features(verb, 'OBJ')
-                    actors[verb].append(obj)
-
-            for actor in deps:
+            for actor in actors[verb]:
                 if 'Number[psor]' in actor.feats:
                     poss = pro_calc_features(actor, 'POSS')
                     actors[verb].append(poss)
-
-            # print(verb.form)
-            # for actor in deps:
-            #     print(actor.form, actor.deprel, sep='\t')
-            # print('')
-
-            # kitorli a droppolt alanyt, targyat, ha van testes megfeleloje
-            remove_dropped(verb.id, deps, 'SUBJ')
-            remove_dropped(verb.id, deps, 'OBJ')
-            for actor in deps:
-                remove_dropped(actor.id, deps, 'POSS')
+                    actors[verb] = remove_dropped(actor.id, actors[verb], 'POSS')
 
 
 def print_pro(token, actors):
@@ -293,7 +266,7 @@ def print_corpus(actors, corpus):
 
     for sentence in corpus:
         print(sentence.orig)
-        for token in sentence.toks:                      # TODO zéró és testes feje sorrend!
+        for token in sentence.toks:
             token.print_token()
             print_pro(token, actors)
         print('')
@@ -301,8 +274,8 @@ def print_corpus(actors, corpus):
 
 def parse_fields(token, line):
 
-    for field in conllu:
-        setattr(token, field, line[conllu.index(field)])
+    for field in CONLLU:
+        setattr(token, field, line[CONLLU.index(field)])
 
 
 def read_file():
@@ -347,22 +320,14 @@ def main():
     # beolvassa a conll-t
     corpus = read_file()
 
-    # elmenti az eredeti korpuszt
-    raw_corpus = corpus
-
     # berakja a kivant adatszerkezetbe
     actors = actor_features(corpus)
 
     # letrehozza a droppolt alanyokat, targyakat, birtokosokat, majd torli a foloslegeseket
     insert_pro(actors)
 
-    # for sent in corpus:
-    #     for tok in sent.toks:
-    #         print(tok.form)
-    #     print('')
-
     # kiirja
-    print_corpus(actors, raw_corpus)
+    print_corpus(actors, corpus)
 
 
 if __name__ == "__main__":

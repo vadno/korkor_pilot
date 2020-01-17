@@ -8,7 +8,7 @@
 import csv
 import sys
 
-xtsv_fields = {'id': '_',
+XTSV_FIELDS = {'id': '_',
                'form': '_',
                'anas': '_',
                'lemma': '_',
@@ -46,15 +46,10 @@ def read_xtsv(infile):
             else:
                 lines.append('')
 
-    # check_fields(lines)
-
     return lines
 
 
 def merge_files(xtsv, coref):
-
-    # print(len(coref))
-    # print(len(xtsv))
 
     zipped = list()
     i = 0
@@ -66,7 +61,7 @@ def merge_files(xtsv, coref):
         if isinstance(coref[i], dict) and isinstance(xtsv[i], dict):
 
             if coref[i]['form'].lower() == xtsv[i]['form'].lower():
-                allfields = xtsv_fields.copy()
+                allfields = XTSV_FIELDS.copy()
                 for feat, val in coref[i].items():
                     if feat in allfields:
                         allfields[feat] = val
@@ -74,7 +69,7 @@ def merge_files(xtsv, coref):
                 allfields['xpostag'] = xtsv[i]['xpostag']
                 zipped.append(allfields)
             elif (coref[i]['form'] in ('DROP', 'KOPULA')) or coref[i]['form'].startswith('ZÉRÓ_'):
-                allfields = xtsv_fields.copy()
+                allfields = XTSV_FIELDS.copy()
                 for feat, val in coref[i].items():
                     if feat in allfields:
                         allfields[feat] = val
@@ -82,48 +77,39 @@ def merge_files(xtsv, coref):
                 xtsv.insert(i, dummy)
             elif (xtsv[i]['form'] in ('DROP', 'KOPULA')) or xtsv[i]['form'].startswith('ZÉRÓ_'):
                 coref.insert(i, dummy)
-            # print(coref[i]['form'], xtsv[i]['form'])
 
         else:
             zipped.append('')
 
         i += 1
 
-    # check_fields(zipped)
-
     return zipped
 
 
-def print_corpus(file, zipped):
+def print_corpus(zipped):
 
-    with open(file, 'w') as of:
+    header = '\t'.join([key for key, value in XTSV_FIELDS.items()])
+    print(header)
 
-        header = '\t'.join([key for key, value in xtsv_fields.items()])
-        print(header, file=of)
-
-        for line in zipped:
-            if isinstance(line, dict):
-                fields = '\t'.join(line[field] for field in line)
-                print(fields, file=of)
-            else:
-                print(line, file=of)
+    for line in zipped:
+        if isinstance(line, dict):
+            fields = '\t'.join(line[field] for field in line)
+            print(fields)
+        else:
+            print(line)
 
 
 def main():
 
-    filename = sys.argv[1]
-    print(filename + ' feldolgozása...')
-
-    xtsv_file = '../2_proc_google/processed_tsv/all/' + filename + '.tsv'
-    coref_file = '../6_proc_google/processed/' + filename + '.xtsv'
+    xtsv_file = sys.argv[1]
+    coref_file = sys.argv[2]
 
     xtsv_lines = read_xtsv(xtsv_file)
     coref_lines = read_xtsv(coref_file)
 
     zipped = merge_files(xtsv_lines, coref_lines)
 
-    ofile = 'merged/' + filename + '.xtsv'
-    print_corpus(ofile, zipped)
+    print_corpus(zipped)
 
 
 if __name__ == "__main__":

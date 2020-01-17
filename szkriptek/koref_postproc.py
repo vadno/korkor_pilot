@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# author: Vadász Noémi
-# created: 2019/12/02
+"""
+    author: Noémi Vadász
+    last update: 2019/12/02
+
+"""
 
 import sys
 
+# google tablazat mezok
 # 0: TOKEN ID
 # 1: FORM
 # 2: LEMMA
@@ -27,10 +31,8 @@ import sys
 
 xtsv_fields = {'TOKEN ID': 'id',
                'FORM': 'form',
-               #'ANAS': 'anas',
                'LEMMA': 'lemma',
                'UPOS': 'upos',
-               #'XPOSTAG': 'xpostag',
                'FEATS': 'feats',
                'HEAD': 'head',
                'DEPREL': 'deprel',

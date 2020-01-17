@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
     author: Noémi Vadász
-    last update: 2018.03.02.
+    last update: 2020.01.17.
 
 """
 
@@ -10,8 +10,11 @@ from collections import defaultdict
 import sys
 import csv
 
+ARGUMENTS = {'SUBJ', 'OBJ', 'OBL', 'DAT', 'ATT', 'INF', 'LOCY'}
+NOMINALS = {'NOUN', 'PROPN', 'ADJ', 'NUM', 'DET', 'PRON'}
+VERBS = {'VERB'}
 
-conllu = ['id', 'form', 'lemma', 'upos', 'xpos', 'feats', 'head', 'deprel', 'deps', 'misc']
+CONLLU = ['id', 'form', 'lemma', 'upos', 'xpos', 'feats', 'head', 'deprel', 'deps', 'misc']
 
 
 class Word:
@@ -36,7 +39,6 @@ class Word:
             feats = '|'.join(feat + '=' + self.feats[feat] for feat in sorted(self.feats, key=str.lower))
         else:
             feats = self.feats
-       # misc = '-'.join(self.misc)
         print('\t'.join([self.id, self.form, self.lemma, self.upos, self.xpos, feats, self.head, self.deprel, self.deps, self.misc]))
 
 
@@ -82,8 +84,8 @@ class Actor(Word):
 
 def parse_fields(token, line):
 
-    for field in conllu:
-        setattr(token, field, line[conllu.index(field)])
+    for field in CONLLU:
+        setattr(token, field, line[CONLLU.index(field)])
 
 
 def read_file():
@@ -144,8 +146,6 @@ def parse_udfeats(feats):
         for feat in feats.split('|'):
             feat = feat.split('=')
             featdict[feat[0]] = feat[1]
-
-    # print(featdict)
 
     return featdict
 
@@ -211,7 +211,7 @@ def actor_features(corpus):
                 if dep.head == head.id:
                     deps.append((head, dep))
 
-            if head.upos in ('VERB',) and head not in deps:   # TODO nem csak igék! minden vonzatos cucc (hat.in, fn.in stb)
+            if head.upos in VERBS and head not in deps:
                 deps.append((head, head))
 
         # egy elemhez hozzarendeli az osszes ramutato fuggosegi viszonyt
@@ -222,7 +222,7 @@ def actor_features(corpus):
 
         for head in deps_dict:
 
-            if head.upos in ('VERB',):   # TODO nem csak igék! minden vonzatos cucc (hat.in, fn.in stb)
+            if head.upos in VERBS:
 
                 verb = Verb()
                 base_features(verb, head)
@@ -234,7 +234,7 @@ def actor_features(corpus):
                 actors[verb] = []
 
                 for dep in deps_dict[head]:
-                    if dep.deprel in ('SUBJ', 'OBJ', 'OBL', 'DAT', 'POSS'):
+                    if dep.deprel in ARGUMENTS:
                         npnr += 1
 
                         actor = Actor()
@@ -251,7 +251,7 @@ def actor_features(corpus):
 
                             for ifposs in toks:
                                 if ifposs.head == dep.id and ifposs.deprel == 'POSS'\
-                                        and ifposs.upos in ('NOUN', 'PROPN', 'ADJ', 'NUM', 'DET', 'PRON'):
+                                        and ifposs.upos in NOMINALS:
                                     ifposs.upos = 'POSS'
                                     npnr += 1
 
@@ -272,23 +272,14 @@ def actor_features(corpus):
 
         anacorp[sent] = actor_list
 
-    # for sent, actor_list in anacorp.items():
-    #     print(sent)
-    #     for actor in actor_list:
-    #         for verb in actor:
-    #             verb.ige_kiir()
-    #             for dep in actor[verb]:
-    #                 dep.kiir()
-    #         print('\n')
-
     return anacorp
 
 
-def insert_edge(sent, actual_id, antec_abs_index, ana_type):
+def insert_edge(sent, actual_id, antec_abs_index):
 
     for tok in sent:
         if actual_id == tok.id:
-            tok.misc = antec_abs_index # + ': ' + ana_type
+            tok.misc = antec_abs_index
 
 
 def plehradics(corpus, anacorp):
@@ -310,11 +301,11 @@ def plehradics(corpus, anacorp):
                                             and aktualis.id > elozo.id and elozo.number == aktualis.number:
                                         if elozo.person == aktualis.person or aktualis.person == '3':
                                             elozo.foglalt = True
-                                            insert_edge(corpus[sent], aktualis.id, elozo.abs_index, 'SUBJ-SUBJ')
+                                            insert_edge(corpus[sent], aktualis.id, elozo.abs_index)
                                     elif aktualis.lemma == 'az' and elozo.role[-1][0] in ('OBJ', 'OBL', 'DAT')\
                                             and aktualis.id > elozo.id:
                                         elozo.foglalt = True
-                                        insert_edge(corpus[sent], aktualis.id, elozo.abs_index, 'ARG-SUBJ')
+                                        insert_edge(corpus[sent], aktualis.id, elozo.abs_index)
 
         for counter, szereplok in enumerate(actorlist):
             for key, value in szereplok.items():
@@ -326,19 +317,19 @@ def plehradics(corpus, anacorp):
                                         and elozo.person == aktualis.person and elozo.number == aktualis.number \
                                         and aktualis.id > elozo.id and not elozo.foglalt:
                                     elozo.foglalt = True
-                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index, 'ARG-OBJ')
+                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index)
 
                                 elif aktualis.role[-1][0] in ('OBL', 'DAT') and elozo.person == aktualis.person\
                                     and elozo.number == aktualis.number and aktualis.upos == 'PRON' \
                                     and elozo.form != 'DROP' and aktualis.id > elozo.id and not elozo.foglalt:
                                     elozo.foglalt = True
-                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index, 'ARG-OBL')
+                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index)
 
                                 elif aktualis.role[-1][0] == 'POSS' and elozo.person == aktualis.person\
                                     and elozo.number == aktualis.number and aktualis.upos == 'PRON'\
                                         and aktualis.id > elozo.id:
                                     elozo.foglalt = True
-                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index, 'POSS')
+                                    insert_edge(corpus[sent], aktualis.id, elozo.abs_index)
 
 
 def print_corpus(corpus):
@@ -354,21 +345,16 @@ def print_corpus(corpus):
 
 def main():
 
-    # beolvassa az e-magyar kimenetéből konvertált cuccot
+    # beolvassa a conll-t
     corpus = read_file()
-
-    raw_corpus = corpus
 
     # berakja a kívánt adatszerkezetbe
     anacorp = actor_features(corpus)
 
-    # for sent in corpus:
-    #     for word in sent.toks:
-    #         print(word.form)
-
     # pléh-radics algoritmus
     plehradics(corpus, anacorp)
 
+    # kiirja
     print_corpus(corpus)
 
 

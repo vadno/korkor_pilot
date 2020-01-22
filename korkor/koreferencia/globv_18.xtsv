@@ -1,4 +1,4 @@
-id	form	anas	lemma	upos	xpostag	feats	deprel	head	corefhead	coreftype
+id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 1	Szeptember	[{"lemma": "szeptember", "tag": "[/N][Nom]", "morphana": "szeptember[/N]=szeptember+[Nom]=", "readable": "szeptember[/N] + [Nom]", "twolevel": "s:s z:z e:e p:p t:t e:e m:m b:b e:e r:r :[/N] :[Nom]"}]	szeptember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	POSS	3	_	_
 2	második	[{"lemma": "kettő", "tag": "[/Num][_Ord/Adj][Nom]", "morphana": "kettő[/Num]=más+odik[_Ord/Adj]=odik+[Nom]=", "readable": "kettő[/Num]=más + odik[_Ord/Adj] + [Nom]", "twolevel": "m:k á:e s:t :t :ő :[/Num] o:o d:d i:i k:k :[_Ord/Adj] :[Nom]"}]	kettő	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	ATT	3	_	_
 3	hétvégéjén	[{"lemma": "hétvége", "tag": "[/N][Poss.3Sg][Supe]", "morphana": "hétvége[/N]=hétvégé+je[Poss.3Sg]=jé+n[Supe]=n", "readable": "hétvége[/N]=hétvégé + je[Poss.3Sg]=jé + n[Supe]", "twolevel": "h:h é:é t:t v:v é:é g:g é:e :[/N] j:j é:e :[Poss.3Sg] n:n :[Supe]"}]	hétvége	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	10	_	_
@@ -105,7 +105,7 @@ id	form	anas	lemma	upos	xpostag	feats	deprel	head	corefhead	coreftype
 31	is	[{"lemma": "is", "tag": "[/Adv]", "morphana": "is[/Adv]=is", "readable": "is[/Adv]", "twolevel": "i:i s:s :[/Adv]"}]	is	ADV	[/Adv]	_	MODE	30	_	_
 32	az	[{"lemma": "az", "tag": "[/Det|Art.Def]", "morphana": "az[/Det|Art.Def]=az", "readable": "az[/Det|Art.Def]", "twolevel": "a:a z:z :[/Det|Art.Def]"}, {"lemma": "az", "tag": "[/Det|Pro][Nom]", "morphana": "az[/Det|Pro]=az+[Nom]=", "readable": "az[/Det|Pro] + [Nom]", "twolevel": "a:a z:z :[/Det|Pro] :[Nom]"}, {"lemma": "az", "tag": "[/N|Pro][Nom]", "morphana": "az[/N|Pro]=az+[Nom]=", "readable": "az[/N|Pro] + [Nom]", "twolevel": "a:a z:z :[/N|Pro] :[Nom]"}]	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	DET	33	_	_
 33	elnökük	[{"lemma": "elnök", "tag": "[/N][Poss.3Pl][Nom]", "morphana": "elnök[/N]=elnök+ük[Poss.3Pl]=ük+[Nom]=", "readable": "elnök[/N] + ük[Poss.3Pl] + [Nom]", "twolevel": "e:e l:l n:n ö:ö k:k :[/N] ü:ü k:k :[Poss.3Pl] :[Nom]"}]	elnök	NOUN	[/N][Poss.3Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	SUBJ	28	3:2	coref
-33.POSS	DROP	_	ők/azok	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	POSS	33	4:23	prs
+33.POSS	DROP	_	ők/azok	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	POSS	33	4:23	prs	PRON
 34	.	[{"lemma": ".", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	.	PUNCT	[Punct]	_	PUNCT	0	_	_
 
 1	Szombaton	[{"lemma": "szombat", "tag": "[/N][Supe]", "morphana": "szombat[/N]=szombat+on[Supe]=on", "readable": "szombat[/N] + on[Supe]", "twolevel": "s:s z:z o:o m:m b:b a:a t:t :[/N] o:o n:n :[Supe]"}]	szombat	ADV	[/Adv]	_	TLOCY	8	_	_

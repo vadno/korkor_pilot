@@ -1,4 +1,4 @@
-id	form	anas	lemma	upos	xpostag	feats	deprel	head	corefhead	coreftype
+id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 1	Koncertekkel	[{"lemma": "koncert", "tag": "[/N][Pl][Ins]", "morphana": "koncert[/N]=koncert+ek[Pl]=ek+kel[Ins]=kel", "readable": "koncert[/N] + ek[Pl] + kel[Ins]", "twolevel": "k:k o:o n:n c:c e:e r:r t:t :[/N] e:e k:k :[Pl] k:k e:e l:l :[Ins]"}]	koncert	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	OBL	2	_	_
 2	küzdenek	[{"lemma": "küzd", "tag": "[/V][Prs.NDef.3Pl]", "morphana": "küzd[/V]=küzd+enek[Prs.NDef.3Pl]=enek", "readable": "küzd[/V] + enek[Prs.NDef.3Pl]", "twolevel": "k:k ü:ü z:z d:d :[/V] e:e n:n e:e k:k :[ :P :r :s :. :N :D :e :f :. :3 :P :l :]"}]	küzd	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_
 2.SUBJ	DROP	_	ők/azok	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	SUBJ	2		arb

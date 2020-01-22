@@ -130,11 +130,15 @@ Az erőforrás [CC-BY-4.0](LICENSE) licensz alatt használható.
 Ha használod a korpuszt, kérlek, hivatkozz az alábbi cikkre:
 
 ```
-@misc{korkor,
-  author = {Vadász, Noémi},
-  title = {{K}or{K}orpusz: kézzel annotált, többrétegű pilotkorpusz építése},
-  note = {megjelenés alatt}
-  year = {2020},
+@inproceedings{korkor,
+    author = {Vadász, Noémi},
+    title = {{K}or{K}orpusz: kézzel annotált, többrétegű pilotkorpusz építése},
+    booktitle = {{XVI}. {M}agyar {S}zámítógépes {N}yelvészeti {K}onferencia ({MSZNY} 2020)},
+    editor = {Berend, Gábor and Gosztolya, Gábor and Vincze, Veronika},
+    pages = {141--154},
+    publisher = {Szegedi Tudományegyetem, TTIK, Informatikai Intézet},
+    address = {Szeged},
+    year = {2020}
 }
 ```
 

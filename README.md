@@ -68,7 +68,7 @@ A függőségi elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emDep m
 
 A KorKor annotációja a függőségi elemző címkekészletéhez képest eltéréseket tartalmaz:
  * a birtokos és a birtok között fennálló függőségi kapcsolat típusa **POSS**
- * a *meg* igekötőn kívül minden igekötő **PREVERB** típussal kapcsolódik az igéhez 
+ * a *meg* igekötőn kívül is minden igekötő **PREVERB** típussal kapcsolódik az igéhez 
  
  A függőségi kapcsolatok címkekészletével kapcsolatban [az annotációs útmutatóból](utmutatok/emdep_checker_guide.pdf) lehet tájékozódni.
 

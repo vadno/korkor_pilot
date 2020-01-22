@@ -34,7 +34,7 @@ A korpuszfájlok a következő elemzéseket tartalmazzák (zárójelben az xtsv-
 * lehetséges morfológiai elemzések (anas)
 * egyértelműsített tő (lemma)
 * egyértelműsített morfológiai elemzés (xpostag)
-* konvertált szófaj (upos)
+* konvertált szófaj (upostag)
 * konvertált inflexiós jegyek (feats)
 * index, mondatbeli sorszám (id)
 * anyacsomópont mondatbeli sorszáma (head)
@@ -58,7 +58,7 @@ Az egyértelműsítést és a tövesítést az [emtsv](https://github.com/dlt-ri
 
 ### konvertált szófaj és inflexiós jegyek
 
-Az emMorph címkét a [Universal Dependencies](https://universaldependencies.org) kereteiben meghatározott, magyarra adaptált címkekészletre az [emtsv](https://github.com/dlt-rilmta/emtsv) emmorph2ud konvertálja. Kimenete a szófajcímke és az inflexiós jegyek a **pos** és a **feats** oszlopokban.
+Az emMorph címkét a [Universal Dependencies](https://universaldependencies.org) kereteiben meghatározott, magyarra adaptált címkekészletre az [emtsv](https://github.com/dlt-rilmta/emtsv) emmorph2ud konvertálja. Kimenete a szófajcímke és az inflexiós jegyek az **upostag** és a **feats** oszlopokban.
 
 A címkekészletekről bővebben [itt](https://github.com/dlt-rilmta/panmorph) lehet tájékozódni.
 

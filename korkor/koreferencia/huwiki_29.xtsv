@@ -233,7 +233,7 @@ id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 40	ki	[{"lemma": "aki", "tag": "[/N|Pro|Rel][Nom]", "morphana": "aki[/N|Pro|Rel]=ki+[Nom]=", "readable": "aki[/N|Pro|Rel]=ki + [Nom]", "twolevel": "k:a i:k :i :[/N|Pro|Rel] :[Nom]"}, {"lemma": "ki", "tag": "[/N|Pro][Nom]", "morphana": "ki[/N|Pro]=ki+[Nom]=", "readable": "ki[/N|Pro] + [Nom]", "twolevel": "k:k i:i :[/N|Pro] :[Nom]"}, {"lemma": "ki", "tag": "[/N|Pro|Int][Nom]", "morphana": "ki[/N|Pro|Int]=ki+[Nom]=", "readable": "ki[/N|Pro|Int] + [Nom]", "twolevel": "k:k i:i :[/N|Pro|Int] :[Nom]"}, {"lemma": "ki", "tag": "[/Prev]", "morphana": "ki[/Prev]=ki", "readable": "ki[/Prev]", "twolevel": "k:k i:i :[/Prev]"}]	ki	PART	[/Prev]	_	PREVERB	42	_	_
 41	kell	[{"lemma": "kell", "tag": "[/V][Prs.NDef.3Sg]", "morphana": "kell[/V]=kell+[Prs.NDef.3Sg]=", "readable": "kell[/V] + [Prs.NDef.3Sg]", "twolevel": "k:k e:e l:l l:l :[/V] :[Prs.NDef.3Sg]"}]	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	32	_	_
 42	találnia	[{"lemma": "talál", "tag": "[/V][Inf.3Sg]", "morphana": "talál[/V]=talál+nia[Inf.3Sg]=nia", "readable": "talál[/V] + nia[Inf.3Sg]", "twolevel": "t:t a:a l:l á:á l:l :[/V] n:n i:i a:a :[Inf.3Sg]"}]	talál	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	INF	41	_	_
-42.SUBJ	DROP	_	ő/az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	42	10:41.SUBJ	prs
+42.SUBJ	DROP	_	ő/az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	42	10:38	prs
 42.OBJ	DROP	_	ő/az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	OBJ	42	10:27	prs
 43	.	[{"lemma": ".", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	.	PUNCT	[Punct]	_	PUNCT	0	_	_
 

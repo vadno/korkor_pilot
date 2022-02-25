@@ -375,7 +375,7 @@ id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 12.SUBJ	DROP	_	X	PRON	_	Case=Nom|Number=X|Person=X|PronType=Prs	SUBJ	12	_	_
 13	,	[{"lemma": ",", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	,	PUNCT	[Punct]	_	PUNCT	12	_	_
 14	írja	[{"lemma": "ír", "tag": "[/N][Poss.3Sg][Nom]", "morphana": "ír[/N]=ír+ja[Poss.3Sg]=ja+[Nom]=", "readable": "ír[/N] + ja[Poss.3Sg] + [Nom]", "twolevel": "í:í r:r :[/N] j:j a:a :[Poss.3Sg] :[Nom]"}, {"lemma": "ír", "tag": "[/V][Prs.Def.3Sg]", "morphana": "ír[/V]=ír+ja[Prs.Def.3Sg]=ja", "readable": "ír[/V] + ja[Prs.Def.3Sg]", "twolevel": "í:í r:r :[/V] j:j a:a :[Prs.Def.3Sg]"}, {"lemma": "ír", "tag": "[/V][Sbjv.Def.3Sg]", "morphana": "ír[/V]=ír+ja[Sbjv.Def.3Sg]=ja", "readable": "ír[/V] + ja[Sbjv.Def.3Sg]", "twolevel": "í:í r:r :[/V] j:j a:a :[Sbjv.Def.3Sg]"}]	ír	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_
-14.OBJ	DROP	_	ő/az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	OBJ	14	17:11.01	prs
+14.OBJ	DROP	_	ő/az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	OBJ	14	17:11.1	prs
 15	Egor	[]	Egor	PROPN	[/N][Nom]	Case=Nom|Number=Sing	NE	16	_	_
 16	Kotkin	[]	Kotkin	PROPN	[/N][Nom]	Case=Nom|Number=Sing	SUBJ	14	_	_
 17	.	[{"lemma": ".", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	.	PUNCT	[Punct]	_	PUNCT	0	_	_

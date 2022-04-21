@@ -128,7 +128,7 @@ id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 6.1	KOPULA	_	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_
 7	,		,	PUNCT	[Punct]	_	PUNCT	6.1	_	_
 8	taraja	[{"lemma": "taraj", "tag": "[/N][Nom]", "morphana": "taraj[/N]=taraj+[Nom]=", "readable": "taraj[/N] + [Nom]", "twolevel": "t:t a:a r:r a:a j:j :[/N] :[Nom]"}]	taraj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	SUBJ	10.1	_	_
-8.1	DROP	_	ő/az	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	POSS	8	13:1.POSS	prs
+8.POSS	DROP	_	ő/az	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	POSS	8	13:1.POSS	prs
 9	erős	[{"lemma": "erős", "tag": "[/Adj][Nom]", "morphana": "erő[/N]=erő+s[_Adjz:s/Adj]=s+[Nom]=", "readable": "erő[/N] + s[_Adjz:s/Adj] + [Nom]", "twolevel": "e:e r:r ő:ő :[/N] s:s :[_Adjz:s/Adj] :[Nom]"}, {"lemma": "erős", "tag": "[/N][Nom]", "morphana": "erő[/N]=erő+s[_Nz:s/N]=s+[Nom]=", "readable": "erő[/N] + s[_Nz:s/N] + [Nom]", "twolevel": "e:e r:r ő:ő :[/N] s:s :[_Nz:s/N] :[Nom]"}, {"lemma": "erős", "tag": "[/Adj][Nom]", "morphana": "erős[/Adj]=erős+[Nom]=", "readable": "erős[/Adj] + [Nom]", "twolevel": "e:e r:r ő:ő s:s :[/Adj] :[Nom]"}]	erős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_
 10	rózsataraj	[{"lemma": "rózsataraj", "tag": "[/N][Nom]", "morphana": "rózsa[/N]=rózsa+taraj[/N]=taraj+[Nom]=", "readable": "rózsa[/N] + taraj[/N] + [Nom]", "twolevel": "r:r ó:ó z:z s:s a:a :[/N] t:t a:a r:r a:a j:j :[/N] :[Nom]"}]	rózsataraj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	PRED	10.1	_	_
 10.1	KOPULA	_	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6.1	_	_

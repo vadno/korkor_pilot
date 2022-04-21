@@ -175,7 +175,7 @@ id	form	anas	lemma	upostag	xpostag	feats	deprel	head	corefhead	coreftype
 10	,	[{"lemma": ",", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	,	PUNCT	[Punct]	_	PUNCT	9	_	_
 11	halálra	[{"lemma": "halál", "tag": "[/N][Subl]", "morphana": "halál[/N]=halál+ra[Subl]=ra", "readable": "halál[/N] + ra[Subl]", "twolevel": "h:h a:a l:l á:á l:l :[/N] r:r a:a :[Subl]"}]	halál	NOUN	[/N][Subl]	Case=Sub|Number=Sing	OBL	12	_	_
 12	ítélik	[{"lemma": "ítél", "tag": "[/V][Prs.Def.3Pl]", "morphana": "ítél[/V]=ítél+ik[Prs.Def.3Pl]=ik", "readable": "ítél[/V] + ik[Prs.Def.3Pl]", "twolevel": "í:í t:t é:é l:l :[/V] i:i k:k :[Prs.Def.3Pl]"}]	ítél	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	_	_
-12.SUBJ	DROP	_	ők/azok	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	SUBJ	12		arb
+12.SUBJ	DROP	_	ők/azok	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	SUBJ	12	_	arb
 13	őket	[{"lemma": "ők", "tag": "[/N|Pro][3Pl][Acc]", "morphana": "ők[/N|Pro]=ő+k[3Pl]=k+et[Acc]=et", "readable": "ők[/N|Pro]=ő + k[3Pl] + et[Acc]", "twolevel": "ő:ő :k :[/N|Pro] k:k :[3Pl] e:e t:t :[Acc]"}]	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	12	12:1	prs
 14	,	[{"lemma": ",", "tag": "[Punct]", "morphana": "", "readable": "", "twolevel": ""}]	,	PUNCT	[Punct]	_	PUNCT	12	_	_
 15	de	[{"lemma": "de", "tag": "[/Adv]", "morphana": "de[/Adv]=de", "readable": "de[/Adv]", "twolevel": "d:d e:e :[/Adv]"}, {"lemma": "de", "tag": "[/Cnj]", "morphana": "de[/Cnj]=de", "readable": "de[/Cnj]", "twolevel": "d:d e:e :[/Cnj]"}, {"lemma": "de", "tag": "[/X]", "morphana": "de[/X]=de", "readable": "de[/X]", "twolevel": "d:d e:e :[/X]"}]	de	CONJ	[/Cnj]	_	CONJ	12	_	_

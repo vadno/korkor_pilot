@@ -1,133 +1,138 @@
-# KorKor pilotkorpusz
+# KorKor Pilotcorpus
 
-A KorKorpusz egy többrétegű, kézzel ellenőrzött minőségi magyar nyelvű korpusz. Az alapvető nyelvi annotációk (tokenizálás, morfológiai elemzés, egyértelműsítés, tövesítés, függőségi mondatelemzés) mellett anafora- és koreferenciaannotációt is tartalmaz.
+KorKor is a multi-layered, manually annotated Hungarian corpus. Besides the traditional annotation layers (tokenization, morphological tags, disambiguation, lemmatization, dependency relations) it contains anaphora and coreference annotation as well.
 
-## méret
+## Size
+
+The corpus is divided into to subcorpora
 
 A korpusz két alkorpuszra osztható aszerint, hogy az annotálás melyik fázisában tart. A korpusz nagyobbik alkorpusza az összes annotációs szintet tartalmazza, a kisebbik alkorpusza bizonyos annotációs szinteket (testetlen igék és testetlen névmások, anaforikus kapcsolatok, koreferenciakapcsolatok) egyelőre nem tartalmaz.
 
-| | dokumentum        | mondat           | token  |
-|:----------| -------------:|-------------:| -----:|
-|koreferencia annotálva | 95     | 1436 | 31492 |
-|függőségi elemzés ellenőrizve |  26     | 463 | 8853 |
+|                                                               |              document |          sentence | token  |
+|:--------------------------------------------------------------|----------------------:|------------------:| -----:|
+| coreference annotated                                         |                    95 |              1436 | 31492 |
+| dependency annotation corrected                               |                    26 |               463 | 8853 |
 
 A tokenszámba a kézzel ellenőrzött függőségi elemzés szintjéig kész részkorpusz esetében az írásjelek, a koreferenciakapcsolatokkal annotált részkorpusz esetében az írásjelek, a testetlen igék és a testetlen névmások is beleszámítanak.
 
-## szövegek
+## Sources
 
-A szövegek az [OPUS gyűjteményéből](http://opus.nlpl.eu/) származnak. Egyrészt a magyar Wikipédiáról származik, másrészt a [GlobalVoices hírportál](https://hu.globalvoices.org) magyar nyelvre lefordított hírei közül. A KorKorpusz örökli ezeknek a forrásoknak a nyílt hozzáférhetőségét. A szövegek helyesírása kézzel ellenőrizve lett.
+The text are from the collection of [OPUS](http://opus.nlpl.eu/). Two sources were used: Hungarian Wikipedia and the Hungarian translation of [GlobalVoices news website](https://hu.globalvoices.org). KorKor inherits the licence of the original sources. In the texts the spelling is manually corrected. 
 
-A szövegek hossza 5 és 27 mondat között, a mondatok hossza 3 és 71 token között van (az írásjeleket külön tokennek számolva).
+The length of the texts is between 5 and 27 sentences, the length of the sentences is between 3 and 71 tokens (punctuation marks count separate tokens).
 
-| | koreferencia        | függőségi           |
-|:----------| -------------:|-------------:|
-| Global Voices |   32  |  3 |
-| Wikipédia |   63   |  23 |
+The number of texts of the two sources and in the two phases of the corpus:
 
-## formátum
+| |                coreference |             dependency |
+|:----------|---------------------------:|-----------------------:|
+| Global Voices |                         32 |                      3 |
+| Wikipédia |                         63 |                     23 |
 
-A korpusz fájlonként egy dokunemtumból áll. A dokumentumok formátuma az [xtsv](https://github.com/dlt-rilmta/xtsv) formátumának megfelelő, ami egy fejléces tsv fájl jelent. Soronként egy tokent tartalmaznak, a mondatokat üres sor választja el. A nyelvi annotációk TAB karakterrel elválasztott oszlopokban kapnak helyet. Az oszlopok sorrendje nem kötöttt, sorrendjüket a fejléc határozza meg.
+## Format
 
-A korpuszfájlok a következő elemzéseket tartalmazzák (zárójelben az xtsv-ben megfelelő oszlopnevekkel):
+The corpus consists of files containing the documents. The files are in [xtsv](https://github.com/dlt-rilmta/xtsv) format which is a format of tab spearated file with a header. The file has one token per line, the sentences are separated with an empty line. Linguistic annotations are in columns separated by TAB characters. The order of the columns are not fixed, their order is defined in the header.
+
+The files contains the following linguistic annotation layers (with the corresponding names in the xtsv header in the brackets)
 
 * token (form)
-* lehetséges morfológiai elemzések (anas)
-* egyértelműsített tő (lemma)
-* egyértelműsített morfológiai elemzés (xpostag)
-* konvertált szófaj (upostag)
-* konvertált inflexiós jegyek (feats)
-* index, mondatbeli sorszám (id)
-* anyacsomópont mondatbeli sorszáma (head)
-* függőségi kapcsolat típusa (deprel)
-* előzmény mondatbeli sorszáma (corefhead)
-* anafora- vagy koreferenciakapcsolat típusa (coreftype)
+* possible morphological tags (anas)
+* disambiguated lemma (lemma)
+* disambiguated morphological tag (xpostag)
+* UD POS-tag (upostag)
+* UD features (feats)
+* token id in the sentence (id)
+* head id in the sentence (head)
+* type of the dependency relation (deprel)
+* id of the antecedent in the sentence (corefhead)
+* type of the anaphora or coreference relation (coreftype)
 
-## annotáció
+## Annotation
 
-### tokenizálás
+### Tokenization
 
-A tokenizálást az [emtsv](https://github.com/dlt-rilmta/emtsv) emToken modulja végzi. Kimenete a fent ismertetett xtsv formátumú korpuszfájl.
+emToken module of [emtsv](https://github.com/dlt-rilmta/emtsv) tokenized the tests. The output is in xtsv format described above.
 
-### morfológiai elemzés
+### Morphological Analysis
 
-A morfológiai elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emMorph modulja végzi. Kimenete az összes lehetséges morfológiai elemzést és a hozzájuk tartozó tövet tároló JSON az **anas** oszlopban.
+emMorph module of [emtsv](https://github.com/dlt-rilmta/emtsv) provided the morphological analyses of the tokens. The output contains all possible tags and lemmata is JSON in the column of **anas**.
 
-### egyértelműsítés és tövesítés
+### Disambiguation and Lemmatization
 
-Az egyértelműsítést és a tövesítést az [emtsv](https://github.com/dlt-rilmta/emtsv) emTag modulja végzi. Kimenete az [emMorph címkekészletében](http://e-magyar.hu/hu/textmodules/emmorph_codelist) megfogalmazott, szófajt, derivációt és inflexiós jegyeket tartalmazó morfológiai címke és a hozzá tartozó tő az **xpostag** és a **lemma** oszlopokban.
+Disambiguation and lemmatization were done by emTag module of [emtsv](https://github.com/dlt-rilmta/emtsv). The output follows [emMorph tagset](https://e-magyar.hu/en/textmodules/emmorph_codelist) containing the POS tag, derivational and inflectional features in the columns of **xpostag** and **lemma**.
 
-### konvertált szófaj és inflexiós jegyek
+### Converting POS and morphological Features
 
-Az emMorph címkét a [Universal Dependencies](https://universaldependencies.org) kereteiben meghatározott, magyarra adaptált címkekészletre az [emtsv](https://github.com/dlt-rilmta/emtsv) emmorph2ud konvertálja. Kimenete a szófajcímke és az inflexiós jegyek az **upostag** és a **feats** oszlopokban.
+emMorph tags were converted to [Universal Dependencies](https://universaldependencies.org) by emmorph2ud module of [emtsv](https://github.com/dlt-rilmta/emtsv).  The output gives the UD POS and inflectional features in the columns ** upostag** and **feats**.
 
-A címkekészletekről bővebben [itt](https://github.com/dlt-rilmta/panmorph) lehet tájékozódni.
+Find some further information about Hungarian morphological tagsets [here](https://github.com/dlt-rilmta/panmorph)
 
-### függőségi elemzés
+### Dependency Relations / függőségi elemzés
 
-A függőségi elemzést az [emtsv](https://github.com/dlt-rilmta/emtsv) emDep modulja végzi. Kimenete az **id**, a **head** és a **deprel** oszlopok tartalma, amelyek a token mondatbeli indexét, az anyacsomópont indexét és a köztünk fennálló függőségi kapcsolat típusát tartalmazzák.
+emDep module of [emtsv](https://github.com/dlt-rilmta/emtsv) gave the dependency relations. The output takes the columns of **id**, **head** and **deprel** representing the index of the token in the sentence, the index of its mother node and the type of the dependency relation between them.
 
-A KorKor annotációja a függőségi elemző címkekészletéhez képest eltéréseket tartalmaz:
- * a birtokos és a birtok között fennálló függőségi kapcsolat típusa **POSS**
- * a *meg* igekötőn kívül is minden igekötő **PREVERB** típussal kapcsolódik az igéhez 
- 
- A függőségi kapcsolatok címkekészletével kapcsolatban [az annotációs útmutatóból](utmutatok/emdep_checker_guide.pdf) lehet tájékozódni.
+There are some differences between the original tagset of emDep and the tagset used in the corpus:
+ * the type of the dependency relation between the possessor and the possessum is **POSS** (instead of **ATT**)
+ * all preverbs connects with relation type **PREVERB** (not only the preverb *meg*)
 
-### testetlen igék
+### Zero Verbs
 
-A testetlen igék (zérókopulák és elliptált igék) kézzel lettek beillesztve. A zéró létigék új tokenként kerülnek a fájlba arra a helyre, ahol múlt időben testes létigeként jelennének meg, saját kombinált indexet kapnak, ami a zéró létigét megelőző elem mondatbeli sorszámából képződik.
+Zero verbs (zero copulas and ellipted verbs) were inserted manually. Zero substantives were inserted into the sentences where they would appear if the sentence were in past tense. The got a combined index derived from the index of the token preceding the inserted zero verb.
 
 > A sorozat főhőse Papyrus ∅<sub>van</sub>, aki egy ifjú halászlegény ∅<sub>van</sub>.
 
-Az elliptált igék a mondatban arra a helyre vannak beillesztve, ahol testes igeként megjelennének, valamint a zéró létigéhez hasonló, kombinált indexet kapnak.
+Ellipted verbs are inserted into the sentence where they would appear and they got a combined index similarly to the zero substantives.
 
 > Öccse miniszteri posztot vállalt, majd elnöki pozíciót ∅<sub>vállalt</sub>.
 
-A testetlen igék beillesztésével kapcsolatban [az annotációs útmutatóból](utmutatok/zero_verb_guide.pdf) lehet tájékozódni.
+### Zero Pronouns
 
-### testetlen névmások
+Zero pronouns are inserted by a script, [emZero](https://github.com/vadno/emzero), which can be used as a module of [emtsv](https://github.com/dlt-rilmta/emtsv).
 
-A testetlen névmásokat egy saját szkript, az [emZero](https://github.com/vadno/emzero) illeszti be, amely az [emtsv](https://github.com/dlt-rilmta/emtsv) keretrendszerében önálló modulként is használható. A szabályalapú program a következő helyekre illeszt be névmást:
-* finit ige alanyának, ha annak nem volt testes alanya
-* határozott ragozású finit ige tárgyának, ha annak nem volt testes tárgya
-* birtok birtokosának, ha annak nem volt testes birtokosa
-* ragozott és ragozatlan infinitívusz alanyának
+The rule-based script inserts a pronoun in the following cases:
+* a subject for the finite verb if it does not have an overt one
+* an object for the definite verb if it does not have an overt one
+* a possessor for a possessum, if it does not have an overt one
+* a subject for the infinitive verb
 
-A testetlen névmások esetében az alany az ige után, a tárgy az ige (és a testetlen alany) után, a birtokos pedig a birtok után kerül új tokenként és egy kombinált ID-t kap, ami az őt megelőző elem ID-jéből és a zéró elem szintaktikai szerepének rövidítéséből (SUBJ, OBJ, POSS) áll.
+The person and number of the zero preverbs are calculated from their mother node and they are inserted into the dependency tree as well.
+The zero subject is inserted after the verb, the zero bjects after the verb (and the zero subject) and the zero possessors after the possessum and they got an index combined from the id of the preceding token and the syntactic role of the zero preverb (SUBJ, OBJ, POSS).
 
-### anafora és koreferencia
+### Anaphora and Coreference
 
-Az anaforikus kapcsolatokat egy saját szkript illeszti be. A szabályalapú program csak a személyes névmások előzményét keresi a szövegben, a többi névmástípus előzményét kézzel kell beilleszteni. A koreferenciakapcsolatokat kézzel kell beilleszteni. Az annotáció a **corefhead** és a **coreftype** oszlopokba kerül, ahol az előzmény indexét (mondat sorszáma:token indexe) és a visszautalás vagy a koreferencia típusát jelöli.
+Anaphoric relations are inserted by a rule-based script that searches the antecedent only of personal pronouns. Antecedents of other pronouns were inserted fully manually. The columns of **corefhead** and **coreftype** contains the index of the antecedent and the type of the anaproha or the coreference relation.
 
-A következő névmástípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
+The following types of pronoun are annotated:
 
-| névmástípus | jelölés a korpuszban  | előfordulás  |
-|:----------| :-------------|-------------:|
-| személyes | **prs** | 1497 |
-| mutató | **dem** | 147 |
-| kölcsönös | **recip** | 11 |
-| visszaható | **refl** | 18 |
-| birtokos | **poss** | 0 |
-| általános | **arb** | 316 |
-| beszélő| **speak** | 5 |
-| címzett | **addr** | 1 |
+| type of the pronoun | abbreviation | frequency |
+|:--------------------|:-------------|----------:|
+| personal            | **prs**      |      1497 |
+| demonstrative       | **dem**      |       147 |
+| reciprocal          | **recip**    |        11 |
+| reflexive           | **refl**     |        18 |
+| relative            | **rel**      | TODO |
+| possessive          | **poss**     |         0 |
+| general             | **arb**      |       316 |
+| speaker             | **speak**    |         5 |
+| addressee           | **addr**     |         1 |
 
-Az **arb**, **speak** és **addr** típusoknak nem kötelező, hogy van előzményük (a **corefhead** mező üres maradhat), a többi típus esetében mindig ki van töltve.
+It is not obligatory to types of **arb**, **speak** and **addr** to have an antecedent, in these cases the column of **corefhead** remain empty, in all other cases it is filled.
 
+The following coreference types are annotated:
  A következő koreferenciatípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 
-| koreferenciatípus | jelölés a korpuszban  | előfordulás  |
-|:----------| :-------------|-------------:|
-| koreferencia | **coref** | 1582 |
-| rész-egész kapcsolat | **holo** | 202 |
+| types of coreference | abbreviation  | frequency |
+|:---------------------| :-------------|----------:|
+| coreference          | **coref** |      1582 |
+| part-whole relation  | **holo** |       202 |
 
-Az anaforikus kapcsolatok címkekészletével kapcsolatban [az annotációs útmutatóból](utmutatok/koref_annot_guide.pdf) lehet tájékozódni.
+The tag **coref** is for the relation tpye when the two elements have identical reference (e.g.~in the case of repetition, synonym, hiper- and hyponym).
 
-# Licensz
-Az erőforrás [CC-BY-4.0](LICENSE) licensz alatt használható.
+# Licence
+The resource is available under [CC-BY-4.0](LICENSE).
 
-# Hivatkozások
+# Citation
 
-Ha használod a korpuszt, kérlek, hivatkozz az alábbi cikkre:
+If you use this resourse, please cite our paper:
 
 ```
 @inproceedings{korkor,
@@ -142,4 +147,4 @@ Ha használod a korpuszt, kérlek, hivatkozz az alábbi cikkre:
 }
 ```
 
-Az emtsv-vel és annak moduljaival kapcsolatos hivatkozásokat lásd a [hivatkozások](hivatkozasok.bib) között.
+References for emtsv and its modules can be found [here](references.bib).

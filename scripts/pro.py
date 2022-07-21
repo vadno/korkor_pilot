@@ -161,7 +161,7 @@ def actor_features(corpus):
             if head.upos in VERBS and head not in deps:
                 deps.append((head, head))
 
-        # egy elemhez hozzarendeli az osszes ramutato fuggosegi viszonyt
+        # egy elemhez hozzarendeli az osszes ramutato dependency viszonyt
         # egy headhez az osszes depot
         deps_dict = {}
         for a, b in deps:

@@ -69,14 +69,14 @@ An example file is led through the whole process. In each step the format of the
     
 7. manual correction in WebAnno  
    
-   In this step human annotators check and correct the output of the dependency analysis. The annotators work in [WebAnno](https://webanno.github.io/webanno/). For further details see the [annotation guidelines](../guidelines/emdep_checker_guide.pdf)! Az annotátorok által összegyűjtött kérdésekből készült [gyik](../guidelines/emdep_checker_faq.pdf) is segítséget nyújthat az kérdéses esetekben.
+   In this step human annotators check and correct the output of the dependency analysis. The annotators work in [WebAnno](https://webanno.github.io/webanno/). For further details see the [annotation guidelines](../guidelines/emdep_checker_guide.pdf)! A continuously edited [faq document](../guidelines/emdep_checker_faq.pdf) helped the annotators during their work.
 
    input: conll-u  [6_webanno_preproc/globv_10.conll](6_webanno_preproc/globv_10.conll)  
    output: conll-u
     
-8. inserting zero verbs and zero substantives in [Annotatrix](https://github.com/jonorthwash/ud-annotatrix) 
+8. inserting zero verbs and zero substantives 
 
-    Ebben a lépésben az esetleges tokenizálási hibák javítása mellett a zéró létigék és az elliptált igék kézi beillesztése történik. Ehhez az [UD Annotatrix](https://github.com/jonorthwash/ud-annotatrix) eszközt használjuk, amely egy böngészőben használható eszköz függőségi fák vizualizációjára és szerkesztésére.
+    In this step next to correcting the remainder tokenization errors zero verbs were inserted manually using [UD Annotatrix](https://github.com/jonorthwash/ud-annotatrix).
 
     For further details see the [annotation guidelines](../guidelines/zero_verb_guide.pdf)!
 
@@ -102,8 +102,8 @@ An example file is led through the whole process. In each step the format of the
     input: conll-u  [9_pro_beszuro/globv_10.conll](9_pro_insert/globv_10.conll)  
     output: conll-u
     
-11. manual correction and inserting coreference relations in Google spreadsheets  
-   Az automatikusan beillesztett zérónévmások és anaforikus kapcsolatok ellenőrzését, valamint a koreferenciakapcsolatok beillesztését egyfeltételes formázásokkal ellátott Google Spreadsheets táblázatban lehet elvégezni. Az anaforikus- és koreferenciakapcsolatokat két oszlopban kell jelölni, egyikben annak az elemnek az ID számát kellett megadni, amellyel a visszautaló elem kapcsolatban áll, a másikban pedig a kapcsolat típusát. For further details see the [annotation guidelines](../guidelines/koref_annot_guide.pdf)!  
+11. manual correction and inserting coreference relations in Google spreadsheets 
+   Human annotators checked and corrected the inserted anaphora relations and they also inserted manually the other types of anaphora relations and coreference relations. For further details see the [annotation guidelines](../guidelines/koref_annot_guide.pdf)!  
    
    The empty spreadsheet file: [coref.xlsx](../google_spreadsheets_files/coref.xlsx)  
    

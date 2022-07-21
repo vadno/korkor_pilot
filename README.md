@@ -64,7 +64,7 @@ emMorph tags were converted to [Universal Dependencies](https://universaldepende
 
 Find some further information about Hungarian morphological tagsets [here](https://github.com/dlt-rilmta/panmorph)
 
-### Dependency Relations / függőségi elemzés
+### Dependency Relations
 
 emDep module of [emtsv](https://github.com/dlt-rilmta/emtsv) gave the dependency relations. The output takes the columns of **id**, **head** and **deprel** representing the index of the token in the sentence, the index of its mother node and the type of the dependency relation between them.
 

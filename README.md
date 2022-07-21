@@ -77,10 +77,14 @@ There are some differences between the original tagset of emDep and the tagset u
 Zero verbs (zero copulas and ellipted verbs) were inserted manually. Zero substantives were inserted into the sentences where they would appear if the sentence were in past tense. The got a combined index derived from the index of the token preceding the inserted zero verb.
 
 > A sorozat főhőse Papyrus ∅<sub>van</sub>, aki egy ifjú halászlegény ∅<sub>van</sub>.
+>
+> *The hero of the series is Papyrus, who is a young fisherman.*
 
 Ellipted verbs are inserted into the sentence where they would appear and they got a combined index similarly to the zero substantives.
 
 > Öccse miniszteri posztot vállalt, majd elnöki pozíciót ∅<sub>vállalt</sub>.
+>
+> *His brother assumed a ministerial position, then presidential one.*
 
 ### Zero Pronouns
 
@@ -116,7 +120,6 @@ The following types of pronoun are annotated:
 It is not obligatory to types of **arb**, **speak** and **addr** to have an antecedent, in these cases the column of **corefhead** remain empty, in all other cases it is filled.
 
 The following coreference types are annotated:
- A következő koreferenciatípusok vannak jelölve a korpuszban (zárójelben az előfordulásukkal):
 
 | types of coreference | abbreviation  | frequency |
 |:---------------------| :-------------|----------:|

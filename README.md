@@ -4,22 +4,20 @@ KorKor is a multi-layered, manually annotated Hungarian corpus. Besides the trad
 
 ## Size
 
-The corpus is divided into to subcorpora
-
-A korpusz két alkorpuszra osztható aszerint, hogy az annotálás melyik fázisában tart. A korpusz nagyobbik alkorpusza az összes annotációs szintet tartalmazza, a kisebbik alkorpusza bizonyos annotációs szinteket (testetlen igék és testetlen névmások, anaforikus kapcsolatok, koreferenciakapcsolatok) egyelőre nem tartalmaz.
+The corpus is divided into to subcorpora. The first group of the files contains all layers of annotations, but a smaller part lacks of certain annotation layers (zero verbs and pronouns, anaphora and coreference relations).
 
 |                                                               |              document |          sentence | token  |
 |:--------------------------------------------------------------|----------------------:|------------------:| -----:|
 | coreference annotated                                         |                    95 |              1436 | 31492 |
 | dependency annotation corrected                               |                    26 |               463 | 8853 |
 
-A tokenszámba a kézzel ellenőrzött függőségi elemzés szintjéig kész részkorpusz esetében az írásjelek, a koreferenciakapcsolatokkal annotált részkorpusz esetében az írásjelek, a testetlen igék és a testetlen névmások is beleszámítanak.
+Punctuation marks, zero verbs and pronouns count as separate tokens.
 
 ## Sources
 
 The text are from the collection of [OPUS](http://opus.nlpl.eu/). Two sources were used: Hungarian Wikipedia and the Hungarian translation of [GlobalVoices news website](https://hu.globalvoices.org). KorKor inherits the licence of the original sources. In the texts the spelling is manually corrected. 
 
-The length of the texts is between 5 and 27 sentences, the length of the sentences is between 3 and 71 tokens (punctuation marks count separate tokens).
+The length of the texts is between 5 and 27 sentences, the length of the sentences is between 3 and 71 tokens (punctuation marks count as separate tokens).
 
 The number of texts of the two sources and in the two phases of the corpus:
 

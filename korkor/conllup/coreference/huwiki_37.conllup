@@ -1,0 +1,300 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_37.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	lakóautó	lakóautó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	különleges	különleges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	rendeltetésnek	rendeltetés	[/N][Dat]	NOUN	Case=Dat|Number=Sing	OBL	5	_	_	_	_	_
+5	megfelelő	megfelelő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+6	felépítményű	felépítményű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	gépjármű	gépjármű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+9	amelynek	amely	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	POSS	11	1:2	prs	_	_	_
+10	belső	belső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	tere	tér	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	13	_	_	_	_	_
+12	lakhatásra	lakhatás	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	14	_	_	_	_	_
+13	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+14	kialakítva	kialakít	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	OBL	13	_	_	_	_	_
+15	és	és	[/Cnj]	CCONJ	_	CONJ	14	_	_	_	_	_
+16	berendezve	berendez	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	COORD	15	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_2
+1	Elsősorban	elsősorban	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+2	szabadidős	szabadidős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	tevékenység	tevékenység	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	_	_	_	_	_
+4	céljára	cél	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	5	_	_	_	_	_
+5	építik	épít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	YES	_
+6	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	lakókocsikkal	lakókocsi	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	3	_	_	_	_	_
+3	ellentétben	ellentétben	[/Post|(Ins)]	ADP	_	MODE	4	_	_	_	_	_
+4	önjáró	önjáró	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	gépjármű	gépjármű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	YES	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+7	ezért	ezért	[/Cnj]	CCONJ	_	CONJ	???	_	_	_	_	_
+8	alkalmazása	alkalmazás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	YES
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+10	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	11	_	_	_	_	_
+11	körutazásokhoz	körutazás	[/N][Pl][All]	NOUN	Case=All|Number=Plur	OBL	12	_	_	_	_	_
+12	ideális	ideális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_4
+1	Gyakran	gyakran	[/Adv]	ADV	_	TLOCY	5	_	_	_	_	_
+2	mobil	mobil	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	irodaként	iroda	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	5	_	_	_	_	_
+4	is	is	[/Adv]	ADV	_	MODE	3	_	_	_	_	_
+5	használatos	használatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	YES	_	_
+6	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_5
+1	Ebben	ez	[/Det|Pro][Ine]	PRON	Case=Ine|Number=Sing|Person=3|PronType=Dem	DET	3	_	_	_	_	_
+2	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	esetben	eset	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	6	_	_	_	_	_
+4	más	más	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	elrendezéseket	elrendezés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	_	_	_	_	_
+6	szokásos	szokásos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+7	alkalmazni	alkalmaz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	_	_	YES	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+9	pl.	pl.	[/Adv|Abbr][Punct]	ADV	_	MODE	12	_	_	_	_	_
+10	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	11	_	_	_	_	_
+11	tárgyalóteret	tárgyalótér	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+12	alakítanak	alakít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	???	_	_	YES	_	_
+13	ki	ki	[/Prev]	ADV	_	PREVERB	12	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+15	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+16	komolyabb	komoly	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	20	_	_	_	_	_
+17	elektronikai	elektronikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+18	és	és	[/Cnj]	CCONJ	_	CONJ	17	_	_	_	_	_
+19	informatikai	informatikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	18	_	_	_	_	_
+20	berendezések	berendezés	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	21	_	_	_	_	_
+21	kerülnek	kerül	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	15	_	_	_	_	_
+22	beépítésre	beépítés	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	21	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_6
+1	Egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	3	_	_	_	_	_
+2	minimális	minimális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	lakóautóban	lakóautó	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	4	_	_	_	_	_
+4	található	található	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	8	_	_	_	_	_
+6	beépített	beépített	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	mini	mini	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	konyha	konyha	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	11	_	_	_	_	_
+11	étkezőrész	étkezőrész	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	9	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+13	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	6:11	rel	_	_	_
+14	ággyá	ágy	[/N][Transl]	NOUN	Case=Tra|Number=Sing	OBL	15	_	_	_	_	_
+15	alakítható	alakítható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	felső	felső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	kategóriás	kategóriás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	lakóbuszokban	lakóbusz	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	LOCY	9	_	_	_	_	_
+5	pedig	pedig	[/Cnj]	CCONJ	_	MODE	4	_	_	_	_	_
+6	minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	ATT	7	_	_	_	_	_
+7	extra	extra	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	9	_	_	_	_	_
+8	beépítésre	beépítés	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	9	_	_	_	_	_
+9	kerül	kerül	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	7:7	rel	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	lakásokban	lakás	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	LOCY	15	_	_	_	_	_
+14	is	is	[/Adv]	ADV	_	MODE	13	_	_	_	_	_
+15	megtalálható	megtalálható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_8
+1	Ezen	ez	[/N|Pro][Supe]	PRON	Case=Sup|Number=Sing|Person=3|PronType=Dem	ATT	2	_	_	_	_	_
+2	kívül	kívül	[/Post|(Supe)]	ADP	_	MODE	3	_	_	_	_	_
+3	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	még	még	[/Adv]	ADV	_	TLOCY	3	_	_	_	_	_
+5	garázs	garázs	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	kisautónak	kisautó	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	5	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+10	éppen	éppen	[/Adv]	ADV	_	MODE	13	_	_	_	_	_
+11	külön	külön	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	bejáratú	bejáratú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	hálószoba	hálószoba	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	szobalánynak	szobalány	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	13	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_9
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	használati	használati	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+3	és	és	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	különböző	különböző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	3	_	_	_	_	_
+6	szennyvizek	szennyvíz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	7	_	_	_	_	_
+7	számára	számára	[/Post|(Poss)][Poss.3Sg]	ADP	_	DAT	10	_	_	_	_	_
+8	külön	külön	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	tartályok	tartály	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	10	_	_	_	_	_
+10	kerülnek	kerül	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	beépítésre	beépítés	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	10	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	energiát	energia	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	13	_	_	_	_	_
+4	gázpalackokról	gázpalack	[/N][Pl][Del]	NOUN	Case=Del|Number=Plur	FROM	13	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	gépjármű	gépjármű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	1:2	coref	_	_	_
+8	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	üzemanyagtankjából	üzemanyagtank	[/N][Poss.3Sg][Ela]	NOUN	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	4	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	valamint	valamint	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+12	akkumulátorokból	akkumulátor	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	COORD	11	_	_	_	_	_
+13	nyerik	nyer	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	készülékek	készülék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	13	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	lakóautó-gyártók	lakóautó-gyártó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	9	_	_	_	_	_
+3	általában	általában	[/Adv]	ADV	_	TLOCY	9	_	_	_	_	_
+4	alapjárműként	alapjármű	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	9	_	_	_	_	_
+5	valamely	valamely	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	teherautó	teherautó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	_	_	_	_	_
+7	fülke-alváz	fülke-alváz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	8	_	_	_	_	_
+8	kivitelét	kivitel	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	9	_	_	_	_	_
+9	használják	használ	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_12
+1	Erre	ez	[/N|Pro][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Dem	OBL	2	11:8	dem	_	_	_
+2	építik	épít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+3	rá	rá	[/Prev]	ADV	_	PREVERB	2	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	gépészetet	gépészet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	2	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	bútorzatot	bútorzat	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	5	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	majd	majd	[/Adv]	ADV	_	CONJ	8	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+12	külső	külső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	falként	fal	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	14	_	_	_	_	_
+14	használt	használt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+15	szendvicspanel	szendvicspanel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	16	_	_	_	_	_
+16	táblákat	tábla	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	10	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_13
+1	Kivételt	kivétel	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	2	_	_	_	_	_
+2	képez	képez	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	furgon	furgon	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	kategória	kategória	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	2	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+7	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	11	13:5	rel	_	_	_
+8	dobozos	dobozos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+9	zárt	zárt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	furgonokból	furgon	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	FROM	11	_	_	_	_	_
+11	kerül	kerül	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	2	_	_	_	_	_
+12	átalakításra	átalakítás	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	11	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_14
+1	Elsősorban	elsősorban	[/Adv]	ADV	_	MODE	2	_	_	_	_	_
+2	kényelmi	kényelmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	okokból	ok	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	MODE	11	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+5	legnagyobb	nagy	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	6	_	_	_	_	_
+6	energiafelhasználású	energiafelhasználású	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	készüléket	készülék	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	fűtőberendezést	fűtőberendezés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	7	_	_	_	_	_
+11	elkezdték	elkezd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+12	kiváltani	kivált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	_	_	YES	_	_
+13	Diesel	diesel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	_	_	_	_	_
+14	üzemű	üzemű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	készülékekkel	készülék	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	12	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_15
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	készülék	készülék	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	14:15	coref	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	jármű	jármű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	5	10:7	coref	_	_	_
+5	üzemanyagtankjából	üzemanyagtank	[/N][Poss.3Sg][Ela]	NOUN	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	FROM	6	_	_	_	_	_
+6	veszi	vesz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	működéshez	működés	[/N][All]	NOUN	Case=All|Number=Sing	OBL	9	_	_	_	_	_
+9	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	üzemanyagot	üzemanyag	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_16
+1	Ezek	ez	[/Det|Pro][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Dem	DET	3	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	készülékek	készülék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	8	15:2	coref	_	_	_
+4	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	5	_	_	_	_	_
+5	csak	csak	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	fűtést	fűtés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	_	_	_	_	_
+8	szolgálják	szolgál	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	vízrendszerhez	vízrendszer	[/N][All]	NOUN	Case=All|Number=Sing	OBL	13	_	_	_	_	_
+13	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+14	meleg	meleg	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	vizet	víz	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	17	_	_	_	_	_
+16	is	is	[/Adv]	ADV	_	MODE	15	_	_	_	_	_
+17	előállítják	előállít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	10	_	_	YES	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_17
+1	2007	2007	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	óta	óta	[/Post]	ADP	_	TFROM	9	_	_	_	_	_
+3	már	már	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+4	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	felszereltségű	felszereltségű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+6	gázmentes	gázmentes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	lakóautókat	lakóautó	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	10	_	_	_	_	_
+8	is	is	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+9	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	építeni	épít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	_	_	YES	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_37.conllup_18
+1	Már	már	[/Adv]	ADV	_	TLOCY	11	_	_	_	_	_
+2	nemcsak	nemcsak	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	fűtőberendezést	fűtőberendezés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	16:3	coref	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	főzőlapot	főzőlap	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	6	_	_	_	_	_
+9	is	is	[/Adv]	ADV	_	MODE	8	_	_	_	_	_
+10	ki	ki	[/Prev]	ADV	_	PREVERB	12	_	_	_	_	_
+11	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	váltani	vált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	_	_	YES	_	_
+13	dízel	dízel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	_	_	_	_	_
+14	üzemanyaggal	üzemanyag	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	15	_	_	_	_	_
+15	működtethető	működtethető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	kerámialappal	kerámialap	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	12	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+18	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	23	18:16	rel	_	_	_
+19	szintén	szintén	[/Adv]	ADV	_	MODE	22	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+21	jármű	jármű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	22	_	_	_	_	_
+22	üzemanyagtartályából	üzemanyagtartály	[/N][Poss.3Sg][Ela]	NOUN	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	FROM	23	15:5	coref	_	_	_
+23	nyeri	nyer	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	OBL	23	_	_	_	_	_
+24	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	25	_	_	_	_	_
+25	energiát	energia	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	23	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

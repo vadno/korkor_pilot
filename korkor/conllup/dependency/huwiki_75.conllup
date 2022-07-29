@@ -1,0 +1,394 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_75.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pénzjegy	pénzjegy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	10	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	pénzérme	pénzérme	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	mellett	mellett	[/Post]	ADP	_	MODE	10	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	készpénz	készpénz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+8	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+9	megjelenési	megjelenési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	formája	forma	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ROOT	0	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_2
+1	Szokás	szokás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+2	papírpénznek	papírpénz	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	4	_	_	_	_	_
+3	is	is	[/Adv]	ADV	_	MODE	2	_	_	_	_	_
+4	nevezni	nevez	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	1	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+6	de	de	[/Cnj]	CCONJ	_	CONJ	1	_	_	_	_	_
+7	ma	ma	[/Adv]	ADV	_	TLOCY	12	_	_	_	_	_
+8	már	már	[/Adv]	ADV	_	TLOCY	12	_	_	_	_	_
+9	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	10	_	_	_	_	_
+10	csak	csak	[/Adv]	ADV	_	MODE	11	_	_	_	_	_
+11	papírból	papír	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	12	_	_	_	_	_
+12	készülnek	készül	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	ugyanis	ugyanis	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+15	egyes	egyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	pénznemek	pénznem	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	17	_	_	_	_	_
+17	pénzjegyei	pénzjegy	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	22	_	_	_	_	_
+18	polimer	polimer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	22	_	_	_	_	_
+19	(	(	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+20	műanyag	műanyag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	18	_	_	_	_	_
+21	)	)	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+22	alapanyagúak	alapanyagú	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	COORD	14	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_3
+1	Ugyanakkor	ugyanakkor	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+2	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	országok	ország	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	4	_	_	_	_	_
+4	többsége	többség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	7	_	_	_	_	_
+5	még	még	[/Adv]	ADV	_	TLOCY	7	_	_	_	_	_
+6	papírból	papír	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	7	_	_	_	_	_
+7	gyártatja	gyárt	[/V][_Caus/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	ROOT	0	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	pénzjegyeket	pénzjegy	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pénzérméktől	pénzérme	[/N][Pl][Abl]	NOUN	Case=Abl|Number=Plur	OBL	6	_	_	_	_	_
+3	eredetileg	eredetileg	[/Adv]	ADV	_	TLOCY	6	_	_	_	_	_
+4	leginkább	inkább	[/Supl][/Adv]	ADV	Degree=Sup	MODE	5	_	_	_	_	_
+5	abban	az	[/N|Pro][Ine]	PRON	Case=Ine|Number=Sing|Person=3|PronType=Dem	OBL	6	_	_	_	_	_
+6	tért	tér	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	el	el	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+10	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	11	_	_	_	_	_
+11	rendelkezett	rendelkezik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	9	_	_	_	_	_
+12	inherens	inherens	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	értékkel	érték	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	11	_	_	_	_	_
+14	(	(	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+15	értékét	érték	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	19	_	_	_	_	_
+16	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	18	_	_	_	_	_
+17	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	anyaga	anyag	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	19	_	_	_	_	_
+19	hordozta	hordoz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	APPEND	11	_	_	_	_	_
+20	)	)	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+21	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+22	így	így	[/Cnj]	CCONJ	_	CONJ	11	_	_	_	_	_
+23	ígéret	ígéret	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	26	_	_	_	_	_
+24	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	23	_	_	_	_	_
+25	kényszer	kényszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	24	_	_	_	_	_
+26	tette	tesz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	22	_	_	_	_	_
+27	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	26	_	_	_	_	_
+28	forgalomképessé	forgalomképes	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	26	_	_	_	_	_
+29	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+2	ma	ma	[/Adv]	ADV	_	TLOCY	4	_	_	_	_	_
+3	forgalomban	forgalom	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	4	_	_	_	_	_
+4	lévő	lévő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	érmék	érme	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	6	_	_	_	_	_
+6	többsége	többség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	8	_	_	_	_	_
+7	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	8	_	_	_	_	_
+8	rendelkezik	rendelkezik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	értékkel	érték	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	8	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+12	így	így	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+13	ebből	ez	[/Det|Pro][Ela]	PRON	Case=Ela|Number=Sing|Person=3|PronType=Dem	DET	15	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	szempontból	szempont	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	17	_	_	_	_	_
+16	közelebb	közel	[/Adv][_Comp/Adv]	ADV	Degree=Cmp	LOCY	17	_	_	_	_	_
+17	állnak	áll	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	12	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	pénzjegyekhez	pénzjegy	[/N][Pl][All]	NOUN	Case=All|Number=Plur	OBL	17	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+21	mint	mint	[/Cnj]	SCONJ	_	CONJ	17	_	_	_	_	_
+22	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	_	_	_	_	_
+23	értékpénzekhez	értékpénz	[/N][Pl][All]	NOUN	Case=All|Number=Plur	ATT	21	_	_	_	_	_
+24	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_6
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	papírpénz	papírpénz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	kínaiak	kínai	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	POSS	5	_	_	_	_	_
+5	találmánya	találmány	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ROOT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	15	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	7.	7.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	10	_	_	_	_	_
+10	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	15	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	Tang-dinasztia	Tang-dinasztia	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	14	_	_	_	_	_
+14	alatt	alatt	[/Post]	ADP	_	COORD	10	_	_	_	_	_
+15	jelent	jelenik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	5	_	_	_	_	_
+16	meg	meg	[/Prev]	PART	_	PREVERB	15	_	_	_	_	_
+17	;	;	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+18	szélesebb	széles	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	19	_	_	_	_	_
+19	körben	kör	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	23	_	_	_	_	_
+20	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	23	_	_	_	_	_
+21	csak	csak	[/Adv]	ADV	_	MODE	22	_	_	_	_	_
+22	később	később	[/Adv]	ADV	_	TLOCY	23	_	_	_	_	_
+23	terjedt	terjed	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+24	el	el	[/Prev]	ADV	_	PREVERB	23	_	_	_	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_7
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	3	_	_	_	_	_
+3	papírpénzeket	papírpénz	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	8	_	_	_	_	_
+4	Kínában	Kína	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	8	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	10.	10.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	_	_	_	_	_
+7	századtól	század	[/N][Abl]	NOUN	Case=Abl|Number=Sing	TFROM	8	_	_	_	_	_
+8	bocsátották	bocsát	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	ki	ki	[/Prev]	ADV	_	PREVERB	8	_	_	_	_	_
+10	császári	császári	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	rendeletre	rendelet	[/N][Subl]	NOUN	Case=Sub|Number=Sing	MODE	8	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pénzjegyek	pénzjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	3	_	_	_	_	_
+3	forgalmát	forgalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	_
+4	tehát	tehát	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+5	rendeletileg	rendeletileg	[/Adv]	ADV	_	MODE	6	_	_	_	_	_
+6	kényszerítették	kényszerít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	ki	ki	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	kötelező	kötelező	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	10	_	_	_	_	_
+10	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+11	azokat	az	[/N|Pro][Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Dem	OBJ	13	_	_	_	_	_
+12	fizetésnél	fizetés	[/N][Ade]	NOUN	Case=Ade|Number=Sing	OBL	13	_	_	_	_	_
+13	elfogadni	elfogad	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	10	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	fémpénzeket	fémpénz	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	19	_	_	_	_	_
+18	rájuk	ők	[/N|Pro][Subl][3Pl]	PRON	Case=Sub|Number=Plur|Person=3|PronType=Prs	OBL	19	_	_	_	_	_
+19	beváltani	bevált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	COORD	15	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_9
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pénzjegyekkel	pénzjegy	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	3	_	_	_	_	_
+3	szembeni	szembeni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	fedezetet	fedezet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+5	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	6	_	_	_	_	_
+6	garantálták	garantál	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	császár	császár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+3	gyakran	gyakran	[/Adv]	ADV	_	TLOCY	4	_	_	_	_	_
+4	folyamodott	folyamodik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	pénzjegykibocsátáshoz	pénzjegykibocsátás	[/N][All]	NOUN	Case=All|Number=Sing	OBL	4	_	_	_	_	_
+7	kiadásai	kiadás	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	POSS	8	_	_	_	_	_
+8	fedezésére	fedezés	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	4	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+10	így	így	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+12	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	pénzjeggyel	pénzjegy	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	14	_	_	_	_	_
+14	együtt	együtt	[/Post|(Ins)]	ADP	_	MODE	15	_	_	_	_	_
+15	megjelent	megjelenik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	_	_	_	_	_
+16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	infláció	infláció	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	15	_	_	_	_	_
+18	is	is	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pénzjegyek	pénzjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	5	_	_	_	_	_
+3	valamelyest	valamelyest	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+4	kényelmesebbé	kényelmes	[/Adj][_Comp/Adj][Transl]	ADJ	Case=Tra|Degree=Cmp|Number=Sing	OBL	5	_	_	_	_	_
+5	tették	tesz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	kereskedelmet	kereskedelem	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+9	de	de	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+10	forgalmuk	forgalom	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	SUBJ	14	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	birodalom	birodalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+13	területére	terület	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	TO	14	_	_	_	_	_
+14	korlátozódott	korlátozódik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	9	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_12
+1	Marco	Marco	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Polo	Polo	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+3	hírét	hír	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	4	_	_	_	_	_
+4	vitte	visz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	Európába	Európa	[/N][Ill]	PROPN	Case=Ill|Number=Sing	TO	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	találmánynak	találmány	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	3	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+9	de	de	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+10	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	11	_	_	_	_	_
+11	keltett	kelt	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	9	_	_	_	_	_
+12	fel	fel	[/Prev]	ADV	_	PREVERB	11	_	_	_	_	_
+13	érdeklődést	érdeklődés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	modellre	modell	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	11	_	_	_	_	_
+4	ma	ma	[/Adv]	ADV	_	TLOCY	11	_	_	_	_	_
+5	legjobban	jobban	[/Supl][/Adv]	ADV	Degree=Sup	MODE	11	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	kormányzatok	kormányzat	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	8	_	_	_	_	_
+8	által	által	[/Post]	ADP	_	MODE	9	_	_	_	_	_
+9	kibocsátott	kibocsátott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	államjegy	államjegy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	11	_	_	_	_	_
+11	hasonlít	hasonlít	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_14
+1	Ilyenek	ilyen	[/Adj|Pro][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Dem	PRED	2	_	_	_	_	_
+2	voltak	van	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	magyar	magyar	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	korona	korona	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+6	pénzjegyei	pénzjegy	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	2	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+10	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	12	_	_	_	_	_
+11	szocialista	szocialista	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	országban	ország	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	14	_	_	_	_	_
+13	forgalomba	forgalom	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	14	_	_	_	_	_
+14	hozott	hozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+15	kis	kis	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	OBL	16	_	_	_	_	_
+16	címletű	címletű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	pénzjegyek	pénzjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	8	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_15
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	európai	európai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	pénzjegyek	pénzjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	5	_	_	_	_	_
+4	Velencében	Velence	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	5	_	_	_	_	_
+5	alakultak	alakul	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	ki	ki	[/Prev]	ADV	_	PREVERB	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+8	kereskedelmi	kereskedelmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	váltókból	váltó	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	5	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_16
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	váltó	váltó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	_	_	_	_	_
+3	ígéret	ígéret	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+4	későbbi	későbbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	fizetésre	fizetés	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	3	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+7	vagyis	vagyis	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	váltó	váltó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+10	birtokosa	birtokos	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	17	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	váltót	váltó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	névértéknek	névérték	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	15	_	_	_	_	_
+15	megfelelő	megfelelő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	értékpénzre	értékpénz	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	18	_	_	_	_	_
+17	tudta	tud	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	7	_	_	_	_	_
+18	váltani	vált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	17	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_17
+1	Elfogadása	elfogadás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	9	_	_	_	_	_
+2	így	így	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	9	_	_	_	_	_
+3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	_	_	_	_	_
+4	kényszer	kényszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+7	bizalom	bizalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	6	_	_	_	_	_
+8	hatására	hatás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	9	_	_	_	_	_
+9	történik	történik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_18
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	bizalmat	bizalom	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	megfelelő	megfelelő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	fedezet	fedezet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+6	alapozza	alapoz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	meg	meg	[/Prev]	PART	_	PREVERB	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	10	_	_	_	_	_
+10	garantálja	garantál	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	10	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	váltó	váltó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	15	_	_	_	_	_
+15	kibocsátója	kibocsátó	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	17	_	_	_	_	_
+16	kellően	kellő	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	17	_	_	_	_	_
+17	likvid	likvid	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	követelés	követelés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	20	_	_	_	_	_
+20	kielégítéséhez	kielégítés	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	17	_	_	_	_	_
+21	(	(	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+22	vagyis	vagyis	[/Cnj]	CCONJ	_	APPEND	20	_	_	_	_	_
+23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+24	váltó	váltó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	25	_	_	_	_	_
+25	értékének	érték	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	26	_	_	_	_	_
+26	megfizetéséhez	megfizetés	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	22	_	_	_	_	_
+27	)	)	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+28	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_19
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	modell	modell	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	_	_	_	_	_
+3	mai	mai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	képviselői	képviselő	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	jegybankok	jegybank	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	7	_	_	_	_	_
+7	által	által	[/Post]	ADP	_	MODE	8	_	_	_	_	_
+8	kibocsátott	kibocsátott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	bankjegyek	bankjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	4	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_20
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	bankjegyek	bankjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	3	_	_	_	_	_
+3	elfogadottsága	elfogadottság	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	5	_	_	_	_	_
+4	sokkal	sokkal	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	jobb	jó	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ROOT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	mint	mint	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	államjegyeké	államjegy	[/N][Pl][AnP][Nom]	NOUN	Case=Nom|Number=Plur|Number[psed]=Sing	ATT	7	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	ezért	ezért	[/Cnj]	CCONJ	_	MODE	17	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+13	megfelelő	megfelelő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	OBL	14	_	_	_	_	_
+14	fedezetű	fedezetű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	bankjegyek	bankjegy	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	17	_	_	_	_	_
+16	kedvelt	kedvelt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	fizetőeszközök	fizetőeszköz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	5	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+19	nemzetközi	nemzetközi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+20	kereskedelemben	kereskedelem	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	17	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_75.conllup_21
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	tartalmi	tartalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	elemek	elem	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	_	_	_	_	_
+4	szöveges	szöveges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	formában	forma	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	6	_	_	_	_	_
+6	tartalmazzák	tartalmaz	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	bankjegy	bankjegy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+9	értékével	érték	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	_	_	_	_	_
+10	és	és	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+11	érvényességével	érvényesség	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	10	_	_	_	_	_
+12	kapcsolatos	kapcsolatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	információkat	információ	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	6	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

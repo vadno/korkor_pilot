@@ -6,12 +6,12 @@ KorKor is a multi-layered, manually annotated Hungarian corpus. Besides the trad
 
 The corpus is divided into to subcorpora. The first group of the files contains all layers of annotations, but a smaller part lacks of certain annotation layers (zero verbs and pronouns, anaphora and coreference relations).
 
-|                                                               |              document |          sentence | token  |
-|:--------------------------------------------------------------|----------------------:|------------------:| -----:|
-| coreference annotated                                         |                    95 |              1436 | 31492 |
-| dependency annotation corrected                               |                    26 |               463 | 8853 |
+|                                                               | document | token |
+|:--------------------------------------------------------------|---------:|------:|
+| coreference annotated                                         |       94 | 26581 |
+| dependency annotation corrected                               |       26 |  8604 |
 
-Punctuation marks, zero verbs and pronouns count as separate tokens.
+Token size is measured on KorKor of xtsv format. Punctuation marks, zero verbs and pronouns count as separate tokens.
 
 ## Sources
 
@@ -24,13 +24,13 @@ The number of texts of the two sources and in the two phases of the corpus:
 | |                coreference |             dependency |
 |:----------|---------------------------:|-----------------------:|
 | Global Voices |                         32 |                      3 |
-| Wikipédia |                         63 |                     23 |
+| Wikipédia |                          6 |                     23 |
 
 ## Format
 
 The corpus consists of files containing the documents. The files are in [xtsv](https://github.com/dlt-rilmta/xtsv) format which is a format of tab spearated file with a header. The file has one token per line, the sentences are separated with an empty line. Linguistic annotations are in columns separated by TAB characters. The order of the columns are not fixed, their order is defined in the header.
 
-The files contains the following linguistic annotation layers (with the corresponding names in the xtsv header in the brackets)
+The files contain the following linguistic annotation layers (with the corresponding names in the xtsv header in the brackets)
 
 * token (form)
 * possible morphological tags (anas)
@@ -70,7 +70,7 @@ emDep module of [emtsv](https://github.com/dlt-rilmta/emtsv) gave the dependency
 
 There are some differences between the original tagset of emDep and the tagset used in the corpus:
  * the type of the dependency relation between the possessor and the possessum is **POSS** (instead of **ATT**)
- * all preverbs connects with relation type **PREVERB** (not only the preverb *meg*)
+ * all preverbs connect with relation type **PREVERB** (not only the preverb *meg*)
 
 ### Zero Verbs
 
@@ -107,14 +107,14 @@ The following types of pronoun are annotated:
 
 | type of the pronoun | abbreviation | frequency |
 |:--------------------|:-------------|----------:|
-| personal            | **prs**      |      1497 |
-| demonstrative       | **dem**      |       147 |
-| reciprocal          | **recip**    |        11 |
-| reflexive           | **refl**     |        18 |
-| relative            | **rel**      | TODO |
+| personal            | **prs**      |      1306 |
+| demonstrative       | **dem**      |       121 |
+| reciprocal          | **recip**    |        10 |
+| reflexive           | **refl**     |        16 |
+| relative            | **rel**      |       294 |
 | possessive          | **poss**     |         0 |
-| general             | **arb**      |       316 |
-| speaker             | **speak**    |         5 |
+| general             | **arb**      |       274 |
+| speaker             | **speak**    |         4 |
 | addressee           | **addr**     |         1 |
 
 It is not obligatory to types of **arb**, **speak** and **addr** to have an antecedent, in these cases the column of **corefhead** remain empty, in all other cases it is filled.
@@ -123,8 +123,8 @@ The following coreference types are annotated:
 
 | types of coreference | abbreviation  | frequency |
 |:---------------------| :-------------|----------:|
-| coreference          | **coref** |      1582 |
-| part-whole relation  | **holo** |       202 |
+| coreference          | **coref** |      1365 |
+| part-whole relation  | **holo** |       180 |
 
 The tag **coref** is for the relation tpye when the two elements have identical reference (e.g.~in the case of repetition, synonym, hiper- and hyponym).
 

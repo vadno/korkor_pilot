@@ -1,0 +1,170 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_33.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+2	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+3	Állami	Állami	[/N]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	Rádió	Rádió	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	,	,	[/N]	NOUN	Case=Nom|Number=Sing	NE	6	_	_	_	_	_
+6	Film	Film	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	és	és	[/N]	NOUN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	Televízió	Televízió	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Hivatal	Hivatal	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	12	_	_	_	_	_
+10	nemrég	nemrég	[/Adv]	ADV	_	TLOCY	12	_	_	_	_	_
+11	korlátozásokat	korlátozás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	12	_	_	_	_	_
+12	vezetett	vezet	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	be	be	[/Prev]	ADV	_	PREVERB	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+15	rossz	rossz	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	hírű	hírű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	előadók	előadó	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	20	_	_	_	_	_
+18	képernyőn	képernyő	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	19	_	_	_	_	_
+19	való	való	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+20	megjelenésének	megjelenés	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	21	_	_	_	_	_
+21	szabályozására	szabályozás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	_	_	_	_	_
+22	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+23	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	27	_	_	_	_	_
+24	többek	sok	[/Num][_Comp/Num][Pl][Nom]	NUM	Case=Nom|Number=Plur|NumType=Card	ATT	25	_	_	_	_	_
+25	között	között	[/Post]	ADP	_	MODE	27	_	_	_	_	_
+26	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	27	_	_	_	_	_
+27	eredményezte	eredményez	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+28	,	,	[Punct]	PUNCT	_	PUNCT	27	_	_	_	_	_
+29	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	27	_	_	_	_	_
+30	Sola	Sola	[/N]	PROPN	Case=Nom|Number=Sing	NE	31	_	_	_	_	_
+31	Aoi	Aoi	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	33	_	_	_	_	_
+32	japán	japán	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	33	_	_	_	_	_
+33	pornósztár	pornósztár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	35	_	_	_	_	_
+34	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	35	_	_	_	_	_
+35	szerepelhet	szerepel	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	29	_	_	_	_	_
+36	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	38	_	_	_	_	_
+37	televíziós	televíziós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	38	_	_	_	_	_
+38	műsorokban	műsor	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	35	_	_	_	_	_
+39	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_2
+1	Sola	Sola	[/N]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Aoi	Aoi	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	legnépszerűbb	népszerű	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	5	_	_	_	_	_
+5	pornósztár	pornósztár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+6	Kínában	Kína	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	5	_	_	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	2010-es	2010-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+3	Shanghai	Shanghai	[/N]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	Expo	Expo	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	idején	idő	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	10	_	_	_	_	_
+6	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	8	_	_	_	_	_
+7	internetes	internetes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	portál	portál	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	_	_	_	_	_
+9	szóvivőjeként	szóvivő	[/N][Poss.3Sg][EssFor:ként]	NOUN	Case=Ess|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	10	_	_	_	_	_
+10	szerepelt	szerepel	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+12	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	14	_	_	_	_	_
+13	expós	expós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	rendezvények	rendezvény	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	16	_	_	_	_	_
+15	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	16	_	_	_	_	_
+16	részén	rész	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	10	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	Sina	Sina	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	Weibón	Weibo	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	9	_	_	_	_	_
+4	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	8	_	_	_	_	_
+5	mint	mint	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+6	11	11	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	7	_	_	_	_	_
+7	millió	millió	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	_	_	_	_	_
+8	rajongója	rajongó	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	9	_	_	_	_	_
+9	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_5
+1	Annak	az	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	ATT	2	_	_	_	_	_
+2	ellenére	ellenére	[/Post|(Poss)][Prs.NDef.3Sg]	ADP	_	MODE	17	_	_	_	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+4	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	17	_	_	_	_	_
+5	Sola	Sola	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	11	_	_	_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	imázsát	imázs	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	11	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	viszonyokhoz	viszony	[/N][Pl][All]	NOUN	Case=All|Number=Plur	OBL	11	_	_	_	_	_
+11	igazítja	igazít	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	4	_	_	_	_	_
+12	művészi	művészi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+13	online	online	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	rövidfilmjeivel	rövidfilm	[/N][Pl.Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	11	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+16	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	17	_	_	_	_	_
+17	menekülhet	menekül	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	tiltás	tiltás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	20	_	_	_	_	_
+20	elől	elől	[/Post]	ADP	_	FROM	17	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_6
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	rajongói	rajongó	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	5	_	_	_	_	_
+3	természetesen	természetesen	[/Adv]	ADV	_	APPEND	5	_	_	_	_	_
+4	rendkívül	rendkívül	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	frusztráltak	frusztrált	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	ROOT	0	_	_	_	_	_
+6	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_7
+1	Hogy	hogy	[/Cnj]	SCONJ	_	CONJ	9	_	_	_	_	_
+2	kifejezzék	kifejez	[/V][Sbjv.Def.3Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	_	_	_	_	_
+3	támogatásukat	támogatás	[/N][Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBJ	2	_	_	_	_	_
+4	Sola	Sola	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	iránt	iránt	[/Post]	ADP	_	OBL	3	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+7	néhányuk	néhány	[/Num][Poss.3Pl][Nom]	NUM	Case=Nom|Number=Sing|Number[psor]=Plur|NumType=Card|Person[psor]=3	SUBJ	9	_	_	_	_	_
+8	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	9	_	_	_	_	_
+9	döntött	dönt	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	9	_	_	_	_	_
+12	felmutatnak	felmutat	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	_	_	_	_	_
+13	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	14	_	_	_	_	_
+14	szlogent	szlogen	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+15	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	16	_	_	_	_	_
+16	focimeccsen	focimeccs	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	12	_	_	_	_	_
+17	Guangzhouban	Guangzhou	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	12	_	_	_	_	_
+18	2012.	2012.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	19	_	_	_	_	_
+19	április	április	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	20	_	_	_	_	_
+20	17-én	17	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	12	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_33.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szlogen	szlogen	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	27	_	_	_	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	27	_	_	_	_	_
+4	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	6	_	_	_	_	_
+5	egyszerre	egyszerre	[/Adv]	ADV	_	TLOCY	6	_	_	_	_	_
+6	próbál	próbál	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	27	_	_	_	_	_
+7	rájátszani	rájátszik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	nacionalista	nacionalista	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	érzelmekre	érzelem	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	OBL	7	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	Diaoyu-szigetek	Diaoyu-sziget	[/N][Pl][Nom]	PROPN	Case=Nom|Number=Plur	ATT	13	_	_	_	_	_
+13	iránti	iránti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+14	területi	területi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	követelések	követelés	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	16	_	_	_	_	_
+16	kapcsán	kapcsán	[/Post|(Poss)]	ADP	_	MODE	7	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	pornórajongók	pornórajongó	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	22	_	_	_	_	_
+21	nemzetközi	nemzetközi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	szolidaritására	szolidaritás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	18	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+24	gyorsan	gyors	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	27	_	_	_	_	_
+25	nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	_	_	_	_	_
+26	figyelmet	figyelem	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	27	_	_	_	_	_
+27	kapott	kap	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+28	és	és	[/Cnj]	CCONJ	_	CONJ	27	_	_	_	_	_
+29	elterjedt	elterjed	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	28	_	_	_	_	_
+30	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	31	_	_	_	_	_
+31	interneten	internet	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	29	_	_	_	_	_
+32	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

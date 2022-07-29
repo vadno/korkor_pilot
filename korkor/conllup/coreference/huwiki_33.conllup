@@ -1,0 +1,527 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_33.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	karmester	karmester	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	előadóművész	előadóművész	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+6	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	8	_	_	_	_	_
+7	zenei	zenei	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	együttesek	együttes	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	9	_	_	_	_	_
+9	vezetője	vezető	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	3			_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	mind	mind	[/Cnj]	CCONJ	_	MODE	13	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	próbákon	próba	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	???	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	mind	mind	[/Cnj]	CCONJ	_	DET	17	_	_	_	_	_
+16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	előadásokon	előadás	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	COORD	13	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	zenekar	zenekar	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	1:8	coref	_	_	_
+3	összjátékát	összjáték	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	7	_	_	_	_	_
+4	kézmozdulatok	kézmozdulat	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	5	_	_	_	_	_
+5	jelrendszere	jelrendszer	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	6	_	_	_	_	_
+6	segítségével	segítség	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	7	_	_	_	_	_
+7	irányítja	irányít	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_3
+1	Napjaink	nap	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	POSS	2			_	_	_
+2	karmesterének	karmester	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	3	_	_	_	_	_
+3	munkáját	munka	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	7	_	_	_	_	_
+4	három	három	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	_	_	_	_	_
+5	részfeladatra	részfeladat	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	7	_	_	_	_	_
+6	szokás	szokás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+7	osztani	oszt	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	_	_	YES	_	_
+8	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	mai	mai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	karmesterség	karmesterség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	19.	19.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	6	_	_	_	_	_
+6	század	század	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	folyamán	folyamán	[/Post|(Poss)]	ADP	_	TLOCY	8	_	_	_	_	_
+8	alakult	alakul	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	ki	ki	[/Prev]	ADV	_	PREVERB	8	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_5
+1	Előzményének	előzmény	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	DAT	2	_	_	_	_	YES
+2	tekinthetjük	tekint	[/V][_Mod/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	énekmesterek	énekmester	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	12	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	karvezetők	karvezető	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	4	_	_	_	_	_
+7	(	(	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+8	kapellmeisterek	kapellmeister	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	APPEND	6	5:6	coref	_	_	_
+9	)	)	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	tempót	tempó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+11	diktáló	diktáló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	kézjelzéseit	kézjelzés	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	2	_	_	_	_	_
+13	(	(	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+14	15–16.	15–16.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	15	_	_	_	_	_
+15	század	század	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	12	_	_	_	_	_
+16	)	)	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+18	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+20	későbbi	későbbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	századokban	század	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	24	_	_	_	_	_
+22	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	_	_	_	_	_
+23	zenekarvezetők	zenekarvezető	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	24	_	_	_	_	_
+24	munkáját	munka	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	18	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	24	_	_	_	_	_
+26	akik	aki	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	43	5:23	rel	_	_	_
+27	leggyakrabban	leggyakrabban	[/Supl][/Adv]	ADV	Degree=Sup	TLOCY	43	_	_	_	_	_
+28	valamilyen	valamilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Ind	ATT	30	_	_	_	_	_
+29	billentyűs	billentyűs	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	30	_	_	_	_	_
+30	hangszer	hangszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	38	_	_	_	_	_
+31	(	(	[Punct]	PUNCT	_	PUNCT	32	_	_	_	_	_
+32	csembaló	csembaló	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	30	_	_	_	_	_
+33	,	,	[Punct]	PUNCT	_	PUNCT	32	_	_	_	_	_
+34	orgona	orgona	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	32	_	_	_	_	_
+35	,	,	[Punct]	PUNCT	_	PUNCT	34	_	_	_	_	_
+36	zongora	zongora	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	34	_	_	_	_	_
+37	)	)	[Punct]	PUNCT	_	PUNCT	32	_	_	_	_	_
+38	mellől	mellől	[/Post]	ADP	_	FROM	43	_	_	_	_	_
+39	,	,	[Punct]	PUNCT	_	PUNCT	38	_	_	_	_	_
+40	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	38	_	_	_	_	_
+41	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	42	_	_	_	_	_
+42	hegedűsként	hegedűs	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	COORD	40	_	_	_	_	_
+43	irányítottak	irányít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	24	_	_	_	_	_
+44	(	(	[Punct]	PUNCT	_	PUNCT	46	_	_	_	_	_
+45	17–18.	17–18.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	46	_	_	_	_	_
+46	század	század	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	43	_	_	_	_	_
+47	)	)	[Punct]	PUNCT	_	PUNCT	46	_	_	_	_	_
+48	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_6
+1	Nevezetes	nevezetes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	dátuma	dátum	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	YES	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	karmesterek	karmester	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	5	3:2	coref	_	_	_
+5	történetének	történet	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	2	_	_	_	_	_
+6	1820	1820	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	2	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+8	amikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	12	6:6	rel	_	_	_
+9	Louis	Louis	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Spohr	Spohr	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	12	_	_	_	_	_
+11	pálcát	pálca	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+12	vett	vesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+13	kezébe	kéz	[/N][Poss.3Sg][Ill]	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	_	_	_	_	YES
+14	–	–	[Hyph:Dash]	X	_	PUNCT	20	_	_	_	_	_
+15	ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	20	6:11	dem	_	_	_
+16	egyébként	egyébként	[/Adv]	ADV	_	MODE	20	_	_	_	_	_
+17	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	18	_	_	_	_	_
+18	hegedű	hegedű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	19	_	_	_	_	_
+19	vonója	vonó	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	20	_	_	_	_	_
+20	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	APPEND	12	_	_	_	_	_
+21	–	–	[Hyph:Dash]	X	_	PUNCT	20	_	_	_	_	_
+22	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+23	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	25	6:11	dem	_	_	_
+24	„	„	[Punct]	PUNCT	_	PUNCT	25	_	_	_	_	_
+25	ütötte	üt	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	22	_	_	YES	_	_
+26	”	”	[Punct]	PUNCT	_	PUNCT	25	_	_	_	_	_
+27	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+28	taktust	taktus	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	25	_	_	_	_	_
+29	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	következő	következő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	években	év	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	6	_	_	_	_	_
+4	rendkívül	rendkívül	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	gyorsan	gyors	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	6	_	_	_	_	_
+6	fejlődött	fejlődik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	ez	ez	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	9	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	szakma	szakma	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	4:3	coref	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_8
+1	Az	az	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	???	_	_	_	_	_
+2	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+3	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	???	_	_	_	_	_
+4	szükség	szükség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+5	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	_	_	_	_	_
+6	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	8	_	_	_	_	_
+7	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	8	_	_	_	_	_
+8	emberre	ember	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	5	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+10	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	15	8:8	rel	_	_	_
+11	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	zenekar	zenekar	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	14	2:2	coref	_	_	_
+14	irányításával	irányítás	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	15	_	_	_	_	_
+15	foglalkozik	foglalkozik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5	_	_	_	_	_
+16	,	,	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+17	(	(	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+18	azaz	azaz	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+19	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	22	_	_	_	_	_
+20	valamilyen	valamilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Ind	ATT	21	_	_	_	_	_
+21	hangszer	hangszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	22	_	_	_	_	_
+22	mellől	mellől	[/Post]	ADP	_	FROM	23	_	_	_	_	_
+23	tartja	tart	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	18	_	_	YES	_	_
+24	egyben	egyben	[/Adv]	ADV	_	OBL	23	_	_	_	_	_
+25	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	_	_	_	_	_
+26	előadást	előadás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	23	1:17	coref	_	_	_
+27	)	)	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+28	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	29	_	_	_	_	_
+29	tényező	tényező	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	31	_	_	_	_	_
+30	együttes	együttes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	31	_	_	_	_	_
+31	megjelenésének	megjelenés	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	DAT	32	_	_	_	_	_
+32	köszönhető	köszönhető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???			_	_	_
+33	:	:	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_9
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	vezénylés	vezénylés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	8:14	coref	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	_	_	_	_	_
+5	kéz	kéz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+6	egymást	egymás	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rcp	OBJ	7	9:5	recip	_	_	_
+7	kiegészítő	kiegészítő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	közös	közös	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	7	_	_	_	_	_
+10	munkája	munka	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	jobb	jobb	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	kézben	kéz	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	4	9:5	holo	_	_	_
+4	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	pálca	pálca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	6:11	coref	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+8	ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	9	10:6	dem	_	_	_
+9	határozza	határoz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	_	_	_	_	_
+10	meg	meg	[/Prev]	PART	_	PREVERB	9	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	tempót	tempó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	ritmus	ritmus	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	_	_	_	_	_
+16	alapkarakterét	alapkarakter	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	13	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	metrumát	metrum	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	bal	bal	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	kéz	kéz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	9:5	holo	_	_	_
+4	rajzolja	rajzol	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	meg	meg	[/Prev]	PART	_	PREVERB	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	zenei	zenei	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	vonalakat	vonal	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	dallamíveket	dallamív	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	8	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	játékintenzitást	játékintenzitás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	11	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+16	jelzi	jelez	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	_	_	YES	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	belépés	belépés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	19	_	_	_	_	_
+19	pillanatát	pillanat	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	16	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+22	fokozást	fokozás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	19	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+24	erősítést	erősítés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	22	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	24	_	_	_	_	_
+26	halkítást	halkítás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	24	_	_	_	_	_
+27	,	,	[Punct]	PUNCT	_	PUNCT	26	_	_	_	_	_
+28	gyengítést	gyengítés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	26	_	_	_	_	_
+29	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_12
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	pálca	pálca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	10:6	coref	_	_	_
+3	szerepe	szerep	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	5	_	_	_	_	_
+4	elsősorban	elsősorban	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	az	az	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ROOT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	kéz	kéz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	9:5	coref	_	_	_
+10	mozdulatait	mozdulat	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	12	_	_	_	_	_
+11	világossá	világos	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	12	_	_	_	_	_
+12	tegye	tesz	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	7	_	_	YES	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	megnövelje	megnövel	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	13	_	_	YES	YES	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_13
+1	Lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+2	egészen	egészen	[/Adv]	ADV	_	MODE	3	_	_	_	_	_
+3	hosszú	hosszú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	1	_	_	_	_	_
+4	(	(	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+5	60	60	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	6	_	_	_	_	_
+6	cm	cm	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	3	_	_	_	_	_
+7	)	)	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+9	de	de	[/Cnj]	CCONJ	_	CONJ	1	_	_	_	_	_
+10	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	_	_	YES	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	15	_	rel	_	_	_
+13	egyáltalán	egyáltalán	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+14	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	15	_	_	_	_	_
+15	használta	használ	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	10	_	_	_	YES	_
+16	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+17	használja	használ	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	16	_	_	YES	YES	_
+18	(	(	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+19	mint	mint	[/Cnj]	SCONJ	_	APPEND	17	_	_	_	_	_
+20	például	például	[/Adv]	ADV	_	MODE	22	_	_	_	_	_
+21	Pierre	Pierre	[/N]	PROPN	Case=Nom|Number=Sing	NE	22	_	_	_	_	_
+22	Boulez	Boulez	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	19	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+24	Leopold	Leopold	[/N]	PROPN	Case=Nom|Number=Sing	NE	25	_	_	_	_	_
+25	Stokowski	Stokowski	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	22	_	_	_	_	_
+26	,	,	[Punct]	PUNCT	_	PUNCT	25	_	_	_	_	_
+27	Dimitri	Dimitri	[/N]	PROPN	Case=Nom|Number=Sing	NE	28	_	_	_	_	_
+28	Mitropoulos	Mitropoulos	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	25	_	_	_	_	_
+29	)	)	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+30	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_14
+1	Mitropoulos	Mitropoulos	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	5	13:28	coref	_	_	_
+2	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	3	_	_	_	_	_
+3	alkalommal	alkalom	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	5	_	_	_	_	_
+4	így	így	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	5	_	_	_	_	_
+5	fogalmazott	fogalmaz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	:	:	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	Hiszem	hisz	[/V][Prs.Def.1Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5	_	_	YES	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	7	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	kezek	kéz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	12	12:9	coref	_	_	_
+12	kommunikációja	kommunikáció	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	14	_	_	_	_	_
+13	híven	hív	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	14	_	_	_	_	_
+14	kifejezi	kifejez	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9	_	_	_	_	_
+15	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	14	_	_	_	_	_
+16	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+17	amit	ami	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	18	14:15	rel	_	_	_
+18	érzek	érez	[/V][Prs.NDef.1Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	_	_	YES	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_15
+1	Azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	2	_	_	_	_	_
+2	gondolom	gondol	[/V][Prs.Def.1Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+4	pusztán	pusztán	[/Adv]	ADV	_	null	6	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	kezeimmel	kéz	[/N][Pl.Poss.1Sg][Ins]	NOUN	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=1	MODE	11	14:11	coref	_	_	YES
+7	jobban	jobban	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+8	ki	ki	[/Prev]	ADV	_	PREVERB	11	_	_	_	_	_
+9	tudom	tud	[/V][Prs.Def.1Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	2	_	_	YES	_	_
+10	magam	én	[/N|Pro][1Sg][Acc]	PRON	Case=Acc|Number=Sing|Person=1|PronType=Prs	OBJ	11	???	refl	_	_	_
+11	fejezni	fejez	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	_	_	YES	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_16
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kéz	kéz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	15:6	coref	_	_	_
+3	gesztusai	gesztus	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	4	_	_	_	_	_
+4	eljutnak	eljut	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	zenészhez	zenész	[/N][All]	NOUN	Case=All|Number=Sing	TO	4	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+8	mivel	mivel	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+9	közvetlenül	közvetlen	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	11	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	lelkét	lélek	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	12	_	_	_	_	YES
+12	érinti	érint	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	8	_	_	YES	_	_
+13	meg	meg	[/Prev]	PART	_	PREVERB	12	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_17
+1	Egy-egy	egy-egy	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Dist	ATT	2	_	_	_	_	_
+2	előadás	előadás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	_	_	_	_	_
+3	kidolgozottsága	kidolgozottság	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	próbamunkától	próbamunka	[/N][Abl]	NOUN	Case=Abl|Number=Sing	OBL	6	_	_	_	_	_
+6	függ	függ	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_18
+1	Vannak	van	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+2	végtelenül	végtelen	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	3	_	_	_	_	_
+3	sokat	sok	[/Num][Acc]	NUM	Case=Acc|Number=Sing|NumType=Card	OBL	4	_	_	_	_	_
+4	próbáló	próbáló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	karmesterek	karmester	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	1	6:4	holo	_	_	_
+6	(	(	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+7	mint	mint	[/Cnj]	SCONJ	_	APPEND	5	_	_	_	_	_
+8	Mengelberg	Mengelberg	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+9	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	Celibidache	Celibidache	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	9	_	_	_	_	_
+11	)	)	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+13	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	1	_	_	YES	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	18	_	rel	_	_	_
+16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	előadásra	előadás	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	18	17:2	coref	_	_	_
+18	tartalékolja	tartalékol	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	13	_	_	_	_	_
+19	energiáit	energia	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	18	_	_	_	_	YES
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_19
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	próbán	próba	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	3	1:13	coref	_	_	_
+3	követett	követett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	stratégia	stratégia	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	7	_	_	_	_	_
+5	is	is	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+6	sokféle	sokféle	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	7	_	_	_	_	_
+7	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_20
+1	Van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+2	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+3	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	4	_	rel	_	_	_
+4	végigjátssza	végigjátszik	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	darabot	darab	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+10	utólag	utólag	[/Adv]	ADV	_	TLOCY	11	_	_	_	_	_
+11	visszatér	visszatér	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	_	_	YES	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+13	javítandó	javítandó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	helyekhez	hely	[/N][Pl][All]	NOUN	Case=All|Number=Plur	OBL	11	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+16	más	más	[/N|Pro][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	20	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	amint	amint	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	MODE	19	_	_	_	_	_
+19	problémát	probléma	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	20	_	_	_	_	_
+20	érzékel	érzékel	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	1	_	_	_	_	_
+21	,	,	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+22	leállítja	leállít	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	20	_	_	YES	_	_
+23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+24	zenélést	zenélés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	22	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+26	és	és	[/Cnj]	CCONJ	_	CONJ	22	_	_	_	_	_
+27	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+28	zenekar	zenekar	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	28	8:13	coref	_	_	_
+29	újrakezdi	újrakezd	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	26	_	_	_	YES	_
+30	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	32	_	_	_	_	_
+31	adott	adott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	32	_	_	_	_	_
+32	helytől	hely	[/N][Abl]	NOUN	Case=Abl|Number=Sing	FROM	29	_	_	_	_	_
+33	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_21
+1	Van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+2	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+3	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	7	_	rel	_	_	_
+4	teljesen	teljes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	5	_	_	_	_	_
+5	kidolgozott	kidolgozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	elképzeléssel	elképzelés	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	7	_	_	_	_	_
+7	érkezik	érkezik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	_	_	_	_	_
+8	meg	meg	[/Prev]	PART	_	PREVERB	7	_	_	_	_	_
+9	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+10	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	11	_	_	_	_	_
+11	próbára	próba	[/N][Subl]	NOUN	Case=Sub|Number=Sing	TO	7	19:2	holo	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	1	_	_	_	_	_
+14	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	13	_	_	YES	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	17	_	rel	_	_	_
+17	hagyja	hagy	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	_	_	_	_	_
+18	folyamatosan	folyamatos	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	19	_	_	_	_	_
+19	alakulni	alakul	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	17	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+21	hangzást	hangzás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	19	_	_	_	_	_
+22	és	és	[/Cnj]	CCONJ	_	CONJ	21	_	_	_	_	_
+23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+24	műről	mű	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	25	_	_	_	_	_
+25	alkotott	alkotott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	_	_	_	_	_
+26	elképzelését	elképzelés	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	22			_	_	YES
+27	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_22
+1	Bármilyen	bármilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Ind	ATT	2	_	_	_	_	_
+2	módszerrel	módszer	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	3	_	_	_	_	_
+3	folyik	folyik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	próba	próba	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	19:2	coref	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+7	alapvető	alapvető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	fontosságú	fontosságú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	3	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	8	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	karmester	karmester	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	17	6:4	coref	_	_	_
+13	alapos	alapos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	elemző	elemző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	13	_	_	_	_	_
+16	módon	mód	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	17	_	_	_	_	_
+17	ismerje	ismer	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	partitúrát	partitúra	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	17	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+21	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	_	_	_	_	_
+22	adott	adott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	zeneszerző	zeneszerző	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	27	_	_	_	_	_
+24	és	és	[/Cnj]	CCONJ	_	CONJ	23	_	_	_	_	_
+25	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	_	_	_	_	_
+26	kor	kor	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	24	_	_	_	_	_
+27	stílusát	stílus	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	19	_	_	_	_	_
+28	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_23
+1	Ismernie	ismer	[/V][Inf.3Sg]	VERB	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	INF	2	_	_	YES	_	_
+2	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	valamennyi	valamennyi	[/Det|Q.NDef]	ADV	PronType=Art	ATT	5	_	_	_	_	_
+4	zenekari	zenekari	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	hangszer	hangszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+6	tulajdonságát	tulajdonság	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	1	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	játékmódját	játékmód	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	6	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	e	e	[/Det|Pro|def]	ADV	PronType=Art	DET	11	_	_	_	_	_
+11	játékmód	játékmód	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	23:8	coref	_	_	_
+12	alapvető	alapvető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	szakkifejezéseit	szakkifejezés	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	COORD	9	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+15	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	2	_	_	_	_	_
+16	elképzeléseit	elképzelés	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	22	_	_	_	_	YES
+17	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+18	egyes	egyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	hangszeresekkel	hangszeres	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	22	_	_	_	_	_
+20	meg	meg	[/Prev]	PART	_	PREVERB	22	_	_	_	_	_
+21	tudja	tud	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	15	_	_	YES	_	_
+22	értetni	ért	[/V][_Caus/V][Inf]	VERB	VerbForm=Inf|Voice=Cau	INF	21	_	_	YES	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_33.conllup_24
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	karmesterség	karmesterség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	7:9	coref	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	mai	mai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	napig	nap	[/N][Ter]	NOUN	Case=Ter|Number=Sing	TTO	6	_	_	_	_	_
+6	őrzi	őriz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	azt	az	[/Det|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	DET	9	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	tulajdonságát	tulajdonság	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	YES
+10	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+11	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	17	24:9	rel	_	_	_
+12	elsősorban	elsősorban	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	közönség	közönség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	15	_	_	_	_	_
+15	elvárásainak	elvárás	[/N][Pl.Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	16	_	_	_	_	_
+16	megfelelve	megfelel	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	17	_	_	_	_	_
+17	alakult	alakul	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	_	_	_	_	_
+18	ki	ki	[/Prev]	ADV	_	PREVERB	17	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

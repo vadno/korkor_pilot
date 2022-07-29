@@ -1,0 +1,251 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_42.conllup_1
+1	Boromir	Boromir	[/N]	PROPN	Case=Nom|Number=Sing	ATT	2	_	_	_	_	_
+2	herceg	herceg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	J.	J.	[/N]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	R.	R.	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	R.	R.	[/N]	PROPN	Case=Nom|Number=Sing	NE	6	_	_	_	_	_
+6	Tolkien	Tolkien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	11	_	_	_	_	_
+7	A	A	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	gyűrűk	gyűrűk	[/N]	NOUN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	ura	ura	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	10	_	_	_	_	_
+10	című	című	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	regényének	regény	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	12	_	_	_	_	_
+12	szereplője	szereplő	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_2
+1	II.	II.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	NE	2	_	_	_	_	_
+2	Denethor	Denethor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	4	_	_	_	_	_
+3	gondori	gondori	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	helytartó	helytartó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	11	_	_	_	_	_
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	Dol	Dol	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	Amroth-i	Amroth-i	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	Finduilas	Finduilas	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	5	_	_	_	_	_
+10	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	11	_	_	_	_	_
+11	fiaként	fia	[/N][Poss.3Sg][EssFor:ként]	NOUN	Case=Ess|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	_	_	_	_	_
+12	született	születik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	harmadkor	harmadkor	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	_	_	_	_	_
+15	2978.	2978.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	16	_	_	_	_	_
+16	évében	év	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	12	_	_	_	_	_
+17	Minas	Minas	[/N]	PROPN	Case=Nom|Number=Sing	NE	18	_	_	_	_	_
+18	Tirithben	Tirith	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	12	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_3
+1	Testvére	testvér	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???			_	_	YES
+2	Faramir	Faramir	[/N]	PROPN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	herceg	herceg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+4	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_4
+1	Fiatalkorától	fiatalkor	[/N][Poss.3Sg][Abl]	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	TFROM	3	_	_	_	_	YES
+2	katonának	katona	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	3	_	_	_	_	_
+3	nevelték	nevel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	YES	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	később	később	[/Adv]	ADV	_	TLOCY	10	_	_	_	_	_
+6	Gondor	Gondor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	7	2:3	coref	_	_	_
+7	haderejének	haderő	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	9	_	_	_	_	_
+8	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	parancsnoka	parancsnok	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	10	_	_	_	_	_
+10	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	3	_	_	YES	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	Gondor	Gondor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+13	helytartójának	helytartó	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	14	2:4	coref	_	_	_
+14	örököse	örökös	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_5
+1	Apja	apa	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3	4:13	coref	_	_	YES
+2	őt	ő	[/N|Pro][3Sg][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	OBJ	3	???	prs	_	_	_
+3	favorizálta	favorizál	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	öccse	öcs	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	5	3:3	coref	_	_	YES
+5	ellenében	ellenében	[/Post|(Poss)]	ADP	_	OBL	3	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+7	ám	ám	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+8	ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	10	5:3	dem	_	_	_
+9	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	10	_	_	_	_	_
+10	szült	szül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	7	_	_	_	_	_
+11	viszályt	viszály	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	testvérek	testvér	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	14	_	_	_	_	_
+14	között	között	[/Post]	ADP	_	OBL	10	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+16	Boromir	Boromir	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	20	1:2	coref	_	_	_
+17	inkább	inkább	[/Adv]	ADV	_	MODE	20	_	_	_	_	_
+18	öccse	öcs	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	19	5:4	coref	_	_	YES
+19	védelmezője	védelmező	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	20	_	_	_	_	_
+20	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_6
+1	Közösen	közös	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	2	_	_	_	_	_
+2	védték	véd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+3	Gondor	Gondor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	5	_	_	_	_	_
+4	keleti	keleti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	határát	határ	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	2	_	_	_	_	_
+6	Szauron	Szauron	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	7	_	_	_	_	_
+7	seregei	sereg	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	8	_	_	_	_	_
+8	ellenében	ellenében	[/Post|(Poss)]	ADP	_	OBL	2	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_7
+1	Látomásaik	látomás	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	ATT	2	_	_	_	_	YES
+2	hatására	hatás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	6	_	_	_	_	_
+3	apja	apa	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6	5:1	coref	_	_	YES
+4	3018-ban	3018	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	6	_	_	_	_	_
+5	őt	ő	[/N|Pro][3Sg][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	OBJ	6	_	prs	_	_	_
+6	küldte	küld	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	el	el	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	Völgyzugolyba	Völgyzugoly	[/N][Ill]	PROPN	Case=Ill|Number=Sing	TO	6	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+10	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+11	hozza	hoz	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	_	_	YES	_	_
+12	el	el	[/Prev]	ADV	_	PREVERB	11	_	_	_	_	_
+13	neki	ő	[/N|Pro][Dat][3Sg]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	DAT	11	7:3	prs	_	_	_
+14	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	ellenség	ellenség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	18	_	_	_	_	_
+16	„	„	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+17	titkos	titkos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	fegyverét	fegyver	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	11	_	_	_	_	_
+19	”	”	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+21	az	az	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	23	_	_	_	_	_
+22	Egy	Egy	[/N]	PROPN	Case=Nom|Number=Sing	NE	23	_	_	_	_	_
+23	Gyűrűt	Gyűrű	[/N][Acc]	PROPN	Case=Acc|Number=Sing	COORD	18	_	_	_	_	_
+24	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_8
+1	Miután	miután	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	8	_	_	_	_	_
+2	3019-ben	3019	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	8	_	_	_	_	_
+3	Boromir	Boromir	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	8	5:16	coref	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	Gyűrű	Gyűrű	[/N]	PROPN	Case=Nom|Number=Sing	NE	6	_	_	_	_	_
+6	Szövetségének	Szövetsége	[/N][Dat]	PROPN	Case=Dat|Number=Sing	POSS	7	_	_	_	_	_
+7	tagja	tag	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	8	_	_	_	_	_
+8	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	hűen	hű	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	11	_	_	_	_	_
+11	szolgálta	szolgál	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	_	_	YES	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	Gyűrűhordozót	gyűrűhordozó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+15	mígnem	mígnem	[/Cnj]	CCONJ	_	CONJ	11	_	_	_	_	_
+16	hatalmába	hatalom	[/N][Poss.3Sg][Ill]	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	17	_	_	_	_	_
+17	kerítette	kerít	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	15	_	_	_	YES	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	Gyűrű	gyűrű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	20	7:23	coref	_	_	_
+20	ereje	erő	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	17	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_9
+1	Egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	2	_	_	_	_	_
+2	alkalommal	alkalom	[/N][Ins]	NOUN	Case=Ins|Number=Sing	TLOCY	5	_	_	_	_	_
+3	rá	rá	[/Prev]	ADV	_	PREVERB	5	_	_	_	_	_
+4	is	is	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	támadt	támad	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+6	Frodóra	Frodó	[/N][Subl]	PROPN	Case=Sub|Number=Sing	OBL	5	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+8	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+9	erővel	erő	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	10	_	_	_	_	_
+10	elvegye	elvesz	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	8	_	_	YES	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	gyűrűt	gyűrű	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	8:19	coref	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+14	ám	ám	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	hobbit	hobbit	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	17	9:6	coref	_	_	_
+17	elmenekült	elmenekül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	14	_	_	_	_	_
+18	előle	elől	[/Post][3Sg]	ADP	_	OBL	17	???	prs	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_10
+1	Mikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	8	_	_	_	_	_
+2	Amon	Amon	[/N]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	Hen	Hen	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	4	_	_	_	_	_
+4	erdejében	erdő	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	8	_	_	_	_	_
+5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	7	_	_	_	_	_
+6	Uruk-Hai	Uruk-Hai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	csapat	csapat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+8	támadt	támad	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+9	rájuk	ők	[/N|Pro][Subl][3Pl]	PRON	Case=Sub|Number=Plur|Person=3|PronType=Prs	OBL	8	8:6	prs	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+11	Boromir	Boromir	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	12	8:3	coref	_	_	_
+12	megpróbálta	megpróbál	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	megvédeni	megvéd	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	12	_	_	YES	_	_
+14	Tuk	Tuk	[/N]	PROPN	Case=Nom|Number=Sing	NE	15	_	_	_	_	_
+15	Pippint	Pippin	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	13	_	_	_	_	_
+16	és	és	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+17	Borbak	Borbak	[/N]	PROPN	Case=Nom|Number=Sing	NE	18	_	_	_	_	_
+18	Trufát	Trufa	[/N][Acc]	PROPN	Case=Acc|Number=Sing	COORD	16	_	_	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+20	ám	ám	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+21	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+22	orkok	ork	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	23	_	_	_	_	_
+23	legyőzték	legyőz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	20	_	_	_	YES	_
+24	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_11
+1	Boromir	Boromir	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	8	???	coref	_	_	_
+2	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	3	_	_	_	_	_
+3	sokkal	sok	[/Num][Ins]	NUM	Case=Ins|Number=Sing|NumType=Card	OBL	4	_	_	_	_	_
+4	később	későn	[/Adv][_Comp/Adv]	ADV	Degree=Cmp	TLOCY	8	_	_	_	_	_
+5	Aragorn	Aragorn	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+6	kezei	kéz	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	7	_	_	_	_	_
+7	között	között	[/Post]	ADP	_	LOCY	8	_	_	_	_	_
+8	halt	hal	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	meg	meg	[/Prev]	PART	_	PREVERB	8	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+11	akinek	aki	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	POSS	12	11:5	rel	_	_	_
+12	felsőbbségét	felsőbbség	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	14	_	_	_	_	_
+13	sokáig	sokáig	[/Adv]	ADV	_	TTO	14	_	_	_	_	_
+14	vitatta	vitat	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	8	_	_	YES	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_12
+1	Holttestét	holttest	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	3	_	_	_	_	YES
+2	csónakba	csónak	[/N][Ill]	NOUN	Case=Ill|Number=Sing	TO	3	_	_	_	_	_
+3	fektették	fektet	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+4	fegyvereivel	fegyver	[/N][Pl.Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	3	_	_	_	_	YES
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	Gondor	Gondor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	7	_	_	_	_	_
+7	kürtjével	kürt	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	5	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+10	leúsztatták	leúsztat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	9	_	_	YES	YES	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	folyón	folyó	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	10	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_13
+1	Később	később	[/Adv]	ADV	_	TLOCY	3	_	_	_	_	_
+2	Faramir	Faramir	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	3	5:18	coref	_	_	_
+3	megtalálta	megtalál	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	testvére	testvér	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	6	11:1	coref	_	_	YES
+5	kettéhasadt	kettéhasadt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	kürtjét	kürt	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	3	12:7	coref	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+9	(	(	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+10	látomásában	látomás	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	APPEND	16	_	_	_	_	YES
+11	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	valóságban	valóság	[/N][Ine]	NOUN	Case=Ine|Number=Sing	COORD	11	_	_	_	_	_
+14	)	)	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	holttestét	holttest	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	8	_	_	_	_	YES
+17	is	is	[/Adv]	ADV	_	MODE	16	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_42.conllup_14
+1	Nevének	név	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	2	_	_	_	_	YES
+2	jelentését	jelentés	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	5	_	_	_	_	_
+3	Tolkien	Tolkien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	5	1:6	coref	_	_	_
+4	keverékként	keverék	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	5	_	_	_	_	_
+5	írja	ír	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	le	le	[/Prev]	ADV	_	PREVERB	5	_	_	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

@@ -1,0 +1,118 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_8.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	székesfehérvári	székesfehérvári	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+3	20-as	20-as	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	busz	busz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	13	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	Jancsár	Jancsár	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	utca	utca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	12	_	_	_	_	_
+8	és	és	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+10	Könnyűfémmű	könnyűfémmű	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	_	_	_	_	_
+11	megállóhelyek	megállóhely	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	8	_	_	_	_	_
+12	között	között	[/Post]	ADP	_	LOCY	13	_	_	_	_	_
+13	közlekedik	közlekedik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_2
+1	Üzemideje	üzemidő	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	4	_	_	_	_	YES
+2	5.00-tól	5.00	[/Num|Digit][Abl]	NUM	Case=Abl|Number=Sing|NumType=Card	TFROM	4	_	_	_	_	_
+3	22.35-ig	22.35	[/Num|Digit][Ter]	NUM	Case=Ter|Number=Sing|NumType=Card	TTO	4	_	_	_	_	_
+4	tart	tart	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_3
+1	Munkanapokon	munkanap	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	ATT	2	_	_	_	_	_
+2	reggel	reggel	[/Adv]	ADV	_	TLOCY	???	_	_	_	_	_
+3	20	20	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+4	percenként	perc	[/N][_Distr:nként/Adv]	ADV	_	MODE	???	_	_	YES	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+6	napközben	napközben	[/Adv]	ADV	_	TLOCY	???	_	_	_	_	_
+7	óránként	óra	[/N][_Distr:nként/Adv]	ADV	_	MODE	???	_	_	YES	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+10	délutáni	délutáni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	csúcsidőben	csúcsidő	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	14	_	_	_	_	_
+12	30	30	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	13	_	_	_	_	_
+13	percenként	perc	[/N][_Distr:nként/Adv]	ADV	_	MODE	14	_	_	_	_	_
+14	közlekedik	közlekedik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_4
+1	Hétvégén	hétvége	[/N][Supe]	NOUN	Case=Sup|Number=Sing	ATT	2	_	_	_	_	_
+2	reggel	reggel	[/Adv]	ADV	_	TLOCY	7	_	_	_	_	_
+3	félóránként	félóra	[/N][_Distr:nként/Adv]	ADV	_	MODE	7	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+5	utána	utána	[/Adv]	ADV	_	TLOCY	7	_	_	_	_	_
+6	óránként	óra	[/N][_Distr:nként/Adv]	ADV	_	MODE	7	_	_	_	_	_
+7	közlekedik	közlekedik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+8	;	;	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	9.35	9.35	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	12	_	_	_	_	_
+10	és	és	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+11	13.25	13.25	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	COORD	10	_	_	_	_	_
+12	között	között	[/Post]	ADP	_	TLOCY	14	_	_	_	_	_
+13	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	14	_	_	_	_	_
+14	indul	indul	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	7	_	_	YES	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	viszonylaton	viszonylat	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	6	1:4	coref	_	_	_
+3	többnyire	többnyire	[/Adv]	ADV	_	MODE	6	_	_	_	_	_
+4	szóló	szóló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	autóbuszok	autóbusz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	1:4	coref	_	_	_
+6	közlekedtek	közlekedik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	de	de	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+9	előfordultak	előfordul	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	csúcsidőben	csúcsidő	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	9	_	_	_	_	_
+12	csuklós	csuklós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	autóbuszok	autóbusz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	9	_	_	_	_	_
+14	is	is	[/Adv]	ADV	_	MODE	13	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_6
+1	2016	2016	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	augusztus	augusztus	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	elsejétől	egy	[/Num][_OrdDate/N][Abl]	NOUN	Case=Abl|Number=Sing	TFROM	14	_	_	_	_	_
+4	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	14	_	_	_	_	_
+5	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	VT-ARRIVA	VT-ARRIVA	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	8	_	_	_	_	_
+8	által	által	[/Post]	ADP	_	MODE	9	_	_	_	_	_
+9	üzemeltetett	üzemeltetett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+10	Volvo-Alfa	Volvo-Alfa	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	11	_	_	_	_	_
+11	Localo	Localo	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	12	_	_	_	_	_
+12	típusú	típusú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	autóbuszok	autóbusz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	14	_	_	_	_	_
+14	közlekednek	közlekedik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	vonalon	vonal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	14	5:2	coref	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_7
+1	2012.	2012.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	2	_	_	_	_	_
+2	március	március	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	15-én	15	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	7	_	_	_	_	_
+4	nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+5	hétvégi	hétvégi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	menetrendritkításon	menetrendritkítás	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	7	_	_	_	_	_
+7	esett	esik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+8	át	át	[/Prev]	ADV	_	PREVERB	7	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_8.conllup_8
+1	Ettől	ez	[/Det|Pro][Abl]	PRON	Case=Abl|Number=Sing|Person=3|PronType=Dem	ATT	2	_	_	_	_	_
+2	kezdve	kezdve	[/Post|(Abl)]	ADP	_	TFROM	10	_	_	_	_	_
+3	szabadnapokon	szabadnap	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	TLOCY	10	_	_	_	_	_
+4	is	is	[/Adv]	ADV	_	MODE	3	_	_	_	_	_
+5	munkaszüneti	munkaszüneti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	napokon	nap	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	TLOCY	7	_	_	_	_	_
+7	érvényes	érvényes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	menetrend	menetrend	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	_	_	_	_	_
+9	szerint	szerint	[/Post]	ADP	_	MODE	10	_	_	_	_	_
+10	közlekedik	közlekedik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

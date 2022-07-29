@@ -1,0 +1,206 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_9.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+2	Public	Public	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	Profit	profit	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	_	_	_	_	_
+4	névre	név	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	5	_	_	_	_	_
+5	keresztelt	keresztelt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	projekt	projekt	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	11	_	_	_	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	átláthatóság	átláthatóság	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	_	_	_	_	_
+9	jegyében	jegy	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	11	_	_	_	_	_
+10	nyilvánosságra	nyilvánosság	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	11	_	_	_	_	_
+11	hozza	hoz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	köztisztviselők	köztisztviselő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	16	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	államtitkárok	államtitkár	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	14	_	_	_	_	_
+16	fizetését	fizetés	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	11	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	publikus	publikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	adatokat	adat	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	9	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	orosz	orosz	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	törvényeket	törvény	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	8	_	_	_	_	_
+7	tiszteletben	tisztelet	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	8	_	_	_	_	_
+8	tartva	tart	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	9	_	_	_	_	_
+9	gyűjtötték	gyűjt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+10	össze	össze	[/Prev]	ADV	_	PREVERB	9	_	_	_	_	_
+11	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	12	_	_	_	_	_
+12	weboldalon	weboldal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	9	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	köztisztviselők	köztisztviselő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	3	1:13	coref	_	_	_
+3	fizetése	fizetés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	4	1:16	coref	_	_	_
+4	mellett	mellett	[/Post]	ADP	_	MODE	10	_	_	_	_	_
+5	más	más	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+6	érdekes	érdekes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	statisztikákat	statisztika	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	10	_	_	_	_	_
+8	is	is	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+9	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	találni	talál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	_	_	YES	_	_
+11	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	oldalon	oldal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	10	2:12	coref	_	_	_
+14	beszámolókat	beszámoló	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	7	_	_	_	_	_
+15	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+16	egyes	egyes	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	18	_	_	_	_	_
+17	kormányzati	kormányzati	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	részlegek	részleg	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	19	_	_	_	_	_
+19	költéseiről	költés	[/N][Pl.Poss.3Sg][Del]	NOUN	Case=Del|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	14	_	_	_	_	_
+20	és	és	[/Cnj]	CCONJ	_	CONJ	19	_	_	_	_	_
+21	arról	az	[/Det|Pro][Del]	PRON	Case=Del|Number=Sing|Person=3|PronType=Dem	COORD	20	_	_	_	_	_
+22	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+23	mely	mely	[/Det|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	24	_	_	_	_	_
+24	köztisztviselőknek	köztisztviselő	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	DAT	25			_	_	_
+25	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	_	_	_	_	_
+26	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+27	legnagyobb	nagy	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	28	_	_	_	_	_
+28	ingatlanvagyona	ingatlanvagyon	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	25	_	_	_	_	_
+29	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_4
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	adatok	adat	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	???	2:3	coref	_	_	_
+3	néhol	néhol	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	5	_	_	_	_	_
+4	kifejezetten	kifejezetten	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	izgalmasak	izgalmas	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	???	_	_	_	_	_
+6	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_5
+1	Vegyük	vesz	[/V][Sbjv.Def.1Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+2	például	például	[/Adv]	ADV	_	MODE	1	_	_	_	_	_
+3	Alekszander	Alekszander	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	V.	V.	[/N][Nom][Punct]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	Gildermant	Gilderman	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	1	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+7	ő	ő	[/N|Pro][3Sg][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	???	5:5	prs	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	regionális	regionális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	fenntarthatóságért	fenntarthatóság	[/N][Cau]	NOUN	Case=Cau|Number=Sing	OBL	11	_	_	_	_	_
+11	felelős	felelős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	kormányrészleg	kormányrészleg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+13	helyettese	helyettes	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+15	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	5:7	rel	_	_	_
+16	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	19	_	_	_	_	_
+17	4433	4433	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	18	_	_	_	_	_
+18	négyzetméteres	négyzetméteres	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	telek	telek	[/N][Nom]	NOUN	Case=Nom|Number=Sing	_	_	_	_	_	_	_
+20	és	és	[/Cnj]	CCONJ	_	CONJ	19	_	_	_	_	_
+21	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+22	ott	ott	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	ATT	24	5:19	dem	_	_	_
+23	épült	épült	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+24	ház	ház	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	20	_	_	_	_	_
+25	tulajdonosa	tulajdonos	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_6
+1	De	de	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+2	eltörpül	eltörpül	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	ingatlanvagyonok	ingatlanvagyon	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	5	_	_	_	_	_
+5	királya	király	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	10	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	Igor	Igor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	I.	I.	[/N][Nom][Punct]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Szuvalov	Szuvalov	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	5	_	_	_	_	_
+10	mellett	mellett	[/Post]	ADP	_	MODE	2	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+12	akinek	aki	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	POSS	15	6:9	rel	_	_	_
+13	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	éves	éves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	jövedelme	jövedelem	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+16	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	19	_	_	_	_	_
+17	mint	mint	[/Cnj]	SCONJ	_	CONJ	16	_	_	_	_	_
+18	14652000	14652000	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	17	_	_	_	_	_
+19	rubel	rubel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+21	mely	amely	[/Det|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	ATT	22	_	_	_	_	_
+22	összeg	összeg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	26	6:19	coref	_	_	_
+23	csupán	csupán	[/Adv]	ADV	_	MODE	24	_	_	_	_	_
+24	négy	négy	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	25	_	_	_	_	_
+25	százalékát	százalék	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	26	_	_	_	_	_
+26	teszi	tesz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	2	_	_	_	_	_
+27	ki	ki	[/Prev]	ADV	_	PREVERB	26	_	_	_	_	_
+28	családja	család	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	30	_	_	_	_	YES
+29	éves	éves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	30	_	_	_	_	_
+30	jövedelmének	jövedelem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	DAT	26			_	_	_
+31	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	házastársak	házastárs	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	3	_	_	_	_	_
+3	közötti	közötti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	jövedelemkülönbség	jövedelemkülönbség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	9	_	_	_	_	_
+6	másik	másik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+7	figyelemre	figyelem	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	8	_	_	_	_	_
+8	méltó	méltó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	jelenség	jelenség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_8
+1	Igor	Igor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Szuvalov	Szuvalov	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	3	6:9	coref	_	_	_
+3	felesége	feleség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	8	_	_	_	_	_
+4	férje	férj	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	5	8:2	coref	_	_	YES
+5	jövedelmének	jövedelem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	7	_	_	_	_	_
+6	közel	közel	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+7	huszonötszörösét	huszonötszörös	[/Adj][Poss.3Sg][Acc]	ADJ	Case=Acc|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	8	_	_	_	_	_
+8	keresi	keres	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	míg	míg	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+11	Szuhenko	Szuhenko	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	12	_	_	_	_	_
+12	asszony	asszony	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	15	_	_	_	_	_
+13	hatvanszor	hatvan	[/Num][_Mlt-Iter/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	14	_	_	_	_	_
+14	többet	többet	[/Adv]	ADV	_	MODE	15	_	_	_	_	_
+15	keres	keres	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	10	_	_	_	_	_
+16	,	,	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+17	mint	mint	[/Cnj]	SCONJ	_	CONJ	15	_	_	_	_	_
+18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+19	férje	férj	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	17	8:11	coref	_	_	YES
+20	,	,	[Punct]	PUNCT	_	PUNCT	15	_	_	_	_	_
+21	habár	habár	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+22	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+23	ő	ő	[/N|Pro][3Sg][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	POSS	24	8:12	prs	_	_	_
+24	bevételeik	bevétel	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	SUBJ	???	_	_	_	_	_
+25	jóval	jóval	[/Adv]	ADV	_	MODE	26	_	_	_	_	_
+26	szerényebbek	szerény	[/Adj][_Comp/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Plur	PRED	???	_	_	_	_	_
+27	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_9
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	orosz	orosz	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	köztisztviselők	köztisztviselő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	4	3:24	coref	_	_	_
+4	közül	közül	[/Post]	ADP	_	MODE	7	_	_	_	_	_
+5	Jurij	Jurij	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	6	_	_	_	_	_
+6	Trutnev	Trutnev	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	7	_	_	_	_	_
+7	keresi	keres	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	messze	messze	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	legtöbbet	sok	[/Supl][/Num][_Comp/Num][Acc]	NUM	Case=Acc|Number=Sing|NumType=Card	OBJ	7	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_9.conllup_10
+1	Rekordnagyságú	rekordnagyságú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+2	éves	éves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	bevétele	bevétel	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	YES
+4	114	114	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	5	_	_	_	_	_
+5	millió	millió	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	6	_	_	_	_	_
+6	rubel	rubel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+8	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	12	10:3	rel	_	_	_
+9	sajnálatos	sajnálatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	módon	mód	[/N][Supe]	NOUN	Case=Sup|Number=Sing	MODE	12	_	_	_	_	_
+11	jelentősen	jelentős	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	12	_	_	_	_	_
+12	csökkent	csökken	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	2010-es	2010-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	évben	év	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	12	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

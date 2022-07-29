@@ -1,0 +1,225 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_6.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+2	Bersih	Bersih	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	6	_	_	_	_	_
+3	(	(	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+4	változás	változás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	2	_	_	_	_	_
+5	)	)	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	elnevezésű	elnevezésű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	tüntetésen	tüntetés	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	11	_	_	_	_	_
+8	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	10	_	_	_	_	_
+9	mint	mint	[/Cnj]	SCONJ	_	CONJ	8	_	_	_	_	_
+10	százezren	százezer	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	11		arb	_	_	_
+11	vettek	vesz	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	részt	rész	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBL	11	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_2
+1	Délkelet-Ázsiában	Délkelet-Ázsia	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	3	_	_	_	_	_
+2	ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	3	1:7	dem	_	_	_
+3	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	legnagyobb	nagy	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	6	_	_	_	_	_
+6	tüntetés	tüntetés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	3	1:7	coref	_	_	_
+7	2015-ben	2015	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	3	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	demonstrálók	demonstráló	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	SUBJ	10	1:10	coref	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	korrupciós	korrupciós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	botrányba	botrány	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	6	_	_	_	_	_
+6	keveredett	keveredett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	maláj	maláj	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	miniszterelnök	miniszterelnök	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+9	lemondását	lemondás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	10	_	_	_	_	_
+10	követelték	követel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_4
+1	2015-ben	2015	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	4	_	_	_	_	_
+2	három	három	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	3	_	_	_	_	_
+3	téma	téma	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+4	foglalkoztatta	foglalkoztat	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	médiát	média	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	_	_	_	_	_
+7	Délkelet-Ázsiában	Délkelet-Ázsia	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	4	_	_	_	_	_
+8	:	:	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	hadsereg	hadsereg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	_	_	_	_	_
+11	által	által	[/Post]	ADP	_	MODE	12	_	_	_	_	_
+12	támogatott	támogatott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	kormánypárt	kormánypárt	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	14	_	_	_	_	_
+14	veresége	vereség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	3	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	mianmari	mianmari	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	választásokon	választás	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	OBL	14	_	_	_	_	_
+18	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+19	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	erdőtüzek	erdőtűz	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	21	_	_	_	_	_
+21	miatt	miatt	[/Post]	ADP	_	MODE	23	_	_	_	_	_
+22	füstbe	füst	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	23	_	_	_	_	_
+23	burkolt	burkolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+24	Indonézia	Indonézia	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	14	_	_	_	_	_
+25	és	és	[/Cnj]	CCONJ	_	CONJ	24	_	_	_	_	_
+26	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+27	különböző	különböző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+28	országok	ország	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	30	_	_	_	_	_
+29	kormányzó	kormányzó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	30	_	_	_	_	_
+30	pártjait	párt	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	31	_	_	_	_	_
+31	érintő	érintő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	33	_	_	_	_	_
+32	korrupciós	korrupciós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	33	_	_	_	_	_
+33	botrányok	botrány	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	25	_	_	_	_	_
+34	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_5
+1	Malajzia	Malajzia	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	2	_	_	_	_	_
+2	miniszterelnökét	miniszterelnök	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	4	3:8	coref	_	_	_
+3	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	4	_	_	_	_	_
+4	gyanúsították	gyanúsít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+7	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	11	_	_	_	_	_
+8	mint	mint	[/Cnj]	SCONJ	_	CONJ	7	_	_	_	_	_
+9	600	600	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	10	_	_	_	_	_
+10	millió	millió	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	8	_	_	_	_	_
+11	dollárt	dollár	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	_	_	_	_	_
+12	(	(	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+13	mintegy	mintegy	[/Adv]	ADV	_	MODE	15	_	_	_	_	_
+14	170	170	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	15	_	_	_	_	_
+15	milliárd	milliárd	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	16	_	_	_	_	_
+16	forintot	forint	[/N][Acc]	NOUN	Case=Acc|Number=Sing	APPEND	11	_	_	_	_	_
+17	)	)	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	vágott	vág	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	_	_	YES	_	_
+19	zsebre	zseb	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	18	_	_	_	_	_
+20	szabálytalan	szabálytalan	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+21	banki	banki	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	tranzakciókból	tranzakció	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	MODE	18	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+24	amikben	ami	[/N|Pro|Rel][Pl][Ine]	PRON	Case=Ine|Number=Plur|Person=3|PronType=Rel	OBL	31	5:22	rel	_	_	_
+25	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	_	_	_	_	_
+26	ország	ország	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	28	5:1	coref	_	_	_
+27	befektetési	befektetési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+28	cége	cég	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	31	_	_	_	_	_
+29	is	is	[/Adv]	ADV	_	MODE	31	_	_	_	_	_
+30	érintett	érintett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	31	_	_	_	_	_
+31	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	_	_	_	_	_
+32	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_6
+1	Thaiföldön	Thaiföld	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	8	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	hatalmat	hatalom	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	_	_	_	_	_
+4	2014-ben	2014	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	5	_	_	_	_	_
+5	megragadó	megragadó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	juntát	junta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	_	_	_	_	_
+7	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	8	_	_	_	_	_
+8	vádolták	vádol	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	8	_	_	_	_	_
+11	korrupciós	korrupciós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	ügyletek	ügylet	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	13	_	_	_	_	_
+13	kíséretében	kíséret	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	14	_	_	_	_	_
+14	építettek	épít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	10	_	_	YES	_	_
+15	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	16	_	_	_	_	_
+16	látványparkot	látványpark	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	14	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_7
+1	Indonéziában	Indonézia	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	2	_	_	_	_	_
+2	lemondott	lemond	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	képviselőház	képviselőház	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	_	_	_	_	_
+5	zsarolási	zsarolási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	ügybe	ügy	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	7	_	_	_	_	_
+7	keveredett	keveredett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	elnöke	elnök	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	2	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Fülöp-szigeteken	Fülöp-szigetek	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	6	_	_	_	_	_
+3	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	alelnököt	alelnök	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+6	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+7	folyamatos	folyamatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	nyomás	nyomás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	_	_	_	_	_
+9	alatt	alatt	[/Post]	ADP	_	OBL	6	_	_	_	_	_
+10	vesztegetési	vesztegetési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	ügyekkel	ügy	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	6	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_9
+1	Najib	Najib	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Abdul	Abdul	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	Razak	Razak	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+4	maláj	maláj	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	miniszterelnök	miniszterelnök	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	5:2	coref	_	_	_
+6	elismerte	elismer	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	YES	_
+7	ugyan	ugyan	[/Adv]	ADV	_	MODE	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+10	600	600	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	11	_	_	_	_	_
+11	millió	millió	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	12	_	_	_	_	_
+12	dollár	dollár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	13	_	_	_	_	_
+13	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	bankszámláján	bankszámla	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	13	_	_	_	_	YES
+16	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+17	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	19	_	_	_	_	_
+18	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+19	tagadta	tagad	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	18	_	_	YES	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+21	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	19	_	_	_	_	_
+22	állami	állami	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	pénzről	pénz	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	24	9:12	coref	_	_	_
+24	lenne	van	[/V][Cond.NDef.3Sg]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	21	_	_	_	_	_
+25	szó	szó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	24	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_10
+1	Állítása	állítás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	2	_	_	_	_	YES
+2	szerint	szerint	[/Post]	ADP	_	MODE	8	_	_	_	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	összeget	összeg	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	9:23	coref	_	_	_
+5	pártja	párt	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	7	_	_	_	_	YES
+6	választási	választási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	kampányára	kampány	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	8	_	_	_	_	_
+8	adományozta	adományoz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	11	_	_	_	_	_
+10	közel-keleti	közel-keleti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	támogató	támogató	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_11
+1	Ezt	ez	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	4	_	_	_	_	_
+2	sokan	sok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4		arb	_	_	_
+3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	_	_	_	_	_
+4	hitték	hisz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	el	el	[/Prev]	ADV	_	PREVERB	4	_	_	_	_	_
+6	neki	ő	[/Adv]	ADV	_	DAT	4	???	prs	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+8	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	lemondását	lemondás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	11	_	_	_	_	YES
+11	követelték	követel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	_	_	YES	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_6.conllup_12
+1	Országszerte	országszerte	[/Adv]	ADV	_	LOCY	4	_	_	_	_	_
+2	óriási	óriási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	tüntetéseket	tüntetés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	_	_	_	_	_
+4	tartottak	tart	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+8	internetes	internetes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	mémgyárat	mémgyár	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+10	is	is	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+11	beindította	beindít	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	ügy	ügy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	11	3:5	coref	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

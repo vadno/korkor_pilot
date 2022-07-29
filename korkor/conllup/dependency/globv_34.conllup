@@ -1,0 +1,144 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_34.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	demokráciáért	demokrácia	[/N][Cau]	NOUN	Case=Cau|Number=Sing	OBL	3	_	_	_	_	_
+3	küzdők	küzdő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	5	_	_	_	_	_
+4	már	már	[/Adv]	ADV	_	TLOCY	5	_	_	_	_	_
+5	legyőztek	legyőz	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	7	_	_	_	_	_
+7	diktátort	diktátor	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	egyet	egy	[/Num][Acc]	NUM	Case=Acc|Number=Sing|NumType=Card	COORD	7	_	_	_	_	_
+10	Tunéziában	Tunézia	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	9	_	_	_	_	_
+11	és	és	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+12	egyet	egy	[/Num][Acc]	NUM	Case=Acc|Number=Sing|NumType=Card	COORD	11	_	_	_	_	_
+13	Egyiptomban	Egyiptom	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	12	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+15	de	de	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+16	Algériában	Algéria	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	21	_	_	_	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	hatóságok	hatóság	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	21	_	_	_	_	_
+19	eddig	eddig	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TTO	21	_	_	_	_	_
+20	féken	fék	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	22	_	_	_	_	_
+21	tudták	tud	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	15	_	_	_	_	_
+22	tartani	tart	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	21	_	_	_	_	_
+23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+24	tüntetéseket	tüntetés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	22	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+26	amelyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	33	_	_	_	_	_
+27	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	28	_	_	_	_	_
+28	sokkal	sokkal	[/Adv]	ADV	_	ATT	32	_	_	_	_	_
+29	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	31	_	_	_	_	_
+30	tunéziai	tunéziai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	31	_	_	_	_	_
+31	lázadások	lázadás	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	32	_	_	_	_	_
+32	után	után	[/Post]	ADP	_	TLOCY	33	_	_	_	_	_
+33	törtek	tör	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	21	_	_	_	_	_
+34	ki	ki	[/Prev]	ADV	_	PREVERB	33	_	_	_	_	_
+35	2011.	2011.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	36	_	_	_	_	_
+36	január	január	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	37	_	_	_	_	_
+37	elején	eleje	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	33	_	_	_	_	_
+38	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_2
+1	Tüntetők	tüntető	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	2	_	_	_	_	_
+2	ezrei	ezer	[/Num][Pl.Poss.3Sg][Nom]	NUM	Case=Nom|Number=Plur|Number[psor]=Sing|NumType=Card|Person[psor]=3	SUBJ	3	_	_	_	_	_
+3	töltöttek	tölt	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	fel	fel	[/Prev]	ADV	_	PRED	3	_	_	_	_	_
+5	videókat	videó	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	3	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	YouTube-ra	YouTube	[/N][Subl]	PROPN	Case=Sub|Number=Sing	TO	3	_	_	_	_	_
+8	és	és	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	Facebookra	Facebook	[/N][Subl]	PROPN	Case=Sub|Number=Sing	COORD	8	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_3
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	alábbi	alábbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	videót	videó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+4	február	február	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	12-én	12	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	6	_	_	_	_	_
+6	tették	tesz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	közzé	közzé	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	felvételen	felvétel	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	11	_	_	_	_	_
+11	látszik	látszik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	ahogy	ahogy	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	MODE	17	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	rendőrség	rendőrség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	17	_	_	_	_	_
+16	aktivistákat	aktivista	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	17	_	_	_	_	_
+17	tartóztat	tartóztat	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	_	_	_	_	_
+18	le	le	[/Prev]	ADV	_	PREVERB	17	_	_	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+21	skandáló	skandáló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	tüntetőkkel	tüntető	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	23	_	_	_	_	_
+23	történt	történt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+24	összecsapás	összecsapás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	25	_	_	_	_	_
+25	után	után	[/Post]	ADP	_	TLOCY	17	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	sebesültekről	sebesült	[/N][Pl][Del]	NOUN	Case=Del|Number=Plur	OBL	3	_	_	_	_	_
+3	készült	készült	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	képek	kép	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	7	_	_	_	_	_
+5	is	is	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+6	napvilágot	napvilág	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7	_	_	_	_	_
+7	láttak	lát	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_5
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	alábbi	alábbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	képen	kép	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	12	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+5	algír	algír	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+6	parlamenti	parlamenti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	képviselő	képviselő	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	11	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	Derguini	Derguini	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Boubekeur	Boubekeur	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	7	_	_	_	_	_
+11	zúzódásai	zúzódás	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	12	_	_	_	_	_
+12	látszanak	látszik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_6
+1	Derguini	Derguini	[/N]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Boubekeur	Boubekeur	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+4	algír	algír	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+5	parlamenti	parlamenti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	képviselő	képviselő	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	2	_	_	_	_	_
+7	is	is	[/Adv]	ADV	_	MODE	2	_	_	_	_	_
+8	megsérült	megsérül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	tüntetések	tüntetés	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	11	_	_	_	_	_
+11	során	során	[/Post|(Poss)]	ADP	_	TLOCY	8	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kép	kép	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	RCD	RCD	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	Algéria	Algéria	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	7	_	_	_	_	_
+6	Facebook	Facebook	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	oldaláról	oldal	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	FROM	8	_	_	_	_	_
+8	származik	származik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_34.conllup_8
+1	Bloggerek	blogger	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	_	_	_	_	_
+2	és	és	[/Cnj]	CCONJ	_	CONJ	1	_	_	_	_	_
+3	Twitter-felhasználók	Twitter-felhasználó	[/N][Pl][Nom]	PROPN	Case=Nom|Number=Plur	COORD	2	_	_	_	_	_
+4	rengeteg	rengeteg	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	_	_	_	_	_
+5	hírt	hír	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+6	osztottak	oszt	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	meg	meg	[/Prev]	PART	_	PREVERB	6	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	tüntetésekről	tüntetés	[/N][Pl][Del]	NOUN	Case=Del|Number=Plur	OBL	6	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

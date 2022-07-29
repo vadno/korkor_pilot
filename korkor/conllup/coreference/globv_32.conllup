@@ -1,0 +1,97 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_32.conllup_1
+1	Egyiptomban	Egyiptom	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	4	_	_	_	_	_
+2	súlyos	súlyos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	problémát	probléma	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	_	_	_	_	_
+4	jelent	jelent	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	szexuális	szexuális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	zaklatás	zaklatás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+9	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	ATT	10	1:7	rel	_	_	_
+10	ellen	ellen	[/Post]	ADP	_	OBL	15	_	_	_	_	_
+11	mind	mind	[/Adv]	ADV	PronType=Tot	MODE	12	_	_	_	_	_
+12	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	14	_	_	_	_	_
+13	egyiptomi	egyiptomi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	polgár	polgár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	15	_	_	_	_	_
+15	szólal	szólal	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	4	_	_	_	_	_
+16	fel	fel	[/Prev]	ADV	_	PREVERB	15	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_32.conllup_2
+1	Július	július	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	2	_	_	_	_	_
+2	4-én	4	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	8	_	_	_	_	_
+3	fiatal	fiatal	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+4	egyiptomi	egyiptomi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	férfiak	férfi	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	8	_	_	_	_	_
+6	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+7	nők	nő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	6	_	_	_	_	_
+8	szerveztek	szervez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	11	_	_	_	_	_
+10	köztéri	köztéri	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	tiltakozást	tiltakozás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	_	_	_	_	_
+12	Kairo	Kairo	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	13	_	_	_	_	_
+13	Naszr	Naszr	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	14	_	_	_	_	_
+14	városrészében	városrész	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	8	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+16	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	8	_	_	_	_	_
+17	megfogalmazzák	megfogalmaz	[/V][Sbjv.Def.3Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	16	_	_	YES	_	_
+18	üzeneteiket	üzenet	[/N][Pl.Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	OBJ	17	_	_	_	_	YES
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+20	szexuális	szexuális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	zaklatás	zaklatás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	22	1:7	coref	_	_	_
+22	ellen	ellen	[/Post]	ADP	_	OBL	18	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_32.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	forradalom	forradalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	óta	óta	[/Post]	ADP	_	TFROM	10	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	egyiptomiak	egyiptomi	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	SUBJ	10	1:14	coref	_	_	_
+6	online	online	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	offline	offline	[/Adv]	ADV	_	COORD	7	_	_	_	_	_
+9	is	is	[/Adv]	ADV	_	MODE	8	_	_	_	_	_
+10	kiálltak	kiáll	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+12	szexuális	szexuális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	zaklatás	zaklatás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	22	2:21	coref	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	nőkkel	nő	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	17	_	_	_	_	_
+17	szembeni	szembeni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+18	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+19	nemi	nemi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+20	alapú	alapú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	erőszak	erőszak	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	14	_	_	_	_	_
+22	ellen	ellen	[/Post]	ADP	_	OBL	10	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_32.conllup_4
+1	Júniusban	június	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	12	_	_	_	_	_
+2	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	3	_	_	_	_	_
+3	menetet	menet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+5	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	10	4:3	rel	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	szexuális	szexuális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	zaklatás	zaklatás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	3:13	coref	_	_	_
+9	ellen	ellen	[/Post]	ADP	_	OBL	10	_	_	_	_	_
+10	tiltakozott	tiltakozik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	megtámadtak	megtámad	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_32.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	zaklatás	zaklatás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	4:8	coref	_	_	_
+3	és	és	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+4	erőszak	erőszak	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	3	_	_	_	_	_
+5	ellen	ellen	[/Post]	ADP	_	OBL	6	_	_	_	_	_
+6	harcoló	harcoló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	kezdeményezések	kezdeményezés	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	9	_	_	_	_	_
+8	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+9	folytatódnak	folytatódik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

@@ -1,0 +1,156 @@
+id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	1	_	_
+2	drezdai	drezdai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	1	_	_
+3	tyúk	tyúk	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8.1	1	_	_
+4	már	már	[/Adv]	ADV	_	TLOCY	5	1	_	_
+5	meglévő	meglévő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	1	_	_
+6	tyúkfajtákból	tyúkfajta	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	7	1	_	_
+7	kitenyésztett	kitenyésztett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	1	_	_
+8	házityúk	házityúk	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	8.1	1	_	_
+8.1	KOPULA	_	_	_	_	ROOT	0	1	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
+
+1	Alfred	Alfred	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	2	_	_
+2	Zumpe	Zumpe	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	3	2	_	_
+3	tenyésztette	tenyészt	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
+3.OBJ	DROP	_	_	_	_	OBJ	3	2	1:3	prs
+4	ki	ki	[/Prev]	ADV	_	PREVERB	3	2	_	_
+5	már	már	[/Adv]	ADV	_	TLOCY	6	2	_	_
+6	meglévő	meglévő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	2	_	_
+7	fajtákból	fajta	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	3	2	_	_
+8	Drezda	Drezda	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	9	2	_	_
+9	környékén	környék	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	3	2	_	_
+10	1955-ben	1955	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	3	2	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
+
+1	Tipikus	tipikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	3	_	_
+2	kéthasznú	kéthasznú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	3	_	_
+3	tyúkfajta	tyúkfajta	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	3.1	3	_	_
+3.1	KOPULA	_	_	_	_	ROOT	0	3	_	_
+3.1.SUBJ	DROP	_	_	_	_	SUBJ	3.1	3	2:3.OBJ	prs
+4	,	,	[Punct]	PUNCT	_	PUNCT	3.1	3	_	_
+5	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	9	3	3:3.1.SUBJ	rel
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	3	_	_
+7	takarmányukat	takarmány	[/N][Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBJ	9	3	_	_
+7.POSS	DROP	_	_	_	_	POSS	7	3	3:5	prs
+8	jól	jó	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	9	3	_	_
+9	hasznosítják	hasznosít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3.1	3	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
+
+1	Télen	tél	[/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	4	4	_	_
+2	csak	csak	[/Adv]	ADV	_	MODE	4	4	_	_
+3	minimálisan	minimális	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	4	4	_	_
+4	csökken	csökken	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	4	_	_
+6	tojáshozamuk	tojáshozam	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	SUBJ	4	4	_	_
+6.POSS	DROP	_	_	_	_	POSS	6	4	3:7.POSS	prs
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
+
+1	Többek	sok	[/N|Pro][_Comp/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	2	5	_	_
+2	között	között	[/Post]	ADP	_	MODE	4	5	_	_
+3	new	new	[/N][Nom]	NOUN	Case=Nom|Number=Sing	NE	4	5	_	_
+4	hampshire	hampshire	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	5	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	5	_	_
+6	wyandotten	wyandotten	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	5	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	5	_	_
+8	rhodeländer	rhodeländer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	6	5	_	_
+9	fajtákkal	fajta	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	11	5	_	_
+10	is	is	[/Adv]	ADV	_	MODE	9	5	_	_
+11	bekeresztezett	bekeresztezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	11.1	5	_	_
+11.1	KOPULA	_	_	_	_	ROOT	0	5	_	_
+11.1.SUBJ	DROP	_	_	_	_	SUBJ	11.1	5	4:6.POSS	prs
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
+
+1	Háta	hát	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	5.1	6	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	6	5:11.1.SUBJ	prs
+2	közepesen	közepes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	3	6	_	_
+3	hosszú	hosszú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	5.1	6	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	6	_	_
+5	széles	széles	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	3	6	_	_
+5.1	KOPULA	_	_	_	_	ROOT	0	6	_	_
+6	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
+
+1	Farktolla	farktoll	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3.1	7	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	7	6:1.POSS	prs
+2	közepes	közepes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	7	_	_
+3	méretű	méretű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	3.1	7	_	_
+3.1	KOPULA	_	_	_	_	ROOT	0	7	_	_
+4	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_
+
+1	Melltájéka	melltájék	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	4.1	8	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	8	7:1.POSS	prs
+2	széles	széles	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	4.1	8	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	2	8	_	_
+4	telt	telt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	2	8	_	_
+4.1	KOPULA	_	_	_	_	ROOT	0	8	_	_
+5	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
+
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	9	_	_
+2	szárnyak	szárny	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	7.1	9	_	_
+3	vízszintesen	vízszintes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	7	9	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	3	9	_	_
+5	testhez	test	[/N][All]	NOUN	Case=All|Number=Sing	OBL	6	9	_	_
+6	húzva	húz	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	COORD	4	9	_	_
+7	viseltek	viselt	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	7.1	9	_	_
+7.1	KOPULA	_	_	_	_	ROOT	0	9	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
+
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	10	_	_
+2	fej	fej	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6.1	10	_	_
+3	kicsi	kicsi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	6.1	10	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	2	10	_	_
+5	finom	finom	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	10	_	_
+6	formájú	formájú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	3	10	_	_
+6.1	KOPULA	_	_	_	_	ROOT	0	10	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
+
+1	Arca	arc	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	2.1	11	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	11	10:1.POSS	prs
+2	piros	piros	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	2.1	11	_	_
+2.1	KOPULA	_	_	_	_	ROOT	0	11	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	2	11	_	_
+4	kicsi	kicsi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	11	_	_
+5	tollacskákkal	tollacska	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	MODE	2	11	_	_
+6	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
+
+1	Szeme	szem	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3.1	12	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	12	11:1.POSS	prs
+2	vörös	vörös	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	12	_	_
+3	színű	színű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	3.1	12	_	_
+3.1	KOPULA	_	_	_	_	ROOT	0	12	_	_
+4	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_
+
+1	Csőre	csőr	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6.1	13	_	_
+1.POSS	DROP	_	_	_	_	POSS	1	13	12:1.POSS	prs
+2	erős	erős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	6.1	13	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	2	13	_	_
+4	sárga	sárga	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	2	13	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	13	_	_
+6	szarvszínű	szarvszínű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	4	13	_	_
+6.1	KOPULA	_	_	_	_	ROOT	0	13	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
+
+1	Taraja	taraj	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3.1	14	_	_
+1.1	DROP	_	_	_	_	POSS	1	14	13:1.POSS	prs
+2	erős	erős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	14	_	_
+3	rózsataraj	rózsataraj	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	1.1	14	_	_
+3.1	KOPULA	_	_	_	_	ROOT	0	14	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	1.1	14	_	_
+5	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	3	14	13:8	rel
+6	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	7	14	_	_
+7	szarvban	szarv	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	8	14	_	_
+8	végződik	végződik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1.1	14	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	14	_	_
+
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	15	_	_
+2	füllebenyek	füllebeny	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	3.1	15	_	_
+3	pirosak	piros	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	3.1	15	_	_
+3.1	KOPULA	_	_	_	_	ROOT	0	15	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3.1	15	_	_
+5	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	6	15	_	_
+6	túl	túl	[/Adv|AdjMod]	ADV	_	MODE	7	15	_	_
+7	nagyok	nagy	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	7.1	15	_	_
+7.1	KOPULA	_	_	_	_	COORD	3.1	15	_	_
+7.1.SUBJ	DROP	_	_	_	_	SUBJ	7.1	15	14:1	prs
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
+

@@ -1,0 +1,283 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_16.conllup_1
+1	Üzbegisztán	Üzbegisztán	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	2	_	_	_	_	_
+2	elnöke	elnök	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3	_	_	_	_	_
+3	jóváhagyta	jóváhagy	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+5	2012	2012	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	6	_	_	_	_	_
+6	áprilisában	április	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	8	_	_	_	_	_
+7	hatályba	hatály	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	8	_	_	_	_	_
+8	lépő	lépő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+10	alkohol-	alkohol	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+11	és	és	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+12	dohánytermékek	dohánytermék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	11	_	_	_	_	_
+13	forgalmazását	forgalmazás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	16	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	fogyasztását	fogyasztás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	14	_	_	_	_	_
+16	érintő	érintő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	törvényt	törvény	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	törvény	törvény	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	1:17	coref	_	_	_
+3	kimondja	kimond	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	3	_	_	_	_	_
+6	tilos	tilos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	alkohol	alkohol	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+9	fogyasztása	fogyasztás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	1:15	coref	_	_	_
+10	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	utcákon	utca	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	6	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	parkokban	park	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	COORD	11	_	_	_	_	_
+14	s	s	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	más	más	[/N|Pro][Nom]	NOUN	Case=Nom|Number=Sing	ATT	17	_	_	_	_	_
+16	nyilvános	nyilvános	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	helyeken	hely	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	COORD	14	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_3
+1	Ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	6	_	_	_	_	_
+2	minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	DET	5	_	_	_	_	_
+3	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	5	_	_	_	_	_
+4	fogyasztási	fogyasztási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	termékre	termék	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	6	_	_	_	_	_
+6	vonatkozik	vonatkozik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	12	3:5	rel	_	_	_
+9	1,5%-nál	1,5	[/N][Ade]	NOUN	Case=Ade|Number=Sing	OBL	10	_	_	_	_	_
+10	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	11	_	_	_	_	_
+11	alkoholt	alkohol	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+12	tartalmaz	tartalmaz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+15	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	16	_	_	_	_	_
+16	jelenti	jelent	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	14	_	_	YES	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	16	_	_	_	_	_
+19	vélhetőleg	vélhetőleg	[/Adv]	ADV	_	MODE	32	_	_	_	_	_
+20	még	még	[/Adv]	ADV	_	MODE	23	_	_	_	_	_
+21	akár	akár	[/Adv]	ADV	_	MODE	23	_	_	_	_	_
+22	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	_	_	_	_	_
+23	sört	sör	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	33	_	_	_	_	_
+24	is	is	[/Adv]	ADV	_	MODE	23	_	_	_	_	_
+25	csak	csak	[/Adv]	ADV	_	MODE	26	_	_	_	_	_
+26	otthon	otthon	[/Adv]	ADV	_	LOCY	32	_	_	_	_	_
+27	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	26	_	_	_	_	_
+28	kávézókban	kávézó	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	COORD	27	_	_	_	_	_
+29	,	,	[Punct]	PUNCT	_	PUNCT	28	_	_	_	_	_
+30	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	28	_	_	_	_	_
+31	kocsmákban	kocsma	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	COORD	30	_	_	_	_	_
+32	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	18	_	_	_	_	_
+33	fogyasztani	fogyaszt	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	32	_	_	YES	_	_
+34	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_4
+1	Ugyanakkor	ugyanakkor	[/Cnj]	CCONJ	_	CONJ	???	_	_	_	_	_
+2	érdekes	érdekes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	kérdés	kérdés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	YES	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+5	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	???	_	_	_	_	_
+6	vajon	vajon	[/Adv]	ADV	_	QUE	9	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	kormányzat	kormányzat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	9	_	_	_	_	_
+9	megfontolja	megfontol	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5	_	_	_	_	_
+10	-e	-e	[/QPtcl]	ADV	PronType=Int	QUE	9	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	dohányzás	dohányzás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+13	tilalmát	tilalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	9	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+15	nyilvános	nyilvános	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	helyeken	hely	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	9	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+18	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	dohánytermékek	dohánytermék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	21	1:12	coref	_	_	_
+21	fogyasztására	fogyasztás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	24	_	_	_	_	_
+22	külön	külön	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	alternatívákat	alternatíva	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	24	_	_	_	_	_
+24	dolgoz	dolgoz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	18	_	_	YES	_	_
+25	ki	ki	[/Prev]	ADV	_	PREVERB	24	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_5
+1	Mindezentúl	Mindezentúl	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	törvény	törvény	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	2:2	coref	_	_	_
+4	kitér	kitér	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	dohány-	dohány	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	alkoholtermékek	alkoholtermék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	7	1:10	coref	_	_	_
+9	reklámjára	reklám	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	4	_	_	_	_	_
+10	is	is	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+11	;	;	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+12	szöveges	szöveges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+13	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	rajzos	rajzos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	13	_	_	_	_	_
+15	orvosi	orvosi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	figyelmeztetést	figyelmeztetés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	_	_	_	_	_
+17	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	_	_	_	_	_
+18	feltüntetni	feltüntet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	17	_	_	YES	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	címke	címke	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	21	_	_	_	_	_
+21	felületének	felület	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	23	_	_	_	_	_
+22	legalább	legalább	[/Adv]	ADV	_	MODE	23	_	_	_	_	_
+23	40%-án	40	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	18	_	_	_	_	_
+24	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+25	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	5:18	rel	_	_	_
+26	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+27	jelenlegi	jelenlegi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+28	jogszabályok	jogszabály	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	29	_	_	_	_	_
+29	szerint	szerint	[/Post]	ADP	_	MODE	34	_	_	_	_	_
+30	csak	csak	[/Adv]	ADV	_	MODE	33	_	_	_	_	_
+31	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	32	_	_	_	_	_
+32	címke	címke	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	33	5:20	coref	_	_	_
+33	5%-án	5	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	34	_	_	_	_	_
+34	követelmény	követelmény	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+35	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_6
+1	Megjegyzésre	megjegyzés	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	2	_	_	_	_	_
+2	érdemes	érdemes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+3	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+4	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	???	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	dohány-	dohány	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	alkoholtermékek	alkoholtermék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	7	5:8	coref	_	_	_
+9	forgalmazásának	forgalmazás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	11	_	_	_	_	YES
+10	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	tilalmát	tilalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	12	_	_	_	_	_
+12	vezetik	vezet	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	4	_	_	YES	_	_
+13	be	be	[/Prev]	ADV	_	PREVERB	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+15	20	20	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	16	_	_	_	_	_
+16	évnél	év	[/N][Ade]	NOUN	Case=Ade|Number=Sing	OBL	17	_	_	_	_	_
+17	fiatalabbakra	fiatal	[/Adj][_Comp/Adj][Pl][Subl]	ADJ	Case=Sub|Degree=Cmp|Number=Plur	OBL	12	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_7
+1	Ennek	ez	[/Det|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	DET	3	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	korhatárnak	korhatár	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	5	6:16	coref	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	oka	ok	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+6	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	7	_	_	_	_	_
+7	teljesen	teljes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	8	_	_	_	_	_
+8	világos	világos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+10	lévén	lévén	[/Adv]	ADV	_	COORD	???	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	10	_	_	_	_	_
+13	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	üzbég	üzbég	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	törvények	törvény	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	26	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	felnőttség	felnőttség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	23	_	_	_	_	_
+18	és	és	[/Cnj]	CCONJ	_	CONJ	17	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+20	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	jogi	jogi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	felelősség	felelősség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	18	_	_	_	_	_
+23	korhatárát	korhatár	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	26	_	_	_	_	_
+24	18	18	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	25	_	_	_	_	_
+25	évben	év	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	26	_	_	_	_	_
+26	adják	ad	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+27	meg	meg	[/Prev]	PART	_	PREVERB	26	_	_	_	_	_
+28	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_8
+1	Mindmáig	mindmáig	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	ATT	3	_	_	_	_	_
+2	élő	élő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	jelenség	jelenség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+4	Üzbegisztánban	Üzbegisztán	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	3	1:1	coref	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+6	szálanként	szál	[/N][_Distr:nként/Adv]	ADV	_	MODE	7	_	_	_	_	_
+7	árusított	árusított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	cigaretta	cigaretta	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_9
+1	Bábuskák	bábuska	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	_	_	_	_	_
+2	(	(	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+3	idős	idős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	asszonyok	asszony	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	APPEND	1	_	_	_	_	_
+5	)	)	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	árusítják	árusít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	YES	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	akik	aki	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	10	9:1	rel	_	_	_
+9	zsámolyokon	zsámoly	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	OBL	10	_	_	_	_	_
+10	ülnek	ül	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	_	_	_	_	_
+11	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	utcákon	utca	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	10	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+15	hasonló	hasonló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	zsámolyokról	zsámoly	[/N][Pl][Del]	NOUN	Case=Del|Number=Plur	OBL	18	_	_	_	_	_
+17	apróságokat	apróság	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	18	_	_	_	_	_
+18	árusítanak	árusít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	14	_	_	YES	_	_
+19	–	–	[Hyph:Dash]	X	_	PUNCT	20	_	_	_	_	_
+20	rágógumit	rágógumi	[/N][Acc]	NOUN	Case=Acc|Number=Sing	APPEND	17	_	_	_	_	_
+21	,	,	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+22	magvakat	mag	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	20	_	_	_	_	_
+23	s	s	[/Cnj]	CCONJ	_	CONJ	22	_	_	_	_	_
+24	szálanként	szál	[/N][_Distr:nként/Adv]	ADV	_	MODE	25	_	_	_	_	_
+25	cigarettát	cigaretta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	23	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_10
+1	Elsődleges	elsődleges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	vásárlóik	vásárló	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	PRED	???	_	_	_	_	YES
+3	iskolások	iskolás	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	???	_	_	_	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+5	más	más	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	diákok	diák	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	4	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+8	akik	aki	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	10	10:3	rel	_	_	_
+9	szünetekben	szünet	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	10	_	_	_	_	_
+10	kilógnak	kilóg	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+11	cigarettázni	cigarettázik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	10	_	_	YES	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	iskolából	iskola	[/N][Ela]	NOUN	Case=Ela|Number=Sing	FROM	10	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	törvényhozók	törvényhozó	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	4	4:8	coref	_	_	_
+3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	_	_	_	_	_
+4	feledkeztek	feledkezik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	meg	meg	[/Prev]	PART	_	PREVERB	4	_	_	_	_	_
+6	róluk	ők	[/N|Pro][Del][3Pl]	PRON	Case=Del|Number=Plur|Person=3|PronType=Prs	OBL	4	???	prs	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_12
+1	Most	most	[/Adv]	ADV	_	TLOCY	3	_	_	_	_	_
+2	már	már	[/Adv]	ADV	_	TLOCY	3	_	_	_	_	_
+3	tilos	tilos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+4	csomag	csomag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	nélkül	nélkül	[/Post]	ADP	_	MODE	9	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	azaz	azaz	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+8	szálanként	szál	[/N][_Distr:nként/Adv]	ADV	_	COORD	7	9:24	rep	_	_	_
+9	árusítani	árusít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	3	_	_	YES	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	cigarettát	cigaretta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_16.conllup_13
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	alkohol-	alkohol	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	POSS	5	_	_	_	_	_
+3	és	és	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+4	dohánytermékek	dohánytermék	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	3	_	_	_	_	_
+5	reklámozása	reklámozás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+6	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+7	fogyasztásuk	fogyasztás	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	POSS	8	_	_	_	_	_
+8	népszerűsítése	népszerűsítés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	6	_	_	_	_	_
+9	szintén	szintén	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+10	tilos	tilos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

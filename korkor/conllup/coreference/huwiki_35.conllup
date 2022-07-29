@@ -1,0 +1,250 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_35.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kisajtolás	kisajtolás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	fémek	fém	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	6	_	_	_	_	_
+5	képlékeny	képlékeny	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	alakításának	alakítás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	9	_	_	_	_	_
+7	az	az	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	9	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	eljárása	eljárás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+11	amikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	CONJ	???	_	_	_	_	_
+12	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	13	_	_	_	_	_
+13	fémtuskót	fémtuskó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	_	_	_	_	_
+14	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	17	_	_	_	_	_
+15	eléje	elé	[/Post][3Sg]	ADP	_	TO	16	_	_	_	_	_
+16	helyezett	helyezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	nyíláson	nyílás	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	18	_	_	_	_	_
+18	átpréselünk	átprésel	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	_	_	YES	_	_
+19	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kisajtolás	kisajtolás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	5	1:2	coref	_	_	_
+3	régebben	rég	[/Adj][_Comp/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Cmp|Number=Sing	TLOCY	4	_	_	_	_	_
+4	használt	használt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	neve	név	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	8	_	_	_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	extrudálás	extrudálás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	8	_	_	_	_	_
+8	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	kiáramló	kiáramló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	anyag	anyag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	_	_	_	_	_
+4	szelvénye	szelvény	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	5	_	_	_	_	_
+5	megegyezik	megegyezik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	nyílás	nyílás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	1:17	coref	_	_	_
+8	keresztmetszetével	keresztmetszet	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	5	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	kisajtolt	kisajtolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	profil	profil	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	3:3	coref	_	_	_
+4	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	tömör	tömör	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	4	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+7	de	de	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+8	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	7	_	_	_	_	_
+9	igen	igen	[Adv|AdjMod]	X	_	MODE	10	_	_	_	_	_
+10	változatos	változatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+11	üreges	üreges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	alakú	alakú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	SUBJ	8	_	_	_	_	_
+13	is	is	[/Adv]	ADV	_	MODE	12	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	nyílást	nyílás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	3:7	coref	_	_	_
+3	tartalmazó	tartalmazó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	elemet	elem	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+5	sajtolószerszámnak	sajtolószerszám	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	6	_	_	_	_	_
+6	nevezik	nevez	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	sajtolóerőt	sajtolóerő	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	_	_	_	_	_
+10	kifejtő	kifejtő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	részt	rész	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	???	_	_	_	_	_
+12	sajtolótüskének	sajtolótüske	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	???	_	_	YES	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	préstuskót	préstuskó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	16	1:13	holo	_	_	_
+16	felvevő	felvevő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	19	5:15	dem	_	_	_
+19	körbeölelő	körbeölelő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	16	_	_	_	_	_
+20	alkatrészt	alkatrész	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	???	_	_	_	_	_
+21	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	???	_	_	_	_	_
+22	recipiensnek	recipiens	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	???	_	_	_	_	_
+23	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	22	_	_	_	_	_
+24	felvevőnek	felvevő	[/N][Dat]	NOUN	Case=Dat|Number=Sing	COORD	23	_	_	YES	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_6
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kisajtolás	kisajtolás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	2:2	coref	_	_	_
+3	célja	cél	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+4	különböző	különböző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	alakú	alakú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	rudak	rúd	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	16	_	_	_	_	_
+7	(	(	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+8	idomok	idom	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	APPEND	6	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	profilok	profil	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	8	_	_	_	_	_
+11	)	)	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+13	csövek	cső	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	6	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	kábelköpenyek	kábelköpeny	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	14	_	_	_	_	_
+16	előállítása	előállítás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_7
+1	Direkt	direkt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	kisajtoláskor	kisajtolás	[/N][Temp]	NOUN	Case=Tem|Number=Sing	TLOCY	6	6:2	holo	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	sajtolótüske	sajtolótüske	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	5	5:12	coref	_	_	_
+5	mozgásiránya	mozgásirány	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6	_	_	_	_	_
+6	megegyezik	megegyezik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	termék	termék	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	4:3	coref	_	_	_
+9	kifolyási	kifolyási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	irányával	irány	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	6	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_8
+1	Indirekt	indirekt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	kisajtoláskor	kisajtolás	[/N][Temp]	NOUN	Case=Tem|Number=Sing	TLOCY	???	6:2	holo	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	sajtolótüske	sajtolótüske	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	7:4	coref	_	_	_
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	kisajtolt	kisajtolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	anyag	anyag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	7:8	coref	_	_	_
+9	mozgásának	mozgás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	10	_	_	_	_	_
+10	iránya	irány	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+11	ellentétes	ellentétes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_9
+1	Kisajtolással	kisajtolás	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	???	6:2	coref	_	_	_
+2	minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	ATT	5	_	_	_	_	_
+3	képlékenyen	képlékeny	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	4	_	_	_	_	_
+4	alakítható	alakítható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	fém	fém	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	fémötvözet	fémötvözet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	_	_	_	_	_
+8	feldolgozható	feldolgozható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	kiinduló	kiinduló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	anyag	anyag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+4	általában	általában	[/Adv]	ADV	_	MODE	???	_	_	_	_	_
+5	kör	kör	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	_	_	_	_	_
+6	szelvényű	szelvényű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	öntött	öntött	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	tuskó	tuskó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_11
+1	Direkt	direkt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	kisajtoláskor	kisajtolás	[/N][Temp]	NOUN	Case=Tem|Number=Sing	TLOCY	9	7:2	coref	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	préstuskót	préstuskó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	5:15	coref	_	_	_
+5	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	alakítási	alakítási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	folyamat	folyamat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	8	_	_	_	_	_
+8	során	során	[/Post|(Poss)]	ADP	_	TLOCY	9	_	_	_	_	_
+9	végigtolják	végigtol	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	recipiensben	recipiens	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	9	5:20	coref	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+13	aminek	ami	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	ATT	14	11:9	rel	_	_	_
+14	következtében	következtében	[/Post|(Poss)]	ADP	_	MODE	21	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	17	_	_	_	_	_
+17	felület	felület	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	_	_	_	_	_
+18	között	között	[/Post]	ADP	_	LOCY	21	_	_	_	_	_
+19	komoly	komoly	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+20	súrlódóerő	súrlódóerő	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	21	_	_	_	_	_
+21	lép	lép	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	_	_	_	_	_
+22	fel	fel	[/Prev]	ADV	_	PREVERB	21	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+24	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	29	11:20	rel	_	_	_
+25	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	27	_	_	_	_	_
+26	alakító	alakító	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	27	_	_	_	_	_
+27	gép	gép	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	28	_	_	_	_	_
+28	nyomóerejét	nyomóerő	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	29	_	_	_	_	_
+29	terheli	terhel	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	21	_	_	_	_	_
+30	–	–	[Hyph:Dash]	X	_	PUNCT	29	_	_	_	_	_
+31	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	33	_	_	_	_	_
+32	hasznosítható	hasznosítható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	33	_	_	_	_	_
+33	alakítóerő	alakítóerő	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	34	_	_	_	_	_
+34	rovására	rovás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	29	_	_	_	_	_
+35	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_12
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	súrlódás	súrlódás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	11:20	coref	_	_	_
+3	csökkentése	csökkentés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	4	_	_	_	_	_
+4	érdekében	érdekében	[/Post|(Poss)][Prs.NDef.3Sg]	ADP	_	MODE	9	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	tuskó	tuskó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	7	11:4	coref	_	_	_
+7	felületét	felület	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	8	_	_	_	_	_
+8	kenni	ken	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	_	_	YES	_	_
+9	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	(	(	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+11	de	de	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	súrlódóerőt	súrlódóerő	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	14	11:20	coref	_	_	_
+14	küszöböli	küszöböl	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	11	_	_	_	_	_
+15	ki	ki	[/Prev]	ADV	_	PREVERB	14	_	_	_	_	_
+16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	indirekt	indirekt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	kisajtolás	kisajtolás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	14	8:2	coref	_	_	_
+19	is	is	[/Adv]	ADV	_	MODE	18	_	_	_	_	_
+20	)	)	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kenőanyag	kenőanyag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	12:8	coref	_	_	_
+3	függ	függ	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	alakított	alakított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	anyagtól	anyag	[/N][Abl]	NOUN	Case=Abl|Number=Sing	OBL	3	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	hőmérséklettől	hőmérséklet	[/N][Abl]	NOUN	Case=Abl|Number=Sing	COORD	7	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_14
+1	700	700	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	2	_	_	_	_	_
+2	°C	°C	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	fölött	fölött	[/Post]	ADP	_	MODE	7	_	_	_	_	_
+4	igen	igen	[/Adv|AdjMod]	ADV	_	MODE	5	_	_	_	_	_
+5	jó	jó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	kenőhatást	kenőhatás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7	_	_	_	_	_
+7	biztosítanak	biztosít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	különböző	különböző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	szilikátüvegek	szilikátüveg	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	7	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_35.conllup_15
+1	Magasabb	magas	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	2	_	_	_	_	_
+2	hőmérsékleteken	hőmérséklet	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	MODE	7	_	_	_	_	_
+3	fémporokat	fémpor	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	fémvegyületeket	fémvegyület	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	3	_	_	_	_	_
+6	stb.	stb.	[/N][Nom][Punct]	NOUN	Case=Nom|Number=Sing	COORD	5	_	_	_	_	_
+7	használnak	használ	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

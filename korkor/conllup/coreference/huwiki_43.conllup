@@ -1,0 +1,320 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_43.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Dávid-csillag	Dávid-csillag	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+4	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	OBL	5	_	_	_	_	_
+5	vallású	vallású	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	emberek	ember	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	7	_	_	_	_	_
+7	identitásának	identitás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	8	_	_	_	_	_
+8	szimbóluma	szimbólum	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+10	mely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	ATT	15	1:2	rel	_	_	_
+11	nevét	név	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	15	_	_	_	_	YES
+12	Dávid	Dávid	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	14	_	_	_	_	_
+13	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	királyról	király	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	15	_	_	_	_	_
+15	kapta	kap	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_2
+1	Dávid	Dávid	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	pajzsa	pajzs	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	3	_	_	_	_	_
+3	néven	név	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	5	_	_	_	_	_
+4	is	is	[/Adv]	ADV	_	MODE	3	_	_	_	_	_
+5	közismert	közismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	hexagram	hexagram	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	1:2	coref	_	_	_
+7	-	-	[Hyph:Hyph]	X	_	PUNCT	15	_	_	_	_	_
+8	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	15	_	_	_	_	_
+9	egymásba	egymás	[/N|Pro][Ill]	PRON	Case=Ill|Number=Sing|Person=3|PronType=Rcp	OBL	10	_	_	_	_	_
+10	fordított	fordított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+11	egyforma	egyforma	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	nagyságú	nagyságú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+13	egyenlő	egyenlő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	oldalú	oldalú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	háromszög	háromszög	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	6	_	_	_	_	_
+16	-	-	[Hyph:Hyph]	X	_	PUNCT	15	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+18	mint	mint	[/Prep]	ADP	_	CONJ	6	_	_	_	_	_
+19	jelkép	jelkép	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	_	_	_	_	_
+20	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	21	_	_	_	_	_
+21	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	22	_	_	_	_	_
+22	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+24	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	???	_	_	_	_	_
+25	hindu	hindu	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	_	_	_	_	_
+26	eredetet	eredet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	28	_	_	_	_	_
+27	is	is	[/Adv]	ADV	_	MODE	26	_	_	_	_	_
+28	tulajdonítanak	tulajdonít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	24	_	_	YES	_	_
+29	neki	ő	[/N|Pro][Dat][3Sg]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	OBL	28	???	prs	_	_	_
+30	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	3	_	_	_	_	_
+3	háromszög	háromszög	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	2:6	coref	_	_	_
+4	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	magyarázata	magyarázat	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	6	_	_	_	_	YES
+6	szerint	szerint	[/Post]	ADP	_	MODE	13	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	nő	nő	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	férfi	férfi	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	9	_	_	_	_	_
+12	ősi	ősi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	jelképe	jelkép	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+14	egybeolvasztva	egybeolvaszt	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	13	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	V-alak	V-alak	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	7	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	termékenységet	termékenység	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	méhet	méh	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	4	_	_	_	_	_
+7	szimbolizálja	szimbolizál	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	míg	míg	[/Cnj]	CCONJ	_	CONJ	7	_	_	_	_	_
+10	ennek	ez	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	POSS	12	_	_	_	_	_
+11	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	ellentéte	ellentét	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+15	fordított	fordított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	V	V	[/N|Ltr][Nom]	PROPN	Case=Nom|Number=Sing	COORD	12	_	_	_	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	pengét	penge	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+21	férfiasságot	férfiasság	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	18	_	_	_	_	_
+22	és	és	[/Cnj]	CCONJ	_	CONJ	21	_	_	_	_	_
+23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+24	harcot	harc	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	22	_	_	_	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_5
+1	Izrael	Izrael	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	állam	állam	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	_	_	_	_	_
+3	zászlajának	zászló	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	4	_	_	_	_	_
+4	tartozéka	tartozék	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	YES	_	_
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	általánosan	általános	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	7	_	_	_	_	_
+7	ismert	ismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+8	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+9	vallási	vallási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	jelkép	jelkép	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	1:8	coref	_	_	_
+11	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_6
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+2	aranyból	arany	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	5	_	_	_	_	_
+3	és	és	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+4	ezüstből	ezüst	[/N][Ela]	NOUN	Case=Ela|Number=Sing	COORD	3	_	_	_	_	_
+5	készült	készült	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	Dávid-csillagot	Dávid-csillag	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	11	5:10	coref	_	_	_
+7	sokan	sok	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	11	_	_	_	_	_
+8	nyakláncként	nyaklánc	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	11	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	karkötőként	karkötő	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	COORD	8	_	_	_	_	_
+11	viselik	visel	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	továbbá	továbbá	[/Cnj]	CCONJ	_	CONJ	11	_	_	_	_	_
+14	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	13	_	_	_	_	_
+15	találkozni	találkozik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	14	_	_	YES	_	_
+16	e	e	[/Det|Pro|def]	ADV	PronType=Art	DET	17	_	_	_	_	_
+17	csillaggal	csillag	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	15	6:6	coref	_	_	_
+18	régi	régi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	pecsétnyomókon	pecsétnyomó	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	15	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+21	amuletteken	amulett	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	COORD	19	_	_	_	_	_
+22	,	,	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+23	medálokon	medál	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	COORD	21	_	_	_	_	_
+24	is	is	[/Adv]	ADV	_	MODE	23	_	_	_	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_7
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	4	_	_	_	_	_
+3	régészeti	régészeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	leletet	lelet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+5	Szidonból	Szidon	[/N][Ela]	PROPN	Case=Ela|Number=Sing	LOCY	11	_	_	_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+7	i.	i.	[/N|Abbr][Nom][]	NOUN	Case=Nom|Number=Sing	ATT	8	_	_	_	_	_
+8	e.	e.	[/Post][]	ADP	_	ATT	9	_	_	_	_	_
+9	7.	7.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	11	_	_	_	_	_
+10	századból	század	[/N][Ela]	NOUN	Case=Ela|Number=Sing	TFROM	11	_	_	_	_	_
+11	azonosították	azonosít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_8
+1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	9	7:4	dem	_	_	_
+2	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	4	_	_	_	_	_
+3	szidoni	szidoni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	POSS	8	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	Ben	Ben	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	Aszajáhu	Aszajáhu	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+8	sírkövén	sírkő	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	9	_	_	_	_	_
+9	tűnik	tűnik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+10	fel	fel	[/Prev]	ADV	_	PREVERB	9	_	_	_	_	_
+11	mint	mint	[/Prep]	ADP	_	MODE	9	_	_	_	_	_
+12	jelkép	jelkép	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	5:10	coref	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_9
+1	Későbbi	későbbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	előfordulása	előfordulás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	YES
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+4	200	200	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	_	_	_	_	_
+5	körül	körül	[/Post]	ADP	_	TLOCY	6	_	_	_	_	_
+6	épült	épült	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+7	észak-izraeli	észak-izraeli	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+8	Kfar	Kfar	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Náhum	Náhum	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+10	zsinagógájának	zsinagóga	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	11	_	_	_	_	_
+11	frízén	fríz	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	12	_	_	_	_	_
+12	látható	látható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_10
+1	Ezt	ez	[/Det|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	DET	4	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+3	vallási	vallási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	szimbólumot	szimbólum	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	8:12	coref	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+4	14.	14.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	_	_	_	_	_
+7	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	8	_	_	_	_	_
+8	írt	írt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+9	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+10	misztikus	misztikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	szövegekben	szöveg	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	12	_	_	_	_	_
+12	kezdték	kezd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	vallással	vallás	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	16	_	_	_	_	_
+16	összekapcsolni	összekapcsol	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	12	_	_	YES	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	csillag	csillag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	10:4	coref	_	_	_
+3	12	12	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+4	lapja	lap	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	8	_	_	_	_	_
+5	Izrael	Izrael	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	7	_	_	_	_	_
+6	12	12	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	7	_	_	_	_	_
+7	törzsét	törzs	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	9	_	_	_	_	_
+8	hivatott	hivatott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ROOT	0	_	_	_	_	_
+9	jelképezni	jelképez	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	8	_	_	YES	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	hét	hét	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	12	_	_	_	_	_
+12	része	rész	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	YES
+13	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	teremtés	teremtés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	17	_	_	_	_	_
+16	hét	hét	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	17	_	_	_	_	_
+17	napját	nap	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	???	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_12
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	késő	késő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	középkortól	középkor	[/N][Abl]	NOUN	Case=Abl|Number=Sing	TFROM	11	_	_	_	_	_
+4	jellemzően	jellemző	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	5	_	_	_	_	_
+5	Közép-Európában	Közép-Európa	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	11	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	közösségek	közösség	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	10	_	_	_	_	_
+9	megkülönböztető	megkülönböztető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	jelévé	jel	[/N][Poss.3Sg][Transl]	NOUN	Case=Tra|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	11	11:2	coref	_	_	_
+11	vált	válik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szimbólum	szimbólum	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	12:10	coref	_	_	_
+3	közismertté	közismert	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	4	_	_	_	_	_
+4	vált	válik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	azáltal	azáltal	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	4			_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+8	Herzl	Herzl	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Tivadar	Tivadar	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+10	újságának	újság	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	11	_	_	_	_	_
+11	címlapján	címlap	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	12	_	_	_	_	_
+12	szerepelt	szerepel	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	7	_	_	YES	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_14
+1	1897-ben	1897	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	9	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	cionisták	cionista	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	4	_	_	_	_	_
+4	javaslatára	javaslat	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	9	_	_	_	_	_
+5	Izrael	Izrael	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+6	zászlójának	zászló	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	7	5:3	coref	_	_	_
+7	tervébe	terv	[/N][Poss.3Sg][Ill]	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	TO	9	_	_	_	_	_
+8	is	is	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+9	belekerült	belekerül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_15
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	második	kettő	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	3	_	_	_	_	_
+3	világháborúban	világháború	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	14	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	holokauszt	holokauszt	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	_	_	_	_	_
+6	során	során	[/Post|(Poss)]	ADP	_	TLOCY	14	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	Dávid-csillagot	Dávid-csillag	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	9	13:2	coref	_	_	_
+9	formázó	formázó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+10	sárga	sárga	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	csillag	csillag	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+12	kötelező	kötelező	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	viselését	viselés	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	14	_	_	_	_	_
+14	rendelték	rendel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+15	el	el	[/Prev]	ADV	_	PREVERB	14	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	származásúak	származású	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	ATT	19	_	_	_	_	_
+19	részére	részére	[/Post|(Poss)][Poss.3Sg]	ADP	_	DAT	14	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_16
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	jelképrendszerét	jelképrendszer	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	3	_	_	_	_	YES
+3	tekintve	tekintve	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+5	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	8	_	_	_	_	_
+6	egymásba	egymás	[/N|Pro][Ill]	PRON	Case=Ill|Number=Sing|Person=3|PronType=Rcp	OBL	7	13:8	recip	_	_	_
+7	olvadó	olvadó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	háromszög	háromszög	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	9	15:8	coref	_	_	_
+9	kifejezheti	kifejez	[/V][_Mod/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	Isten	isten	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	14	_	_	_	_	_
+11	és	és	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	ember	ember	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	11	_	_	_	_	_
+14	viszonyát	viszony	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	9	_	_	_	_	_
+15	is	is	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_43.conllup_17
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+2	lefelé	lefelé	[/Adv]	ADV	_	TO	3	_	_	_	_	_
+3	mutató	mutató	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+4	isteni	isteni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	háromszög	háromszög	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+6	az	az	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	PRED	???	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+8	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	9	_	_	_	_	_
+9	lehajol	lehajol	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	17:6	rel	_	_	_
+10	és	és	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+11	magába	maga	[/N|Pro][3Sg][Ill]	PRON	Case=Ill|Number=Sing|Person=3|Reflex=Yes	OBL	12	_	_	_	_	_
+12	foglalja	foglal	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	10	_	_	_	YES	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	felemeli	felemel	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	12	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+16	felfelé	felfelé	[/Adv]	ADV	_	TO	17	_	_	_	_	_
+17	mutató	mutató	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	háromszöget	háromszög	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	14	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	ROOT	0	_	_	_	_	_
+

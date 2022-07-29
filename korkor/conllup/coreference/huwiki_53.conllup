@@ -1,0 +1,290 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_53.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	(	(	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+4	vagy	vagy	[/Cnj]	CCONJ	_	APPEND	2	_	_	_	_	_
+5	sóner	sóner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+6	)	)	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+8	16.	16.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	9	_	_	_	_	_
+9	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	11	_	_	_	_	_
+10	Hollandiában	Hollandia	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	11	_	_	_	_	_
+11	kialakított	kialakított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	legalább	legalább	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+14	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	15	_	_	_	_	_
+15	árbóccal	árbóc	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	16	_	_	_	_	_
+16	rendelkező	rendelkező	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	11	_	_	_	_	_
+17	vitorláshajó-típus	vitorláshajó-típus	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_2
+1	Mint	mint	[/Prep]	ADP	_	MODE	7	_	_	_	_	_
+2	kereskedelmi	kereskedelmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	hajó	hajó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	1	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	19.	19.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	6	_	_	_	_	_
+6	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	7	_	_	_	_	_
+7	élte	él	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	fénykorát	fénykor	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	7	_	_	_	_	YES
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	1:2	prs	_	_	_
+3	is	is	[/Adv]	ADV	_	MODE	2	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+5	akárcsak	akárcsak	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+7	többi	többi	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+8	holland	holland	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	hajó	hajó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+11	gyorsjáratú	gyorsjáratú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_4
+1	Könnyen	könnyű	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	2	_	_	_	_	_
+2	romlandó	romlandó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	élelmiszert	élelmiszer	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	halat	hal	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	3	_	_	_	_	_
+6	szállított	szállít	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	de	de	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	rabszolga-kereskedelemben	rabszolga-kereskedelem	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	16	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	csempészetre	csempészet	[/N][Subl]	NOUN	Case=Sub|Number=Sing	COORD	10	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	hadihajóként	hadihajó	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	COORD	13	_	_	_	_	_
+15	is	is	[/Adv]	ADV	_	MODE	14	_	_	_	_	_
+16	alkalmazták	alkalmaz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	_	_	YES	YES	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_5
+1	Két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	árbócán	árbóc	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	4	_	_	_	_	YES
+3	csonkavitorlákat	csonkavitorla	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	_	_	_	_	_
+4	hordott	hord	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	s	s	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+7	ezek	ez	[/N|Pro][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Dem	ATT	8	5:3	rel	_	_	_
+8	fölé	fölé	[/Post]	ADP	_	TO	13	_	_	_	_	_
+9	később	később	[/Adv]	ADV	_	TLOCY	13	_	_	_	_	_
+10	még	még	[/Adv]	ADV	_	MODE	11	_	_	_	_	_
+11	csúcsvitorlák	csúcsvitorla	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	13	_	_	_	_	_
+12	is	is	[/Adv]	ADV	_	MODE	11	_	_	_	_	_
+13	kerültek	kerül	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_6
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	orrárbócra	orrárbóc	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	3	5:2	holo	_	_	_
+3	rögzített	rögzített	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+4	háromcsúcsú	háromcsúcsú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	orrvitorlák	orrvitorla	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	9	_	_	_	_	_
+6	egyetlen	egyetlen	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	7	_	_	_	_	_
+7	szkúnerról	szkúner	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	9	_	_	_	_	_
+8	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	7	_	_	_	_	_
+9	hiányozhattak	hiányzik	[/V][_Mod/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	3:2	coref	_	_	_
+3	vitorlázata	vitorlázat	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6	_	_	_	_	_
+4	nagyon	nagyon	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	egyszerű	egyszerű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	6	_	_	_	_	_
+6	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+8	könnyen	könnyen	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+9	kezelhető	kezelhető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	7	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+11	úgyhogy	úgyhogy	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+12	ezek	ez	[/Det|Pro][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Dem	DET	14	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	hajók	hajó	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	19	7:2	dem	_	_	_
+15	gyorsaságukkal	gyorsaság	[/N][Poss.3Pl][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBL	19	_	_	_	_	YES
+16	és	és	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+17	mozgékonyságukkal	mozgékonyság	[/N][Poss.3Pl][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	16	_	_	_	_	_
+18	is	is	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+19	kitűntek	kitűnik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	11	_	_	_	_	_
+20	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+21	valamint	valamint	[/Cnj]	CCONJ	_	CONJ	17	_	_	_	_	_
+22	kis	kis	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	számú	számú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+24	legénységükkel	legénység	[/N][Poss.3Pl][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	21	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	19	_	_	_	_	_
+26	ezért	ezért	[/Cnj]	CCONJ	_	CONJ	19	_	_	_	_	_
+27	igen	igen	[/Adv]	ADV	_	MODE	28	_	_	_	_	_
+28	gazdaságosak	gazdaságos	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	29	_	_	_	_	_
+29	voltak	van	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	26	_	_	YES	_	_
+30	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	19.	19.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	3	_	_	_	_	_
+3	század	század	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	13	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	szkúnerek	szkúner	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	12	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	klipperek	klipper	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	5	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	barkok	bark	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	9	_	_	_	_	_
+12	korszaka	korszak	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	13	_	_	_	_	_
+13	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_9
+1	Olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	MODE	2	_	_	_	_	_
+2	sokféle	sokféle	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	változat	változat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+5	alváltozat	alváltozat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+6	alakult	alakul	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	ki	ki	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	árbócok	árbóc	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	12	_	_	_	_	_
+10	és	és	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+11	vitorlázatok	vitorlázat	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	10	_	_	_	_	_
+12	keverésével	keverés	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	6	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+14	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+15	csak	csak	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	szakemberek	szakember	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	18	_	_	_	_	_
+18	tudják	tud	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	_	_	_	_	_
+19	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	20	9:3	dem	_	_	_
+20	megkülönböztetni	megkülönböztet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	18	_	_	YES	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	7:2	coref	_	_	_
+3	kereszt-	kereszt	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	ATT	6	_	_	_	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+5	csonka	csonka	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+6	vitorlázatú	vitorlázatú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	változatban	változat	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	8	_	_	_	_	_
+8	terjedt	terjed	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	el	el	[/Prev]	ADV	_	PREVERB	8	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	19.	19.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	3	_	_	_	_	_
+3	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	14	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	szkúnerek	szkúner	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	10	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	klipperek	klipper	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	5	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	barkok	bark	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	7	_	_	_	_	_
+10	gyártása	gyártás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	11	_	_	_	_	_
+11	mellett	mellett	[/Post]	ADP	_	MODE	14	_	_	_	_	_
+12	kombinációk	kombináció	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	14	_	_	_	_	_
+13	is	is	[/Adv]	ADV	_	MODE	12	_	_	_	_	_
+14	létrejöttek	létrejön	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_12
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kereszteződéseknek	kereszteződés	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	OBL	3	_	_	_	_	_
+3	köszönhetően	köszönhető	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	11	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	csónak	csónak	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+6	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	keresztvitorla	keresztvitorla	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	6	_	_	_	_	_
+9	előnyei	előny	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	11	_	_	_	_	_
+10	jobban	jobban	[/Adv]	ADV	_	MODE	11	_	_	_	_	_
+11	érvényesültek	érvényesül	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	brigg	brigg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	10	_	_	_	_	_
+3	és	és	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	3	10:2	coref	_	_	_
+6	új	új	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	variációkban	variáció	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	10	_	_	_	_	_
+8	kétféle	kétféle	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	eredményhez	eredmény	[/N][All]	NOUN	Case=All|Number=Sing	OBL	10	_	_	_	_	_
+10	vezetett	vezet	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	:	:	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+12	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	részleges	részleges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	13	_	_	_	_	_
+15	változathoz	változat	[/N][All]	NOUN	Case=All|Number=Sing	COORD	9	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_14
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	SUBJ	5	13:15	holo	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	brigantinnál	brigantin	[/N][Ade]	NOUN	Case=Ade|Number=Sing	MODE	5	_	_	_	_	_
+5	jött	jön	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	létre	létre	[/Prev]	ADV	_	PREVERB	5	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	részleges	részleges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	SUBJ	???	13:15	holo	_	_	_
+10	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	derékvitorlás	derékvitorlás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	APPEND	13	_	_	_	_	_
+13	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	sudárvitorlás	sudárvitorlás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	14	_	_	_	_	_
+18	esetében	eset	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	???	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_15
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	brigantinon	brigantin	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	4	14:4	coref	_	_	_
+3	elöl	elöl	[/Adv]	ADV	_	LOCY	4	_	_	_	_	_
+4	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	keresztvitorla	keresztvitorla	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	esetleg	esetleg	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+9	csonka	csonka	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	vitorlával	vitorla	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	4	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+12	hátulra	hátulra	[/Adv]	ADV	_	TO	15	_	_	_	_	_
+13	szkúner-csonka	szkúner-csonka	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	vitorla	vitorla	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	15	_	_	_	_	_
+15	került	kerül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	4	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_16
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	sudárvitorlás	sudárvitorlás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	5	14:17	coref	_	_	_
+4	mindegyik	mindegyik	[/Det|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Tot	ATT	5	_	_	_	_	_
+5	árbócán	árbóc	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	11	_	_	_	_	_
+6	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	7	_	_	_	_	_
+7	keresztvitorla	keresztvitorla	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	11	_	_	_	_	_
+8	-	-	[Hyph:Hyph]	X	_	PUNCT	9	_	_	_	_	_
+9	sudárvitorla	sudárvitorla	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	7	_	_	_	_	_
+10	-	-	[Hyph:Hyph]	X	_	PUNCT	9	_	_	_	_	_
+11	foglalt	foglal	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	helyet	hely	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBL	11	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_53.conllup_17
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	sudárcsúcsvitorlás	sudárcsúcsvitorlás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	szkúner	szkúner	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	16:3	coref	_	_	_
+4	csak	csak	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	elöl	elöl	[/Adv]	ADV	_	LOCY	6	_	_	_	_	_
+6	hordott	hord	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	keresztvitorlát	keresztvitorla	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

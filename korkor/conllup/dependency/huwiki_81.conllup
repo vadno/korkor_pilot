@@ -1,0 +1,293 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_81.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+3	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	4	_	_	_	_	_
+4	ismeret	ismeret	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	adat	adat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	információ	információ	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	6	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	19	_	_	_	_	_
+11	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	13	_	_	_	_	_
+12	adott	adott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	időpontban	időpont	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	19	_	_	_	_	_
+14	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	időszakban	időszak	[/N][Ine]	NOUN	Case=Ine|Number=Sing	COORD	14	_	_	_	_	_
+16	csak	csak	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+17	korlátozott	korlátozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	körben	kör	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	19	_	_	_	_	_
+19	ismert	ismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+20	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	19	_	_	_	_	_
+21	korlátozott	korlátozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	20	_	_	_	_	_
+22	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_2
+1	Minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	ATT	2	_	_	_	_	_
+2	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	nyilvánosságra	nyilvánosság	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	5	_	_	_	_	_
+5	hozatallal	hozatal	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	6	_	_	_	_	_
+6	szűnik	szűnik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	meg	meg	[/Prev]	PART	_	PREVERB	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	azaz	azaz	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+10	azáltal	azáltal	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	COORD	9	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	10	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	korlátozott	korlátozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	körön	kör	[/N][Supe]	NOUN	Case=Sup|Number=Sing	ATT	16	_	_	_	_	_
+16	kívül	kívül	[/Post|(Supe)]	ADP	_	MODE	19	_	_	_	_	_
+17	is	is	[/Adv]	ADV	_	MODE	16	_	_	_	_	_
+18	megismerhetővé	megismerhető	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	19	_	_	_	_	_
+19	válik	válik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	jogszabályok	jogszabály	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	3	_	_	_	_	_
+3	meghatározzák	meghatároz	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+6	fogalmát	fogalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	3	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+8	mivel	mivel	[/Cnj]	SCONJ	_	CONJ	3	_	_	_	_	_
+9	jogos	jogos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	állami	állami	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	SUBJ	13	_	_	_	_	_
+11	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+12	magánérdek	magánérdek	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	11	_	_	_	_	_
+13	fűződhet	fűződik	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	8	_	_	_	_	_
+14	bizonyos	bizonyos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	információk	információ	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	17	_	_	_	_	_
+16	titokban	titokban	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+17	tartásához	tartás	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	13	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_4
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	jogszabály	jogszabály	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	_	_	_	_	_
+3	meghatározza	meghatároz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	mely	mely	[/Det|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	6	_	_	_	_	_
+6	szerv	szerv	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	13	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	milyen	milyen	[/Adj|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	9	_	_	_	_	_
+9	feltételekkel	feltétel	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	MODE	13	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	esetleg	esetleg	[/Adv]	ADV	_	MODE	12	_	_	_	_	_
+12	meddig	meddig	[/Adv|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	TTO	13	_	_	_	_	_
+13	nyilváníthat	nyilvánít	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	_	_	_	_	_
+14	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	16	_	_	_	_	_
+15	adott	adott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	információt	információ	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	13	_	_	_	_	_
+17	titokká	titok	[/N][Transl]	NOUN	Case=Tra|Number=Sing	OBL	13	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	személyhez	személy	[/N][All]	NOUN	Case=All|Number=Sing	OBL	3	_	_	_	_	_
+3	fűződő	fűződő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	jogok	jog	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	5	_	_	_	_	_
+5	sérelmét	sérelem	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	_
+6	jelenti	jelent	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	ha	ha	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+9	valaki	valaki	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Ind	SUBJ	12	_	_	_	_	_
+10	más	más	[/N|Pro][Nom]	NOUN	Case=Nom|Number=Sing	POSS	11	_	_	_	_	_
+11	levéltitkát	levéltitok	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	12	_	_	_	_	_
+12	megsérti	megsért	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	8	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	20	_	_	_	_	_
+15	magántitok	magántitok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	19	_	_	_	_	_
+16	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+17	üzleti	üzleti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	16	_	_	_	_	_
+19	birtokába	birtok	[/N][Poss.3Sg][Ill]	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	20	_	_	_	_	_
+20	jut	jut	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	12	_	_	_	_	_
+21	és	és	[/Cnj]	CCONJ	_	CONJ	20	_	_	_	_	_
+22	azt	az	[/Det|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	25	_	_	_	_	_
+23	jogosulatlanul	jogosulatlan	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	25	_	_	_	_	_
+24	nyilvánosságra	nyilvánosság	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	25	_	_	_	_	_
+25	hozza	hoz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	21	_	_	_	_	_
+26	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	25	_	_	_	_	_
+27	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	30	_	_	_	_	_
+28	egyéb	egyéb	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	29	_	_	_	_	_
+29	módon	mód	[/N][Supe]	NOUN	Case=Sup|Number=Sing	MODE	30	_	_	_	_	_
+30	visszaél	visszaél	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	26	_	_	_	_	_
+31	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_6
+1	Levéltitoknak	levéltitok	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	2	_	_	_	_	_
+2	minősül	minősül	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	az	az	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	8	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	közlést	közlés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+6	tartalmazó	tartalmazó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	zárt	zárt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	küldemény	küldemény	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	2	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+10	melyet	amely	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	18	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	feladó	feladó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+13	szándéka	szándék	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	14	_	_	_	_	_
+14	szerint	szerint	[/Post]	ADP	_	MODE	18	_	_	_	_	_
+15	csak	csak	[/Adv]	ADV	_	MODE	18	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	címzett	címzett	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	18	_	_	_	_	_
+18	ismerhet	ismer	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	2	_	_	_	_	_
+19	meg	meg	[/Prev]	PART	_	PREVERB	18	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_7
+1	Üzleti	üzleti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	titoknak	titok	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	3	_	_	_	_	_
+3	minősül	minősül	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	jogi	jogi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	személy	személy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	10	_	_	_	_	_
+7	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	magánszemély	magánszemély	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	7	_	_	_	_	_
+9	gazdasági	gazdasági	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	tevékenységéhez	tevékenység	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	11	_	_	_	_	_
+11	kötődő	kötődő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+12	minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	ATT	14	_	_	_	_	_
+13	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	14	_	_	_	_	_
+14	adat	adat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	megoldás	megoldás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	14	_	_	_	_	_
+17	amelynek	amely	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	POSS	19	_	_	_	_	_
+18	titokban	titokban	[/Adv]	ADV	_	OBL	19	_	_	_	_	_
+19	maradásához	maradás	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	24	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+21	jogosultnak	jogosult	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	23	_	_	_	_	_
+22	méltányolható	méltányolható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	érdeke	érdek	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	24	_	_	_	_	_
+24	fűződik	fűződik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	_	_	_	_	_
+25	és	és	[/Cnj]	CCONJ	_	CONJ	24	_	_	_	_	_
+26	amelynek	amely	[/N|Pro|Rel][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Rel	POSS	28	_	_	_	_	_
+27	titokban	titokban	[/Adv]	ADV	_	OBL	28	_	_	_	_	_
+28	tartásához	tartás	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	34	_	_	_	_	_
+29	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	30	_	_	_	_	_
+30	jogosult	jogosult	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	34	_	_	_	_	_
+31	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	33	_	_	_	_	_
+32	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	33	_	_	_	_	_
+33	intézkedéseket	intézkedés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	34	_	_	_	_	_
+34	megtette	megtesz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	25	_	_	_	_	_
+35	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_8
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	egyes	egyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	országok	ország	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	5	_	_	_	_	_
+4	büntetőjogi	büntetőjogi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	törvényei	törvény	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	6	_	_	_	_	_
+6	meghatározzák	meghatároz	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	államtitok	államtitok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+11	szolgálati	szolgálati	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	8	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+15	magántitok	magántitok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	13	_	_	_	_	_
+16	fogalmát	fogalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	_
+17	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+18	egyben	egyben	[/Adv]	ADV	_	MODE	22	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	titoksértést	titoksértés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	21	_	_	_	_	_
+21	büntetni	büntet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	22	_	_	_	_	_
+22	rendelik	rendel	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	17	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_9
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	szabadalmi	szabadalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	jog	jog	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+4	meghatározza	meghatároz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+7	mely	mely	[/Det|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	10	_	_	_	_	_
+8	új	új	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+9	műszaki	műszaki	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	megoldásokra	megoldás	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	OBL	15	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	találmányokra	találmány	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	COORD	10	_	_	_	_	_
+13	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	_	_	_	_	_
+14	szabadalmat	szabadalom	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	_	_	_	_	_
+15	engedélyezni	engedélyez	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	13	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_10
+1	Sajátos	sajátos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	szabályok	szabály	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	3	_	_	_	_	_
+3	vonatkoznak	vonatkozik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+5	már	már	[/Adv]	ADV	_	TLOCY	7	_	_	_	_	_
+6	nyilvánosságra	nyilvánosság	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	7	_	_	_	_	_
+7	jutott	jutott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	megoldásokra	megoldás	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	OBL	3	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	know-how	know-how	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+3	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	5	_	_	_	_	_
+4	ipari	ipari	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	titok	titok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	ATT	8	_	_	_	_	_
+8	forgalomképes	forgalomképes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	vagyis	vagyis	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+11	adható-vehető	adható-vehető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	10	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	használata	használat	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	15	_	_	_	_	_
+15	engedélyezhető	engedélyezhető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	11	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_12
+1	Nem	nem	[/Adv]	ADV	PronType=Neg	NEG	2	_	_	_	_	_
+2	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	know-how	know-how	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	_	_	_	_	_
+4	tárgya	tárgy	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	2	_	_	_	_	_
+5	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	6	_	_	_	_	_
+6	tudás	tudás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	2	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+8	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	13	_	_	_	_	_
+9	nyilvánosságra	nyilvánosság	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	10	_	_	_	_	_
+10	jutott	jutott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+11	szabadalmi	szabadalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	leírásból	leírás	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	13	_	_	_	_	_
+13	megismerhető	megismerhető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	személyes	személyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	adatokhoz	adat	[/N][Pl][All]	NOUN	Case=All|Number=Plur	OBL	4	_	_	_	_	_
+4	való	való	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	jogot	jog	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7	_	_	_	_	_
+6	jogszabályok	jogszabály	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	7	_	_	_	_	_
+7	rendezik	rendez	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_14
+1	Ez	ez	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	4	_	_	_	_	_
+2	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+3	ún.	ún.	[/Adj|Abbr][Nom][Punct]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	adatvédelem	adatvédelem	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ROOT	0	_	_	_	_	_
+5	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_81.conllup_15
+1	Adatvédelmi	adatvédelmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	kérdésekben	kérdés	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	MODE	6	_	_	_	_	_
+3	bármely	bármely	[/Det|Pro]	ADV	PronType=Art	ATT	4	_	_	_	_	_
+4	magánszemély	magánszemély	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+5	ombudsmanhoz	ombudsman	[/N][All]	NOUN	Case=All|Number=Sing	OBL	6	_	_	_	_	_
+6	fordulhat	fordul	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

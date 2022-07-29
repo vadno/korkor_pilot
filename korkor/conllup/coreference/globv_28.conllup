@@ -1,0 +1,274 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_28.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Karibi-szigetek	Karibi-szigetek	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	12	_	_	_	_	_
+3	korábbi	korábbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	gyarmatként	gyarmat	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	MODE	12	_	_	_	_	_
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	Nemzetközösség	nemzetközösség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+8	jelenlegi	jelenlegi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	tagjaiként	tag	[/N][Pl.Poss.3Sg][EssFor:ként]	NOUN	Case=Ess|Number=Plur|Number[psor]=Sing|Person[psor]=3	COORD	5	_	_	_	_	_
+10	különös	különös	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	érdeklődést	érdeklődés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+12	mutatnak	mutat	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+14	skót	skót	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+15	függetlenségi	függetlenségi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	népszavazás	népszavazás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	17	_	_	_	_	_
+17	iránt	iránt	[/Post]	ADP	_	OBL	11	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Nemzetközösséget	nemzetközösség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	1:7	coref	_	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	Egyesült	Egyesült	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	Királyság	Királyság	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	9	_	_	_	_	_
+6	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+7	mindazon	mindazon	[/Det|Pro|def]	ADV	PronType=Art	ATT	8	_	_	_	_	_
+8	államok	állam	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	6	_	_	_	_	_
+9	alkotják	alkot	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	17	2:5	rel	_	_	_
+12	egykor	egykor	[/Adv]	ADV	_	TLOCY	17	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	_	_	_	_	_
+14	brit	brit	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	birodalom	birodalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	_	_	_	_	_
+16	részei	rész	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	PRED	17	_	_	_	_	_
+17	voltak	van	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	9	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	függetlenedés	függetlenedés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	_	_	_	_	_
+3	ügyét	ügy	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	8	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+5	Skót	skót	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	6	_	_	_	_	_
+6	Nemzeti	nemzeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	7	_	_	_	_	_
+7	Párt	párt	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	8	_	_	_	_	_
+8	viszi	visz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	14	3:7	rel	_	_	_
+11	2011-ben	2011	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	14	_	_	_	_	_
+12	döntő	döntő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	többséggel	többség	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	14	_	_	_	_	_
+14	megnyerte	megnyer	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	8	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+16	skót	skót	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+17	parlamenti	parlamenti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	választásokat	választás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	14	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_4
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	igenre	igen	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	3	_	_	_	_	_
+3	szavazók	szavazó	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	5	_	_	_	_	_
+4	azt	az	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	5	_	_	_	_	_
+5	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+9	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	10	_	_	_	_	_
+10	évszázados	évszázados	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	unió	unió	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	2:5	coref	_	_	_
+12	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	13	_	_	_	_	_
+13	képes	képes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+14	biztosítani	biztosít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	13	_	_	YES	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	modern	modern	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	mindennapok	mindennap	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	18	_	_	_	_	_
+18	szükségleteit	szükséglet	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	14	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_5
+1	Ezt	ez	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	5	_	dem	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	Karib-térségben	Karib-térség	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	5	_	_	_	_	_
+4	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	5	_	_	_	_	_
+5	mondanák	mond	[/V][Cond.Def.3Pl]	VERB	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	Egyesült	Egyesült	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Királyság	Királyság	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	11	4:11	coref	_	_	_
+11	parlamentjének	parlament	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	12	_	_	_	_	_
+12	mostohagyermeke	mostohagyermek	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+13	Skócia	Skócia	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_6
+1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	3	5:13	dem	_	_	_
+2	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	3	_	_	_	_	_
+3	vélik	vél	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	jobb	jó	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	PRED	6	_	_	_	_	_
+6	lesz	lesz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	_	_	YES	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	országnak	ország	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	6	5:13	coref	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+10	ha	ha	[/Cnj]	SCONJ	_	CONJ	6	_	_	_	_	_
+11	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+12	gazdasági	gazdasági	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	erejét	erő	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	17	_	_	_	_	YES
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+15	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	céljaira	cél	[/N][Pl.Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	17	_	_	_	_	YES
+17	használja	használ	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	_	_	YES	_	_
+18	fel	fel	[/Prev]	ADV	_	PREVERB	17	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_7
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	Egyesült	Egyesült	[/N]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	Királyság	Királyság	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	10	5:10	coref	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	jelenlegi	jelenlegi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	formájában	forma	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	10	_	_	_	_	_
+7	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	8	_	_	_	_	_
+8	hasznot	haszon	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	_	_	_	_	_
+9	is	is	[/Adv]	ADV	_	MODE	8	_	_	_	_	_
+10	nyújt	nyújt	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	karibi	Karib	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	szigetvilágban	szigetvilág	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	14	5:3	coref	_	_	_
+14	található	található	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	Nemzetközösség	nemzetközösség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	2:2	coref	_	_	_
+16	országainak	ország	[/N][Pl.Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	DAT	10	1:2	coref	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	tagállamok	tagállam	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	3	7:15	coref	_	_	_
+3	együttműködnek	együttműködik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	egymással	egymás	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Rcp	OBL	3	8:2	recip	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	demokrácia	demokrácia	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	7	_	_	_	_	_
+7	kérdésében	kérdés	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	3	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+9	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	10	_	_	_	_	_
+10	dolgokat	dolog	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	12	_	_	_	_	_
+11	is	is	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+12	beleértve	beleért	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	3	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	mint	mint	[/Cnj]	SCONJ	_	CONJ	12	_	_	_	_	_
+15	például	például	[/Adv]	ADV	_	APPEND	18	_	_	_	_	_
+16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	emberi	emberi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	jogok	jog	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	14	_	_	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	nemzetközi	nemzetközi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	béke	béke	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	18	_	_	_	_	_
+22	,	,	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+23	átláthatóság	átláthatóság	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	21	_	_	_	_	_
+24	,	,	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+25	jó	jó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	_	_	_	_	_
+26	kormányzás	kormányzás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	23	_	_	_	_	_
+27	és	és	[/Cnj]	CCONJ	_	CONJ	26	_	_	_	_	_
+28	fenntartható	fenntartható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	29	_	_	_	_	_
+29	fejlődés	fejlődés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	27	_	_	_	_	_
+30	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_9
+1	Vagyis	vagyis	[/Cnj]	CCONJ	_	APPEND	3	_	_	_	_	_
+2	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	3	_	_	_	_	_
+3	értékekben	érték	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	ROOT	0	_	_	_	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+5	melyeket	amely	[/N|Pro|Rel][Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Rel	OBJ	6	9:3	rel	_	_	_
+6	rögzít	rögzít	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	Nemzetközösség	nemzetközösség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	NE	9	8:2	coref	_	_	_
+9	Alapszabálya	alapszabály	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6	_	_	_	_	_
+10	is	is	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+11	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_10
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	csoport	csoport	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	9:8	coref	_	_	_
+3	továbbá	továbbá	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+4	támogatólag	támogatólag	[/Adv]	ADV	_	OBL	5	_	_	_	_	_
+5	lép	lép	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	fel	fel	[/Prev]	ADV	_	PREVERB	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+8	kisebb	kicsi	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	12	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	gazdaságilag	gazdaságilag	[/Adv]	ADV	_	MODE	11	_	_	_	_	_
+11	sebezhetőbb	sebezhető	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	COORD	9	_	_	_	_	_
+12	tagországok	tagország	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	13	_	_	_	_	_
+13	irányába	irány	[/N][Poss.3Sg][Ill]	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	TO	5	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_11
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Karibi-szigetek	Karibi-szigetek	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	3	_	_	_	_	_
+3	országaira	ország	[/N][Pl.Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	4	7:15	coref	_	_	_
+4	nézve	nézve	[/Post|(Subl)]	ADP	_	MODE	12	_	_	_	_	_
+5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	8	_	_	_	_	_
+6	összement	összement	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	Egyesült	Egyesült	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	Királyságnak	Királyság	[/N][Dat]	PROPN	Case=Dat|Number=Sing	POSS	12	_	_	_	_	_
+9	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	10	_	_	_	_	_
+10	következménye	következmény	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	12	_	_	_	_	_
+11	is	is	[/Adv]	ADV	_	MODE	12	_	_	_	_	_
+12	lesz	lesz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_12
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+2	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+3	ilyen	ilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	5	_	_	_	_	_
+4	alapvető	alapvető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	dolog	dolog	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	hozzájárulás	hozzájárulás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	Nemzetközösség	nemzetközösség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	NE	10	10:2	coref	_	_	_
+10	Titkárságához	titkárság	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	7	_	_	_	_	_
+11	és	és	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+12	annak	az	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	POSS	15	12:10	dem	_	_	_
+13	Technikai	technikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	14	_	_	_	_	_
+14	Együttműködésének	együttműködés	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	NE	15	_	_	_	_	_
+15	Pénzalapjához	pénzalap	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	11	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_28.conllup_13
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	12	12	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+3	karibi	karibi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	országnak	ország	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	12	11:3	coref	_	_	_
+5	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+6	amelyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	7	13:4	rel	_	_	_
+7	tagjai	tag	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	12	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	Nemzetközösségnek	nemzetközösség	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	7	12:9	coref	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	szüksége	szükség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	12	_	_	_	_	_
+12	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+13	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	28	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	28	_	_	_	_	_
+15	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	Európai	európai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	17	_	_	_	_	_
+17	Közösségben	közösség	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	26	_	_	_	_	_
+18	és	és	[/Cnj]	CCONJ	_	CONJ	17	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	24	_	_	_	_	_
+20	Gazdasági	gazdasági	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	21	_	_	_	_	_
+21	Együttműködési	együttműködési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	22	_	_	_	_	_
+22	és	és	[/Cnj]	CCONJ	_	NE	23	_	_	_	_	_
+23	Fejlesztési	fejlesztési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	24	_	_	_	_	_
+24	Szervezetben	szervezet	[/N][Ine]	NOUN	Case=Ine|Number=Sing	COORD	18	_	_	_	_	_
+25	is	is	[/Adv]	ADV	_	MODE	24	_	_	_	_	_
+26	erős	erős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+27	Egyesült	Egyesült	[/N]	PROPN	Case=Nom|Number=Sing	ATT	28	_	_	_	_	_
+28	Királyságra	Királyság	[/N][Subl]	PROPN	Case=Sub|Number=Sing	OBL	12	_	_	_	_	_
+29	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+30	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	12	_	_	_	_	_
+31	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	SUBJ	33	13:28	dem	_	_	_
+32	képes	képes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	33	_	_	_	_	_
+33	legyen	lesz	[/V][Sbjv.NDef.3Sg]	VERB	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	30	_	_	_	_	_
+34	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	35	_	_	_	_	_
+35	karibi	Karib	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	36	_	_	_	_	_
+36	térség	térség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	37	13:4	coref	_	_	_
+37	érdekeinek	érdek	[/N][Pl.Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	POSS	38	_	_	_	_	_
+38	támogatására	támogatás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	32	_	_	_	_	_
+39	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

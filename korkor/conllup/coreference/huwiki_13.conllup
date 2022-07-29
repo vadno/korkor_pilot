@@ -1,0 +1,410 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_13.conllup_1
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Unisex	Unisex	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+3	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	6	_	_	_	_	_
+4	magyar	magyar	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+5	könnyűzenei	könnyűzenei	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	együttes	együttes	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+8	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	10	1:2	rel	_	_	_
+9	1997-ben	1997	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	10	_	_	_	_	_
+10	alakult	alakul	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+11	Budapesten	Budapest	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	10	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_2
+1	Szekeres	Szekeres	[/N]	PROPN	Case=Nom|Number=Sing	NE	2	_	_	_	_	_
+2	Adrien	Adrien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	11	_	_	_	_	_
+3	1997	1997	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+4	elején	eleje	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	11	_	_	_	_	_
+5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	6	_	_	_	_	_
+6	jazz-zenészekből	jazz-zenész	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	7	_	_	_	_	_
+7	álló	álló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	zenekarral	zenekar	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	11	_	_	_	_	_
+9	funky	funky	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	zenét	zene	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	11	_	_	_	_	_
+11	játszott	játszik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	amikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	16	2:4	rel	_	_	_
+14	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	koncertjükön	koncert	[/N][Poss.3Pl][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Plur|Person[psor]=3	LOCY	16	_	_	_	_	YES
+16	megismerkedett	megismerkedik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	11	_	_	YES	_	_
+17	Erdélyi	Erdélyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	18	_	_	_	_	_
+18	Lászlóval	László	[/N][Ins]	PROPN	Case=Ins|Number=Sing	OBL	16	_	_	_	_	_
+19	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	Unisex	Unisex	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	21	1:2	coref	_	_	_
+21	zenekar	zenekar	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	22	_	_	_	_	_
+22	frontemberével	frontember	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	18	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_3
+1	Megismerkedésük	megismerkedés	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	ATT	2	_	_	_	_	YES
+2	után	után	[/Post]	ADP	_	TLOCY	6	_	_	_	_	_
+3	hamar	hamar	[/Adv]	ADV	_	TLOCY	6	_	_	_	_	_
+4	lázas	lázas	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	munkába	munka	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	6	_	_	_	_	_
+6	kezdtek	kezd	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+9	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	12	_	_	_	_	_
+10	közösen	közös	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	11	_	_	_	_	_
+11	elkészített	elkészített	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	felvétel	felvétel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	13	_	_	_	_	_
+13	után	után	[/Post]	ADP	_	TLOCY	19	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+15	Sony	Sony	[/N]	PROPN	Case=Nom|Number=Sing	NE	16	_	_	_	_	_
+16	Music	Music	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	19	_	_	_	_	_
+17	azonnal	azonnal	[/Adv]	ADV	_	TLOCY	19	_	_	_	_	_
+18	szerződést	szerződés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	19	_	_	_	_	_
+19	ajánlott	ajánl	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	_	_	_	_	_
+20	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	21	_	_	_	_	_
+21	nagylemezre	nagylemez	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	19	_	_	_	_	_
+22	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_4
+1	1997.	1997.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	2	_	_	_	_	_
+2	júliusában	július	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	3	_	_	_	_	_
+3	jelent	jelenik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	meg	meg	[/Prev]	PART	_	PREVERB	3	_	_	_	_	_
+5	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	Unisex	Unisex	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	8	2:21	coref	_	_	_
+7	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	8	_	_	_	_	_
+8	albuma	album	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	3	_	_	_	_	_
+9	Szekeres	Szekeres	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Adriennel	Adrien	[/N][Ins]	PROPN	Case=Ins|Number=Sing	MODE	3	2:2	coref	_	_	_
+11	Szebb	Szebb	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	holnap	holnap	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	13	_	_	_	_	_
+13	címmel	cím	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	3	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_5
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	Unisex	Unisex	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	3	4:6	coref	_	_	_
+3	sikerét	siker	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	_
+4	mi	mi	[/N|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	6	5:14	prs	_	_	_
+5	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	6	_	_	_	_	_
+6	bizonyítja	bizonyít	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	jobban	jobban	[/Adv]	ADV	_	MODE	6	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+9	minthogy	minthogy	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	lemezről	lemez	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	14	4:8	coref	_	_	_
+12	5	5	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	13	_	_	_	_	_
+13	dalt	dal	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	14	_	_	_	_	_
+14	tűztek	tűz	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	9	_	_	_	_	_
+15	műsorukra	műsor	[/N][Poss.3Pl][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBL	14	_	_	_	_	YES
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	különböző	különböző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	rádióállomások	rádióállomás	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	14	_	_	_	_	_
+19	(	(	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+20	Szebb	Szebb	[/N]	PROPN	Case=Nom|Number=Sing	NE	21	_	_	_	_	_
+21	holnap	holnap	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	13	4:12	coref	_	_	_
+22	,	,	[Punct]	PUNCT	_	_	_	_	_	_	_	_
+23	Mindenre	Mindenre	[/N]	PROPN	Case=Nom|Number=Sing	NE	24	_	_	_	_	_
+24	készen	készen	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	21	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	24	_	_	_	_	_
+26	Száguldj	Száguldj	[/N]	PROPN	Case=Nom|Number=Sing	NE	27	_	_	YES	_	_
+27	velem	velem	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	24	_	_	_	_	_
+28	,	,	[Punct]	PUNCT	_	_	_	_	_	_	_	_
+29	Úgy	Úgy	[/N]	PROPN	Case=Nom|Number=Sing	NE	30	_	_	_	_	_
+30	szeress	szeress	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	27	_	_	YES	_	_
+31	,	,	[Punct]	PUNCT	_	PUNCT	30	_	_	_	_	_
+32	Itt	Itt	[/N]	PROPN	Case=Nom|Number=Sing	NE	33	_	_	_	_	_
+33	a	a	[/N]	NOUN	Case=Nom|Number=Sing	NE	34	_	_	_	_	_
+34	nyár	nyár	[/N]	NOUN	Case=Nom|Number=Sing	NE	35	_	_	_	_	_
+35	újra	újra	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	30	_	_	_	_	_
+36	)	)	[Punct]	PUNCT	_	PUNCT	35	_	_	_	_	_
+37	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_6
+1	1998-ban	1998	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	2	_	_	_	_	_
+2	jelent	jelenik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	meg	meg	[/Prev]	PART	_	PREVERB	2	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	második	kettő	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	6	_	_	_	_	_
+6	album	album	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	2	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+9	Unimix	Unimix	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	6	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+11	Sony	Sony	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	Music	Music	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	13	3:16	coref	_	_	_
+13	gondozásában	gondozás	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	2	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	remixalbum	remixalbum	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	7	6:6	coref	_	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	5	_	_	_	_	_
+5	nagylemez	nagylemez	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	5:11	coref	_	_	_
+6	dalait	dal	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	7	_	_	_	_	_
+7	tartalmazta	tartalmaz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_8
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	együttes	együttes	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	5:2	coref	_	_	_
+3	1999-ben	1999	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	4	_	_	_	_	_
+4	készítette	készít	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	el	el	[/Prev]	ADV	_	PREVERB	4	_	_	_	_	_
+6	harmadik	három	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	_	_	_	_	_
+7	albumát	album	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	4	_	_	_	_	YES
+8	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	Csoda	Csoda	[/N]	PROPN	Case=Nom|Number=Sing	NE	11	_	_	_	_	_
+11	az	az	[/N]	NOUN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	élet-et	élet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	7	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	Kiss	Kiss	[/N]	PROPN	Case=Nom|Number=Sing	NE	15	_	_	_	_	_
+15	Gábor	Gábor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	20	_	_	_	_	_
+16	(	(	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+17	Adrien	Adrien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	18	_	_	_	_	_
+18	férje	férj	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	15	_	_	_	_	_
+19	)	)	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	irányításával	irányítás	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	4	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_9
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	albumról	album	[/N][Del]	NOUN	Case=Del|Number=Sing	MODE	5	8:7	coref	_	_	_
+3	4	4	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+4	dal	dal	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+5	szerepelt	szerepel	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	slágerlistákon	slágerlista	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	5	_	_	_	_	_
+8	(	(	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+9	Hív	Hív	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	a	a	[/N]	NOUN	Case=Nom|Number=Sing	NE	11	_	_	_	_	_
+11	nagyvilág	nagyvilág	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	Játssz	Játssz	[/N]	PROPN	Case=Nom|Number=Sing	NE	14	_	_	YES	_	_
+14	velem	velem	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	11	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	Csoda	Csoda	[/N]	PROPN	Case=Nom|Number=Sing	NE	17	_	_	_	_	_
+17	az	az	[/N]	NOUN	Case=Nom|Number=Sing	NE	18	_	_	_	_	_
+18	élet	élet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	14	8:12	coref	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	Jön	Jön	[/N]	PROPN	Case=Nom|Number=Sing	NE	21	_	_	_	_	_
+21	2000	2000	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	18	_	_	_	_	_
+22	)	)	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_10
+1	Minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	MODE	3	_	_	_	_	_
+2	dalhoz	dal	[/N][All]	NOUN	Case=All|Number=Sing	OBL	3	_	_	_	_	_
+3	készült	készül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	videoklip	videoklip	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	3	_	_	_	_	_
+5	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_11
+1	1999-ben	1999	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	6	8:3	coref	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	zenekart	zenekar	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	8:2	coref	_	_	_
+4	hatalmas	hatalmas	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	megtiszteltetés	megtiszteltetés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+6	érte	ér	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	amikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	9	_	_	_	_	_
+9	felléphetett	fellép	[/V][_Mod/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	_	_	YES	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+11	Felvonulási	Felvonulási	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	12	_	_	_	_	_
+12	téren	tér	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	13	_	_	_	_	_
+13	rendezett	rendezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	Kapcsolat	Kapcsolat	[/N]	PROPN	Case=Nom|Number=Sing	NE	15	_	_	_	_	_
+15	koncerten	koncert	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	9	_	_	_	_	_
+16	200	200	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	17	_	_	_	_	_
+17	ezer	ezer	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	18	_	_	_	_	_
+18	ember	ember	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	19	_	_	_	_	_
+19	előtt	előtt	[/Post]	ADP	_	OBL	9	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_12
+1	2000-ben	2000	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	5	_	_	_	_	_
+2	Unimix	Unimix	[/N]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	2	2	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	4	_	_	_	_	_
+4	címmel	cím	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	5	_	_	_	_	_
+5	jelentették	jelent	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+6	meg	meg	[/Prev]	PART	_	PREVERB	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+8	második	kettő	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	9	_	_	_	_	_
+9	lemezről	lemez	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	10	7:2	coref	_	_	_
+10	remix	remix	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	_	_	_	_	_
+11	albumot	album	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_13
+1	2000	2000	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	nyarán	nyár	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	5	_	_	_	_	_
+3	még	még	[/Adv]	ADV	_	TLOCY	5	_	_	_	_	_
+4	egyszer	egyszer	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	felléptek	fellép	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	Kapcsolat	Kapcsolat	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	koncerten	koncert	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	5	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+10	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+12	Budai	Budai	[/N]	PROPN	Case=Nom|Number=Sing	NE	13	_	_	_	_	_
+13	Parkszínpadon	Parkszínpad	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	16	_	_	_	_	_
+14	önálló	önálló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	esttel	est	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	16	_	_	_	_	_
+16	szórakoztatták	szórakoztat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	_	_	YES	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	rajongókat	rajongó	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	16	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_14
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	zenekaron	zenekar	[/N][Supe]	NOUN	Case=Sup|Number=Sing	ATT	3	11:4	coref	_	_	_
+3	belül	belül	[/Post|(Supe)]	ADP	_	LOCY	6	_	_	_	_	_
+4	emberi	emberi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	problémák	probléma	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	_	_	_	_	_
+6	sokasodtak	sokasodik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+9	Adrien	Adrien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	11	8:17	coref	_	_	_
+10	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	11	_	_	_	_	_
+11	döntött	dönt	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+13	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	11	_	_	_	_	_
+14	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	15	_	_	_	_	_
+15	folytatja	folytat	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	13	_	_	YES	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	közös	közös	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	munkát	munka	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	_	_	_	_	_
+19	Erdélyi	Erdélyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	20	_	_	_	_	_
+20	Lászlóval	László	[/N][Ins]	PROPN	Case=Ins|Number=Sing	MODE	15	2:18	coref	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_15
+1	Adrien	Adrien	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	3	14:9	coref	_	_	_
+2	szólóalbumot	szólóalbum	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	_	_	_	_	_
+3	adott	ad	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+4	ki	ki	[/Prev]	ADV	_	PREVERB	3	_	_	_	_	_
+5	Futok	Futok	[/N]	PROPN	Case=Nom|Number=Sing	NE	6	_	_	YES	_	_
+6	a	a	[/N]	NOUN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	szívem	szívem	[/N]	NOUN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	után	után	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	_	_	_	_	_
+9	címmel	cím	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	3	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+11	Tom	Tom	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	Tom	Tom	[/N]	PROPN	Case=Nom|Number=Sing	NE	13	_	_	_	_	_
+13	Recordsnál	Records	[/N][Ade]	PROPN	Case=Ade|Number=Sing	LOCY	3	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_16
+1	László	László	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	6	14:20	coref	_	_	_
+2	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	Maraton	Maraton	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	5	_	_	_	_	_
+5	együttesben	együttes	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	6	_	_	_	_	_
+6	folytatta	folytat	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	YES	_
+7	tovább	tovább	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_17
+1	2003	2003	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	végén	vég	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	4	_	_	_	_	_
+3	ismét	ismét	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+4	összeállt	összeáll	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	zenekar	zenekar	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	14:2	coref	_	_	_
+7	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	9	_	_	_	_	_
+8	új	új	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	felállásban	felállás	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	4	_	_	_	_	_
+10	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_18
+1	Kiadták	kiad	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+3	2.0	2.0	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	_	_	_	_	_
+4	című	című	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	albumot	album	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	1	15:2	coref	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	2005-ben	2005	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	14	_	_	_	_	_
+8	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+10	Tűz	Tűz	[/N]	PROPN	Case=Nom|Number=Sing	NE	11	_	_	_	_	_
+11	és	és	[/N]	NOUN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	víz	víz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	13	_	_	_	_	_
+13	című	című	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	kislemezt	kislemez	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	8	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_19
+1	2005	2005	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	POSS	2	_	_	_	_	_
+2	novemberétől	november	[/N][Poss.3Sg][Abl]	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	TFROM	11	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+4	Megasztár	Megasztár	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+5	második	kettő	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	6	_	_	_	_	_
+6	szériájának	széria	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	7	_	_	_	_	_
+7	döntőse	döntős	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	11	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	Kósa	Kósa	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Ivett	Ivett	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	7	_	_	_	_	_
+11	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	Unisex	Unisex	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	14	5:2	coref	_	_	_
+14	énekesnője	énekesnő	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	11	_	_	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_20
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	együttes	együttes	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	19:13	coref	_	_	_
+3	nyolcadik	nyolc	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	4	_	_	_	_	_
+4	albuma	album	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	8	_	_	_	_	_
+5	2006.	2006.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	6	_	_	_	_	_
+6	november	november	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	9-én	9	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	8	_	_	_	_	_
+8	jelent	jelenik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	meg	meg	[/Prev]	PART	_	PREVERB	8	_	_	_	_	_
+10	Gondold	Gondold	[/N]	PROPN	Case=Nom|Number=Sing	NE	11	_	_	_	_	_
+11	újra	újra	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	12	_	_	_	_	_
+12	címmel	cím	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	8	_	_	_	_	_
+13	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_21
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	ehhez	ez	[/N|Pro][All]	PRON	Case=All|Number=Sing|Person=3|PronType=Dem	OBL	3	20:4	dem	_	_	_
+3	tartozó	tartozó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	kislemezek	kislemez	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	PRED	???	_	_	_	_	_
+5	:	:	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+6	Szerelem	Szerelem	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	sose	sose	[/N]	NOUN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	'	'	[Punct]	PUNCT	_	NE	9	_	_	_	_	_
+9	volt	volt 	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	Két	Két	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	nap	nap	[/N]	NOUN	Case=Nom|Number=Sing	NE	13	_	_	_	_	_
+13	kel	kel	[/N]	NOUN	Case=Nom|Number=Sing	NE	14	_	_	_	_	_
+14	fel	fel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	9	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	Fekete	Fekete	[/N]	PROPN	Case=Nom|Number=Sing	NE	17	_	_	_	_	_
+17	Hold	Hold	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	14	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_13.conllup_22
+1	2007	2007	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	közepétől	közép	[/N][Poss.3Sg][Abl]	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	5	_	_	_	_	_
+3	Wéber	Wéber	[/N]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	Helga	Helga	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+5	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	együttes	együttes	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	20:2	coref	_	_	_
+8	frontembere	frontember	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	5	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+10	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	12	22:4	rel	_	_	_
+11	duettet	duett	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	_	_	_	_	_
+12	énekelt	énekel	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	5	_	_	_	_	_
+13	Caramellel	Caramel	[/N][Ins]	PROPN	Case=Ins|Number=Sing	MODE	12	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+15	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	22:11	rel	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	következő	következő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	lemezen	lemez	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	20	_	_	_	_	_
+19	is	is	[/Adv]	ADV	_	MODE	18	_	_	_	_	_
+20	hallható	hallható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

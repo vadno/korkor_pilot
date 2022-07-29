@@ -1,0 +1,221 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = globv_8.conllup_1
+1	Egyetlen	egyetlen	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	_	_	_	_	_
+2	sportsztár	sportsztár	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+3	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	2	_	_	_	_	_
+4	váltott	vált	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	ki	ki	[/Prev]	ADV	_	PREVERB	4	_	_	_	_	_
+6	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	8	_	_	_	_	_
+7	heves	heves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	vitákat	vita	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	_	_	_	_	_
+9	Kínában	Kína	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	4	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+11	mint	mint	[/Cnj]	SCONJ	_	CONJ	4	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	gátfutó	gátfutó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	15	_	_	_	_	_
+14	Liu	Liu	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	15	_	_	_	_	_
+15	Xiang	Xiang	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	11	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	110	110	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	3	_	_	_	_	_
+3	méteres	méteres	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	gátfutás	gátfutás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	_	_	_	_	_
+5	korábbi	korábbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	világcsúcstartója	világcsúcstartó	[/Adj][Poss.3Sg][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	12	1:15	coref	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	2004-es	2004-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+9	olimpiai	olimpiai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	bajnoka	bajnok	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	7	_	_	_	_	_
+11	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	12	_	_	_	_	_
+12	esett	esik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	ki	ki	[/Prev]	ADV	_	PREVERB	12	_	_	_	_	_
+14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+15	londoni	londoni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	olimpiáról	olimpia	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	12	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+18	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	12	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	versenyen	verseny	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	24	2:16	coref	_	_	_
+21	egyetlen	egyetlen	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	22	_	_	_	_	_
+22	gátat	gát	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	24	_	_	_	_	_
+23	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	22	_	_	_	_	_
+24	ugrott	ugrik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	_	_	YES	_	_
+25	át	át	[/Prev]	ADV	_	PREVERB	24	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_3
+1	Mint	mint	[/Prep]	ADP	_	ATT	7	_	_	_	_	_
+2	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+3	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	4	_	_	_	_	_
+4	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+5	olimpiai	olimpiai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	bajnok	bajnok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	atléta	atléta	[/N][Nom]	NOUN	Case=Nom|Number=Sing	MODE	23	2:6	coref	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+10	2004-es	2004-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+11	athéni	athéni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	olimpia	olimpia	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	13	_	_	_	_	_
+13	után	után	[/Post]	ADP	_	TLOCY	23	_	_	_	_	_
+14	Liu	Liu	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	23	3:7	coref	_	_	_
+15	azonnal	azonnal	[/Adv]	ADV	_	TLOCY	23	_	_	_	_	_
+16	nemzeti	nemzeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	hős	hős	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	23	_	_	_	_	_
+18	és	és	[/Cnj]	CCONJ	_	CONJ	17	_	_	_	_	_
+19	számos	számos	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	20	_	_	_	_	_
+20	reklám	reklám	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	18	_	_	_	_	_
+21	ismert	ismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	arca	arc	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	20	_	_	_	_	_
+23	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+24	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_4
+1	Egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	3	_	_	_	_	_
+2	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	3	_	_	_	_	_
+3	versenyszámban	versenyszám	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	6	_	_	_	_	_
+4	tudta	tud	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	végre	végre	[/Adv]	ADV	_	MODE	6	_	_	_	_	_
+6	hallatni	hallat	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	4	_	_	YES	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	hangját	hang	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	6	_	_	_	_	YES
+9	Kína	Kína	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+11	amelyet	amely	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	17	4:3	rel	_	_	_
+12	hagyományosan	hagyományos	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	13	_	_	_	_	_
+13	észak-amerikai	észak-amerikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+14	és	és	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+15	európai	európai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	14	_	_	_	_	_
+16	sprinterek	sprinter	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	17	_	_	_	_	_
+17	uralnak	ural	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	4	_	_	_	_	_
+18	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_5
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	2004-es	2004-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	szenzáció	szenzáció	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	_	_	_	_	_
+4	után	után	[/Post]	ADP	_	TLOCY	8	_	_	_	_	_
+5	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+6	Liu	Liu	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	8	3:14	coref	_	_	_
+7	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	8	_	_	_	_	_
+8	tett	tesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+9	eleget	elég	[/Num][Acc]	NUM	Case=Acc|Number=Sing|NumType=Card	OBL	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+11	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	elvárásnak	elvárás	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	8	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+14	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	15	_	_	_	_	_
+15	nyert	nyer	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	13	_	_	YES	_	_
+16	ismét	ismét	[/Adv]	ADV	_	MODE	15	_	_	_	_	_
+17	olimpiai	olimpiai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	aranyérmet	aranyérem	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	_	_	_	_	_
+19	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	atlétikapályán	atlétikapálya	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	15	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_6
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	2008-as	2008-as	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+3	pekingi	pekingi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	olimpián	olimpia	[/N][Supe]	NOUN	Case=Sup|Number=Sing	MODE	11	_	_	_	_	_
+5	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	előfutam	előfutam	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	_	_	_	_	_
+7	előtt	előtt	[/Post]	ADP	_	TLOCY	11	_	_	_	_	_
+8	Achilles-ín	Achilles-ín	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	9			_	_	_
+9	sérülése	sérülés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	10	_	_	_	_	_
+10	miatt	miatt	[/Post]	ADP	_	MODE	11	_	_	_	_	_
+11	lépett	lép	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	YES	_	_
+12	vissza	vissza	[/Prev]	ADV	_	PREVERB	11	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	11	_	_	_	_	_
+14	egymilliárd	egymilliárd	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	16	_	_	_	_	_
+15	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	rajongónak	rajongó	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	17	_	_	_	_	_
+17	okozva	okoz	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	11	_	_	_	_	_
+18	ezzel	ez	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	17	_	_	_	_	_
+19	csalódást	csalódás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	17	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_7
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+2	2012-es	2012-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+3	londoni	londoni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	olimpia	olimpia	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	10	2:16	coref	_	_	_
+5	sokak	sok	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	6	_	_	_	_	_
+6	szerint	szerint	[/Post]	ADP	_	MODE	10	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	jóvátétel	jóvátétel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+9	lehetősége	lehetőség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	10	_	_	_	_	_
+10	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+11	volna	volna	[/V]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	AUX	10	_	_	_	_	_
+12	számára	számára	[/Post|(Poss)][Poss.3Sg]	ADP	_	DAT	10	???	prs	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+14	de	de	[/Cnj]	CCONJ	_	CONJ	10	_	_	_	_	_
+15	augusztus	augusztus	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	16	_	_	_	_	_
+16	7-én	7	[/N][Nom]	NOUN	Case=Nom|Number=Sing	TLOCY	21	_	_	_	_	_
+17	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	19	_	_	_	_	_
+18	ugyanolyan	ugyanolyan	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	Achilles-sérülés	Achilles-sérülés	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	20			_	_	_
+20	miatt	miatt	[/Post]	ADP	_	MODE	21	_	_	_	_	_
+21	kiesett	kiesik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	14	_	_	YES	_	_
+22	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	_	_	_	_	_
+23	előfutam	előfutam	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	24	7:4	holo	_	_	_
+24	során	során	[/Post|(Poss)]	ADP	_	MODE	21	_	_	_	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_8
+1	Ahelyett	ahelyett	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	18	_	_	_	_	_
+2	,	,	[Punct]	PUNCT	_	PUNCT	1	_	_	_	_	_
+3	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	1	_	_	_	_	_
+4	azonnal	azonnal	[/Adv]	ADV	_	TLOCY	5	_	_	_	_	_
+5	távozott	távozik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	3	_	_	YES	_	_
+6	volna	volna	[/V]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	AUX	5	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+8	mint	mint	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+9	ahogy	ahogy	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	MODE	13	_	_	_	_	_
+10	négy	négy	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	11	_	_	_	_	_
+11	évvel	év	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	12	_	_	_	_	_
+12	ezelőtt	ezelőtt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	13	_	_	_	_	_
+13	tette	tesz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	8	_	_	YES	YES	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	Liu	Liu	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	18	5:6	coref	_	_	_
+16	egy	egy	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	17	_	_	_	_	_
+17	lábon	láb	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	18	_	_	_	_	_
+18	végigugrált	végigugrál	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	pálya	pálya	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	21	_	_	_	_	_
+21	mellett	mellett	[/Post]	ADP	_	LOCY	18	_	_	_	_	_
+22	és	és	[/Cnj]	CCONJ	_	CONJ	18	_	_	_	_	_
+23	megcsókolta	megcsókol	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	22	_	_	YES	_	_
+24	olimpiai	olimpiai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	25	_	_	_	_	_
+25	karrierjének	karrier	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	30	_	_	_	_	YES
+26	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	30	_	_	_	_	_
+27	,	,	[Punct]	PUNCT	_	PUNCT	26	_	_	_	_	_
+28	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	26	_	_	_	_	_
+29	utolsó	utolsó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+30	korlátját	korlát	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	23	_	_	_	_	_
+31	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+32	mielőtt	mielőtt	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	34	_	_	_	_	_
+33	tolókocsiba	tolókocsi	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	34	_	_	_	_	_
+34	segítették	segít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	_	_	YES	YES	_
+35	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = globv_8.conllup_9
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	eset	eset	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	_	_	_	_	_
+3	azonnal	azonnal	[/Adv]	ADV	_	TLOCY	6	_	_	_	_	_
+4	heves	heves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	vitákat	vita	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	6	_	_	_	_	_
+6	váltott	vált	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+7	ki	ki	[/Prev]	ADV	_	PREVERB	6	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	Sina	Sina	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	10	_	_	_	_	_
+10	Weibón	Weibo	[/N][Supe]	PROPN	Case=Sup|Number=Sing	MODE	6	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+13	meghatározó	meghatározó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+14	kínai	kínai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+15	közösségi	közösségi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	portálon	portál	[/N][Supe]	NOUN	Case=Sup|Number=Sing	COORD	10	9:10	coref	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

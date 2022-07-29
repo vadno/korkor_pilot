@@ -1,0 +1,315 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_57.conllup_1
+1	1948-as	1948-as	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	_	_	_	_	_
+2	megalakulásakor	megalakulás	[/N][Poss.3Sg][Temp]	NOUN	Case=Tem|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	17	_	_	_	_	_
+3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	Egészségügyi	Egészségügyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	_	_	_	_	_
+5	Világszervezet	Világszervezet	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	17	_	_	_	_	_
+6	(	(	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+7	World	World	[/N]	PROPN	Case=Nom|Number=Sing	NE	8			_	_	_
+8	Health	Health	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Organization	Organization	[/N][Nom]	PROPN	Case=Nom|Number=Sing	APPEND	5	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	WHO	WHO	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	9	_	_	_	_	_
+12	)	)	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+13	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	egészséget	egészség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	17	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	következőképpen	következőképpen	[/Adv]	ADV	_	MODE	17	_	_	_	_	_
+17	definiálta	definiál	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+18	:	:	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+19	„	„	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+20	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+21	egészség	egészség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	1:14	coref	_	_	_
+22	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	29	_	_	_	_	_
+23	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+24	testi	testi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	29	_	_	_	_	_
+25	,	,	[Punct]	PUNCT	_	PUNCT	24	_	_	_	_	_
+26	lelki	lelki	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	24	_	_	_	_	_
+27	és	és	[/Cnj]	CCONJ	_	CONJ	26	_	_	_	_	_
+28	szociális	szociális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	27	_	_	_	_	_
+29	jólét	jólét	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	30	_	_	_	_	_
+30	állapota	állapot	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+31	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+32	és	és	[/Cnj]	CCONJ	_	CONJ	???	_	_	_	_	_
+33	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	37	_	_	_	_	_
+34	csupán	csupán	[/Adv]	ADV	_	MODE	37	_	_	_	_	_
+35	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	36	_	_	_	_	_
+36	betegség	betegség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	37	_	_	_	_	_
+37	hiánya	hiány	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	YES	_	_
+38	”	”	[Punct]	PUNCT	_	PUNCT	37	_	_	_	_	_
+39	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	fogyatékosság	fogyatékosság	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	_	_	_	_	_
+3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	_	_	_	_	_
+4	zárja	zár	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	ki	ki	[/Prev]	ADV	_	TLOCY	4			_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	egészséget	egészség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	1:21	coref	_	_	_
+8	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	WHO-meghatározás	WHO-meghatározás	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	5	1:17	coref	_	_	_
+3	New	New	[/N]	PROPN	Case=Nom|Number=Sing	NE	4	_	_	_	_	_
+4	Yorkban	York	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	5	_	_	_	_	_
+5	született	születik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+6	1946-ban	1946	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	5	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+9	61	61	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	10	_	_	_	_	_
+10	ország	ország	[/N][Nom]	NOUN	Case=Nom|Number=Sing	OBL	11	_	_	_	_	_
+11	részvételével	részvétel	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	12	_	_	_	_	_
+12	megrendezett	megrendezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+13	Egészség	Egészség	[/N]	PROPN	Case=Nom|Number=Sing	NE	14	_	_	_	_	_
+14	Konferencián	Konferencia	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	5	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+16	majd	majd	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+17	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+18	1948.	1948.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	19	_	_	_	_	_
+19	április	április	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	20	_	_	_	_	_
+20	7-én	7	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	TLOCY	21	_	_	_	_	_
+21	hatályba	hatály	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	22	_	_	_	_	_
+22	helyezett	helyezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	_	_	_	_	_
+23	Egészségügyi	Egészségügyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	24	_	_	_	_	_
+24	Világszervezet	Világszervezet	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	28	1:5	coref	_	_	_
+25	(	(	[Punct]	PUNCT	_	PUNCT	26	_	_	_	_	_
+26	WHO	WHO	[/N][Nom]	PROPN	Case=Nom|Number=Sing	APPEND	24	_	_	_	_	_
+27	)	)	[Punct]	PUNCT	_	PUNCT	26	_	_	_	_	_
+28	Alkotmánya	alkotmány	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	29	_	_	_	_	_
+29	tette	tesz	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	16	_	_	_	YES	_
+30	széleskörűen	széleskörű	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	31	_	_	_	_	_
+31	ismertté	ismert	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	29	_	_	_	_	_
+32	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_4
+1	Egészségünket	egészség	[/N][Poss.1Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	OBJ	2	_	_	_	_	YES
+2	meghatározza	meghatároz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+3	makro-	makro	[/Adj][Nom][Hyph:Hyph]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	4	_	_	_	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	5	_	_	_	_	_
+5	mikrokörnyezetünk	mikrokörnyezet	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	SUBJ	2	_	_	_	_	YES
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	társadalom	társadalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	9	_	_	_	_	_
+9	berendezkedése	berendezkedés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	5	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	szociális	szociális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	érzékenysége	érzékenység	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9			_	_	YES
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	továbbá	továbbá	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+15	személyi	személyi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	kapcsolataink	kapcsolat	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	14			_	_	YES
+17	és	és	[/Cnj]	CCONJ	_	CONJ	16	_	_	_	_	_
+18	öröklött	öröklött	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	tulajdonságaink	tulajdonság	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	17			_	_	YES
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_5
+1	Milyen	milyen	[/Adj|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	3	_	_	_	_	_
+2	közvetlen	közvetlen	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	tényezők	tényező	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	4	_	_	_	_	_
+4	befolyásolják	befolyásol	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+5	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+6	egészséget	egészség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	4:1	coref	_	_	_
+7	?	?	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_6
+1	Ezeket	ez	[/Det|Pro][Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Dem	DET	3	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	hatásokat	hatás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	24	5:3	coref	_	_	_
+4	külső	külső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+5	és	és	[/Cnj]	CCONJ	_	CONJ	4	_	_	_	_	_
+6	belső	belső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	5	_	_	_	_	_
+7	tényezőkre	tényező	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	OBL	8	_	_	_	_	_
+8	bontva	bont	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	24	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	24	_	_	_	_	_
+10	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	egyén	egyén	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	_	_	_	_	_
+12	és	és	[/Cnj]	CCONJ	_	CONJ	11	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	környezete	környezet	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	12	_	_	_	_	_
+15	közvetlen	közvetlen	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	kölcsönhatása	kölcsönhatás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	24	_	_	_	_	_
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	vagyis	vagyis	[/Cnj]	CCONJ	_	CONJ	16	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	_	_	_	_	_
+20	bio-pszicho-szociális	bio-pszicho-szociális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	_	_	_	_	_
+21	hatások	hatás	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	23	_	_	_	_	_
+22	egyensúlyi	egyensúlyi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	_	_	_	_	_
+23	állapota	állapot	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	18	_	_	_	_	_
+24	jellemzi	jellemez	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+25	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_7
+1	Nemcsak	nemcsak	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	_	_	_	_	_
+3	természeti	természeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	katasztrófákat	katasztrófa	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	24	_	_	_	_	_
+5	(	(	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+6	árvíz	árvíz	[/N][Nom]	NOUN	Case=Nom|Number=Sing	APPEND	4	_	_	_	_	_
+7	,	,	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+8	cunami	cunami	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	6	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	ózonlyuk	ózonlyuk	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	8	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	10	_	_	_	_	_
+12	földrengés	földrengés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	10	_	_	_	_	_
+13	stb.	stb.	[/N][Nom][]	NOUN	Case=Nom|Number=Sing	COORD	12	_	_	_	_	_
+14	)	)	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	4	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+17	környezeti	környezeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	ártalmakat	ártalom	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	4	_	_	_	_	_
+19	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+21	fertőző	fertőző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	betegségeket	betegség	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	18	_	_	_	_	_
+23	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+24	elkerülni	elkerül	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	23	_	_	YES	_	_
+25	ahhoz	az	[/N|Pro][All]	PRON	Case=All|Number=Sing|Person=3|PronType=Dem	OBL	24	_	_	_	_	_
+26	,	,	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+27	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	23	_	_	_	_	_
+28	megőrizhessük	megőriz	[/V][_Mod/V][Sbjv.Def.1Pl]	VERB	Definite=Def|Mood=Imp,Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	27	_	_	YES	_	_
+29	egészségünket	egészség	[/N][Poss.1Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	OBJ	28	5:6	coref	_	_	YES
+30	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_8
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	emberi	emberi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	magatartás	magatartás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	_	_	_	_	_
+4	és	és	[/Cnj]	CCONJ	_	CONJ	3	_	_	_	_	_
+5	tevékenység	tevékenység	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	4	_	_	_	_	_
+6	következtében	következtében	[/Post|(Poss)]	ADP	_	MODE	7	_	_	_	_	_
+7	létrejövő	létrejövő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+8	egészségkárosító	egészségkárosító	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+9	hatásokat	hatás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	11	_	_	_	_	_
+10	is	is	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+11	csökkenteni	csökkent	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	12	_	_	YES	_	_
+12	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	mint	mint	[/Cnj]	SCONJ	_	CONJ	12	_	_	_	_	_
+15	például	például	[/Adv]	ADV	_	APPEND	17	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+17	zajt	zaj	[/N][Acc]	NOUN	Case=Acc|Number=Sing	ATT	14	_	_	_	_	_
+18	,	,	[Punct]	PUNCT	_	PUNCT	17	_	_	_	_	_
+19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	_	_	_	_	_
+20	vibrációt	vibráció	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	17	_	_	_	_	_
+21	,	,	[Punct]	PUNCT	_	PUNCT	20	_	_	_	_	_
+22	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	29	_	_	_	_	_
+23	élelmezési	élelmezési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	29	_	_	_	_	_
+24	,	,	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+25	táplálkozási	táplálkozási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	23	_	_	_	_	_
+26	és	és	[/Cnj]	CCONJ	_	CONJ	25	_	_	_	_	_
+27	egyéb	egyéb	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+28	higiénés	higiénés	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	26	_	_	_	_	_
+29	ártalmakat	ártalom	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	20	_	_	_	_	_
+30	,	,	[Punct]	PUNCT	_	PUNCT	29	_	_	_	_	_
+31	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	29	_	_	_	_	_
+32	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	34	_	_	_	_	_
+33	önveszélyeztető	önveszélyeztető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	34	_	_	_	_	_
+34	magatartásokat	magatartás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	31	_	_	_	_	_
+35	:	:	[Punct]	PUNCT	_	PUNCT	34	_	_	_	_	_
+36	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	37	_	_	_	_	_
+37	drog-	drog	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	COORD	40	_	_	_	_	_
+38	,	,	[Punct]	PUNCT	_	PUNCT	37	_	_	_	_	_
+39	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	40	_	_	_	_	_
+40	dohány-	dohány	[/N][Nom][Hyph:Hyph]	NOUN	Case=Nom|Number=Sing	COORD	41	_	_	_	_	_
+41	és	és	[/Cnj]	CCONJ	_	CONJ	43	_	_	_	_	_
+42	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	43	_	_	_	_	_
+43	alkoholfogyasztást	alkoholfogyasztás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	34	_	_	_	_	_
+44	is	is	[/Adv]	ADV	_	MODE	43	_	_	_	_	_
+45	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_9
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	egészség	egészség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	7:29	coref	_	_	_
+3	forrásai	forrás	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+4	mindazok	mindaz	[/Det|Pro][Pl][Nom]	ADV	PronType=Art	MODE	9	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	_	_	_	_	_
+6	külső	külső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	_	_	_	_	_
+7	és	és	[/Cnj]	CCONJ	_	CONJ	6	_	_	_	_	_
+8	belső	belső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	7	_	_	_	_	_
+9	tényezők	tényező	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	PRED	???	6:7	coref	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+11	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	24	9:9	rel	_	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	_	_	_	_	_
+13	egyént	egyén	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	24	_	_	_	_	_
+14	korának	kor	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	23			_	_	YES
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	nemének	nem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	14			_	_	YES
+17	,	,	[Punct]	PUNCT	_	PUNCT	16	_	_	_	_	_
+18	földrajzi	földrajzi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	helyének	hely	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16			_	_	YES
+20	és	és	[/Cnj]	CCONJ	_	CONJ	19	_	_	_	_	_
+21	társadalmi	társadalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	helyzetének	helyzet	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	20			_	_	YES
+23	figyelembevételével	figyelembevétel	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	24	_	_	_	_	_
+24	hozzásegítik	hozzásegít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+25	egészsége	egészség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	26	9:2	coref	_	_	YES
+26	optimalizálásához	optimalizálás	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	24	_	_	_	_	_
+27	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_10
+1	Közös	közös	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+2	koordinált	koordinált	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	tevékenység	tevékenység	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	YES	_	_
+4	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+5	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	9	10:3	rel	_	_	_
+6	nemcsak	nemcsak	[/Adv]	ADV	_	MODE	9	_	_	_	_	_
+7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	egészségügyre	egészségügy	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	9	_	_	_	_	_
+9	korlátozódik	korlátozódik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+11	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	9	_	_	_	_	_
+12	államigazgatási	államigazgatási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+13	,	,	[Punct]	PUNCT	_	PUNCT	12	_	_	_	_	_
+14	törvényi	törvényi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	12	_	_	_	_	_
+15	,	,	[Punct]	PUNCT	_	PUNCT	14	_	_	_	_	_
+16	intézményesített	intézményesített	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	14	_	_	_	_	_
+17	feladat	feladat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	11	10:3	coref	_	_	_
+18	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+19	magába	maga	[/N|Pro][3Sg][Ill]	PRON	Case=Ill|Number=Sing|Person=3|Reflex=Yes	OBL	20	10:17	refl	_	_	_
+20	foglalja	foglal	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	_	_	YES	_	_
+21	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+22	egészségmegőrzést	egészségmegőrzés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	20	7:28	coref	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	22	_	_	_	_	_
+24	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	25	_	_	_	_	_
+25	egészségnevelést	egészségnevelés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	22	_	_	_	_	_
+26	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_57.conllup_11
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	ENSZ	ENSZ	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	3	_	_	_	_	_
+3	definíciója	definíció	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	4	_	_	_	_	_
+4	szerint	szerint	[/Post]	ADP	_	MODE	10	_	_	_	_	_
+5	„	„	[Punct]	PUNCT	_	PUNCT	6	_	_	_	_	_
+6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+7	egészség	egészség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	9:25	coref	_	_	_
+8	megőrzése	megőrzés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	10:22	coref	_	_	_
+9	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	10	_	_	_	_	_
+10	fogalom	fogalom	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+11	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+12	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	30	11:8	rel	_	_	_
+13	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	egészséget	egészség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	11:7	coref	_	_	_
+15	elősegítő	elősegítő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	_	_	_	_	_
+16	életmód	életmód	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	29	_	_	_	_	_
+17	és	és	[/Cnj]	CCONJ	_	CONJ	16	_	_	_	_	_
+18	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	_	_	_	_	_
+19	ezt	ez	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	20	11:16	dem	_	_	_
+20	ösztönző	ösztönző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+21	társadalmi	társadalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	_	_	_	_	_
+22	,	,	[Punct]	PUNCT	_	PUNCT	21	_	_	_	_	_
+23	gazdasági	gazdasági	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	21	_	_	_	_	_
+24	,	,	[Punct]	PUNCT	_	PUNCT	23	_	_	_	_	_
+25	környezeti	környezeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	23	_	_	_	_	_
+26	és	és	[/Cnj]	CCONJ	_	CONJ	25	_	_	_	_	_
+27	személyes	személyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	26	_	_	_	_	_
+28	tényezők	tényező	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	17	_	_	_	_	_
+29	támogatását	támogatás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	30	_	_	_	_	_
+30	öleli	ölel	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	???	_	_	_	_	_
+31	fel	fel	[/Prev]	ADV	_	PREVERB	30			_	_	_
+32	”	”	[Punct]	PUNCT	_	PUNCT	31	_	_	_	_	_
+33	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

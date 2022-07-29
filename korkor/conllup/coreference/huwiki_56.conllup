@@ -1,0 +1,390 @@
+# global.columns = ID FORM LEMMA XPOS UPOS FEATS DEPREL HEAD COREFHEAD COREFTYPE ZERO_SUBJ ZERO_OBJ ZERO_POSS
+# sent_id = huwiki_56.conllup_1
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+2	Csörsz	Csörsz	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	3	_	_	_	_	_
+3	utcai	utcai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+4	izraelita	izraelita	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	temető	temető	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+6	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	13	_	_	_	_	_
+7	1961	1961	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	8	_	_	_	_	_
+8	óta	óta	[/Post]	ADP	_	TFROM	9	_	_	_	_	_
+9	zárt	zárt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+10	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+11	orthodox	orthodox	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+12	izraelita	izraelita	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	temető	temető	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	???	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+15	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	???	1:5	rel	_	_	_
+16	azóta	azóta	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TFROM	20	_	_	_	_	_
+17	csak	csak	[/Adv]	ADV	_	MODE	19	_	_	_	_	_
+18	hitközségi	hitközségi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	engedéllyel	engedély	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	20	_	_	_	_	_
+20	látogatható	látogatható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_2
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	budai	budai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	oldal	oldal	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	_	_	_	_	_
+4	legrégebb	legrégebb	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	5	_	_	_	_	_
+5	óta	óta	[/Post]	ADP	_	TFROM	6	_	_	_	_	_
+6	fennálló	fennálló	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+7	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	temetője	temető	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	1:5	coref	YES	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	???	_	_	_	_	_
+10	amiben	ami	[/N|Pro|Rel][Ine]	PRON	Case=Ine|Number=Sing|Person=3|PronType=Rel	LOCY	15	_	rel	_	_	_
+11	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	13	_	_	_	_	_
+12	héber	héber	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	nyelvű	nyelvű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	sírkövek	sírkő	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	???	_	_	_	_	_
+15	találhatóak	található	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	???	_	_	_	_	_
+16	és	és	[/Cnj]	CCONJ	_	CONJ	15	_	_	_	_	_
+17	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	19	_	_	_	_	_
+18	egykori	egykori	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	_	_	_	_	_
+20	lakosok	lakos	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	21	_	_	_	_	_
+21	nyugszanak	nyugszik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	16	_	_	_	_	_
+22	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_3
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	temető	temető	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	7	2:8	coref	_	_	_
+3	nagyjából	nagyjából	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+4	egy-másfél	egy-másfél	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	5	_	_	_	_	_
+5	házhelynyi	házhelynyi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	területen	terület	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	7	_	_	_	_	_
+7	fekszik	fekszik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+8	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+9	teljesen	teljes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	10	_	_	_	_	_
+10	körbeépítve	körbeépít	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	7	_	_	_	_	_
+11	Budapest	Budapest	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	13	_	_	_	_	_
+12	XII.	XII.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	13	_	_	_	_	_
+13	kerületében	kerület	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	10	_	_	_	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+16	Csörsz	Csörsz	[/N]	PROPN	Case=Nom|Number=Sing	NE	17	_	_	_	_	_
+17	utca	utca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	22	1:3	coref	_	_	_
+18	Apor	Apor	[/N]	PROPN	Case=Nom|Number=Sing	NE	19	_	_	_	_	_
+19	Vilmos	Vilmos	[/N]	PROPN	Case=Nom|Number=Sing	NE	20	_	_	_	_	_
+20	térhez	tér	[/N][All]	NOUN	Case=All|Number=Sing	OBL	21	_	_	_	_	_
+21	közelebbi	közelebbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	_	_	_	_	_
+22	végénél	vég	[/N][Poss.3Sg][Ade]	NOUN	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	13	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_4
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	utca	utca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	3:17	coref	_	_	_
+3	túloldalán	túloldal	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	4	_	_	_	_	_
+4	található	található	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+6	MOM	MOM	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	Kulturális	kulturális	[/N]	NOUN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	Központ	központ	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	???	_	_	_	_	_
+9	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_5
+1	1883-ban	1883	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	2	_	_	_	_	_
+2	említették	említ	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	YES	_
+3	először	először	[/Adv]	ADV	_	MODE	2	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+5	orthodox	orthodox	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	hitközségnek	hitközség	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	7	_	_	_	_	_
+7	adományozott	adományozott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	területként	terület	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	2	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+10	de	de	[/Cnj]	CCONJ	_	CONJ	2	_	_	_	_	_
+11	csak	csak	[/Adv]	ADV	_	MODE	16	_	_	_	_	_
+12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+13	1890-es	1890-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	évektől	év	[/N][Pl][Abl]	NOUN	Case=Abl|Number=Plur	OBL	15	_	_	_	_	_
+15	kezdve	kezdve	[/Post|(Abl)]	ADP	_	TFROM	16	_	_	_	_	_
+16	temetkeztek	temetkezik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	_	_	YES	_	_
+17	ide	ide	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TO	16	3:2	dem	_	_	_
+18	rendszeresen	rendszeres	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	16	_	_	_	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_6
+1	Orthodox	Orthodox	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	2	_	_	_	_	_
+2	lévén	lévén	[/Adv]	ADV	_	MODE	10	_	_	_	_	_
+3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+4	vallási	vallási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	_	_	_	_	_
+5	előírásokat	előírás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	9	_	_	_	_	_
+6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+7	lehető	lehető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	legszigorúbban	szigorú	[/Supl][/Adj][_Comp/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Sup|Number=Sing	MODE	9	_	_	_	_	_
+9	betartva	betart	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	10	_	_	_	_	_
+10	került	kerül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+11	kialakításra	kialakítás	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	10	_	_	_	_	_
+12	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_7
+1	Minden	minden	[/Det|Q.NDef]	ADV	PronType=Art	ATT	2	_	_	_	_	_
+2	sír	sír	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	2:14	coref	_	_	_
+3	kelet	kelet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	_	_	_	_	_
+4	felé	felé	[/Post]	ADP	_	TO	5	_	_	_	_	_
+5	néz	néz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	_	_	_	_	_
+8	férfiakat	férfi	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	13	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	nőket	nő	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	9	_	_	_	_	_
+12	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	13	_	_	_	_	_
+13	elkülönítették	elkülönít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	5	_	_	YES	_	_
+14	,	,	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	bár	bár	[/Cnj]	SCONJ	_	CONJ	13	_	_	_	_	_
+16	mikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	18	_	_	_	_	_
+17	már	már	[/Adv]	ADV	_	TLOCY	18	_	_	_	_	_
+18	kezdett	kezd	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	15	_	_	_	_	_
+19	teljesen	teljes	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	20	_	_	_	_	_
+20	megtelni	megtelik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	18	_	_	YES	_	_
+21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+22	parcella	parcella	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	18	3:2	holo	_	_	_
+23	,	,	[Punct]	PUNCT	_	PUNCT	18	_	_	_	_	_
+24	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	_	_	_	_	_
+25	női	női	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	_	_	_	_	_
+26	részbe	rész	[/N][Ill]	NOUN	Case=Ill|Number=Sing	TO	28	3:2	holo	_	_	_
+27	is	is	[/Adv]	ADV	_	MODE	26	_	_	_	_	_
+28	került	kerül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	_	_	_	_	_
+29	néhány	néhány	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	30	_	_	_	_	_
+30	férfisír	férfisír	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	28	_	_	_	_	_
+31	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_8
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	temető	temető	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	3:2	coref	_	_	_
+3	egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	érdekessége	érdekesség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	???	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	_	_	_	_	_
+6	szintén	szintén	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+7	vallási	vallási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	okokból	ok	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	MODE	9	_	_	_	_	_
+9	kialakított	kialakított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	kohaniták	kohanita	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	15	_	_	_	_	_
+11	(	(	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+12	papi	papi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+13	leszármazottak	leszármazott	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	APPEND	10	_	_	_	_	_
+14	)	)	[Punct]	PUNCT	_	PUNCT	13	_	_	_	_	_
+15	ösvénye	ösvény	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	???	_	_	_	_	_
+16	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_9
+1	Ők	ők	[/N|Pro][3Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	SUBJ	12	8:13	prs	_	_	_
+2	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+3	előírás	előírás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	6:5	coref	_	_	_
+4	szerint	szerint	[/Post]	ADP	_	MODE	12	_	_	_	_	_
+5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+6	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	_	_	_	_	_
+7	családtagjaikon	családtag	[/N][Pl.Poss.3Pl][Supe]	NOUN	Case=Sup|Number=Plur|Number[psor]=Plur|Person[psor]=3	OBL	8	_	_	_	_	YES
+8	kívül	kívül	[/Post|(Supe)]	ADP	_	MODE	12	_	_	_	_	_
+9	más	más	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	_	_	_	_	_
+10	halottal	halott	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	12	_	_	_	_	_
+11	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	12	_	_	_	_	_
+12	érintkezhetnek	érintkezik	[/V][_Mod/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+13	és	és	[/Cnj]	CCONJ	_	CONJ	12	_	_	_	_	_
+14	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	16	9:10	dem	_	_	_
+15	egy	egy	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	DET	16	_	_	_	_	_
+16	helyiségben	helyiség	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	18	_	_	_	_	_
+17	sem	sem	[/Adv]	ADV	PronType=Neg	NEG	18	_	_	_	_	_
+18	lehetnek	van	[/V][_Mod/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	13	_	_	YES	_	_
+19	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_10
+1	Nekik	ők	[/N|Pro][Dat][3Pl]	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	POSS	3	???	prs	_	_	_
+2	külön	külön	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	bejáratuk	bejárat	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	SUBJ	5	_	_	_	_	_
+4	is	is	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	_	_	_	_	_
+8	mindvégig	mindvégig	[/Adv]	ADV	_	TLOCY	12	_	_	_	_	_
+9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+10	lehető	lehető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	legtávolabb	távol	[/Supl][/Adv][_Comp/Adv]	ADV	Degree=Sup	LOCY	12	_	_	_	_	_
+12	legyenek	lesz	[/V][Sbjv.NDef.3Pl]	VERB	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	7	_	_	YES	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	síroktól	sír	[/N][Pl][Abl]	NOUN	Case=Abl|Number=Plur	FROM	11	8:2	holo	_	_	_
+15	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_11
+1	Kezdetben	kezdet	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	7	_	_	_	_	_
+2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	_	_	_	_	_
+3	máshol	máshol	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	4	_	_	_	_	_
+4	felszámolt	felszámolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+5	budai	budai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	temetőkből	temető	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	FROM	7	_	_	_	_	_
+7	hozták	hoz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+8	át	át	[/Prev]	ADV	_	PREVERB	7	_	_	_	_	_
+9	ide	ide	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TO	7	8:2	dem	_	_	_
+10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+11	sírköveket	sírkő	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	_	_	_	_	_
+12	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+13	amiket	ami	[/N|Pro|Rel][Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Rel	OBJ	19	11:11	rel	_	_	_
+14	aztán	aztán	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	19	_	_	_	_	_
+15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	_	_	_	_	_
+16	bejárattól	bejárat	[/N][Abl]	NOUN	Case=Abl|Number=Sing	OBL	17	8:2	holo	_	_	_
+17	távolabbi	távolabbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	_	_	_	_	_
+18	részeken	rész	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	19	_	_	_	_	_
+19	helyeztek	helyez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	7	_	_	YES	_	_
+20	el	el	[/Prev]	ADV	_	PREVERB	19	_	_	_	_	_
+21	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_12
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	Csörsz	Csörsz	[/N]	PROPN	Case=Nom|Number=Sing	ATT	3	_	_	_	_	_
+3	utcában	utca	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	7	4:2	coref	_	_	_
+4	kizárólag	kizárólag	[/Adv]	ADV	_	MODE	5	_	_	_	_	_
+5	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	_	_	_	_	_
+6	polgárokat	polgár	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	_	_	_	_	_
+7	temettek	temet	[/V][Prs.NDef.2Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+8	el	el	[/Prev]	ADV	_	PREVERB	7	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	7	_	_	_	_	_
+10	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	21	_	_	_	_	_
+11	így	így	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	21	_	_	_	_	_
+12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	_	_	_	_	_
+13	régi	régi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+14	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+15	orthodox	orthodox	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+16	izraelita	izraelita	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	_	_	_	_	_
+17	polgárság	polgárság	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	19	12:6	coref	_	_	_
+18	sajátos	sajátos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	keresztmetszetét	keresztmetszet	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	21	_	_	_	_	_
+20	is	is	[/Adv]	ADV	_	MODE	21	_	_	_	_	_
+21	kiadja	kiad	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	7	_	_	_	_	_
+22	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_13
+1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	2	12:3	dem	_	_	_
+2	helyezték	helyez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+3	örök	örök	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	_	_	_	_	_
+4	nyugalomra	nyugalom	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	2	_	_	_	_	_
+5	mások	más	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	6	_	_	_	_	_
+6	mellett	mellett	[/Post]	ADP	_	MODE	2	_	_	_	_	_
+7	Reich	Reich	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	Jaakov	Jaakov	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	_	_	_	_	_
+9	Koppelt	Koppel	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	2	_	_	_	_	_
+10	,	,	[Punct]	PUNCT	_	PUNCT	2	_	_	_	_	_
+11	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	15	13:9	rel	_	_	_
+12	1890-től	1890	[/Num|Digit][Abl]	NUM	Case=Abl|Number=Sing|NumType=Card	TFROM	15	_	_	_	_	_
+13	1929-es	1929-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	_	_	_	_	_
+14	haláláig	halál	[/N][Poss.3Sg][Ter]	NOUN	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	TTO	15	_	_	_	_	YES
+15	vezette	vezet	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	2	_	_	_	_	_
+16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+17	magyarországi	magyarországi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+18	orthodox	orthodox	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	hitközséget	hitközség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	5:6	coref	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_14
+1	Temetése	temetés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	5	_	_	_	_	YES
+2	látványos	látványos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	külsőségek	külsőség	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	4	_	_	_	_	_
+4	közt	közt	[/Post]	ADP	_	MODE	5	_	_	_	_	_
+5	zajlott	zajlik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	jelentős	jelentős	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	_	_	_	_	_
+8	tömeg	tömeg	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	9	_	_	_	_	_
+9	kísérte	kísér	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	5	_	_	_	YES	_
+10	utolsó	utolsó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	útjára	út	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	9	_	_	_	_	YES
+12	,	,	[Punct]	PUNCT	_	PUNCT	9	_	_	_	_	_
+13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	_	_	_	_	_
+14	kormány	kormány	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	16	_	_	_	_	_
+15	lovasegységet	lovasegység	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	16	_	_	_	_	_
+16	küldött	küld	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	9	_	_	_	_	_
+17	ki	ki	[/Prev]	ADV	_	PREVERB	16	_	_	_	_	_
+18	és	és	[/Cnj]	CCONJ	_	CONJ	16	_	_	_	_	_
+19	rendőrszázad	rendőrszázad	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	20	_	_	_	_	_
+20	ügyelt	ügyel	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	18	_	_	_	_	_
+21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	_	_	_	_	_
+22	rendre	rend	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	20	_	_	_	_	_
+23	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_15
+1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	2	13:1	dem	_	_	_
+2	temették	temet	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+3	el	el	[/Prev]	ADV	_	PREVERB	2	_	_	_	_	_
+4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	_	_	_	_	_
+5	városmajori	városmajori	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+6	(	(	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+7	Alma	Alma	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	_	_	_	_	_
+8	utcai	utcai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	APPEND	5	_	_	_	_	_
+9	)	)	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	orthodox	orthodox	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	_	_	_	_	_
+11	kórház	kórház	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	15	_	_	_	_	_
+12	1945	1945	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	13	_	_	_	_	_
+13	elején	eleje	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	14	_	_	_	_	_
+14	lemészárolt	lemészárolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	áldozatait	áldozat	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	2	_	_	_	_	_
+16	is	is	[/Adv]	ADV	_	MODE	15	_	_	_	_	_
+17	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_16
+1	Sírjaik	sír	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	ATT	2	_	_	_	_	YES
+2	mellé	mellé	[/Post]	ADP	_	TO	6	_	_	_	_	_
+3	1946-ban	1946	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	6	_	_	_	_	_
+4	emlékművet	emlékmű	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	_	_	_	_	_
+5	is	is	[/Adv]	ADV	_	MODE	4	_	_	_	_	_
+6	emeltek	emel	[/V][Prs.NDef.2Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+7	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_17
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	utolsó	utolsó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	temetés	temetés	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	5	_	_	_	_	_
+4	1961-ben	1961	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	5	_	_	_	_	_
+5	volt	van	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+6	,	,	[Punct]	PUNCT	_	PUNCT	5	_	_	_	_	_
+7	azóta	azóta	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TFROM	8	_	_	_	_	_
+8	zárt	zárt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	5	_	_	_	_	_
+9	és	és	[/Cnj]	CCONJ	_	CONJ	8	_	_	_	_	_
+10	csak	csak	[/Adv]	ADV	_	MODE	12	_	_	_	_	_
+11	hitközségi	hitközségi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	_	_	_	_	_
+12	engedéllyel	engedély	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	13	1:19	coref	YES	_	_
+13	látogatható	látogatható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	???	_	_	_	_	_
+14	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_18
+1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	_	_	_	_	_
+2	1970-es	1970-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	_	_	_	_	_
+3	években	év	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	15	_	_	_	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	_	_	_	_	_
+5	utca	utca	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	12:3	coref	_	_	_
+6	túloldalán	túloldal	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	10	_	_	_	_	_
+7	(	(	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+8	is	is	[/Adv]	ADV	_	APPEND	6	_	_	_	_	_
+9	)	)	[Punct]	PUNCT	_	PUNCT	8	_	_	_	_	_
+10	működő	működő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	_	_	_	_	_
+11	Magyar	Magyar	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	_	_	_	_	_
+12	Optikai	Optikai	[/N]	PROPN	Case=Nom|Number=Sing	NE	13	_	_	_	_	_
+13	Művek	Művek	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	15	_	_	_	_	_
+14	napköziotthont	napköziotthon	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	15	_	_	_	_	_
+15	kívánt	kíván	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	_	_	_
+16	kialakítani	kialakít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	15	_	_	YES	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	_	_	_	_	_
+18	temető	temető	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	19	8:2	coref	_	_	_
+19	helyén	hely	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	16	_	_	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+
+# sent_id = huwiki_56.conllup_19
+1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	_	_	_	_	_
+2	kérést	kérés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	18:15	coref	_	_	_
+3	továbbították	továbbít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	_	_	YES	_	_
+4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	_	_	_	_	_
+5	Állami	Állami	[/N]	PROPN	Case=Nom|Number=Sing	NE	6	_	_	_	_	_
+6	Egyházügyi	Egyházügyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	_	_	_	_	_
+7	Hivatalnak	hivatal	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	3	_	_	_	_	_
+8	is	is	[/Adv]	ADV	_	MODE	7	_	_	_	_	_
+9	,	,	[Punct]	PUNCT	_	PUNCT	3	_	_	_	_	_
+10	akik	aki	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	16	19:7	rel	_	_	_
+11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	_	_	_	_	_
+12	területről	terület	[/N][Del]	NOUN	Case=Del|Number=Sing	OBL	13	18:19	coref	_	_	_
+13	történő	történő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+14	önkéntes	önkéntes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	_	_	_	_	_
+15	lemondásra	lemondás	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	16	_	_	_	_	_
+16	kérték	kér	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	3	_	_	_	_	_
+17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	19	_	_	_	_	_
+18	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	_	_	_	_	_
+19	hitközséget	hitközség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	16	13:19	coref	_	_	_
+20	.	.	[Punct]	PUNCT	_	PUNCT	0	_	_	_	_	_
+

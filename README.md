@@ -168,4 +168,21 @@ In the case of the files in folder [dependency](korkor/conllup/dependency) the l
 # Licence
 The resource is available under [CC-BY-4.0](LICENSE).
 
+# Citation
 
+If you use this resourse, please cite our paper:
+
+```
+@inproceedings{korkor,
+    author = {Vadász, Noémi},
+    title = {{K}or{K}orpusz: kézzel annotált, többrétegű pilotkorpusz építése},
+    booktitle = {{XVI}. {M}agyar {S}zámítógépes {N}yelvészeti {K}onferencia ({MSZNY} 2020)},
+    editor = {Berend, Gábor and Gosztolya, Gábor and Vincze, Veronika},
+    pages = {141--154},
+    publisher = {Szegedi Tudományegyetem, TTIK, Informatikai Intézet},
+    address = {Szeged},
+    year = {2020}
+}
+```
+
+References for emtsv and its modules can be found [here](references.bib).

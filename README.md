@@ -128,24 +128,44 @@ The following coreference types are annotated:
 
 The tag **coref** is for the relation tpye when the two elements have identical reference (e.g.~in the case of repetition, synonym, hiper- and hyponym).
 
+# Formats
+The corpus is available in two formats.
+
+## `xtsv`
+The files follow the format of [xtsv](https://github.com/nytud/xtsv) with the following columns:
+* id (word index)
+* form  (word form)
+* lemma
+* xpostag (Hungarian-specific POS-tag in the tagset of [emMorph](https://e-magyar.hu/en/textmodules/emmorph_codelist))
+* upostag (UD POS-tag)
+* feats (UD feats)
+* deprel (UD relation type to the HEAD)
+* head (head of the current word)
+* sent_id (sentence index)
+* corefhead (index of the antecedent or coreferent element)
+* coreftype (anaphora or coreference type)
+
+In the case of the files in folder [dependency](korkor/xtsv/dependency)  the last three columns are missing.
+
+## `CoNLL-U Plus`
+The files follow the format of [CoNLL-U Plus](https://universaldependencies.org/ext-format.html) with the following columns:
+* ID (word index)
+* FORM (word form)
+* LEMMA
+* XPOS (Hungarian-specific POS-tag in the tagset of [emMorph](https://e-magyar.hu/en/textmodules/emmorph_codelist))
+* UPOS (UD POS-tag)
+* FEATS (UD feats)
+* DEPREL (UD relation type to the HEAD)
+* HEAD (head of the current word)
+* COREFHEAD (index of the antecedent or coreferent element)
+* COREFTYPE (anaphora or coreference type)
+* ZERO_SUBJ (YES if the subject of the verb is dropped)
+* ZERO_OBJ (YES if the object of the verb is dropped)
+* ZERO_POSS  (YES if the possessor of the possessum is dropped)
+
+In the case of the files in folder [dependency](korkor/conllup/dependency) the last five columns are unfilled.
+
 # Licence
 The resource is available under [CC-BY-4.0](LICENSE).
 
-# Citation
 
-If you use this resourse, please cite our paper:
-
-```
-@inproceedings{korkor,
-    author = {Vadász, Noémi},
-    title = {{K}or{K}orpusz: kézzel annotált, többrétegű pilotkorpusz építése},
-    booktitle = {{XVI}. {M}agyar {S}zámítógépes {N}yelvészeti {K}onferencia ({MSZNY} 2020)},
-    editor = {Berend, Gábor and Gosztolya, Gábor and Vincze, Veronika},
-    pages = {141--154},
-    publisher = {Szegedi Tudományegyetem, TTIK, Informatikai Intézet},
-    address = {Szeged},
-    year = {2020}
-}
-```
-
-References for emtsv and its modules can be found [here](references.bib).

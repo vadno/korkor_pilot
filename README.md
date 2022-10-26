@@ -170,10 +170,10 @@ The resource is available under [CC-BY-4.0](LICENSE).
 
 # Citation
 
-If you use this resourse, please cite our paper:
+If you use this resourse, please cite our papers:
 
 ```
-@inproceedings{korkor,
+@inproceedings{korkor_mszny,
     author = {Vadász, Noémi},
     title = {{K}or{K}orpusz: kézzel annotált, többrétegű pilotkorpusz építése},
     booktitle = {{XVI}. {M}agyar {S}zámítógépes {N}yelvészeti {K}onferencia ({MSZNY} 2020)},
@@ -182,6 +182,18 @@ If you use this resourse, please cite our paper:
     publisher = {Szegedi Tudományegyetem, TTIK, Informatikai Intézet},
     address = {Szeged},
     year = {2020}
+}
+
+@inproceedings{korkor_coling,
+    title = "Building a Manually Annotated {H}ungarian Coreference Corpus: Workflow and Tools",
+    author = "Vad{\'a}sz, No{\'e}mi",
+    booktitle = "Proceedings of the Fifth Workshop on Computational Models of Reference, Anaphora and Coreference",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.crac-1.5",
+    pages = "38--47"
 }
 ```
 

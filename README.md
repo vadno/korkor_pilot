@@ -6,12 +6,24 @@ KorKor is a multi-layered, manually annotated Hungarian corpus. Besides the trad
 
 The corpus is divided into to subcorpora. The first group of the files contains all layers of annotations, but a smaller part lacks of certain annotation layers (zero verbs and pronouns, anaphora and coreference relations).
 
-|                                                               | document | token |
-|:--------------------------------------------------------------|---------:|------:|
-| coreference annotated                                         |       94 | 26581 |
-| dependency annotation corrected                               |       26 |  8604 |
+|                                                               | document | token (xtsv) | token (conllup) |
+|:--------------------------------------------------------------|---------:|-------------:|----------------:|
+| coreference annotated                                         |       94 |        26581 |           25944 |
+| dependency annotation corrected                               |       26 |         8604 |            8674 |
 
-Token size is measured on KorKor of xtsv format. Punctuation marks, zero verbs and pronouns count as separate tokens.
+In xtsv files punctuation marks, zero verbs and pronouns count as separate tokens.
+In conllup files punctuation marks count as separate tokens.
+
+### Split
+
+Coreference annotated data are split to development and test datasets in a proportion of 80%-10%-10%.
+
+|             |  xtsv | conllup |
+|:------------|------:|--------:|
+| train       | 21100 |   20580 |
+| development |  2709 |    2648 |
+| test        |  2772 |    2716 |
+
 
 ## Sources
 
@@ -21,28 +33,10 @@ The length of the texts is between 5 and 27 sentences, the length of the sentenc
 
 The number of texts of the two sources and in the two phases of the corpus:
 
-| |                coreference |             dependency |
-|:----------|---------------------------:|-----------------------:|
-| Global Voices |                         32 |                      3 |
-| Wikipédia |                          6 |                     23 |
-
-## Format
-
-The corpus consists of files containing the documents. The files are in [xtsv](https://github.com/dlt-rilmta/xtsv) format which is a format of tab spearated file with a header. The file has one token per line, the sentences are separated with an empty line. Linguistic annotations are in columns separated by TAB characters. The order of the columns are not fixed, their order is defined in the header.
-
-The files contain the following linguistic annotation layers (with the corresponding names in the xtsv header in the brackets)
-
-* token (form)
-* possible morphological tags (anas)
-* disambiguated lemma (lemma)
-* disambiguated morphological tag (xpostag)
-* UD POS-tag (upostag)
-* UD features (feats)
-* token id in the sentence (id)
-* head id in the sentence (head)
-* type of the dependency relation (deprel)
-* id of the antecedent in the sentence (corefhead)
-* type of the anaphora or coreference relation (coreftype)
+|               | coreference | dependency |
+|:--------------|------------:|-----------:|
+| Global Voices |          32 |          3 |
+| Wikipédia     |           6 |         23 |
 
 ## Annotation
 
@@ -121,10 +115,10 @@ It is not obligatory to types of **arb**, **speak** and **addr** to have an ante
 
 The following coreference types are annotated:
 
-| types of coreference | abbreviation  | frequency |
-|:---------------------| :-------------|----------:|
-| coreference          | **coref** |      1365 |
-| part-whole relation  | **holo** |       180 |
+| types of coreference | abbreviation | frequency |
+|:---------------------|:-------------|----------:|
+| coreference          | **coref**    |      1365 |
+| part-whole relation  | **holo**     |       180 |
 
 The tag **coref** is for the relation tpye when the two elements have identical reference (e.g.~in the case of repetition, synonym, hiper- and hyponym).
 
@@ -170,7 +164,9 @@ The resource is available under [CC-BY-4.0](LICENSE).
 
 # Citation
 
-If you use this resourse, please cite our papers:
+If you use this resourse, please cite these papers:
+
+Vadász Noémi (2020): [KorKorpusz: kézzel annotált, többrétegű pilotkorpusz építése](https://www.academia.edu/41798860/KorKorpusz_k%C3%A9zzel_annot%C3%A1lt_t%C3%B6bbr%C3%A9teg%C5%B1_pilotkorpusz_%C3%A9p%C3%ADt%C3%A9se). Berend Gábor, Gosztolya Gábor, Vincze Veronika (szerk.): XVI. Magyar Számítógépes Nyelvészeti Konferencia (MSZNY 2020). Szegedi Tudományegyetem, TTIK, Informatikai Intézet, Szeged. 141-154.
 
 ```
 @inproceedings{korkor_mszny,
@@ -183,7 +179,11 @@ If you use this resourse, please cite our papers:
     address = {Szeged},
     year = {2020}
 }
+```
 
+Noémi Vadász (2022): [Building a Manually Annotated Hungarian Coreference Corpus: Workflow and Tools](https://aclanthology.org/2022.crac-1.5/). Proceedings of the Fifth Workshop on Computational Models of Reference, Anaphora and Coreference. Association for Computational Linguistics, Gyeongju, Republic of Korea. 38-47.
+
+```
 @inproceedings{korkor_coling,
     title = "Building a Manually Annotated {H}ungarian Coreference Corpus: Workflow and Tools",
     author = "Vad{\'a}sz, No{\'e}mi",

@@ -283,7 +283,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	reklámozása	reklámozás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	10.1	13	_	_
 6	és	és	[/Cnj]	CCONJ	_	CONJ	5	13	_	_
 7	fogyasztásuk	fogyasztás	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	POSS	8	13	_	_
-7.1	DROP	_	_	_	_	POSS	7	13	13:2	prs
+7.POSS	DROP	_	_	_	_	POSS	7	13	13:2	prs
 8	népszerűsítése	népszerűsítés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	6	13	_	_
 9	szintén	szintén	[/Adv]	ADV	_	MODE	10	13	_	_
 10	tilos	tilos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	10.1	13	_	_

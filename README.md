@@ -4,7 +4,7 @@ KorKor is a multi-layered, manually annotated Hungarian corpus. Besides the trad
 
 ## Size
 
-The corpus is divided into to subcorpora. The first group of the files contains all layers of annotations, but a smaller part lacks of certain annotation layers (zero verbs and pronouns, anaphora and coreference relations).
+The corpus is divided into two subcorpora. The first group of the files contains all layers of annotations, but a smaller part lacks of certain annotation layers (zero verbs and pronouns, anaphora and coreference relations).
 
 |                                                               | document | token (xtsv) | token (conllup) |
 |:--------------------------------------------------------------|---------:|-------------:|----------------:|
@@ -13,6 +13,7 @@ The corpus is divided into to subcorpora. The first group of the files contains 
 
 In xtsv files punctuation marks, zero verbs and pronouns count as separate tokens.
 In conllup files punctuation marks count as separate tokens.
+For the description of the two file formats see [Formats](#Formats).
 
 ### Split
 
@@ -158,6 +159,9 @@ The files follow the format of [CoNLL-U Plus](https://universaldependencies.org/
 * ZERO_POSS  (YES if the possessor of the possessum is dropped)
 
 In the case of the files in folder [dependency](korkor/conllup/dependency) the last five columns are unfilled.
+
+# Universal Dependencies
+The files in [korkor/xtsv/coreference_with_ud_dependency](korkor/xtsv/coreference_with_ud_dependency) are parsed with [UDPipe](https://github.com/ufal/udpipe) dependency parser used in [emtsv](https://github.com/nytud/emtsv). Note that the output of the dependency parser is not checked manually! Enhanced UD graphs for zero elements are still missing for now.
 
 # Licence
 The resource is available under [CC-BY-4.0](LICENSE).

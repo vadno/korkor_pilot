@@ -161,7 +161,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	kiválasztása	kiválasztás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	20	7	_	_
 20	után	után	[/Post]	ADP	_	COORD	15	7	_	_
 20.1	KOPULA	_	_	_	_	COORD	8	7	_	_
-20.1..SUBJ	DROP	_	_	_	_	SUBJ	20.1	7	7:2	prs
+20.1.SUBJ	DROP	_	_	_	_	SUBJ	20.1	7	7:2	prs
 21	indítható	indítható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	20.1	7	_	_
 22	el	el	[/Prev]	ADV	_	PREVERB	21	7	_	_
 23	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_

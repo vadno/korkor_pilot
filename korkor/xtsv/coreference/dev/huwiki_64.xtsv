@@ -11,7 +11,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	dohánylevelekből	dohánylevél	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	11	1	_	_
 10	szivarokat	szivar	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	11	1	_	_
 11	állítanak	állít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5.1	1	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	1		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	1	_	arb
 12	elő	elő	[/Prev]	ADV	_	PREVERB	11	1	_	_
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
 
@@ -63,7 +63,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	14	4	_	_
 14	megfelelően	megfelelő	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	15	4	_	_
 15	sodorják	sodor	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	4	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	4		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	4	_	arb
 16	be	be	[/Prev]	ADV	_	PREVERB	15	4	_	_
 17	,	,	[Punct]	PUNCT	_	PUNCT	15	4	_	_
 18	akkor	akkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	23	4	_	_
@@ -141,7 +141,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	8	_	_
 7	és	és	[/Cnj]	CCONJ	_	CONJ	5	8	_	_
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	8	_	_
-9	széle	szél	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	10	8		
+9	széle	szél	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	10	8	_	_
 9.POSS	DROP	_	_	_	_	POSS	9	8	8:2	prs
 10	felől	felől	[/Post]	ADP	_	FROM	12	8	_	_
 11	kezdik	kezd	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	7	8	_	_
@@ -313,13 +313,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	széles	széles	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	16	_	_
 17	körben	kör	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	18	16	_	_
 18	ismerik	ismer	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	12	16	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	16		arb
-19	profizmusuk	profizmus	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	ATT	24	16		
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	16	_	arb
+19	profizmusuk	profizmus	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	ATT	24	16	_	_
 19.POSS	DROP	_	_	_	_	POSS	19	16	16:14	prs
 20	és	és	[/Cnj]	CCONJ	_	CONJ	19	16	_	_
 21	átlagosnál	átlagos	[/Adj][Ade]	ADJ	Case=Ade|Degree=Pos|Number=Sing	OBL	22	16	_	_
 22	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	23	16	_	_
-23	teljesítményük	teljesítmény	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	20	16		
+23	teljesítményük	teljesítmény	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	20	16	_	_
 23.POSS	DROP	_	_	_	_	POSS	23	16	16:19.POSS	prs
 24	miatt	miatt	[/Post]	ADP	_	MODE	18	16	_	_
 25	.	.	[Punct]	PUNCT	_	PUNCT	0	16	_	_

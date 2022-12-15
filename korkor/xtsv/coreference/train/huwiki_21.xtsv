@@ -222,7 +222,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	példányát	példány	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	12	15	_	_
 11	is	is	[/Adv]	ADV	_	MODE	10	15	_	_
 12	ellopták	ellop	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	15		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	15	_	arb
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	15	_	_
 14	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	18	15	16:10	rel
 15	két	két	[/Num|Attr][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	16	15	_	_
@@ -262,7 +262,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	gyakran	gyakran	[/Adv]	ADV	_	MODE	7	17	_	_
 6	sikolyként	sikoly	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	7	17	_	_
 7	fordítják	fordít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	17	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	17		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	17	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	17	_	_
 9	ám	ám	[/Cnj]	CCONJ	_	CONJ	7	17	_	_
 10	jobban	jobban	[/Adv]	ADV	_	MODE	11	17	_	_
@@ -286,7 +286,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	címen	cím	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	6	18	_	_
 5	is	is	[/Adv]	ADV	_	MODE	6	18	_	_
 6	emlegetik	emleget	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	18	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	18		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	18	_	arb
 6.OBJ	DROP	_	_	_	_	OBJ	6	18	17:17.SUBJ	prs
 7	.	.	[Punct]	PUNCT	_	PUNCT	0	18	_	_
 

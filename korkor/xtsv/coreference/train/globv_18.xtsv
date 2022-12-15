@@ -77,7 +77,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	hosszú	hosszú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	4	_	_
 6	történetét	történet	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	7	4	_	_
 7	ünnepelték	ünnepel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	4		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	4	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	4	_	_
 9	nagyon	nagyon	[/Adv]	ADV	_	MODE	10	4	_	_
 10	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	OBL	11	4	_	_
@@ -88,7 +88,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	látványosságot	látványosság	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	17	4	_	_
 16	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	17	4	_	_
 17	szervezték	szervez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	13	4	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	4		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	4	_	arb
 18	,	,	[Punct]	PUNCT	_	PUNCT	17	4	_	_
 19	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	17	4	_	_
 20	az	az	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	21	4	4:15	dem

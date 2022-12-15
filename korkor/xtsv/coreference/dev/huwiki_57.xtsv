@@ -5,7 +5,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	Egészségügyi	Egészségügyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	5	1	_	_
 5	Világszervezet	Világszervezet	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	17	1	_	_
 6	(	(	[Punct]	PUNCT	_	PUNCT	9	1	_	_
-7	World	World	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	1		
+7	World	World	[/N]	PROPN	Case=Nom|Number=Sing	NE	8	1	_	_
 8	Health	Health	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	1	_	_
 9	Organization	Organization	[/N][Nom]	PROPN	Case=Nom|Number=Sing	APPEND	5	1	_	_
 10	,	,	[Punct]	PUNCT	_	PUNCT	9	1	_	_
@@ -46,7 +46,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	fogyatékosság	fogyatékosság	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	2	_	_
 3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	2	_	_
 4	zárja	zár	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-5	ki	ki	[/Prev]	ADV	_	TLOCY	4	2		
+5	ki	ki	[/Prev]	ADV	_	TLOCY	4	2	_	_
 6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	2	_	_
 7	egészséget	egészség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	2	1:21	coref
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
@@ -86,7 +86,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 32	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
 
 1	Egészségünket	egészség	[/N][Poss.1Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	OBJ	2	4	_	_
-1.POSS	DROP	_	_	_	_	POSS	1	4		arb
+1.POSS	DROP	_	_	_	_	POSS	1	4	_	arb
 2	meghatározza	meghatároz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
 3	makro-	makro	[/Adj][Nom][Hyph:Hyph]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	4	4	_	_
 4	és	és	[/Cnj]	CCONJ	_	CONJ	5	4	_	_
@@ -98,16 +98,16 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	berendezkedése	berendezkedés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	5	4	_	_
 10	,	,	[Punct]	PUNCT	_	PUNCT	9	4	_	_
 11	szociális	szociális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	4	_	_
-12	érzékenysége	érzékenység	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9	4		
+12	érzékenysége	érzékenység	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9	4	_	_
 12.POSS	DROP	_	_	_	_	POSS	12	4	4:8	prs
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	4	_	_
 14	továbbá	továbbá	[/Cnj]	CCONJ	_	CONJ	12	4	_	_
 15	személyi	személyi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	4	_	_
-16	kapcsolataink	kapcsolat	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	14	4		
+16	kapcsolataink	kapcsolat	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	14	4	_	_
 16.POSS	DROP	_	_	_	_	POSS	16	4	4:5.POSS	prs
 17	és	és	[/Cnj]	CCONJ	_	CONJ	16	4	_	_
 18	öröklött	öröklött	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	4	_	_
-19	tulajdonságaink	tulajdonság	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	17	4		
+19	tulajdonságaink	tulajdonság	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	COORD	17	4	_	_
 19.POSS	DROP	_	_	_	_	POSS	19	4	4:16.POSS	prs
 20	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
@@ -169,7 +169,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 22	betegségeket	betegség	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	18	7	_	_
 23	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	7	_	_
 24	elkerülni	elkerül	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	23	7	_	_
-24.SUBJ	DROP	_	_	_	_	SUBJ	24	7		arb
+24.SUBJ	DROP	_	_	_	_	SUBJ	24	7	_	arb
 25	ahhoz	az	[/N|Pro][All]	PRON	Case=All|Number=Sing|Person=3|PronType=Dem	OBL	24	7	_	_
 26	,	,	[Punct]	PUNCT	_	PUNCT	23	7	_	_
 27	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	23	7	_	_
@@ -190,7 +190,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	hatásokat	hatás	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	11	8	_	_
 10	is	is	[/Adv]	ADV	_	MODE	9	8	_	_
 11	csökkenteni	csökkent	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	12	8	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	8		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	8	_	arb
 12	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	8	_	_
 14	mint	mint	[/Cnj]	SCONJ	_	CONJ	12	8	_	_
@@ -240,18 +240,18 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	SUBJ	24	9	9:9	rel
 12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	9	_	_
 13	egyént	egyén	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	24	9	_	_
-14	korának	kor	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	23	9		
+14	korának	kor	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	23	9	_	_
 14.POSS	DROP	_	_	_	_	POSS	14	9	9:13	prs
 15	,	,	[Punct]	PUNCT	_	PUNCT	14	9	_	_
-16	nemének	nem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	14	9		
+16	nemének	nem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	14	9	_	_
 16.POSS	DROP	_	_	_	_	POSS	16	9	9:14.POSS	prs
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	9	_	_
 18	földrajzi	földrajzi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	9	_	_
-19	helyének	hely	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16	9		
+19	helyének	hely	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16	9	_	_
 19.POSS	DROP	_	_	_	_	POSS	19	9	9:16.POSS	prs
 20	és	és	[/Cnj]	CCONJ	_	CONJ	19	9	_	_
 21	társadalmi	társadalmi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	22	9	_	_
-22	helyzetének	helyzet	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	20	9		
+22	helyzetének	helyzet	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	20	9	_	_
 22.POSS	DROP	_	_	_	_	POSS	22	9	9:29.POSS	prs
 23	figyelembevételével	figyelembevétel	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	24	9	_	_
 24	hozzásegítik	hozzásegít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9.1	9	_	_
@@ -321,7 +321,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 28	tényezők	tényező	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	COORD	17	11	_	_
 29	támogatását	támogatás	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	30	11	_	_
 30	öleli	ölel	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10.1	11	_	_
-31	fel	fel	[/Prev]	ADV	_	PREVERB	30	11		
+31	fel	fel	[/Prev]	ADV	_	PREVERB	30	11	_	_
 32	”	”	[Punct]	PUNCT	_	PUNCT	31	11	_	_
 33	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 

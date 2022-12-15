@@ -67,7 +67,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel	ATT	12	3	3:6	rel
 12	közt	közt	[/Post]	ADP	_	MODE	13	3	_	_
 13	megtaláljuk	megtalál	[/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9	3	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	3		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	3	_	arb
 14	unokatestvérét	unokatestvér	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	13	3	_	_
 14.POSS	DROP	_	_	_	_	POSS	14	3	3:1	prs
 15	és	és	[/Cnj]	CCONJ	_	CONJ	14	3	_	_
@@ -162,7 +162,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	után	után	[/Post]	ADP	_	TLOCY	3	7	_	_
 11	,	,	[Punct]	PUNCT	_	PUNCT	3	7	_	_
 12	amíg	amíg	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TTO	15	7	7:15	rel
-13	el	el	[/Prev]	ADV	_	PREVERB	15	7		
+13	el	el	[/Prev]	ADV	_	PREVERB	15	7	_	_
 14	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	15	7	_	_
 15	hunyt	huny	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	3	7	_	_
 15.SUBJ	DROP	_	_	_	_	SUBJ	15	7	7:2	prs

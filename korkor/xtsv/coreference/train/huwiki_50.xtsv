@@ -51,7 +51,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Pákásznak	pákász	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	2	3	_	_
 2	nevezték	nevez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	3		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	3	_	arb
 3	azokat	az	[/Det|Pro][Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Dem	DET	8	3	_	_
 4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	3	_	_
 5	lápvidék	lápvidék	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	6	3	2:3	coref
@@ -121,10 +121,10 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1.SUBJ	DROP	_	_	_	_	SUBJ	1	5	4:21.SUBJ	prs
 2	,	,	[Punct]	PUNCT	_	PUNCT	1	5	_	_
 3	vadászott	vadászik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	1	5	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	5	5:1.SUBJ	_
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	5	5:1.SUBJ	prs
 4	és	és	[/Cnj]	CCONJ	_	CONJ	3	5	_	_
 5	gyűjtögetett	gyűjtöget	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	4	5	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	5	5:3.SUBJ	_
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	5	5:3.SUBJ	prs
 6	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	6	_	_
@@ -189,7 +189,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	erősített	erősített	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	8	_	_
 8	subadarabbal	subadarab	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	9	8	_	_
 9	gyűjtötték	gyűjt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	8		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	8	_	arb
 10	össze	össze	[/Prev]	ADV	_	PREVERB	9	8	_	_
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
@@ -414,7 +414,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	17	_	_
 2	lápréteken	láprét	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	3	17	_	_
 3	gyűjtötték	gyűjt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	17	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	17		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	17	_	arb
 4	be	be	[/Prev]	ADV	_	PREVERB	3	17	_	_
 5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	17	_	_
 6	fehér	fehér	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	17	_	_
@@ -533,7 +533,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 30	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	29	20	_	_
 31	varsával	varsa	[/N][Ins]	NOUN	Case=Ins|Number=Sing	COORD	30	20	_	_
 32	fogták	fog	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	19	20	_	_
-32.SUBJ	DROP	_	_	_	_	SUBJ	32	20		arb
+32.SUBJ	DROP	_	_	_	_	SUBJ	32	20	_	arb
 33	,	,	[Punct]	PUNCT	_	PUNCT	32	20	_	_
 34	és	és	[/Cnj]	CCONJ	_	CONJ	32	20	_	_
 35	eladásig	eladás	[/N][Ter]	NOUN	Case=Ter|Number=Sing	TTO	41	20	_	_
@@ -596,7 +596,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	22	_	_
 18	csíkhalat	csíkhal	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	19	22	_	_
 19	gyűjtötték	gyűjt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	4	22	_	_
-19.SUBJ	DROP	_	_	_	_	SUBJ	19	22		arb
+19.SUBJ	DROP	_	_	_	_	SUBJ	19	22	_	arb
 20	,	,	[Punct]	PUNCT	_	PUNCT	19	22	_	_
 21	s	s	[/Cnj]	CCONJ	_	CONJ	19	22	_	_
 22	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	34	22	22:16	rel
@@ -604,7 +604,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 24	egyetlen	egyetlen	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	26	22	_	_
 25	termesztett	termesztett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	26	22	_	_
 26	növényükből	növény	[/N][Poss.3Pl][Ela]	NOUN	Case=Ela|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBL	34	22	_	_
-26.POSS	DROP	_	_	_	_	POSS	26	22		arb
+26.POSS	DROP	_	_	_	_	POSS	26	22	_	arb
 27	,	,	[Punct]	PUNCT	_	PUNCT	26	22	_	_
 28	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	29	22	_	_
 29	kabaktökből	kabaktök	[/N][Ela]	NOUN	Case=Ela|Number=Sing	COORD	26	22	_	_
@@ -631,7 +631,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	lápos	lápos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	23	_	_
 6	talajt	talaj	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7	23	_	_
 7	ásták	ás	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	23	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	23		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	23	_	arb
 8	fel	fel	[/Prev]	ADV	_	PREVERB	7	23	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	7	23	_	_
 10	ha	ha	[/Cnj]	SCONJ	_	CONJ	7	23	_	_

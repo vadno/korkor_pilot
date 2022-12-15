@@ -142,7 +142,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Mesterségesen	mesterséges	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	3	9	_	_
 2	is	is	[/Adv]	ADV	_	MODE	1	9	_	_
 3	előállítják	előállít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	9		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	9	_	arb
 4	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	3	9	8:3	prs
 5	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	3	9	_	_
 6	,	,	[Punct]	PUNCT	_	PUNCT	3	9	_	_
@@ -183,7 +183,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 24	festett	festett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	25	10	_	_
 25	kvarcot	kvarc	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	26	10	10:9	coref
 26	kapunk	kap	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	19	10	_	_
-26.SUBJ	DROP	_	_	_	_	SUBJ	26	10		arb
+26.SUBJ	DROP	_	_	_	_	SUBJ	26	10	_	arb
 27	.	.	[Punct]	PUNCT	_	ROOT	0	10	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	11	_	_
@@ -288,7 +288,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	üregeket	üreg	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	15	14:2	coref
 6	kristálypincéknek	kristálypince	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	DAT	7	15	_	_
 7	nevezik	nevez	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	15		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	15	_	arb
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 
 1	Nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	16	_	_
@@ -347,7 +347,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	17.	17.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	14	18	_	_
 14	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	15	18	_	_
 15	ismertek	ismer	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	18	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	18		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	18	_	arb
 16	pompás	pompás	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	18	_	_
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	18	_	_
 18	átlátszó	átlátszó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	16	18	_	_
@@ -375,7 +375,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	harmadkori	harmadkori	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	20	_	_
 5	konglomerátokban	konglomerát	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	LOCY	6	20	_	_
 6	találják	talál	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	20	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	20		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	20	_	arb
 7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	20	_	_
 8	megkopott	megkopott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	20	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	8	20	_	_
@@ -391,7 +391,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	sőt	sőt	[/Cnj]	CCONJ	_	CONJ	17	20	_	_
 20	szemüvegeket	szemüveg	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	19	20	_	_
 21	csiszolnak	csiszol	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	20	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	20		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	20	_	arb
 22	.	.	[Punct]	PUNCT	_	PUNCT	0	20	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	21	_	_
@@ -429,7 +429,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	különösen	különösen	[/Adv]	ADV	_	MODE	6	23	_	_
 6	szívesen	szívesen	[/Adv]	ADV	_	MODE	7	23	_	_
 7	csiszolták	csiszol	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	23	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	23		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	23	_	arb
 8	kisebb	kicsi	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	11	23	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	8	23	_	_
 10	ragyogó	ragyogó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	8	23	_	_
@@ -441,7 +441,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	nyugati	nyugati	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	23	_	_
 16	gyémántoknak	gyémánt	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	DAT	17	23	_	_
 17	nevezték	nevez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	13	23	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	23		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	23	_	arb
 18	.	.	[Punct]	PUNCT	_	PUNCT	0	23	_	_
 
 1	Helyi	helyi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	24	_	_
@@ -490,7 +490,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	jóval	jóval	[/Adv]	ADV	_	MODE	15	25	_	_
 15	nagyobbra	nagy	[/Adj][_Comp/Adj][Subl]	ADJ	Case=Sub|Degree=Cmp|Number=Sing	OBL	16	25	_	_
 16	értékelték	értékel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	25	_	_
-16.SUBJ	DROP	_	_	_	_	SUBJ	16	25		arb
+16.SUBJ	DROP	_	_	_	_	SUBJ	16	25	_	arb
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	25	_	_
 18	mint	mint	[/Cnj]	SCONJ	_	CONJ	16	25	_	_
 19	napjainkban	nap	[/N][Pl.Poss.1Pl][Ine]	NOUN	Case=Ine|Number=Plur|Number[psor]=Plur|Person[psor]=1	ATT	18	25	_	_

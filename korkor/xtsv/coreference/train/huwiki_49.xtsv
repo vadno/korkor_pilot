@@ -9,7 +9,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	állított	állított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	1	_	_
 9	faoszlophoz	faoszlop	[/N][All]	NOUN	Case=All|Number=Sing	OBL	10	1	_	_
 10	kötözték	kötöz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	1		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	1	_	arb
 11	,	,	[Punct]	PUNCT	_	PUNCT	10	1	_	_
 12	amelyet	amely	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	13	1	1:9	rel
 13	meggyújtottak	meggyújt	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	10	1	_	_
@@ -35,7 +35,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	11.	11.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	3	_	_
 7	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	8	3	_	_
 8	ítéltek	ítél	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	3		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	3	_	arb
 9	embereket	ember	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	8	3	_	_
 10	eretnekségért	eretnekség	[/N][Cau]	NOUN	Case=Cau|Number=Sing	OBL	8	3	_	_
 11	máglyahalálra	máglyahalál	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	8	3	1:1	coref
@@ -49,7 +49,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	kevés	kevés	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	7	4	_	_
 7	embert	ember	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	7.1	4	_	_
 7.1	ZÉRÓ_ítéltek	_	_	_	_	ROOT	0	4	_	_
-7.1.SUBJ	DROP	_	_	_	_	SUBJ	7.1	4		arb
+7.1.SUBJ	DROP	_	_	_	_	SUBJ	7.1	4	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	7.1	4	_	_
 9	utána	utána	[/Adv]	ADV	_	TLOCY	14	4	_	_
 10	viszont	viszont	[/Cnj]	CCONJ	_	CONJ	14	4	_	_
@@ -83,7 +83,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	tűzhalállal	tűzhalál	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	15	5	3:11	coref
 14	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	5	_	_
 15	büntetni	büntet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	14	5	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	5		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	5	_	arb
 16	,	,	[Punct]	PUNCT	_	PUNCT	14	5	_	_
 17	majd	majd	[/Cnj]	CCONJ	_	CONJ	14	5	_	_
 18	III.	III.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	NE	19	5	_	_
@@ -101,11 +101,11 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 30	ezért	ezért	[/Cnj]	CCONJ	_	CONJ	28	5	_	_
 31	máglyahalált	máglyahalál	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	32	5	5:13	coref
 32	érdemel	érdemel	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	30	5	_	_
-32.SUBJ	DROP	_	_	_	_	SUBJ	32	5		arb
+32.SUBJ	DROP	_	_	_	_	SUBJ	32	5	_	arb
 33	,	,	[Punct]	PUNCT	_	PUNCT	32	5	_	_
 34	akire	aki	[/N|Pro|Rel][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Rel	OBL	35	5	5:32.SUBJ	prs
 35	rábizonyítják	rábizonyít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	32	5	_	_
-35.SUBJ	DROP	_	_	_	_	SUBJ	35	5		arb
+35.SUBJ	DROP	_	_	_	_	SUBJ	35	5	_	arb
 35.OBJ	DROP	_	_	_	_	OBJ	35	5	5:26	prs
 36	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
@@ -138,7 +138,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	18.	18.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	4	7	_	_
 4	században	század	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	5	7	_	_
 5	felhagytak	felhagy	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	7	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	7		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	7	_	arb
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	7	_	_
 7	azóta	azóta	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TFROM	12	7	_	_
 8	kegyetlen	kegyetlen	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	7	_	_
@@ -179,7 +179,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Általában	általában	[/Adv]	ADV	_	MODE	3	9	_	_
 2	akkor	akkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	3	9	_	_
 3	alkalmazták	alkalmaz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	9		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	9	_	arb
 3.OBJ	DROP	_	_	_	_	OBJ	3	9	8:13	prs
 4	,	,	[Punct]	PUNCT	_	PUNCT	3	9	_	_
 5	ha	ha	[/Cnj]	SCONJ	_	CONJ	3	9	_	_
@@ -214,7 +214,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	prostituáltat	prostituált	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	15	10	_	_
 17	máglyán	máglya	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	18	10	4:21	coref
 18	égettek	éget	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	10		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	10	_	arb
 19	el	el	[/Prev]	ADV	_	PREVERB	18	10	_	_
 20	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 

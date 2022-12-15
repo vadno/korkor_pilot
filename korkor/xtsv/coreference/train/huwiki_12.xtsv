@@ -38,7 +38,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	tápfeszültség	tápfeszültség	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	16	2	_	_
 16	pólusát	pólus	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	17	2	_	_
 17	megfordítjuk	megfordít	[/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	13	2	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	2		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	2	_	arb
 18	,	,	[Punct]	PUNCT	_	PUNCT	17	2	_	_
 19	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	2	_	_
 20	álló-	álló	[/Adj][Nom][Hyph:Hyph]	ADJ	Case=Nom|Degree=Pos|Number=Sing	LOCY	24	2	_	_
@@ -79,7 +79,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
 14	figyelembe	figyelem	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	15	3	_	_
 15	venni	vesz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	13	3	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	3		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	3	_	arb
 16	,	,	[Punct]	PUNCT	_	PUNCT	12	3	_	_
 17	hanem	hanem	[/Cnj]	CCONJ	_	CONJ	12	3	_	_
 18	annak	az	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	POSS	21	3	3:12.POSS	dem
@@ -96,7 +96,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	között	között	[/Post]	ADP	_	MODE	7	4	_	_
 6	ezért	ez	[/N|Pro][Cau]	PRON	Case=Cau|Number=Sing|Person=3|PronType=Dem	MODE	7	4	_	_
 7	vezették	vezet	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	4		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	4	_	arb
 8	be	be	[/Prev]	ADV	_	PREVERB	7	4	_	_
 9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	4	_	_
 10	16	16	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	11	4	_	_
@@ -119,7 +119,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	motorok	motor	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	10	5	_	_
 10	esetén	esetén	[/Post|(Poss)]	ADP	_	MODE	11	5	_	_
 11	feltüntetik	feltüntet	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	5		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	5	_	arb
 12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	5	_	_
 13	névleges	névleges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	5	_	_
 14	egyen-	egyen	[/Adj][Hyph:Hyph]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	5	_	_
@@ -207,7 +207,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	kivitelben	kivitel	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	22	10	_	_
 21	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	10	_	_
 22	elkészíteni	elkészít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	21	10	_	_
-22.SUBJ	DROP	_	_	_	_	SUBJ	22	10		arb
+22.SUBJ	DROP	_	_	_	_	SUBJ	22	10	_	arb
 23	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	11	_	_
@@ -215,7 +215,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	motorokat	motor	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	11	7:3	coref
 3	gyakran	gyakran	[/Adv]	ADV	_	MODE	4	11	_	_
 4	használják	használ	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	11		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	11	_	arb
 5	háztartási	háztartási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	11	_	_
 6	gépekben	gép	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	4	11	_	_
 7	(	(	[Punct]	PUNCT	_	PUNCT	8	11	_	_
@@ -281,7 +281,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	motor	motor	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	13	12:3	coref
 4	tengelyét	tengely	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	5	13	_	_
 5	rögzítjük	rögzít	[/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	13	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	13		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	13	_	arb
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	13	_	_
 7	akkor	akkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	26	13	_	_
 8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	13	_	_
@@ -299,7 +299,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	frekvenciájára	frekvencia	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	21	13	_	_
 21	számított	számított	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	APPEND	23	13	_	_
 22	-	-	[Hyph:Hyph]	X	_	PUNCT	21	13	_	_
-23	rezisztenciájának	rezisztencia	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	25	13		
+23	rezisztenciájának	rezisztencia	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	25	13	_	_
 24	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	25	13	_	_
 25	összege	összeg	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	26	13	_	_
 26	határozza	határoz	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
@@ -381,7 +381,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	kétpólusú	kétpólusú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	18	_	_
 6	kivitelben	kivitel	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	7	18	_	_
 7	készítik	készít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	18	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	18		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	18	_	arb
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	18	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	19	_	_
@@ -437,9 +437,9 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	felvett	felvett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	22	_	_
 16	teljesítményét	teljesítmény	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	18	22	_	_
 17	szokták	szokik	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	22	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	22		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	22	_	arb
 18	megadni	megad	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	17	22	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	22		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	22	_	arb
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	22	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	23	_	_
@@ -471,7 +471,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	korlátozásának	korlátozás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	16	24	_	_
 16	érdekében	érdekében	[/Post|(Poss)][Prs.NDef.3Sg]	ADP	_	COORD	11	24	_	_
 17	korlátozni	korlátoz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	18	24	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	24		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	24	_	arb
 18	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	24	_	_
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	24	_	_
 

@@ -9,13 +9,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	filmvígjáték	filmvígjáték	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	8.1	1	_	_
 8.1	KOPULA	_	_	_	_	ROOT	0	1	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	8.1	1	_	_
-10	rendezője	rendező	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	12.1	1		
+10	rendezője	rendező	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	12.1	1	_	_
 10.POSS	DROP	_	_	_	_	POSS	10	1	1:3	prs
 11	Tim	Tim	[/N]	PROPN	Case=Nom|Number=Sing	NE	12	1	_	_
 12	Whelan	Whelan	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	12.1	1	_	_
 12.1	KOPULA	_	_	_	_	COORD	8.1	1	_	_
 13	,	,	[Punct]	PUNCT	_	PUNCT	12.1	1	_	_
-14	producere	producer	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	16.1	1		
+14	producere	producer	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	16.1	1	_	_
 14.POSS	DROP	_	_	_	_	POSS	14	1	1:10.POSS	prs
 15	Korda	Korda	[/N]	PROPN	Case=Nom|Number=Sing	NE	16	1	_	_
 16	Sándor	Sándor	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	16.1	1	_	_
@@ -29,7 +29,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	március	március	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	2	_	_
 6	16-án	16	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	7	2	_	_
 7	mutatták	mutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	2		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	2	_	arb
 8	be	be	[/Prev]	ADV	_	PREVERB	7	2	_	_
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
@@ -51,7 +51,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	veszélyes	veszélyes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	5.1	4	_	_
 5.1	KOPULA	_	_	_	_	ROOT	0	4	_	_
 6	közlekedni	közlekedik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	5	4	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	4		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	4	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	5.1	4	_	_
 8	ezért	ezért	[/Cnj]	CCONJ	_	CONJ	5.1	4	_	_
 9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	4	_	_
@@ -127,7 +127,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	tesz	tesz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	8	8	_	_
 10.SUBJ	DROP	_	_	_	_	SUBJ	10	8	8:7	prs
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	8	_	_
-12	felesége	feleség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	13	8		
+12	felesége	feleség	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	13	8	_	_
 12.POSS	DROP	_	_	_	_	POSS	12	8	8:10.SUBJ	prs
 13	ellen	ellen	[/Post]	ADP	_	OBL	10	8	_	_
 14	,	,	[Punct]	PUNCT	_	PUNCT	10	8	_	_

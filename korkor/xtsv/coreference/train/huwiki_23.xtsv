@@ -50,7 +50,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3.SUBJ	DROP	_	_	_	_	SUBJ	3	3	2:17.1.SUBJ	prs
 4	,	,	[Punct]	PUNCT	_	PUNCT	3	3	_	_
 5	de	de	[/Cnj]	CCONJ	_	CONJ	3	3	_	_
-6	felmenői	felmenő	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	7	3		
+6	felmenői	felmenő	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	7	3	_	_
 6.POSS	DROP	_	_	_	_	POSS	6	3	3:3.SUBJ	prs
 7	között	között	[/Post]	ADP	_	OBL	12	3	_	_
 8	kisiparosok	kisiparos	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	12.1	3	_	_
@@ -103,7 +103,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	majd	majd	[/Cnj]	CCONJ	_	CONJ	8	7	_	_
 11	1980-ban	1980	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	12	7	_	_
 12	felvették	felvesz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	7	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	7		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	7	_	arb
 12.OBJ	DROP	_	_	_	_	OBJ	12	7	7:8.SUBJ	prs
 13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	7	_	_
 14	Színművészeti	Színművészeti	[/N]	PROPN	Case=Nom|Number=Sing	NE	15	7	_	_
@@ -136,13 +136,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Diplomájának	diploma	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	2	9	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	9	8:2.SUBJ	prs
-2	megszerzése	megszerzés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	3	9		
+2	megszerzése	megszerzés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	3	9	_	_
 3	után	után	[/Post]	ADP	_	TLOCY	9	9	_	_
 4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	9	_	_
 5	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	9	_	_
 6	Nemzeti	Nemzeti	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	9	_	_
 7	Színház	Színház	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	8	9	_	_
-8	színésze	színész	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	9	9		
+8	színésze	színész	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	9	9	_	_
 9	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
 9.SUBJ	DROP	_	_	_	_	SUBJ	9	9	9:1.POSS	prs
 10	,	,	[Punct]	PUNCT	_	PUNCT	9	9	_	_
@@ -233,7 +233,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	művészeti	művészeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	13	_	_
 18	vezetőjévé	vezető	[/N][Poss.3Sg][Transl]	NOUN	Case=Tra|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	19	13	_	_
 19	nevezték	nevez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	13	13	_	_
-19.SUBJ	DROP	_	_	_	_	SUBJ	19	13		arb
+19.SUBJ	DROP	_	_	_	_	SUBJ	19	13	_	arb
 19.OBJ	DROP	_	_	_	_	OBJ	19	13	13:11.POSS	prs
 20	ki	ki	[/Prev]	ADV	_	PREVERB	19	13	_	_
 21	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
@@ -295,7 +295,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Színházi	színházi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	16	_	_
 2	és	és	[/Cnj]	CCONJ	_	CONJ	1	16	_	_
 3	filmes	filmes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	2	16	_	_
-4	munkáin	munka	[/N][Pl.Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	5	16		
+4	munkáin	munka	[/N][Pl.Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Plur|Number[psor]=Sing|Person[psor]=3	ATT	5	16	_	_
 4.POSS	DROP	_	_	_	_	POSS	4	16	15:30.SUBJ	prs
 5	kívül	kívül	[/Post|(Supe)]	ADP	_	MODE	14	16	_	_
 6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	16	_	_

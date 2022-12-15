@@ -60,7 +60,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	praktikus	praktikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	3	_	_
 12	darabokat	darab	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	13	3	_	_
 13	készítettek	készít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	3	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	3		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	3	_	arb
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	3	_	_
 15	megszőtt	megszőtt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	3	_	_
 16	anyagdarabokból	anyagdarab	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	OBL	13	3	_	_
@@ -164,7 +164,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Kézzel	kéz	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	2.1	11	_	_
 2	lassabban	lassú	[/Adj][_Comp/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Cmp|Number=Sing	MODE	2.1	11	_	_
 2.1	ZÉRÓ_varrunk	_	_	_	_	COORD	7	11	_	_
-2.1.SUBJ	DROP	_	_	_	_	SUBJ	2.1	11		arb
+2.1.SUBJ	DROP	_	_	_	_	SUBJ	2.1	11	_	arb
 3	,	,	[Punct]	PUNCT	_	PUNCT	2.1	11	_	_
 4	de	de	[/Cnj]	CCONJ	_	CONJ	2.1	11	_	_
 5	általában	általában	[/Adv]	ADV	_	MODE	6	11	_	_
@@ -192,7 +192,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	kézzel	kéz	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	9	13	_	_
 8	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	13	_	_
 9	megvarrni	megvarr	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	8	13	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	13		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	13	_	arb
 10	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
 
 1	Speciális	speciális	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	14	_	_
@@ -227,7 +227,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	ilyen	ilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	9	16	_	_
 9	kézimunkát	kézimunka	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	16	_	_
 10	készítettek	készít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	16	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	16		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	16	_	arb
 11	,	,	[Punct]	PUNCT	_	PUNCT	10	16	_	_
 12	főleg	főleg	[/Adv]	ADV	_	MODE	13	16	_	_
 13	praktikus	praktikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	16	_	_

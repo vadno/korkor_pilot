@@ -11,7 +11,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	1	_	_
 11	vadlóból	vadló	[/N][Ela]	NOUN	Case=Ela|Number=Sing	OBL	12	1	_	_
 12	kialakították	kialakít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	1	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	1		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	1	_	arb
 13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	1	_	_
 14	házi	házi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	1	_	_
 15	lovat	ló	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	1	_	_
@@ -42,7 +42,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Észak-Kazahsztán	Észak-Kazahsztán	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	2	3	_	_
 2	területén	terület	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	3	3	_	_
 3	találták	talál	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	3		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	3	_	arb
 4	meg	meg	[/Prev]	PART	_	PREVERB	3	3	_	_
 5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	3	_	_
 6	vadló	vadló	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	3	1:11	coref
@@ -111,7 +111,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	6	_	_
 9	vaskortól	vaskor	[/N][Abl]	NOUN	Case=Abl|Number=Sing	COORD	6	6	_	_
 10	használják	használ	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	6		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	6	_	arb
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	6	_	_
 12	lovat	ló	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	6	5:8	coref
 13	hátas	hátas	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	6	_	_
@@ -180,7 +180,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	kurrit	kurrit	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	9	_	_
 7	néphez	nép	[/N][All]	NOUN	Case=All|Number=Sing	OBL	8	9	_	_
 8	kötik	köt	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	9		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	9	_	arb
 9	,	,	[Punct]	PUNCT	_	PUNCT	8	9	_	_
 10	amely	amely	[/Det|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	ATT	11	9	_	_
 11	tudomány	tudomány	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	14	9	9:4	coref

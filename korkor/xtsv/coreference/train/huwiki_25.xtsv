@@ -30,7 +30,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	12	2	_	_
 11	gyári	gyári	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	2	_	_
 12	munkás	munkás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	12.1	2	_	_
-12.1	ZÉRÓ_volt	_	_	_	_	COORD	5	2		
+12.1	ZÉRÓ_volt	_	_	_	_	COORD	5	2	_	_
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
 1	Három	három	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	3	_	_
@@ -38,12 +38,12 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2.POSS	DROP	_	_	_	_	POSS	2	3	2:7.POSS	prs
 3	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
 4	:	:	[Punct]	PUNCT	_	PUNCT	3	3	_	_
-5	bátyja	báty	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	2	3		
+5	bátyja	báty	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	2	3	_	_
 5.POSS	DROP	_	_	_	_	POSS	5	3	3:2.POSS	prs
 6	Michael	Michael	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	7	3	3:5	coref
 7	színész	színész	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	3	_	_
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	3	_	_
-9	húga	húg	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	5	3		
+9	húga	húg	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	5	3	_	_
 9.POSS	DROP	_	_	_	_	POSS	9	3	3:5.POSS	prs
 10	,	,	[Punct]	PUNCT	_	PUNCT	9	3	_	_
 11	Kelly	Kelly	[/N][Nom]	PROPN	Case=Nom|Number=Sing	COORD	9	3	3:9	coref
@@ -69,7 +69,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	,	,	[Punct]	PUNCT	_	PUNCT	10	4	_	_
 12	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	13	4	_	_
 13	kétkezi	kétkezi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	4	_	_
-14	munkás	munkás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	9	4		
+14	munkás	munkás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	9	4	_	_
 15	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
 1	17	17	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	5	_	_
@@ -179,14 +179,14 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 
 1	Innen	innen	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TFROM	2	11	10:11	dem
-1.1	KOPULA	_	_	_	_	ROOT	0	11		
+1.1	KOPULA	_	_	_	_	ROOT	0	11	_	_
 2	számítható	számítható	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	1.1	11	_	_
 3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	11	_	_
 4	világkarrierje	világkarrier	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	1.1	11	_	_
 4.POSS	DROP	_	_	_	_	POSS	4	11	10:11.OBJ	prs
 5	,	,	[Punct]	PUNCT	_	PUNCT	1.1	11	_	_
 6	legismertebb	ismert	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	7	11	_	_
-7	filmjei	film	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	PRED	7.1	11		
+7	filmjei	film	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	PRED	7.1	11	_	_
 7.POSS	DROP	_	_	_	_	POSS	7	11	11:4.POSS	prs
 7.1	KOPULA	_	_	_	_	COORD	1.1	11	_	_
 8	ezekből	ez	[/Det|Pro][Pl][Ela]	PRON	Case=Ela|Number=Plur|Person=3|PronType=Dem	DET	10	11	_	_
@@ -228,7 +228,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 44	Oscar-díjra	Oscar-díj	[/N][Subl]	PROPN	Case=Sub|Number=Sing	OBL	46	11	_	_
 45	is	is	[/Adv]	ADV	_	MODE	46	11	_	_
 46	jelölték	jelöl	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	41	11	_	_
-46.SUBJ	DROP	_	_	_	_	SUBJ	46	11		arb
+46.SUBJ	DROP	_	_	_	_	SUBJ	46	11	_	arb
 46.OBJ	DROP	_	_	_	_	OBJ	46	11	11:7.POSS	prs
 47	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 
@@ -254,7 +254,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 18	utolsó	utolsó	[/N]	NOUN	Case=Nom|Number=Sing	NE	19	12	_	_
 19	tánc	tánc	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	20	12	_	_
 20	című	című	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	12	_	_
-21	drámája	dráma	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16	12		
+21	drámája	dráma	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	16	12	_	_
 21.POSS	DROP	_	_	_	_	POSS	21	12	12:15.POSS	prs
 22	már	már	[/Adv]	ADV	_	TLOCY	24	12	_	_
 23	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	24	12	_	_
@@ -274,7 +274,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	13	_	_
 8	1998-ban	1998	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	COORD	6	13	13:6	coref
 9	mutatták	mutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	13		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	13	_	arb
 10	be	be	[/Prev]	ADV	_	PREVERB	9	13	_	_
 11	,	,	[Punct]	PUNCT	_	PUNCT	9	13	_	_
 12	ez	ez	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	PRED	13	13	13:2	dem
@@ -321,7 +321,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 26	Golden	Golden	[/N]	PROPN	Case=Nom|Number=Sing	NE	27	14	_	_
 27	Globe-díjra	Globe-díjra	[/N][Subl]	PROPN	Case=Sub|Number=Sing	OBL	28	14	_	_
 28	jelölték	jelöl	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	14	_	_
-28.SUBJ	DROP	_	_	_	_	SUBJ	28	14		arb
+28.SUBJ	DROP	_	_	_	_	SUBJ	28	14	_	arb
 28.OBJ	DROP	_	_	_	_	OBJ	28	14	14:25.POSS	prs
 29	.	.	[Punct]	PUNCT	_	PUNCT	0	14	_	_
 
@@ -338,7 +338,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	sikeres	sikeres	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	10	15	_	_
 12	filmekben	film	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	13	15	_	_
 13	látni	lát	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	8	15	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	15		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	15	_	arb
 13.OBJ	DROP	_	_	_	_	OBJ	13	15	14:28.OBJ	prs
 14	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 

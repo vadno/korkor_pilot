@@ -234,7 +234,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	,	,	[Punct]	PUNCT	_	PUNCT	2	11	_	_
 9	ekkor	ekkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	10	11	10:11	prs
 10	alakították	alakít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	2	11	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	11		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	11	_	arb
 11	át	át	[/Prev]	ADV	_	PREVERB	10	11	_	_
 12	szinte	szinte	[/Adv]	ADV	_	MODE	13	11	_	_
 13	bevehetetlen	bevehetetlen	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	11	_	_
@@ -258,7 +258,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	lakosokat	lakos	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	14	12	12:12	holo
 13	kényszerrel	kényszer	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	14	12	_	_
 14	költöztették	költözik	[/V][_Caus/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	COORD	3	12	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	12		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	12	_	arb
 15	át	át	[/Prev]	ADV	_	PREVERB	14	12	_	_
 16	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	12	_	_
 17	Aude	Aude	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	19	12	3:3	coref
@@ -270,7 +270,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	Fülöp	Fülöp	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	3	13	_	_
 3	idején	idő	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	4	13	_	_
 4	fejezték	fejez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	13		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	13	_	arb
 5	be	be	[/Prev]	ADV	_	PREVERB	4	13	_	_
 6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	13	_	_
 7	megrongált	megrongált	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	13	_	_
@@ -314,7 +314,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	17	15	_	_
 16	határozat	határozat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	17	15	_	_
 17	született	születik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	15	_	_
-18	lebontásáról	lebontás	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	16	15		
+18	lebontásáról	lebontás	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	16	15	_	_
 18.POSS	DROP	_	_	_	_	POSS	18	15	15:8	prs
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 

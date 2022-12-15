@@ -8,7 +8,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	tüntetésen	tüntetés	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	11	1	_	_
 8	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	10	1	_	_
 9	mint	mint	[/Cnj]	SCONJ	_	CONJ	8	1	_	_
-10	százezren	százezer	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	11	1		arb
+10	százezren	százezer	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	11	1	_	arb
 11	vettek	vesz	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
 12	részt	rész	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBL	11	1	_	_
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
@@ -73,7 +73,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	miniszterelnökét	miniszterelnök	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	4	5	3:8	coref
 3	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	4	5	_	_
 4	gyanúsították	gyanúsít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	5		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	5	_	arb
 5	,	,	[Punct]	PUNCT	_	PUNCT	4	5	_	_
 6	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4	5	_	_
 7	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	11	5	_	_
@@ -112,14 +112,14 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	juntát	junta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	6	_	_
 7	azzal	az	[/N|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	OBL	8	6	_	_
 8	vádolták	vádol	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	6		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	6	_	arb
 9	,	,	[Punct]	PUNCT	_	PUNCT	8	6	_	_
 10	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	8	6	_	_
 11	korrupciós	korrupciós	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	6	_	_
 12	ügyletek	ügylet	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	13	6	_	_
 13	kíséretében	kíséret	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	14	6	_	_
 14	építettek	épít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	10	6	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	6		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	6	_	arb
 15	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	16	6	_	_
 16	látványparkot	látványpark	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	14	6	_	_
 17	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
@@ -140,7 +140,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	8	_	_
 5	alelnököt	alelnök	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	8	_	_
 6	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	8		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	8	_	arb
 7	folyamatos	folyamatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	8	_	_
 8	nyomás	nyomás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	8	_	_
 9	alatt	alatt	[/Post]	ADP	_	OBL	6	8	_	_
@@ -154,7 +154,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	maláj	maláj	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	9	_	_
 5	miniszterelnök	miniszterelnök	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	6	9	5:2	coref
 6	elismerte	elismer	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-6.OBJ	DROP	_	_	_	_	OBJ	6	9		
+6.OBJ	DROP	_	_	_	_	OBJ	6	9	_	_
 7	ugyan	ugyan	[/Adv]	ADV	_	MODE	6	9	_	_
 8	,	,	[Punct]	PUNCT	_	PUNCT	6	9	_	_
 9	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	6	9	_	_
@@ -194,7 +194,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 
 1	Ezt	ez	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	4	11	_	_
-2	sokan	sok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	11		arb
+2	sokan	sok	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	11	_	arb
 3	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	4	11	_	_
 4	hitték	hisz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 5	el	el	[/Prev]	ADV	_	PREVERB	4	11	_	_
@@ -212,7 +212,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	óriási	óriási	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	3	12	_	_
 3	tüntetéseket	tüntetés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	4	12	_	_
 4	tartottak	tart	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	12	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	12		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	12	_	arb
 5	,	,	[Punct]	PUNCT	_	PUNCT	4	12	_	_
 6	és	és	[/Cnj]	CCONJ	_	CONJ	4	12	_	_
 7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	12	_	_

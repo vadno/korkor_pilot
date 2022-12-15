@@ -49,7 +49,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	meg	meg	[/Prev]	PART	_	PREVERB	15	3	_	_
 14	lehetett	van	[/V][_Mod/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
 15	figyelni	figyel	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	14	3	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	3		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	3	_	arb
 16	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	4	_	_
@@ -105,7 +105,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 31	közigazgatásilag	közigazgatásilag	[/Adv]	ADV	_	MODE	28	5	_	_
 32	Budapest	Budapest	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	34	5	_	_
 33	XI.	XI.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	34	5	_	_
-34	kerületében	kerület	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	28	5		
+34	kerületében	kerület	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	28	5	_	_
 35	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	6	_	_
@@ -139,7 +139,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	95,76	95,76	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	13	7	_	_
 13	méter	méter	[/N|Unit][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	7	_	_
 14	tengerszint	tengerszint	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	15	7	_	_
-15	felett	felett	[/Post]	ADP	_	COORD	10	7		
+15	felett	felett	[/Post]	ADP	_	COORD	10	7	_	_
 16	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	8	_	_
@@ -187,7 +187,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	többesszámban	többesszám	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	6	10	_	_
 5	is	is	[/Adv]	ADV	_	MODE	4	10	_	_
 6	használják	használ	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	10		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	10	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	10	_	_
 8	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	10	10	10:4	rel
 9	arra	az	[/N|Pro][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Dem	OBL	10	10	_	_
@@ -306,7 +306,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	felsőbb	felső	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	11	13	_	_
 11	sziklákat	szikla	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	12	13	12:12	holo
 12	felrobbantották	felrobbant	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	13		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	13	_	arb
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	13	_	_
 14	így	így	[/Cnj]	CCONJ	_	CONJ	12	13	_	_
 15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	13	_	_
@@ -342,7 +342,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	szeizmikus	szeizmikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	15	_	_
 13	méréseket	mérés	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	14	15	_	_
 14	végeztek	végez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	15		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	15	_	arb
 15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	15	_	_
 16	Szabadság	Szabadság	[/N]	PROPN	Case=Nom|Number=Sing	NE	17	15	_	_
 17	híd	híd	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	15	14:3	coref

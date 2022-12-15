@@ -137,13 +137,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6.SUBJ	DROP	_	_	_	_	SUBJ	6	8	8:1	prs
 7	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
-1	Úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	OBL	2	9		
+1	Úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	OBL	2	9	_	_
 2	gondolta	gondol	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
 2.SUBJ	DROP	_	_	_	_	SUBJ	2	9	8:6.SUBJ	prs
 3	,	,	[Punct]	PUNCT	_	PUNCT	2	9	_	_
 4	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	2	9	_	_
 5	jobb	jó	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	6	9	_	_
-6	megoldás	megoldás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	6.1	9		
+6	megoldás	megoldás	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	6.1	9	_	_
 6.1	KOPULA	_	_	_	_	ATT	4	9	_	_
 7	,	,	[Punct]	PUNCT	_	PUNCT	6.1	9	_	_
 8	ha	ha	[/Cnj]	SCONJ	_	CONJ	6.1	9	_	_
@@ -237,14 +237,14 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	Velencei	velencei	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	NE	14	13	_	_
 14	Filmfesztiválon	filmfesztivál	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	15	13	_	_
 15	mutatták	mutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	13		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	13	_	arb
 16	be	be	[/Prev]	ADV	_	PREVERB	15	13	_	_
 17	,	,	[Punct]	PUNCT	_	PUNCT	15	13	_	_
 18	ahol	ahol	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	LOCY	21	13	13:14	rel
 19	első	egy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	20	13	_	_
 20	díjjal	díj	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	21	13	_	_
 21	jutalmazták	jutalmaz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	15	13	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	13		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	13	_	arb
 21.OBJ	DROP	_	_	_	_	OBJ	21	13	13:5	prs
 22	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
 
@@ -279,7 +279,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	15	_	_
 22	gyerekek	gyerek	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	23	15	_	_
 23	számára	számára	[/Post|(Poss)][Poss.3Sg]	ADP	_	DAT	24	15	_	_
-24	érthető	érthető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	24.1	15		
+24	érthető	érthető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	24.1	15	_	_
 24.1	KOPULA	_	_	_	_	ATT	13	15	_	_
 25	függetlenül	független	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	24	15	_	_
 26	attól	az	[/Det|Pro][Abl]	PRON	Case=Abl|Number=Sing|Person=3|PronType=Dem	OBL	25	15	_	_
@@ -330,9 +330,9 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 67	epizódokat	epizód	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	68.1	15	14:4	coref
 68	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	69	15	_	_
 68.1	KOPULA	_	_	_	_	COORD	63	15	_	_
-69	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	68.1	15		
+69	szükséges	szükséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	68.1	15	_	_
 70	szinkronizálni	szinkronizál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	69	15	_	_
-70.SUBJ	DROP	_	_	_	_	SUBJ	70	15		arb
+70.SUBJ	DROP	_	_	_	_	SUBJ	70	15	_	arb
 71	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	16	_	_

@@ -4,7 +4,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	,	,	[Punct]	PUNCT	_	PUNCT	2	1	_	_
 4	legelső	egy	[/Supl][/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	5	1	_	_
 5	blogposztunk	blogposzt	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	POSS	6	1	_	_
-5.POSS	DROP	_	_	_	_	POSS	5	1		speak
+5.POSS	DROP	_	_	_	_	POSS	5	1	_	speak
 6	évfordulóján	évforduló	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	2	1	_	_
 7	megemlékeztünk	megemlékezik	[/V][Pst.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
 7.SUBJ	DROP	_	_	_	_	SUBJ	7	1	1:5.POSS	prs
@@ -33,14 +33,14 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	lett	lesz	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	2	_	_
 9	hivatalos	hivatalos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	2	_	_
-10	születésnapunk	születésnap	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	PRED	7	2		
+10	születésnapunk	születésnap	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	PRED	7	2	_	_
 5.POSS	DROP	_	_	_	_	POSS	10	2	1:17.SUBJ	prs
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
 1	Ha	ha	[/Cnj]	SCONJ	_	CONJ	7	3	_	_
 2	már	már	[/Adv]	ADV	_	TLOCY	3	3	_	_
 3	találkoztál	találkozik	[/V][Pst.NDef.2Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	ATT	1	3	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	3		addr
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	3	_	addr
 4	kiskamasszal	kiskamasz	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	3	3	_	_
 5	,	,	[Punct]	PUNCT	_	PUNCT	3	3	_	_
 6	akkor	akkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	CONJ	7	3	_	_

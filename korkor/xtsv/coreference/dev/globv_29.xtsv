@@ -153,7 +153,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	internetes	internetes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	7	_	_
 6	cégeket	cég	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	7	_	_
 7	kényszeríteni	kényszerít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	2	7	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	7		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	7	_	arb
 8	arra	az	[/N|Pro][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Dem	OBL	7	7	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	2	7	_	_
 10	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	2	7	_	_
@@ -297,7 +297,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	Oroszországba	Oroszország	[/N][Ill]	PROPN	Case=Ill|Number=Sing	TO	22	13	_	_
 21	kellene	kell	[/V][Cond.NDef.3Sg]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	13	13	_	_
 22	költöztetni	költöztet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	21	13	_	_
-22.SUBJ	DROP	_	_	_	_	SUBJ	22	13		arb
+22.SUBJ	DROP	_	_	_	_	SUBJ	22	13	_	arb
 23	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
 
 1	Ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	3	14	13:22	dem

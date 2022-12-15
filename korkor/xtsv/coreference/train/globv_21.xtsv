@@ -2,11 +2,11 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Kirgizisztánban	Kirgizisztán	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	3	1	_	_
 2	birkát	birka	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	1	_	_
 3	áldoznak	áldoz	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	1		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	1	_	arb
 4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	1	_	_
 5	közúti	közúti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	1	_	_
 6	balesetek	baleset	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	7	1	_	_
-7	számának	szám	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	8	1		
+7	számának	szám	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	8	1	_	_
 8	csökkentéséért	csökkentés	[/N][Poss.3Sg][Cau]	NOUN	Case=Cau|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	3	1	_	_
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
 
@@ -200,7 +200,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	1	11	_	_
 7	járőrt	járőr	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	11	_	_
 8	állítani	állít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	11	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	11		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	11	_	arb
 9	,	,	[Punct]	PUNCT	_	PUNCT	6	11	_	_
 10	például	például	[/Adv]	ADV	_	MODE	12	11	_	_
 11	éles	éles	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	11	_	_
@@ -287,7 +287,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 25	jóval	jóval	[/Adv]	ADV	_	MODE	28	15	_	_
 26	több	sok	[/Num][_Comp/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	PRED	26.1	15	_	_
 26.1	KOPULA	_	_	_	_	ATT	28	15	_	_
-26.1.SUBJ	DROP	_	_	_	_	SUBJ	26.1	15	15:12	_
+26.1.SUBJ	DROP	_	_	_	_	SUBJ	26.1	15	15:12	prs
 27	,	,	[Punct]	PUNCT	_	PUNCT	26.1	15	_	_
 28	mint	mint	[/Cnj]	SCONJ	_	CONJ	24	15	_	_
 29	például	például	[/Adv]	ADV	_	MODE	28	15	_	_

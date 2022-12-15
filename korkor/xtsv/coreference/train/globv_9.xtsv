@@ -26,7 +26,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	tiszteletben	tisztelet	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	8	2	_	_
 8	tartva	tart	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	9	2	_	_
 9	gyűjtötték	gyűjt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	2		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	2	_	arb
 10	össze	össze	[/Prev]	ADV	_	PREVERB	9	2	_	_
 11	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	12	2	_	_
 12	weboldalon	weboldal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	9	2	_	_
@@ -42,7 +42,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	is	is	[/Adv]	ADV	_	MODE	7	3	_	_
 9	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
 10	találni	talál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	3	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	3		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	3	_	arb
 11	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	3	_	_
 12	oldalon	oldal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	10	3	2:12	coref
 14	beszámolókat	beszámoló	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	7	3	_	_
@@ -55,7 +55,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	arról	az	[/Det|Pro][Del]	PRON	Case=Del|Number=Sing|Person=3|PronType=Dem	COORD	20	3	_	_
 22	,	,	[Punct]	PUNCT	_	PUNCT	14	3	_	_
 23	mely	mely	[/Det|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	ATT	24	3	_	_
-24	köztisztviselőknek	köztisztviselő	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	DAT	25	3		
+24	köztisztviselőknek	köztisztviselő	[/N][Pl][Dat]	NOUN	Case=Dat|Number=Plur	DAT	25	3	_	_
 25	van	van	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	3	_	_
 26	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	28	3	_	_
 27	legnagyobb	nagy	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	28	3	_	_
@@ -71,7 +71,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
 1	Vegyük	vesz	[/V][Sbjv.Def.1Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-1.SUBJ	DROP	_	_	_	_	SUBJ	1	5		arb
+1.SUBJ	DROP	_	_	_	_	SUBJ	1	5	_	arb
 2	például	például	[/Adv]	ADV	_	MODE	1	5	_	_
 3	Alekszander	Alekszander	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	4	5	_	_
 4	V.	V.	[/N][Nom][Punct]	PROPN	Case=Nom|Number=Sing	NE	5	5	_	_
@@ -132,7 +132,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 28	családja	család	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	30	6	_	_
 28.POSS	DROP	_	_	_	_	POSS	28	6	6:12	prs
 29	éves	éves	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	30	6	_	_
-30	jövedelmének	jövedelem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	DAT	26	6		
+30	jövedelmének	jövedelem	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	DAT	26	6	_	_
 31	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	7	_	_

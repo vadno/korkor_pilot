@@ -1,7 +1,7 @@
 id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Koncertekkel	koncert	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	2	1	_	_
 2	küzdenek	küzd	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	1		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	1	_	arb
 3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	1	_	_
 4	ideiglenes	ideiglenes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	1	_	_
 5	kormány	kormány	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	1	_	_
@@ -110,7 +110,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	szervezett	szervez	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	2	5	_	_
 11	,	,	[Punct]	PUNCT	_	PUNCT	10	5	_	_
 12	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	5	_	_
-13	elsőt	egy	[/Num][_Ord/Adj][Acc]	ADJ	Case=Acc|Number=Sing|NumType=Ord	OBJ	16	5		
+13	elsőt	egy	[/Num][_Ord/Adj][Acc]	ADJ	Case=Acc|Number=Sing|NumType=Ord	OBJ	16	5	_	_
 14	május	május	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	15	5	_	_
 15	5-én	5	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	16	5	_	_
 16	tartották	tart	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	2	5	_	_
@@ -164,7 +164,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	kezdve	kezd	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	15	7	_	_
 21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	23	7	_	_
 22	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	7	_	_
-23	kabinet	kabinet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	24	7		
+23	kabinet	kabinet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	24	7	_	_
 24	lecseréléstől	lecserélés	[/N][Abl]	NOUN	Case=Abl|Number=Sing	ATT	20	7	_	_
 25	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	27	7	_	_
 26	külpolitikai	külpolitikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	27	7	_	_
@@ -192,7 +192,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	és	és	[/Cnj]	CCONJ	_	CONJ	15	8	_	_
 17	kiszervezte	kiszervez	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	16	8	_	_
 17.SUBJ	DROP	_	_	_	_	SUBJ	17	8	8:15.SUBJ	prs
-17.OBJ	DROP	_	_	_	_	OBJ	17	8		
+17.OBJ	DROP	_	_	_	_	OBJ	17	8	_	_
 18	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	8	_	_
 19	állami	állami	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	20	8	_	_
 20	vállalatokat	vállalat	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	15	8	_	_
@@ -239,7 +239,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	mondta	mond	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	10	_	_
 7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	10	_	_
-8	elkötelezett	elkötelezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	10		
+8	elkötelezett	elkötelezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	10	_	_
 9	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	10	_	_
 10	infláció	infláció	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	15	10	_	_
 11	és	és	[/Cnj]	CCONJ	_	CONJ	10	10	_	_
@@ -265,7 +265,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	11	_	_
 4	brazil	brazil	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	11	_	_
 5	szenátus	szenátus	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	7	11	_	_
-6	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	7	11		
+6	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	7	11	_	_
 7	döntött	dönt	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	11	_	_
 9	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	7	11	_	_
@@ -282,7 +282,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	12	_	_
 2	vád	vád	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	10.1	12	11:10	coref
-3	ellene	ellen	[/Post][3Sg]	ADP	_	MODE	2	12		
+3	ellene	ellen	[/Post][3Sg]	ADP	_	MODE	2	12	_	_
 4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	12	_	_
 5	növekvő	növekvő	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	12	_	_
 6	költségvetési	költségvetési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	12	_	_

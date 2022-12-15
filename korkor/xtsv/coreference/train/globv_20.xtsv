@@ -60,7 +60,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	alábbiakban	alábbi	[/Adj][Pl][Ine]	ADJ	Case=Ine|Degree=Pos|Number=Plur	MODE	4	4	_	_
 3	ebből	ez	[/N|Pro][Ela]	PRON	Case=Ela|Number=Sing|Person=3|PronType=Dem	OBL	4	4	3:15	prs
 4	adunk	ad	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	4		speak
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	4	_	speak
 5	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	7	4	_	_
 6	kis	kis	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	4	_	_
 7	ízelítőt	ízelítő	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	4	_	_
@@ -95,7 +95,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	helyett	helyett	[/Post]	ADP	_	MODE	12	6	_	_
 11	botokkal	bot	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	12	6	_	_
 12	vívnak	vív	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	7	6	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	6		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	6	_	arb
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
 
 1	Nincsenek	nincs	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	7	_	_
@@ -168,7 +168,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	fontos	fontos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	10	_	_
 5	embernek	ember	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	6	10	_	_
 6	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	10		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	10	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	10	_	_
 8	körülrajongják	körülrajong	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	10	_	_
 8.SUBJ	DROP	_	_	_	_	SUBJ	8	10	10:6.SUBJ	prs

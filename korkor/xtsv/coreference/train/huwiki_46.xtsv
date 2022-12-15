@@ -23,7 +23,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	7	2	_	_
 9	pipában	pipa	[/N][Ine]	NOUN	Case=Ine|Number=Sing	COORD	8	2	_	_
 10	fogyasztják	fogyaszt	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	2		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	2	_	arb
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
 1	Kevésbé	kevésbé	[/Adv]	ADV	_	MODE	2	3	_	_
@@ -180,6 +180,6 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	körülmények	körülmény	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	5	10	_	_
 5	között	között	[/Post]	ADP	_	MODE	6	10	_	_
 6	termelik	termel	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	10		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	10	_	arb
 7	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 

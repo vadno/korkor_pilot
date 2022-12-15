@@ -208,7 +208,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	oroszországi	oroszországi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	7	_	_
 21	adatszerverekre	adatszerver	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	TO	22	7	_	_
 22	helyezzék	helyez	[/V][Sbjv.Def.3Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	14	7	_	_
-22.SUBJ	DROP	_	_	_	_	SUBJ	22	7		arb
+22.SUBJ	DROP	_	_	_	_	SUBJ	22	7	_	arb
 23	át	át	[/Prev]	ADV	_	PREVERB	22	7	_	_
 24	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_
 
@@ -312,7 +312,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	is	is	[/Adv]	ADV	_	MODE	4	11	_	_
 6	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 7	sorolni	sorol	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	11	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	11		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	11	_	arb
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	12	_	_

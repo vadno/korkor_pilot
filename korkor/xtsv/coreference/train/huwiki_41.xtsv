@@ -48,7 +48,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	rókák	róka	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	9	2	2:4	coref
 9	szelektálásával	szelektálás	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	10	2	_	_
 10	választották	választ	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	2		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	2	_	arb
 11	ki	ki	[/Prev]	ADV	_	PREVERB	10	2	_	_
 12	oly	oly	[/Adj|Attr|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	2	_	_
 13	módon	mód	[/N][_Manner/Adv]	NOUN	Case=Ess|Number=Sing	MODE	10	2	_	_
@@ -188,7 +188,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 22	olyan	olyan	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	23	9	_	_
 23	mértékben	mérték	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	24	9	_	_
 24	domesztikálni	domesztikál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	21	9	_	_
-24.SUBJ	DROP	_	_	_	_	SUBJ	24	9		arb
+24.SUBJ	DROP	_	_	_	_	SUBJ	24	9	_	arb
 25	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	9	_	_
 26	rókákat	róka	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	24	9	6:2	coref
 27	,	,	[Punct]	PUNCT	_	PUNCT	24	9	_	_

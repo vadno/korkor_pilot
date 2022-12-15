@@ -61,7 +61,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	nemzeti	nemzeti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	4	_	_
 12	archívumban	archívum	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	12.1	4	_	_
 12.1	ZÉRÓ_őrzik	_	_	_	_	COORD	20	4	_	_
-12.1.SUBJ	DROP	_	_	_	_	SUBJ	12.1	4		arb
+12.1.SUBJ	DROP	_	_	_	_	SUBJ	12.1	4	_	arb
 13	,	,	[Punct]	PUNCT	_	PUNCT	12.1	4	_	_
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	4	_	_
 15	másikat	másik	[/Adj|Pro][Acc]	ADJ	Case=Acc|Degree=Pos|Number=Sing	OBJ	20	4	4:3	holo
@@ -70,12 +70,12 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 18	Egyetem	Egyetem	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	19	4	_	_
 19	könyvtárában	könyvtár	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	20	4	_	_
 20	őrzik	őriz	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	4	_	_
-20.SUBJ	DROP	_	_	_	_	SUBJ	20	4		arb
+20.SUBJ	DROP	_	_	_	_	SUBJ	20	4	_	arb
 21	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
 1	Nem	nem	[/Adv]	ADV	PronType=Neg	NEG	2	5	_	_
 1.1	KOPULA	_	_	_	_	ROOT	0	5	_	_
-2	ismert	ismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	1.1	5		
+2	ismert	ismert	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	1.1	5	_	_
 3	pontosan	pontos	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	2	5	_	_
 4	,	,	[Punct]	PUNCT	_	PUNCT	1.1	5	_	_
 5	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	1.1	5	_	_
@@ -86,7 +86,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	évszázadokban	évszázad	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	12	5	_	_
 11	hogyan	hogyan	[/Adv|Pro|Int]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Int	MODE	12	5	_	_
 12	kormányozták	kormányoz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	5	5	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	5		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	5	_	arb
 13	Feröert	Feröer	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	12	5	1:11	coref
 14	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
@@ -170,7 +170,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	VI.	VI.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	NE	8	8	_	_
 8	Magnus	Magnus	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	10	8	_	_
 9	norvég	norvég	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	8	_	_
-10	király	király	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	11	8		
+10	király	király	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	11	8	_	_
 11	nevéhez	név	[/N][Poss.3Sg][All]	NOUN	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	8	_	_
 12	fűződik	fűződik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	8	_	_
@@ -184,7 +184,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	néven	név	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	23	8	_	_
 22	is	is	[/Adv]	ADV	_	MODE	21	8	_	_
 23	említenek	említ	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	12	8	_	_
-23.SUBJ	DROP	_	_	_	_	SUBJ	23	8		arb
+23.SUBJ	DROP	_	_	_	_	SUBJ	23	8	_	arb
 24	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
 1	Ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	3	9	8:5	dem
@@ -211,7 +211,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	is	is	[/Adv]	ADV	_	MODE	20	9	_	_
 22	saját	saját	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	23	9	_	_
 23	törvényeik	törvény	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	SUBJ	24	9	_	_
-23.POSS	DROP	_	_	_	_	POSS	23	9		arb
+23.POSS	DROP	_	_	_	_	POSS	23	9	_	arb
 24	maradnak	marad	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	17	9	_	_
 25	érvényben	érvény	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	24	9	_	_
 26	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
@@ -310,7 +310,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	törvényt	törvény	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	4	14	13:2	coref
 3	Norvégiára	Norvégia	[/N][Subl]	PROPN	Case=Sub|Number=Sing	OBL	4	14	11:6	coref
 4	szabták	szab	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	14		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	14	_	arb
 5	,	,	[Punct]	PUNCT	_	PUNCT	4	14	_	_
 6	és	és	[/Cnj]	CCONJ	_	CONJ	4	14	_	_
 7	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	14	_	_
@@ -421,13 +421,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	.	.	[Punct]	PUNCT	_	PUNCT	0	18	_	_
 
 1	Nem	nem	[/Adv]	ADV	PronType=Neg	NEG	2	19	_	_
-1.1	KOPULA	_	_	_	_	ROOT	0	19		
+1.1	KOPULA	_	_	_	_	ROOT	0	19	_	_
 2	kétséges	kétséges	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	1.1	19	_	_
 3	,	,	[Punct]	PUNCT	_	PUNCT	1.1	19	_	_
 4	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	1.1	19	_	_
 5	ők	ők	[/N|Pro][3Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	SUBJ	6.1	19	18:1	prs
 6	ketten	kettő	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	19	_	_
-6.1	KOPULA	_	_	_	_	ATT	4	19		
+6.1	KOPULA	_	_	_	_	ATT	4	19	_	_
 7	tekinthetők	tekinthető	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	6.1	19	_	_
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	19	_	_
 9	Juhlevél	Juhlevél	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	10	19	1:2	coref

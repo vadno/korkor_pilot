@@ -169,14 +169,14 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 23	de	de	[/Cnj]	CCONJ	_	CONJ	21	9	_	_
 24	hamarosan	hamarosan	[/Adv]	ADV	_	TLOCY	25	9	_	_
 25	különválasztják	különválaszt	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	23	9	_	_
-25.SUBJ	DROP	_	_	_	_	SUBJ	25	9		arb
+25.SUBJ	DROP	_	_	_	_	SUBJ	25	9	_	arb
 26	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	25	9	8:21.SUBJ	prs
 27	,	,	[Punct]	PUNCT	_	PUNCT	25	9	_	_
 28	mivel	mivel	[/Cnj]	SCONJ	_	CONJ	25	9	_	_
 29	Kate-et	Kate	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	31	9	8:13	coref
 30	örökbe	örök	[/Adj][Ill]	ADJ	Case=Ill|Degree=Pos|Number=Sing	OBL	31	9	_	_
-31	fogadják	fogad	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	28	9		arb
-31.SUBJ	DROP	_	_	_	_	SUBJ	31	9	8:25.SUBJ	_
+31	fogadják	fogad	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	28	9	_	arb
+31.SUBJ	DROP	_	_	_	_	SUBJ	31	9	8:25.SUBJ	prs
 32	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	Így	így	[/Cnj]	CCONJ	_	CONJ	5	10	_	_

@@ -118,7 +118,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	miatt	miatt	[/Post]	ADP	_	MODE	16	8	_	_
 15	előszeretettel	előszeretet	[/Adv]	ADV	_	MODE	16	8	_	_
 16	ültetik	ültet	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-16.SUBJ	DROP	_	_	_	_	SUBJ	16	8		arb
+16.SUBJ	DROP	_	_	_	_	SUBJ	16	8	_	arb
 17	dísznövénynek	dísznövény	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	16	8	_	_
 18	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
@@ -146,7 +146,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	ókorban	ókor	[/N][Ine]	NOUN	Case=Ine|Number=Sing	TLOCY	11	10	_	_
 11	megragadták	megragad	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
 12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	10	_	_
-13	művészek	művész	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	14	10		
+13	művészek	művész	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	14	10	_	_
 14	fantáziáját	fantázia	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	11	10	_	_
 15	;	;	[Punct]	PUNCT	_	PUNCT	11	10	_	_
 16	így	így	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	17	10	_	_
@@ -212,7 +212,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 23	architektonikus	architektonikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	12	_	_
 24	díszítménynek	díszítmény	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	25	12	_	_
 25	felhasználják	felhasznál	[/V][Sbjv.Def.3Pl]	VERB	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	21	12	_	_
-25.SUBJ	DROP	_	_	_	_	SUBJ	25	12		arb
+25.SUBJ	DROP	_	_	_	_	SUBJ	25	12	_	arb
 25.OBJ	DROP	_	_	_	_	OBJ	25	12	12:5.POSS	prs
 26	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_
 

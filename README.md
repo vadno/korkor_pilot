@@ -160,8 +160,9 @@ The files follow the format of [CoNLL-U Plus](https://universaldependencies.org/
 
 In the case of the files in folder [dependency](korkor/conllup/dependency) the last five columns are unfilled.
 
-# Universal Dependencies
+# Further Annotations
 The files in [korkor/xtsv/coreference_with_ud_dependency](korkor/xtsv/coreference_with_ud_dependency) are parsed with [UDPipe](https://github.com/ufal/udpipe) dependency parser used in [emtsv](https://github.com/nytud/emtsv). Note that the output of the dependency parser is not checked manually! Enhanced UD graphs for zero elements are still missing for now.
+In the last column coreference clusters are annotated on the basis of coreference annotation.
 
 # Licence
 The resource is available under [CC-BY-4.0](LICENSE).

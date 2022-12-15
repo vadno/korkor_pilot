@@ -47,7 +47,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 26	eredetet	eredet	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	28	2	_	_
 27	is	is	[/Adv]	ADV	_	MODE	26	2	_	_
 28	tulajdonítanak	tulajdonít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	24	2	_	_
-28.SUBJ	DROP	_	_	_	_	SUBJ	28	2		arb
+28.SUBJ	DROP	_	_	_	_	SUBJ	28	2	_	arb
 29	neki	ő	[/N|Pro][Dat][3Sg]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	OBL	28	2	1:15.SUBJ	prs
 30	.	.	[Punct]	PUNCT	_	ROOT	0	2	_	_
 
@@ -124,7 +124,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	továbbá	továbbá	[/Cnj]	CCONJ	_	CONJ	11	6	_	_
 14	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	13	6	_	_
 15	találkozni	találkozik	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	14	6	_	_
-15.SUBJ	DROP	_	_	_	_	SUBJ	15	6		arb
+15.SUBJ	DROP	_	_	_	_	SUBJ	15	6	_	arb
 16	e	e	[/Det|Pro|def]	ADV	PronType=Art	DET	17	6	_	_
 17	csillaggal	csillag	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	15	6	6:6	coref
 18	régi	régi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	6	_	_
@@ -147,7 +147,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	7.	7.	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	11	7	_	_
 10	századból	század	[/N][Ela]	NOUN	Case=Ela|Number=Sing	TFROM	11	7	_	_
 11	azonosították	azonosít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	7	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	7		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	7	_	arb
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_
 
 1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	9	8	7:4	dem
@@ -193,7 +193,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	misztikus	misztikus	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	10	_	_
 11	szövegekben	szöveg	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	OBL	12	10	_	_
 12	kezdték	kezd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	10		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	10	_	arb
 13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	10	_	_
 14	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	10	_	_
 15	vallással	vallás	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	16	10	_	_
@@ -241,7 +241,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	szimbólum	szimbólum	[/N][Nom]	NOUN	Case=Nom|Number=Sing	SUBJ	4	13	12:10	coref
 3	közismertté	közismert	[/Adj][Transl]	ADJ	Case=Tra|Degree=Pos|Number=Sing	OBL	4	13	_	_
 4	vált	válik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-5	azáltal	azáltal	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	4	13		
+5	azáltal	azáltal	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	4	13	_	_
 6	,	,	[Punct]	PUNCT	_	PUNCT	4	13	_	_
 7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4	13	_	_
 8	Herzl	Herzl	[/N]	PROPN	Case=Nom|Number=Sing	NE	9	13	_	_
@@ -278,7 +278,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	kötelező	kötelező	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	15	_	_
 13	viselését	viselés	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	14	15	_	_
 14	rendelték	rendel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	15		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	15	_	arb
 15	el	el	[/Prev]	ADV	_	PREVERB	14	15	_	_
 16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	15	_	_
 17	zsidó	zsidó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	15	_	_

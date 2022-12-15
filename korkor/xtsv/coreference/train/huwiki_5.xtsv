@@ -1,7 +1,7 @@
 id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Berlinben	Berlin	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	2	1	_	_
 2	rendezték	rendez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	1		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	1	_	arb
 3	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	4	1	_	_
 4	tornászok	tornász	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	POSS	9	1	_	_
 5	egyéni	egyéni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	1	_	_

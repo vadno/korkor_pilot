@@ -142,7 +142,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	szentgyörgymezői	szentgyörgymezői	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	9	_	_
 18	temetőben	temető	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	19	9	2:7	coref
 19	helyeztek	helyez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	6	9	_	_
-19.SUBJ	DROP	_	_	_	_	SUBJ	19	9		arb
+19.SUBJ	DROP	_	_	_	_	SUBJ	19	9	_	arb
 20	végső	végső	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	9	_	_
 21	nyugalomra	nyugalom	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	19	9	_	_
 22	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
@@ -246,7 +246,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	1900	1900	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	POSS	2	14	_	_
 2	őszén	ősz	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	TLOCY	3	14	_	_
 3	kifestették	kifest	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	14		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	14	_	arb
 3.OBJ	DROP	_	_	_	_	OBJ	3	14	13:15	prs
 4	.	.	[Punct]	PUNCT	_	PUNCT	0	14	_	_
 

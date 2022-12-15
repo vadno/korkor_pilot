@@ -35,7 +35,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	át	át	[/N]	NOUN	Case=Nom|Number=Sing	NE	15	2	_	_
 15	szombat	szombat	[/N]	NOUN	Case=Nom|Number=Sing	NE	16	2	_	_
 16	este	este	[/N]	NOUN	Case=Nom|Number=Sing	NE	17	2	_	_
-17	!	!	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	2		
+17	!	!	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	18	2	_	_
 18	címmel	cím	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	9	2	_	_
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
@@ -120,9 +120,9 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	2017-ben	2017	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	COORD	4	6	_	_
 6	is	is	[/Adv]	ADV	_	MODE	5	6	_	_
 7	elnyerte	elnyer	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	6		
+8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	6	_	_
 9	Televíziós	Televíziós	[/N]	PROPN	Case=Nom|Number=Sing	NE	10	6	_	_
-10	Újságírók	Újságírók	[/N]	PROPN	Case=Nom|Number=Sing	NE	11	6		
+10	Újságírók	Újságírók	[/N]	PROPN	Case=Nom|Number=Sing	NE	11	6	_	_
 11	Díját	Díja	[/N][Acc]	PROPN	Case=Acc|Number=Sing	OBJ	7	6	_	_
 12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	6	_	_
 13	comedy	comedy	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	6	_	_
@@ -203,7 +203,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	adott	adott	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	10	_	_
 11	betűjével	betű	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	12	10	_	_
 12	kiírnak	kiír	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	10	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	10		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	10	_	arb
 13	szavakat	szó	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	12	10	_	_
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	10	_	_
 15	civil	civil	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	10	_	_
@@ -277,7 +277,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14.SUBJ	DROP	_	_	_	_	SUBJ	14	12	12:13	prs
 15	,	,	[Punct]	PUNCT	_	PUNCT	14	12	_	_
 16	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	14	12	_	_
-17	visszamondaniuk	visszamond	[/V][Inf.3Pl]	VERB	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	COORD	16	12		
+17	visszamondaniuk	visszamond	[/V][Inf.3Pl]	VERB	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	COORD	16	12	_	_
 17.SUBJ	DROP	_	_	_	_	SUBJ	17	12	12:14.SUBJ	prs
 18	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_
 

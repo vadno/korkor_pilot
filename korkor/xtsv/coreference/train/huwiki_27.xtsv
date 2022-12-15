@@ -137,7 +137,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	,	,	[Punct]	PUNCT	_	PUNCT	5	9	_	_
 10	más	más	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	9	_	_
 11	fajok	faj	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	19	9	7:26	holo
-12	váladékuk	váladék	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	POSS	13	9		
+12	váladékuk	váladék	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	POSS	13	9	_	_
 12.POSS	DROP	_	_	_	_	POSS	12	9	9:11	prs
 13	segítségével	segítség	[/N][Poss.3Sg][Ins]	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	19	9	_	_
 14	,	,	[Punct]	PUNCT	_	PUNCT	13	9	_	_
@@ -197,7 +197,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	partvidékén	partvidék	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	9	12	_	_
 7	nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	8	12	_	_
 8	számban	szám	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	9	12	_	_
-9	él	él	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	12		
+9	él	él	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	12	_	_
 10	homokos	homokos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	12	_	_
 11	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	10	12	_	_
 12	iszapos	iszapos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	11	12	_	_
@@ -235,7 +235,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	centiméter	centiméter	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	13	14	_	_
 13	hosszú	hosszú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	14	_	_
 14	csőben	cső	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	15	14	_	_
-15	él	él	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	14		
+15	él	él	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
 16	.	.	[Punct]	PUNCT	_	PUNCT	0	14	_	_
 
 1	Tapogatói	tapogató	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	SUBJ	7	15	_	_
@@ -260,7 +260,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	milliméter	milliméter	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	16	_	_
 11	átmérőjű	átmérőjű	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	6	16	_	_
 12	is	is	[/Adv]	ADV	_	MODE	11	16	_	_
-13	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	16		
+13	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	16	_	_
 14	.	.	[Punct]	PUNCT	_	PUNCT	0	16	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	17	_	_
@@ -272,7 +272,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	élnek	él	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	17	_	_
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	17	_	_
 
-1	Táplálékaik	táplálék	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	PRED	9.1	18		
+1	Táplálékaik	táplálék	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	PRED	9.1	18	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	18	17:2	prs
 2	vízben	víz	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	3	18	_	_
 3	sodródó	sodródó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	18	_	_

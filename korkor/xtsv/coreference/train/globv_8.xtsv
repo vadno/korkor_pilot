@@ -120,7 +120,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	6	_	_
 6	előfutam	előfutam	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	6	_	_
 7	előtt	előtt	[/Post]	ADP	_	TLOCY	11	6	_	_
-8	Achilles-ín	Achilles-ín	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	9	6		
+8	Achilles-ín	Achilles-ín	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	9	6	_	_
 9	sérülése	sérülés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	10	6	_	_
 10	miatt	miatt	[/Post]	ADP	_	MODE	11	6	_	_
 11	lépett	lép	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
@@ -153,7 +153,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	7-én	7	[/N][Nom]	NOUN	Case=Nom|Number=Sing	TLOCY	21	7	_	_
 17	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	19	7	_	_
 18	ugyanolyan	ugyanolyan	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	7	_	_
-19	Achilles-sérülés	Achilles-sérülés	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	20	7		
+19	Achilles-sérülés	Achilles-sérülés	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	20	7	_	_
 20	miatt	miatt	[/Post]	ADP	_	MODE	21	7	_	_
 21	kiesett	kiesik	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	14	7	_	_
 21.SUBJ	DROP	_	_	_	_	SUBJ	21	7	7:12	prs
@@ -201,7 +201,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 32	mielőtt	mielőtt	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	34	8	_	_
 33	tolókocsiba	tolókocsi	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	34	8	_	_
 34	segítették	segít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	8	_	_
-34.SUBJ	DROP	_	_	_	_	SUBJ	34	8		arb
+34.SUBJ	DROP	_	_	_	_	SUBJ	34	8	_	arb
 34.OBJ	DROP	_	_	_	_	OBJ	34	8	8:25.POSS	prs
 35	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 

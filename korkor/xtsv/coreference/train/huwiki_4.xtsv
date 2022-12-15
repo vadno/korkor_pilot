@@ -47,7 +47,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	semmit	semmi	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Tot	OBJ	9	3	_	_
 8	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	9	3	_	_
 9	tudunk	tud	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	3		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	3	_	arb
 10	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
 
 1	E	e	[/Det|Pro|def]	ADV	PronType=Art	DET	2	4	_	_
@@ -109,7 +109,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14.SUBJ	DROP	_	_	_	_	SUBJ	14	6	_	_
 15	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
 
-1	Ránk	mi	[/N|Pro][Subl][1Pl]	PRON	Case=Sub|Number=Plur|Person=1|PronType=Prs	OBL	2	7		arb
+1	Ránk	mi	[/N|Pro][Subl][1Pl]	PRON	Case=Sub|Number=Plur|Person=1|PronType=Prs	OBL	2	7	_	arb
 2	maradt	marad	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	7	_	_
 3	három	három	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	7	_	_
 4	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	7	_	_
@@ -149,7 +149,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Ennek	ez	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	DAT	2	9	_	_
 2	köszönhetjük	köszön	[/V][_Mod/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	9		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	9	_	arb
 3	fennmaradásukat	fennmaradás	[/N][Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBJ	2	9	_	_
 3.POSS	DROP	_	_	_	_	POSS	3	9	8:2	prs
 4	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_

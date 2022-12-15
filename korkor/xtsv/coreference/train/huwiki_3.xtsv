@@ -168,7 +168,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	életüket	élet	[/N][Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBJ	3	13	_	_
 2.POSS	DROP	_	_	_	_	POSS	2	13	12:8	prs
 3	megmentik	megment	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	13		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	13	_	arb
 4	és	és	[/Cnj]	CCONJ	_	CONJ	3	13	_	_
 5	elviszik	elvisz	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	13	_	_
 5.SUBJ	DROP	_	_	_	_	SUBJ	5	13	13:3.SUBJ	prs

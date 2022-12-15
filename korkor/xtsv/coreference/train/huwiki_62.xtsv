@@ -176,7 +176,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	,	,	[Punct]	PUNCT	_	PUNCT	9	12	_	_
 11	halálra	halál	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	12	12	_	_
 12	ítélik	ítél	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	12	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	12		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	12	_	arb
 13	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	12	12	12:1	prs
 14	,	,	[Punct]	PUNCT	_	PUNCT	12	12	_	_
 15	de	de	[/Cnj]	CCONJ	_	CONJ	12	12	_	_

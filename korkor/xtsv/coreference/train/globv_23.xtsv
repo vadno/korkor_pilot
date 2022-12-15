@@ -3,7 +3,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	és	és	[/Cnj]	CCONJ	_	CONJ	1	1	_	_
 3	villanógránátot	villanógránát	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	2	1	_	_
 4	vetettek	vet	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	1		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	1	_	arb
 5	be	be	[/Prev]	ADV	_	PREVERB	4	1	_	_
 6	Kuvaitban	Kuvait	[/N][Ine]	PROPN	Case=Ine|Number=Sing	OBL	4	1	_	_
 7	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	15	1	_	_
@@ -36,7 +36,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	2	_	_
 17	Twitteren	Twitter	[/N][Supe]	PROPN	Case=Sup|Number=Sing	OBL	18	2	_	_
 18	tették	tesz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	2		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	2	_	arb
 19	közzé	közzé	[/Prev]	ADV	_	PREVERB	18	2	_	_
 20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	2	_	_
 21	felhívást	felhívás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	2	_	_
@@ -131,7 +131,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	,	,	[Punct]	PUNCT	_	PUNCT	19	5	_	_
 22	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	19	5	_	_
 23	megkérdezték	megkérdez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	22	5	_	_
-23.SUBJ	DROP	_	_	_	_	SUBJ	23	5		arb
+23.SUBJ	DROP	_	_	_	_	SUBJ	23	5	_	arb
 24	volna	volna	[/V]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	AUX	23	5	_	_
 24.SUBJ	DROP	_	_	_	_	SUBJ	24	5	5:23.SUBJ	prs
 25	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	5	_	_
@@ -215,7 +215,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	9	_	_
 6	Twitteren	Twitter	[/N][Supe]	PROPN	Case=Sup|Number=Sing	LOCY	7	9	2:17	coref
 7	szervezték	szervez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	9		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	9	_	arb
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	Azzal	az	[/Det|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	DET	3	10	_	_

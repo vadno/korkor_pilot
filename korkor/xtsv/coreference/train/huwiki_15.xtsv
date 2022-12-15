@@ -96,7 +96,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
 1	Felhasználhatjuk	felhasznál	[/V][_Mod/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-1.SUBJ	DROP	_	_	_	_	SUBJ	1	6		arb
+1.SUBJ	DROP	_	_	_	_	SUBJ	1	6	_	arb
 1.OBJ	DROP	_	_	_	_	OBJ	1	6	5:12.1.SUBJ	prs
 2	főzve	főz	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	1	6	_	_
 3	köretnek	köret	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	1	6	_	_
@@ -120,7 +120,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	de	de	[/Cnj]	CCONJ	_	CONJ	17.1	6	_	_
 20	mélyhűtve	mélyhűt	[/V][_AdvPtcp/Adv]	ADV	VerbForm=Conv	MODE	21	6	_	_
 21	tartósíthatjuk	tartósít	[/V][_Mod/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	19	6	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	6		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	6	_	arb
 21.OBJ	DROP	_	_	_	_	OBJ	21	6	6:17.1.SUBJ	prs
 22	is	is	[/Adv]	ADV	_	MODE	21	6	_	_
 23	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_

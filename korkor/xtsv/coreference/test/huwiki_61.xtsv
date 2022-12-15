@@ -29,7 +29,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	legyen	van	[/V][Sbjv.NDef.3Sg]	VERB	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	2	_	_
 5	mit	ami	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	6	2	_	_
 6	kontrollálni	kontrollál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	4	2	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	2		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	2	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	4	2	_	_
 8	először	először	[/Adv]	ADV	_	TLOCY	12	2	_	_
 9	is	is	[/Adv]	ADV	_	MODE	8	2	_	_
@@ -150,7 +150,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	tisztánlátásban	tisztánlátás	[/N][Ine]	NOUN	Case=Ine|Number=Sing	OBL	6	6	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	6	6	_	_
 10	helyzetünk	helyzet	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	POSS	12	6	_	_
-10.POSS	DROP	_	_	_	_	POSS	10	6		arb
+10.POSS	DROP	_	_	_	_	POSS	10	6	_	arb
 11	pontos	pontos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	6	_	_
 12	ismerete	ismeret	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	13	6	_	_
 13	segít	segít	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	6	_	_
@@ -247,11 +247,11 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	tartalma	tartalom	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	9	10	_	_
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 
-1	Mire	mi	[/N|Pro|Int][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Prs	OBL	4	11		
+1	Mire	mi	[/N|Pro|Int][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Prs	OBL	4	11	_	_
 2	,	,	[Punct]	PUNCT	_	PUNCT	1	11	_	_
 3	hányan	hány	[/Num|Pro|Int][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	COORD	1	11	_	_
 4	panaszkodtak	panaszkodik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	11		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	11	_	arb
 5	jogosan	jogos	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	4	11	_	_
 6	és	és	[/Cnj]	CCONJ	_	CONJ	5	11	_	_
 7	megalapozatlanul	megalapozatlan	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	COORD	6	11	_	_
@@ -268,7 +268,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	és	és	[/Cnj]	CCONJ	_	CONJ	6	12	_	_
 9	ezeknek	ez	[/N|Pro][Pl][Dat]	PRON	Case=Dat|Number=Plur|Person=3|PronType=Dem	POSS	14	12	12:5	dem
 10	vajon	vajon	[/Adv]	ADV	_	MODE	12	12	_	_
-11	mi	mi	[/N|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	PRED	12	12		
+11	mi	mi	[/N|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	PRED	12	12	_	_
 12	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	8	12	_	_
 13	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	12	_	_
 14	oka	ok	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	12	12	_	_
@@ -387,7 +387,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	tárnunk	tár	[/V][Inf.1Pl]	VERB	Number=Plur|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act	INF	2	19	_	_
 3.SUBJ	DROP	_	_	_	_	SUBJ	3	19	18:6.SUBJ	prs
 4	,	,	[Punct]	PUNCT	_	PUNCT	2	19	_	_
-5	mi	mi	[/N|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	5.1	19		
+5	mi	mi	[/N|Pro|Int][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	SUBJ	5.1	19	_	_
 5.1	KOPULA	_	_	_	_	ATT	2	19	_	_
 6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	19	_	_
 7	oka	ok	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	5.1	19	_	_
@@ -396,10 +396,10 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	félreértésnek	félreértés	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	7	19	_	_
 11	,	,	[Punct]	PUNCT	_	PUNCT	5.1	19	_	_
 12	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	17	19	19:10	rel
-13	cégünk	cég	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	ATT	16	19		
+13	cégünk	cég	[/N][Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	ATT	16	19	_	_
 13.POSS	DROP	_	_	_	_	POSS	13	19	19:3.SUBJ	prs
 14	és	és	[/Cnj]	CCONJ	_	CONJ	13	19	_	_
-15	Ügyfelei	ügyfél	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	COORD	14	19		
+15	Ügyfelei	ügyfél	[/N][Pl.Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	COORD	14	19	_	_
 15.POSS	DROP	_	_	_	_	POSS	15	19	19:13	prs
 16	között	között	[/Post]	ADP	_	MODE	17	19	_	_
 17	keletkezik	keletkezik	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5.1	19	_	_
@@ -486,12 +486,12 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	Ügyfeleket	ügyfél	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	8	23	20:3	holo
 12	,	,	[Punct]	PUNCT	_	PUNCT	8	23	_	_
 13	vajon	vajon	[/Adv]	ADV	_	MODE	15	23	_	_
-14	mivel	mi	[/N|Pro|Int][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Prs	OBL	15	23		
+14	mivel	mi	[/N|Pro|Int][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Prs	OBL	15	23	_	_
 15	voltak	van	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	8	23	_	_
 15.SUBJ	DROP	_	_	_	_	SUBJ	15	23	23:11	prs
 16	elégedetlenek	elégedetlen	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	15	23	_	_
 17	(	(	[Punct]	PUNCT	_	PUNCT	18	23	_	_
-18	Exit-interjú	Exit-interjú	[/N][Nom]	PROPN	Case=Nom|Number=Sing	APPEND	15	23		
+18	Exit-interjú	Exit-interjú	[/N][Nom]	PROPN	Case=Nom|Number=Sing	APPEND	15	23	_	_
 19	)	)	[Punct]	PUNCT	_	PUNCT	18	23	_	_
 20	.	.	[Punct]	PUNCT	_	PUNCT	0	23	_	_
 

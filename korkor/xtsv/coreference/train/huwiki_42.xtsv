@@ -35,7 +35,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 18	Tirithben	Tirith	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	12	2	_	_
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
-1	Testvére	testvér	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	1.1	3		
+1	Testvére	testvér	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	1.1	3	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	3	2:12.SUBJ	prs
 1.1	KOPULA	_	_	_	_	ROOT	0	3	_	_
 2	Faramir	Faramir	[/N]	PROPN	Case=Nom|Number=Sing	ATT	3	3	_	_

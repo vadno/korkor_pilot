@@ -52,7 +52,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	korai	korai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	3	_	_
 10	órákban	óra	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	11	3	_	_
 11	találtak	talál	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	3		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	3	_	arb
 12	rá	rá	[/Prev]	ADV	_	PREVERB	11	3	_	_
 13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	3	_	_
 14	Dhaka	Dhaka	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	17	3	_	_

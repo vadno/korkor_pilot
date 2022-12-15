@@ -10,7 +10,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	fog	fog	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	18	1	_	_
 10	életbe	élet	[/N][Ill]	NOUN	Case=Ill|Number=Sing	OBL	11	1	_	_
 11	lépni	lép	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	1	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	1		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	1	_	arb
 12	,	,	[Punct]	PUNCT	_	PUNCT	9	1	_	_
 13	azoknak	az	[/Det|Pro][Pl][Dat]	PRON	Case=Dat|Number=Plur|Person=3|PronType=Dem	DET	16	1	_	_
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	1	_	_

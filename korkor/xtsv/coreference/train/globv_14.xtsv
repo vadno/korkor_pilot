@@ -132,7 +132,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	érdeklődést	érdeklődés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	5	_	_
 8	is	is	[/Adv]	ADV	_	MODE	7	5	_	_
 9	igyekeznek	igyekszik	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	5		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	5	_	arb
 10	fokozni	fokoz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	5	_	_
 10.SUBJ	DROP	_	_	_	_	SUBJ	10	5	5:9.SUBJ	prs
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
@@ -247,7 +247,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 31	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	10	_	_
-2	weboldalukon	weboldal	[/N][Poss.3Pl][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Plur|Person[psor]=3	LOCY	3	10		
+2	weboldalukon	weboldal	[/N][Poss.3Pl][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Plur|Person[psor]=3	LOCY	3	10	_	_
 2.POSS	DROP	_	_	_	_	POSS	2	10	9:7.SUBJ	prs
 3	elérhetők	elérhető	[/Adj][Pl][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Plur	PRED	3.1	10	_	_
 3.1	KOPULA	_	_	_	_	ROOT	0	10	_	_

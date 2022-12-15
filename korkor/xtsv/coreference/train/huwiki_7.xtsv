@@ -43,7 +43,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 24	aztán	aztán	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	APPEND	23	2	_	_
 25	újra	újra	[/Adv]	ADV	_	MODE	26	2	_	_
 26	fölfedezték	fölfedez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	21	2	_	_
-26.SUBJ	DROP	_	_	_	_	SUBJ	26	2		arb
+26.SUBJ	DROP	_	_	_	_	SUBJ	26	2	_	arb
 26.OBJ	DROP	_	_	_	_	OBJ	26	2	2:21.SUBJ	prs
 27	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
@@ -54,7 +54,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	525	525	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	6	3	_	_
 6	körül	körül	[/Post]	ADP	_	TLOCY	7	3	_	_
 7	építették	épít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	3		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	3	_	arb
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	3	_	_
 9	görög	görög	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	3	_	_
 10	Szamosz	Szamosz	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	11	3	_	_
@@ -101,7 +101,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	15	5	_	_
 18	vizet	víz	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	19	5	_	_
 19	szállíthassanak	szállít	[/V][_Mod/V][Sbjv.NDef.3Pl]	VERB	Definite=Ind|Mood=Imp,Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	17	5	_	_
-19.SUBJ	DROP	_	_	_	_	SUBJ	19	5		arb
+19.SUBJ	DROP	_	_	_	_	SUBJ	19	5	_	arb
 20	benne	ő	[/N|Pro][Ine][3Sg]	PRON	Case=Ine|Number=Sing|Person=3|PronType=Prs	OBL	19	5	5:12	prs
 21	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	22	5	_	_
 22	fővárosba	főváros	[/N][Ill]	NOUN	Case=Ill|Number=Sing	TO	19	5	5:1	coref
@@ -147,7 +147,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	akit	aki	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	9	7	7:1	rel
 8	felelőssé	felelős	[/N][Transl]	NOUN	Case=Tra|Number=Sing	OBL	9	7	_	_
 9	tettek	tesz	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	2	7	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	7		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	7	_	arb
 10	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	7	_	_
 11	alagút	alagút	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	12	7	5:12	coref
 12	megépítéséért	megépítés	[/N][Poss.3Sg][Cau]	NOUN	Case=Cau|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	9	7	_	_
@@ -160,7 +160,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	oldalon	oldal	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	7	8	_	_
 6	egyszerre	egyszerre	[/Adv]	ADV	_	MODE	7	8	_	_
 7	kezdték	kezd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	8		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	8	_	arb
 8	el	el	[/Prev]	ADV	_	PREVERB	7	8	_	_
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
@@ -202,6 +202,6 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	könnyen	könnyen	[/Adv]	ADV	_	MODE	16	11	_	_
 16	megtámadhatja	megtámad	[/V][_Mod/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	11	_	_
 16.SUBJ	DROP	_	_	_	_	SUBJ	16	11	11:6	coref
-17	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	16	11		arb
+17	őket	ők	[/N|Pro][3Pl][Acc]	PRON	Case=Acc|Number=Plur|Person=3|PronType=Prs	OBJ	16	11	_	arb
 18	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 

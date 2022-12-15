@@ -27,7 +27,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	október	október	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	4	2	_	_
 4	2-án	2	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	4.1	2	_	_
 4.1	ZÉRÓ_mutatták	_	_	_	_	COORD	10	2	_	_
-4.1.SUBJ	DROP	_	_	_	_	SUBJ	4.1	2		arb
+4.1.SUBJ	DROP	_	_	_	_	SUBJ	4.1	2	_	arb
 4.1.OBJ	DROP	_	_	_	_	OBJ	4.1	2	1:14	prs
 5	,	,	[Punct]	PUNCT	_	PUNCT	4.1	2	_	_
 6	Amerikában	Amerika	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	10	2	_	_
@@ -35,7 +35,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	december	december	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	9	2	_	_
 9	18-án	18	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	10	2	_	_
 10	mutatták	mutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	2		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	2	_	arb
 10.OBJ	DROP	_	_	_	_	OBJ	10	2	2:4.1.OBJ	prs
 11	be	be	[/Prev]	ADV	_	PREVERB	10	2	_	_
 12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	2	_	_
@@ -47,15 +47,15 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	kevés	kevés	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	3	_	_
 4	késéssel	késés	[/N][Ins]	NOUN	Case=Ins|Number=Sing	TLOCY	5	3	_	_
 5	bemutatták	bemutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	3	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	3		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	3	_	arb
 5.OBJ	DROP	_	_	_	_	OBJ	5	3	2:10.OBJ	prs
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	3	_	_
 7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	3	_	_
-8	mozikban	mozi	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	LOCY	11	3	2:13	rep
+8	mozikban	mozi	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	LOCY	11	3	2:13	coref
 9	feliratos	feliratos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	3	_	_
 10	változatban	változat	[/N][Ine]	NOUN	Case=Ine|Number=Sing	APPEND	11	3	_	_
 11	vetítették	vetít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	5	3	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	3		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	3	_	arb
 11.OBJ	DROP	_	_	_	_	OBJ	11	3	3:5.OBJ	prs
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
 
@@ -69,7 +69,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	4	_	_
 9	MTV1-en	MTV1	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	10	4	_	_
 10	vetítették	vetít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	4		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	4	_	arb
 11	le	le	[/Prev]	ADV	_	PREVERB	10	4	_	_
 12	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	4	_	_
 13	televízióban	televízió	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	10	4	_	_
@@ -82,7 +82,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 20	november	november	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	21	4	_	_
 21	10-én	10	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	22	4	_	_
 22	adták	ad	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	4	_	_
-22.SUBJ	DROP	_	_	_	_	SUBJ	22	4		arb
+22.SUBJ	DROP	_	_	_	_	SUBJ	22	4	_	arb
 23	ki	ki	[/Prev]	ADV	_	PREVERB	22	4	_	_
 24	Blu-ray-en	Blu-ray	[/N][Supe]	PROPN	Case=Sup|Number=Sing	MODE	22	4	_	_
 25	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
@@ -95,7 +95,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	szinkronnal	szinkron	[/N][Ins]	NOUN	Case=Ins|Number=Sing	MODE	8	5	_	_
 7	1995-ben	1995	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	8	5	_	_
 8	adták	ad	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	5		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	5	_	arb
 8.OBJ	DROP	_	_	_	_	OBJ	8	5	3:11.OBJ	prs
 9	ki	ki	[/Prev]	ADV	_	PREVERB	8	5	_	_
 10	VHS-en	VHS	[/N][Supe]	PROPN	Case=Sup|Number=Sing	OBL	8	5	_	_
@@ -107,7 +107,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	DVD-n	DVD	[/N][Supe]	PROPN	Case=Sup|Number=Sing	OBL	18	5	_	_
 17	is	is	[/Adv]	ADV	_	MODE	16	5	_	_
 18	kiadták	kiad	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	8	5	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	5		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	5	_	arb
 18.OBJ	DROP	_	_	_	_	OBJ	18	5	5:8.OBJ	prs
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 

@@ -28,7 +28,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	cseh	cseh	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	37	2	_	_
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	2	_	_
 9	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	7	2	_	_
-10	Triviador	triviador	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	2		
+10	Triviador	triviador	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	11	2	_	_
 11	címen	cím	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	12	2	_	_
 12	spanyol	spanyol	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	9	2	_	_
 13	,	,	[Punct]	PUNCT	_	PUNCT	12	2	_	_
@@ -98,7 +98,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 18	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	19	4	_	_
 19	szűrőn	szűrő	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	20	4	_	_
 20	mennek	megy	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	4	_	_
-21	át	át	[/Prev]	ADV	_	PRED	20	4		
+21	át	át	[/Prev]	ADV	_	PRED	20	4	_	_
 22	,	,	[Punct]	PUNCT	_	PUNCT	20	4	_	_
 23	majd	majd	[/Cnj]	CCONJ	_	CONJ	20	4	_	_
 24	később	későn	[/Adv][_Comp/Adv]	ADV	Degree=Cmp	TLOCY	29	4	_	_
@@ -135,7 +135,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	megyét	megye	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	6	_	_
 11	lehessen	van	[/V][_Mod/V][Sbjv.NDef.3Sg]	VERB	Definite=Ind|Mood=Imp,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5	6	_	_
 12	elfoglalni	elfoglal	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	6	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	6		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	6	_	arb
 13	Magyarország	Magyarország	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	14	6	_	_
 14	térképén	térkép	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	12	6	_	_
 15	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
@@ -185,7 +185,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	9	_	_
 2	kérdésekre	kérdés	[/N][Pl][Subl]	NOUN	Case=Sub|Number=Plur	OBL	3	9	6:6	coref
 3	tippelni	tippel	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	4	9	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	9		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	9	_	arb
 4	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
 5	,	,	[Punct]	PUNCT	_	PUNCT	4	9	_	_
 6	illetve	illetve	[/Cnj]	CCONJ	_	CONJ	4	9	_	_
@@ -193,7 +193,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	válaszokat	válasz	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	10	9	_	_
 9	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	9	_	_
 10	kiválasztani	kiválaszt	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	9	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	9		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	9	_	arb
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	Egyszerre	egyszerre	[/Adv]	ADV	_	MODE	4	10	_	_
@@ -283,7 +283,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	választ	válasz	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	14	_	_
 9	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
 10	kiválasztani	kiválaszt	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	14	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	14		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	14	_	arb
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	14	_	_
 12	négyből	négy	[/Num][Ela]	NUM	Case=Ela|Number=Sing|NumType=Card	OBL	10	14	_	_
 13	;	;	[Punct]	PUNCT	_	PUNCT	9	14	_	_
@@ -300,7 +300,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 24	számot	szám	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	26	14	_	_
 25	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	9	14	_	_
 26	megadni	megad	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	25	14	_	_
-26.SUBJ	DROP	_	_	_	_	SUBJ	26	14		arb
+26.SUBJ	DROP	_	_	_	_	SUBJ	26	14	_	arb
 27	,	,	[Punct]	PUNCT	_	PUNCT	25	14	_	_
 28	mint	mint	[/Cnj]	SCONJ	_	CONJ	23	14	_	_
 29	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	30	14	_	_
@@ -333,7 +333,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	háromszor	három	[/Num][_Mlt-Iter/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	MODE	6	15	_	_
 5	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
 6	végigcsinálni	végigcsinál	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	5	15	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	15		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	15	_	arb
 7	ezt	ez	[/N|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	OBJ	6	15	14:10	dem
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 

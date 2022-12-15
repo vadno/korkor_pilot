@@ -57,7 +57,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	8	4	_	_
 8	filmre	film	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	9	4	_	_
 9	használhatjuk	használ	[/V][_Mod/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	4	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	4		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	4	_	arb
 10	ezt	ez	[/Det|Pro][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Dem	DET	12	4	_	_
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	4	_	_
 12	szót	szó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	4	_	_
@@ -123,7 +123,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	.	.	[Punct]	PUNCT	_	PUNCT	0	6	_	_
 
 1	Egyik	egyik	[/Adj|Pro][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	2	7	_	_
-2	lopása	lopás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	3	7		
+2	lopása	lopás	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	3	7	_	_
 2.POSS	DROP	_	_	_	_	POSS	2	7	6:14.SUBJ	prs
 3	után	után	[/Post]	ADP	_	TLOCY	4	7	_	_
 4	kénytelen	kénytelen	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	4.1	7	_	_
@@ -188,7 +188,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	fontosabbnak	fontos	[/Adj][_Comp/Adj][Dat]	ADJ	Case=Dat|Degree=Cmp|Number=Sing	DAT	11	10	_	_
 11	tartja	tart	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	7	10	_	_
 11.SUBJ	DROP	_	_	_	_	SUBJ	11	10	10:9.POSS	prs
-12	kapcsolatuknál	kapcsolat	[/N][Poss.3Pl][Ade]	NOUN	Case=Ade|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBL	10	10		
+12	kapcsolatuknál	kapcsolat	[/N][Poss.3Pl][Ade]	NOUN	Case=Ade|Number=Sing|Number[psor]=Plur|Person[psor]=3	OBL	10	10	_	_
 12.POSS	DROP	_	_	_	_	POSS	12	10	10:11.SUBJ	prs
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
 
@@ -238,7 +238,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	erre	ez	[/N|Pro][Subl]	PRON	Case=Sub|Number=Sing|Person=3|PronType=Dem	OBL	11	13	13:4	dem
 10	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6	13	_	_
 11	figyelni	figyel	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	10	13	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	13		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	13	_	arb
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	13	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	14	_	_

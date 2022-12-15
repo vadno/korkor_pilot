@@ -4,7 +4,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	háromszáz	háromszáz	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	2	1	_	_
 4	e-mailt	e-mail	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	1	_	_
 5	szivárogtattak	szivárog	[/V][_Caus/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	ROOT	0	1	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	1		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	1	_	arb
 6	ki	ki	[/Prev]	ADV	_	PREVERB	5	1	_	_
 7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	13	1	_	_
 8	szerb	szerb	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	1	_	_
@@ -98,7 +98,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	SIEPA	SIEPA	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	6	4	3:5	coref
 6	szervereit	szerver	[/N][Pl.Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBJ	7	4	_	_
 7	feltörték	feltör	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	3	4	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	4		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	4	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	4	_	_
 9	így	így	[/Cnj]	CCONJ	_	CONJ	7	4	_	_
 10	bárki	bárki	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Ind	SUBJ	19	4	_	_
@@ -190,7 +190,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	háromszáz	háromszáz	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	15	8	_	_
 17	e-mailjét	e-mail	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	18	8	6:9	coref
 18	továbbították	továbbít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	8		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	8	_	arb
 19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	8	_	_
 20	Balkanist	Balkanist	[/N][Nom]	PROPN	Case=Nom|Number=Sing	POSS	21	8	7:10	coref
 21	címére	cím	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	18	8	_	_
@@ -240,7 +240,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 18	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	13	10	_	_
 19	bűncselekményt	bűncselekmény	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	20	10	_	_
 20	követtek	követ	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	18	10	_	_
-20.SUBJ	DROP	_	_	_	_	SUBJ	20	10		arb
+20.SUBJ	DROP	_	_	_	_	SUBJ	20	10	_	arb
 21	el	el	[/Prev]	ADV	_	PREVERB	20	10	_	_
 22	,	,	[Punct]	PUNCT	_	PUNCT	20	10	_	_
 23	amit	ami	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	27	10	_	_

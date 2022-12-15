@@ -18,7 +18,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	helyezett	helyezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	1	_	_
 17	nyíláson	nyílás	[/N][Supe]	NOUN	Case=Sup|Number=Sing	LOCY	18	1	_	_
 18	átpréselünk	átprésel	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	11	1	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	1		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	1	_	arb
 19	.	.	[Punct]	PUNCT	_	ROOT	0	1	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	2	_	_
@@ -62,7 +62,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	elemet	elem	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	5	_	_
 5	sajtolószerszámnak	sajtolószerszám	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	6	5	_	_
 6	nevezik	nevez	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	5		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	5	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	5	_	_
 8	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	9	5	_	_
 9	sajtolóerőt	sajtolóerő	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	5	_	_
@@ -70,7 +70,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	részt	rész	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12.1	5	_	_
 12	sajtolótüskének	sajtolótüske	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	12.1	5	_	_
 12.1	ZÉRÓ_nevezik	_	_	_	_	COORD	6	5	_	_
-12.1.SUBJ	DROP	_	_	_	_	SUBJ	12.1	5		arb
+12.1.SUBJ	DROP	_	_	_	_	SUBJ	12.1	5	_	arb
 13	,	,	[Punct]	PUNCT	_	PUNCT	12.1	5	_	_
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	5	_	_
 15	préstuskót	préstuskó	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	16	5	1:13	holo
@@ -84,7 +84,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 23	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	22	5	_	_
 24	felvevőnek	felvevő	[/N][Dat]	NOUN	Case=Dat|Number=Sing	COORD	23	5	_	_
 24.1	ZÉRÓ_nevezik	_	_	_	_	COORD	21	5	_	_
-24.1.SUBJ	DROP	_	_	_	_	SUBJ	24.1	5		arb
+24.1.SUBJ	DROP	_	_	_	_	SUBJ	24.1	5	_	arb
 25	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	6	_	_
@@ -163,7 +163,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	folyamat	folyamat	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	8	11	_	_
 8	során	során	[/Post|(Poss)]	ADP	_	TLOCY	9	11	_	_
 9	végigtolják	végigtol	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	11		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	11	_	arb
 10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	11	_	_
 11	recipiensben	recipiens	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	9	11	5:20	coref
 12	,	,	[Punct]	PUNCT	_	PUNCT	9	11	_	_
@@ -199,7 +199,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	tuskó	tuskó	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	7	12	11:4	coref
 7	felületét	felület	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	8	12	_	_
 8	kenni	ken	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	12	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	12		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	12	_	arb
 9	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	12	_	_
 10	(	(	[Punct]	PUNCT	_	PUNCT	11	12	_	_
 11	de	de	[/Cnj]	CCONJ	_	CONJ	9	12	_	_
@@ -244,6 +244,6 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	fémvegyületeket	fémvegyület	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	3	15	_	_
 6	stb.	stb.	[/N][Nom][Punct]	NOUN	Case=Nom|Number=Sing	COORD	5	15	_	_
 7	használnak	használ	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	15		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	15	_	arb
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 

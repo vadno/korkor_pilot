@@ -84,7 +84,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	Karib-térségben	Karib-térség	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	5	5	_	_
 4	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	5	5	_	_
 5	mondanák	mond	[/V][Cond.Def.3Pl]	VERB	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	5		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	5	_	arb
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	5	_	_
 7	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	5	5	_	_
 8	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	5	_	_
@@ -99,7 +99,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	3	6	5:13	dem
 2	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	3	6	_	_
 3	vélik	vél	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	6		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	6	_	arb
 4	,	,	[Punct]	PUNCT	_	PUNCT	3	6	_	_
 5	jobb	jó	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	PRED	6	6	_	_
 6	lesz	lesz	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	6	_	_

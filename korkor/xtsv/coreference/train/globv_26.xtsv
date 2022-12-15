@@ -17,7 +17,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	előadásának	előadás	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	17	1	_	_
 17	színpadává	színpad	[/N][Poss.3Sg][Transl]	NOUN	Case=Tra|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	18	1	_	_
 18	lépett	lép	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	7	1	_	_
-19	elő	elő	[/Prev]	ADV	_	PART	18	1		
+19	elő	elő	[/Prev]	ADV	_	PART	18	1	_	_
 20	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	1	_	_
 21	tunéziai	tunéziai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	25	1	_	_
 22	és	és	[/Cnj]	CCONJ	_	CONJ	21	1	_	_
@@ -108,7 +108,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 26	kormányzáshoz	kormányzás	[/N][All]	NOUN	Case=All|Number=Sing	OBL	27	5	_	_
 27	való	való	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	28	5	_	_
 28	visszatérésének	visszatérés	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	30	5	_	_
-29	tizedik	tíz	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	30	5		
+29	tizedik	tíz	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	30	5	_	_
 30	évfordulóját	évforduló	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	22	5	_	_
 31	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
 
@@ -220,7 +220,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	5	11	_	_
 4	amerikai	amerikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	11	_	_
 5	haditengerészet	haditengerészet	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	7	11	_	_
-6	ötödik	öt	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	11		
+6	ötödik	öt	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	7	11	_	_
 7	hadosztálya	hadosztály	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	2	11	_	_
 8	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 
@@ -241,7 +241,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_
 
 1	Egyesek	egyesek	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	3	13	12:6	holo
-2	arról	az	[/N|Pro][Del]	PRON	Case=Del|Number=Sing|Person=3|PronType=Dem	OBL	3	13	13:10	_
+2	arról	az	[/N|Pro][Del]	PRON	Case=Del|Number=Sing|Person=3|PronType=Dem	OBL	3	13	13:10	prs
 3	osztottak	oszt	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
 4	meg	meg	[/Prev]	PART	_	PREVERB	3	13	_	_
 5	friss	friss	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	13	_	_

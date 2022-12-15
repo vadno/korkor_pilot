@@ -117,7 +117,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 15	voltát	volta	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	17	7	_	_
 16	akként	az	[/N|Pro][EssFor:ként]	PRON	Case=Ess|Number=Sing|Person=3|PronType=Dem	MODE	17	7	_	_
 17	dicsőítik	dicsőít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9.1	7	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	7		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	7	_	arb
 18	,	,	[Punct]	PUNCT	_	PUNCT	17	7	_	_
 19	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	9	7	_	_
 20	isteni	isteni	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	7	_	_
@@ -170,7 +170,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	festészetben	festészet	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	5	9	_	_
 4	is	is	[/Adv]	ADV	_	MODE	3	9	_	_
 5	találkozunk	találkozik	[/V][Prs.NDef.1Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	9		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	9	_	arb
 6	ilyen	ilyen	[/Adj|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	ATT	7	9	_	_
 7	ábrázolásokkal	ábrázolás	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	5	9	8:10	coref
 8	,	,	[Punct]	PUNCT	_	PUNCT	5	9	_	_
@@ -185,9 +185,9 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	,	,	[Punct]	PUNCT	_	PUNCT	12	9	_	_
 18	Rubens	Rubens	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	18.1	9	_	_
 18.1	ZÉRÓ_megfestette	_	_	_	_	COORD	12	9	_	_
-18.1.OBJ	DROP	_	_	_	_	OBJ	18.1	9	9:16	
-19	IV.	IV.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	NE	20	9	_	_
-20	Henrikét	Henrik	[/N][AnP][Acc]	PROPN	Case=Acc|Number=Sing|Number[psed]=Sing	COORD	18.1	9		
+18.1.OBJ	DROP	_	_	_	_	OBJ	18.1	9	9:16	prs
+_19	IV.	IV.	[/Num|Roman][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord	NE	20	9	_	_
+20	Henrikét	Henrik	[/N][AnP][Acc]	PROPN	Case=Acc|Number=Sing|Number[psed]=Sing	COORD	18.1	9	_	_
 21	,	,	[Punct]	PUNCT	_	PUNCT	18.1	9	_	_
 22	Ingres	Ingres	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	23.1	9	_	_
 23	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	18.1	9	_	_
@@ -238,7 +238,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	kísért	kísért	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	11	11	_	_
 15	némajelenetét	némajelenet	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	8	11	_	_
 16	értjük	ért	[/V][Prs.Def.1Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
-16.SUBJ	DROP	_	_	_	_	SUBJ	16	11		arb
+16.SUBJ	DROP	_	_	_	_	SUBJ	16	11	_	arb
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	11	_	_
 18	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	21	11	11:15	rel
 19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	11	_	_

@@ -3,7 +3,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	és	és	[/Cnj]	CCONJ	_	CONJ	1	1	_	_
 3	villanógránátot	villanógránát	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	2	1	_	_
 4	vetettek	vet	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	1	_	_
-4.SUBJ	DROP	_	_	_	_	SUBJ	4	1		arb
+4.SUBJ	DROP	_	_	_	_	SUBJ	4	1	_	arb
 5	be	be	[/Prev]	ADV	_	PREVERB	4	1	_	_
 6	Kuvaitban	Kuvait	[/N][Ine]	PROPN	Case=Ine|Number=Sing	LOCY	4	1	_	_
 7	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	15	1	_	_
@@ -31,7 +31,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	2	_	_
 12	Twitteren	Twitter	[/N][Supe]	PROPN	Case=Sup|Number=Sing	OBL	13	2	_	_
 13	tették	tesz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	2		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	2	_	arb
 14	közzé	közzé	[/Prev]	ADV	_	PREVERB	13	2	_	_
 15	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	2	_	_
 16	felhívást	felhívás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	13	2	_	_
@@ -68,8 +68,8 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	4	_	_
 2	tiltakozást	tiltakozás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	4	3:14	coref
 3	Szabáh	Szabáh	[/N][Nom]	PROPN	Case=Nom|Number=Sing	ATT	4	4	_	_
-4	al-Ahmed	al-Ahmed	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	4		
-5	asz-Szabáh	asz-Szabáh	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	4		
+4	al-Ahmed	al-Ahmed	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	5	4	_	_
+5	asz-Szabáh	asz-Szabáh	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	7	4	_	_
 6	kuvaiti	kuvaiti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	4	_	_
 7	emír	emír	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	8	4	_	_
 8	rendelete	rendelet	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	9	4	_	_
@@ -77,7 +77,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	ki	ki	[/Prev]	ADV	_	PREVERB	9	4	_	_
 11	,	,	[Punct]	PUNCT	_	PUNCT	9	4	_	_
 12	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	14	4	4:8	rel
-13	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	14	4		
+13	úgy	úgy	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	14	4	_	_
 14	változtatja	változtat	[/V][Prs.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	9	4	_	_
 15	meg	meg	[/Prev]	PART	_	PREVERB	14	4	_	_
 16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	18	4	_	_
@@ -125,7 +125,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 21	,	,	[Punct]	PUNCT	_	PUNCT	19	5	_	_
 22	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	19	5	_	_
 23	megkérdezték	megkérdez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	22	5	_	_
-23.SUBJ	DROP	_	_	_	_	SUBJ	23	5		arb
+23.SUBJ	DROP	_	_	_	_	SUBJ	23	5	_	arb
 24	volna	volna	[/V]	VERB	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	AUX	23	5	_	_
 25	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	26	5	_	_
 26	parlamentet	parlament	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	23	5	_	_
@@ -209,7 +209,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	9	_	_
 7	Twitteren	Twitter	[/N][Supe]	PROPN	Case=Sup|Number=Sing	OBL	8	9	_	_
 8	szervezték	szervez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	9	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	9		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	9	_	arb
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	Azzal	az	[/Det|Pro][Ins]	PRON	Case=Ins|Number=Sing|Person=3|PronType=Dem	DET	3	10	_	_
@@ -252,7 +252,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	11	_	_
 18	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	19	11	11:16	rel
 19	kivívta	kivív	[/V][Pst.Def.3Sg]	VERB	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	16	11	_	_
-19.OBJ	DROP	_	_	_	_	OBJ	19	11		
+19.OBJ	DROP	_	_	_	_	OBJ	19	11	_	_
 20	,	,	[Punct]	PUNCT	_	PUNCT	19	11	_	_
 21	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	19	11	_	_
 22	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	25	11	_	_

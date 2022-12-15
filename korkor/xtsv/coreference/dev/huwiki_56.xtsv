@@ -86,7 +86,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	1883-ban	1883	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	2	5	_	_
 2	említették	említ	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	5	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	5		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	5	_	arb
 2.OBJ	DROP	_	_	_	_	OBJ	2	5	3:2	prs
 3	először	először	[/Adv]	ADV	_	MODE	2	5	_	_
 4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	6	5	_	_
@@ -102,7 +102,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	évektől	év	[/N][Pl][Abl]	NOUN	Case=Abl|Number=Plur	OBL	15	5	_	_
 15	kezdve	kezdve	[/Post|(Abl)]	ADP	_	TFROM	16	5	_	_
 16	temetkeztek	temetkezik	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	10	5	_	_
-16.SUBJ	DROP	_	_	_	_	SUBJ	16	5		arb
+16.SUBJ	DROP	_	_	_	_	SUBJ	16	5	_	arb
 17	ide	ide	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TO	16	5	5:2.OBJ	dem
 18	rendszeresen	rendszeres	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing	MODE	16	5	_	_
 19	.	.	[Punct]	PUNCT	_	PUNCT	0	5	_	_
@@ -134,7 +134,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	nőket	nő	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	COORD	9	7	_	_
 12	pedig	pedig	[/Cnj]	CCONJ	_	CONJ	13	7	_	_
 13	elkülönítették	elkülönít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	5	7	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	7		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	7	_	arb
 14	,	,	[Punct]	PUNCT	_	PUNCT	13	7	_	_
 15	bár	bár	[/Cnj]	SCONJ	_	CONJ	13	7	_	_
 16	mikor	amikor	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	TLOCY	18	7	_	_
@@ -219,7 +219,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	budai	budai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	11	_	_
 6	temetőkből	temető	[/N][Pl][Ela]	NOUN	Case=Ela|Number=Plur	FROM	7	11	_	_
 7	hozták	hoz	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	11	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	11		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	11	_	arb
 8	át	át	[/Prev]	ADV	_	PREVERB	7	11	_	_
 9	ide	ide	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TO	7	11	8:2	dem
 10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	11	_	_
@@ -232,7 +232,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	távolabbi	távolabbi	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	11	_	_
 18	részeken	rész	[/N][Pl][Supe]	NOUN	Case=Sup|Number=Plur	LOCY	19	11	_	_
 19	helyeztek	helyez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	7	11	_	_
-19.SUBJ	DROP	_	_	_	_	SUBJ	19	11		arb
+19.SUBJ	DROP	_	_	_	_	SUBJ	19	11	_	arb
 20	el	el	[/Prev]	ADV	_	PREVERB	19	11	_	_
 21	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 
@@ -243,7 +243,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	budapesti	budapesti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	6	12	_	_
 6	polgárokat	polgár	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	7	12	_	_
 7	temettek	temet	[/V][Prs.NDef.2Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	12	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	12		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	12	_	arb
 8	el	el	[/Prev]	ADV	_	PREVERB	7	12	_	_
 9	,	,	[Punct]	PUNCT	_	PUNCT	7	12	_	_
 10	ami	ami	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	21	12	_	_
@@ -262,7 +262,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	2	13	12:3	dem
 2	helyezték	helyez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	13	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	13		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	13	_	arb
 3	örök	örök	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	13	_	_
 4	nyugalomra	nyugalom	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	2	13	_	_
 5	mások	más	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	6	13	_	_
@@ -312,7 +312,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Itt	itt	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	LOCY	2	15	13:1	dem
 2	temették	temet	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	15	_	_
-2.SUBJ	DROP	_	_	_	_	SUBJ	2	15		arb
+2.SUBJ	DROP	_	_	_	_	SUBJ	2	15	_	arb
 3	el	el	[/Prev]	ADV	_	PREVERB	2	15	_	_
 4	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	15	_	_
 5	városmajori	városmajori	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	15	_	_
@@ -336,7 +336,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	emlékművet	emlékmű	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	16	_	_
 5	is	is	[/Adv]	ADV	_	MODE	4	16	_	_
 6	emeltek	emel	[/V][Prs.NDef.2Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	PUNCT	0	16	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	16		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	16	_	arb
 7	.	.	[Punct]	PUNCT	_	PUNCT	0	16	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	17	_	_
@@ -381,7 +381,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	19	_	_
 2	kérést	kérés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	3	19	18:15	coref
 3	továbbították	továbbít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	PUNCT	0	19	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	19		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	19	_	arb
 4	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	19	_	_
 5	Állami	Állami	[/N]	PROPN	Case=Nom|Number=Sing	NE	6	19	_	_
 6	Egyházügyi	Egyházügyi	[/N]	PROPN	Case=Nom|Number=Sing	NE	7	19	_	_

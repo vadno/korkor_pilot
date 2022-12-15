@@ -35,7 +35,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	december	december	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	8	2	_	_
 8	25-én	25	[/Num|Digit][_OrdDate/N][Supe]	NOUN	Case=Sup|Number=Sing	TLOCY	9	2	_	_
 9	mutatták	mutat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	2		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	2	_	arb
 10	be	be	[/Prev]	ADV	_	PREVERB	9	2	_	_
 11	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	2	_	_
 12	Amerikai	Amerikai	[/N]	PROPN	Case=Nom|Number=Sing	NE	13	2	_	_
@@ -189,7 +189,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	20	9	_	_
 20	kisbabával	kisbaba	[/N][Ins]	NOUN	Case=Ins|Number=Sing	COORD	18	9	_	_
 21	élni	él	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	9	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	9		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	9	_	arb
 22	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	24	9	_	_
 23	kis	kis	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	24	9	_	_
 24	házban	ház	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	21	9	_	_

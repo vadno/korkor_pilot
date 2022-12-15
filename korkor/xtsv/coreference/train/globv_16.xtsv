@@ -72,7 +72,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 31	kocsmákban	kocsma	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	COORD	30	3	_	_
 32	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	18	3	_	_
 33	fogyasztani	fogyaszt	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	32	3	_	_
-33.SUBJ	DROP	_	_	_	_	SUBJ	33	3		arb
+33.SUBJ	DROP	_	_	_	_	SUBJ	33	3	_	arb
 34	.	.	[Punct]	PUNCT	_	PUNCT	0	3	_	_
 
 1	Ugyanakkor	ugyanakkor	[/Cnj]	CCONJ	_	CONJ	3.1	4	_	_
@@ -123,7 +123,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	figyelmeztetést	figyelmeztetés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	18	5	_	_
 17	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	4	5	_	_
 18	feltüntetni	feltüntet	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	17	5	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	5		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	5	_	arb
 19	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	20	5	_	_
 20	címke	címke	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	21	5	_	_
 21	felületének	felület	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	23	5	_	_
@@ -157,7 +157,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	teljes	teljes	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	11	6	_	_
 11	tilalmát	tilalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	12	6	_	_
 12	vezetik	vezet	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	4	6	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	6		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	6	_	arb
 13	be	be	[/Prev]	ADV	_	PREVERB	12	6	_	_
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	6	_	_
 15	20	20	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	16	6	_	_
@@ -269,9 +269,9 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	nélkül	nélkül	[/Post]	ADP	_	MODE	9	12	_	_
 6	,	,	[Punct]	PUNCT	_	PUNCT	5	12	_	_
 7	azaz	azaz	[/Cnj]	CCONJ	_	CONJ	5	12	_	_
-8	szálanként	szál	[/N][_Distr:nként/Adv]	ADV	_	COORD	7	12	9:24	rep
+8	szálanként	szál	[/N][_Distr:nként/Adv]	ADV	_	COORD	7	12	_	_
 9	árusítani	árusít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	3	12	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	12		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	12	_	arb
 10	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	11	12	_	_
 11	cigarettát	cigaretta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	9	12	_	_
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_

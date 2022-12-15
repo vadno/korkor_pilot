@@ -18,7 +18,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	lapos	lapos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	19	1	_	_
 17	,	,	[Punct]	PUNCT	_	PUNCT	16	1	_	_
 18	kerek	kerek	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	COORD	16	1	_	_
-19	fejéről	fej	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	15	1		
+19	fejéről	fej	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	15	1	_	_
 19.1	KOPULA	_	_	_	_	ATT	9.1	1	_	_
 20	ismerhető	ismerhető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	19.1	1	_	_
 21	fel	fel	[/Prev]	ADV	_	PREVERB	20	1	_	_
@@ -78,7 +78,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	fajtastandardok	fajtastandard	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	12	4	_	_
 12	alapján	alapján	[/Post|(Poss)]	ADP	_	MODE	13	4	_	_
 13	értékelték	értékel	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-13.SUBJ	DROP	_	_	_	_	SUBJ	13	4		arb
+13.SUBJ	DROP	_	_	_	_	SUBJ	13	4	_	arb
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	16	4	_	_
 15	perzsa	perzsa	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	4	_	_
 16	macskákat	macska	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	13	4	2:2	coref
@@ -166,7 +166,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 34	azonban	azonban	[/Cnj]	CCONJ	_	CONJ	36	6	_	_
 35	idővel	idővel	[/Adv]	ADV	_	TLOCY	36	6	_	_
 36	sikerült	sikerül	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	15	6	_	_
-36.SUBJ	DROP	_	_	_	_	SUBJ	36	6		arb
+36.SUBJ	DROP	_	_	_	_	SUBJ	36	6	_	arb
 37	kiküszöbölni	kiküszöböl	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	36	6	_	_
 37.SUBJ	DROP	_	_	_	_	SUBJ	37	6	6:36.SUBJ	prs
 38	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	40	6	_	_
@@ -177,7 +177,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Színük	szín	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	SUBJ	4.1	7	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	7	6:1.POSS	prs
 2	és	és	[/Cnj]	CCONJ	_	CONJ	1	7	_	_
-3	mintázatuk	mintázat	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	2	7		
+3	mintázatuk	mintázat	[/N][Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	COORD	2	7	_	_
 4	változatos	változatos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	4.1	7	_	_
 4.1	KOPULA	_	_	_	_	ROOT	0	7	_	_
 5	,	,	[Punct]	PUNCT	_	PUNCT	4.1	7	_	_
@@ -192,7 +192,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	.	.	[Punct]	PUNCT	_	PUNCT	0	7	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	8	_	_
-2	szőrszálaik	szőrszál	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	POSS	3	8		
+2	szőrszálaik	szőrszál	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	POSS	3	8	_	_
 2.POSS	DROP	_	_	_	_	POSS	2	8	7:1.POSS	prs
 3	végén	vég	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	6	8	_	_
 4	sötét	sötét	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	5	8	_	_
@@ -204,7 +204,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	egyedeket	egyed	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	12	8	_	_
 11	csincsillának	csincsilla	[/N][Dat]	NOUN	Case=Dat|Number=Sing	DAT	12	8	_	_
 12	nevezik	nevezik	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	8		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	8	_	arb
 13	.	.	[Punct]	PUNCT	_	PUNCT	0	8	_	_
 
 1	Ez	ez	[/Det|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	DET	3	9	_	_
@@ -262,7 +262,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	át	át	[/Prev]	ADV	_	PREVERB	5	11	_	_
 4	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 5	fésülni	fésül	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	4	11	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	11		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	11	_	arb
 6	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	5	11	_	_
 7	kefélni	kefél	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	COORD	6	11	_	_
 7.SUBJ	DROP	_	_	_	_	SUBJ	7	11	11:5.SUBJ	prs
@@ -283,7 +283,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3.POSS	DROP	_	_	_	_	POSS	3	12	11:14.POSS	prs
 4	is	is	[/Adv]	ADV	_	MODE	3	12	_	_
 5	ellenőrizni	ellenőriz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	12	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	12		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	12	_	arb
 6	kell	kell	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	12	_	_
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	12	_	_
 8	mivel	mivel	[/Cnj]	SCONJ	_	CONJ	6	12	_	_
@@ -328,7 +328,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	1950-es	1950-es	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	14	_	_
 15	években	év	[/N][Pl][Ine]	NOUN	Case=Ine|Number=Plur	TLOCY	16	14	_	_
 16	tenyésztették	tenyészt	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
-16.SUBJ	DROP	_	_	_	_	SUBJ	16	14		arb
+16.SUBJ	DROP	_	_	_	_	SUBJ	16	14	_	arb
 17	ki	ki	[/Prev]	ADV	_	PREVERB	16	14	_	_
 18	,	,	[Punct]	PUNCT	_	PUNCT	16	14	_	_
 19	ahol	ahol	[/Adv|Pro|Rel]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	LOCY	24	14	14:3	rel
@@ -349,7 +349,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	perzsa	perzsa	[/N][Nom]	NOUN	Case=Nom|Number=Sing	COORD	5	15	_	_
 8	néven	név	[/N][Supe]	NOUN	Case=Sup|Number=Sing	OBL	9	15	_	_
 9	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	15		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	15	_	arb
 10	nyilván	nyilván	[/Prev]	ADV	_	OBL	9	15	_	_
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	15	_	_
 
@@ -384,7 +384,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	fajtát	fajta	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	17	13:2	holo
 13	,	,	[Punct]	PUNCT	_	PUNCT	6	17	_	_
 14	amely	amely	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	18	17	17:12	rel
-15	küllemében	küllem	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	18	17		
+15	küllemében	küllem	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	MODE	18	17	_	_
 16	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	17	17	_	_
 17	perzsára	perzsa	[/N][Subl]	NOUN	Case=Sub|Number=Sing	OBL	18	17	13:2	coref
 18	emlékeztet	emlékeztet	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6	17	_	_

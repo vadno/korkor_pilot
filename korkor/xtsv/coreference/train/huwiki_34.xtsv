@@ -200,7 +200,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	kívül	kívül	[/Post|(Supe)]	ADP	_	MODE	5	11	_	_
 5	vannak	van	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 6	lisztharmatgombákkal	lisztharmatgomba	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	7	11	_	_
-7	táplálkozó	táplálkozó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	11		
+7	táplálkozó	táplálkozó	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	12	11	_	_
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	11	_	_
 9	valamint	valamint	[/Cnj]	CCONJ	_	CONJ	7	11	_	_
 10	növényeket	növény	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	11	11	_	_
@@ -216,7 +216,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19.POSS	DROP	_	_	_	_	POSS	19	11	11:18	prs
 20	termesztett	termesztett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	11	_	_
 21	növényeinken	növény	[/N][Pl.Poss.1Pl][Supe]	NOUN	Case=Sup|Number=Plur|Number[psor]=Plur|Person[psor]=1	LOCY	24	11	_	_
-21.POSS	DROP	_	_	_	_	POSS	21	11		arb
+21.POSS	DROP	_	_	_	_	POSS	21	11	_	arb
 22	kárt	kár	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	24	11	_	_
 23	is	is	[/Adv]	ADV	_	MODE	22	11	_	_
 24	okozhatnak	okoz	[/V][_Mod/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5	11	_	_
@@ -337,7 +337,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Ilyenkor	ilyenkor	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	TLOCY	7	17	16:9	rel
 2	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	17	_	_
-3	lábaik	láb	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	POSS	4	17		
+3	lábaik	láb	[/N][Pl.Poss.3Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	POSS	4	17	_	_
 3.POSS	DROP	_	_	_	_	POSS	3	17	16:3	prs
 4	ízületein	ízület	[/N][Pl.Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	5	17	_	_
 5	keresztül	keresztül	[/Post|(Supe)]	ADP	_	LOCY	7	17	_	_
@@ -385,7 +385,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	generációt	generáció	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	13	19	_	_
 13	képző	képző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	14	19	_	_
 14	fajaink	faj	[/N][Pl.Poss.1Pl][Nom]	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	SUBJ	10	19	19:2	coref
-14.POSS	DROP	_	_	_	_	POSS	14	19		arb
+14.POSS	DROP	_	_	_	_	POSS	14	19	_	arb
 15	is	is	[/Adv]	ADV	_	MODE	14	19	_	_
 16	.	.	[Punct]	PUNCT	_	PUNCT	0	19	_	_
 

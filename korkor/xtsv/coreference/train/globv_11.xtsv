@@ -43,7 +43,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	akit	aki	[/N|Pro|Rel][Acc]	PRON	Case=Acc|Number=Sing|Person=3|PronType=Rel	OBJ	6	3	3:2	rel
 5	mostanra	mostanra	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	6	3	_	_
 6	azonosítottak	azonosít	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	13	3	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	3		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	3	_	arb
 7	,	,	[Punct]	PUNCT	_	PUNCT	6	3	_	_
 8	Anders	Anders	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	9	3	_	_
 9	Behring	Behring	[/N][Nom]	PROPN	Case=Nom|Number=Sing	NE	10	3	_	_

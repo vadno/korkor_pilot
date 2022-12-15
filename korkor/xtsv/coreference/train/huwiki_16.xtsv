@@ -12,7 +12,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	2	_	_
-2	csiga	csiga	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	2	1:3	koref
+2	csiga	csiga	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	3	2	1:3	coref
 3	háza	ház	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	6.1	2	_	_
 4	1-2	1-2	[/Num|Digit][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	NUM	5	2	_	_
 5	mm	mm	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	6	2	_	_

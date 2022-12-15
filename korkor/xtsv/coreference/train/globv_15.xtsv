@@ -139,7 +139,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 
 1	Küldetése	küldetés	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	SUBJ	1.1	6	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	6	5:3	prs
-1.1	KOPULA	_	_	_	_	ROOT	0	6		
+1.1	KOPULA	_	_	_	_	ROOT	0	6	_	_
 2	,	,	[Punct]	PUNCT	_	PUNCT	1.1	6	_	_
 3	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	1.1	6	_	_
 4	elősegítse	elősegít	[/V][Sbjv.Def.3Sg]	VERB	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	6	_	_
@@ -204,10 +204,10 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	is	is	[/Adv]	ADV	_	MODE	11	7	_	_
 13	,	,	[Punct]	PUNCT	_	PUNCT	4	7	_	_
 14	és	és	[/Cnj]	CCONJ	_	CONJ	4	7	_	_
-15	ennek	ez	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	POSS	16	7		
+15	ennek	ez	[/N|Pro][Dat]	PRON	Case=Dat|Number=Sing|Person=3|PronType=Dem	POSS	16	7	_	_
 16	szellemében	szellem	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	17	7	_	_
 17	publikálták	publikál	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	14	7	_	_
-17.SUBJ	DROP	_	_	_	_	SUBJ	17	7		arb
+17.SUBJ	DROP	_	_	_	_	SUBJ	17	7	_	arb
 18	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	21	7	_	_
 19	latin-amerikai	latin-amerikai	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	21	7	_	_
 20	crowdsourcing	crowdsourcing	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	21	7	_	_

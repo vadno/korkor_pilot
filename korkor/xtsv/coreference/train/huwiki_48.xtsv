@@ -150,7 +150,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	8	11	_	_
 8	kellett	kell	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	11	_	_
 9	megújítani	megújít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	8	11	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	11		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	11	_	arb
 10	profilját	profil	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	9	11	_	_
 10.POSS	DROP	_	_	_	_	POSS	10	11	10:5.SUBJ	prs
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
@@ -169,7 +169,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	kisebb	kicsi	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	4	13	_	_
 4	mértékben	mérték	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	5	13	_	_
 5	változtatták	változtat	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	13	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	13		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	13	_	arb
 6	meg	meg	[/Prev]	PART	_	PREVERB	5	13	_	_
 7	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	8	13	_	_
 8	tartalmát	tartalom	[/N][Poss.3Sg][Acc]	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBJ	5	13	_	_
@@ -181,7 +181,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	4	14	_	_
 4	hangsúlyt	hangsúly	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	5	14	_	_
 5	fektetnek	fektet	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	14		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	14	_	arb
 6	az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	7	14	_	_
 7	impulzusvásárlók	impulzusvásárló	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	ATT	8	14	_	_
 8	miatt	miatt	[/Post]	ADP	_	MODE	5	14	_	_

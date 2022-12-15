@@ -55,7 +55,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 1	Főként	főként	[/Adv]	ADV	_	MODE	3	5	_	_
 2	ötvözőelemként	ötvözőelem	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	3	5	_	_
 3	használják	használ	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	5	_	_
-3.SUBJ	DROP	_	_	_	_	SUBJ	3	5		arb
+3.SUBJ	DROP	_	_	_	_	SUBJ	3	5	_	arb
 3.OBJ	DROP	_	_	_	_	OBJ	3	5	4:2.1.SUBJ	prs
 4	,	,	[Punct]	PUNCT	_	PUNCT	3	5	_	_
 5	például	például	[/Adv]	ADV	_	APPEND	7	5	_	_

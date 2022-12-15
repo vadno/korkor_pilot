@@ -18,7 +18,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 16	való	való	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	1	_	_
 17	eltávolítására	eltávolítás	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	18	1	_	_
 18	használnak	használ	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6.1	1	_	_
-18.SUBJ	DROP	_	_	_	_	SUBJ	18	1		arb
+18.SUBJ	DROP	_	_	_	_	SUBJ	18	1	_	arb
 19	.	.	[Punct]	PUNCT	_	ROOT	0	1	_	_
 
 1	Fogorvosok	fogorvos	[/N][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	4	2	_	_
@@ -54,7 +54,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
 1	Ezenkívül	ezenkívül	[/Adv|Pro]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	MODE	6	5	_	_
-2	egyesek	egyes	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	5		
+2	egyesek	egyes	[/N|Pro][Pl][Nom]	NOUN	Case=Nom|Number=Plur	SUBJ	6	5	_	_
 3	fluoridokkal	fluorid	[/N][Pl][Ins]	NOUN	Case=Ins|Number=Plur	OBL	7	5	_	_
 4	,	,	[Punct]	PUNCT	_	PUNCT	3	5	_	_
 5	mentollal	mentol	[/N][Ins]	NOUN	Case=Ins|Number=Sing	COORD	3	5	_	_
@@ -126,7 +126,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 2	második	kettő	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	3	10	_	_
 3	világháborúig	világháború	[/N][Ter]	NOUN	Case=Ter|Number=Sing	TTO	6	10	_	_
 4	nagyon	nagyon	[/Adv]	ADV	_	MODE	5	10	_	_
-5	kevesen	kevés	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	6	10		arb
+5	kevesen	kevés	[/Num][_Aggreg/Adv]	NUM	Case=Nom|Number=Sing|NumType=Card	SUBJ	6	10	_	arb
 6	használták	használ	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
 6.OBJ	DROP	_	_	_	_	OBJ	6	10	9:13	prs
 7	.	.	[Punct]	PUNCT	_	PUNCT	0	10	_	_
@@ -171,7 +171,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	népszerűsítési	népszerűsítési	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	10	12	_	_
 10	kampányokat	kampány	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur	OBJ	11	12	_	_
 11	rendeztek	rendez	[/V][Pst.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	4	12	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	12		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	12	_	arb
 12	,	,	[Punct]	PUNCT	_	PUNCT	11	12	_	_
 13	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	14	12	_	_
 14	lakosságnak	lakosság	[/N][Dat]	NOUN	Case=Dat|Number=Sing	POSS	16	12	_	_

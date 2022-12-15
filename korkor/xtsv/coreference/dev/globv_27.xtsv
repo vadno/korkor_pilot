@@ -81,7 +81,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	legdrágább	drága	[/Supl][/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Sup|Number=Sing	ATT	13	4	_	_
 13	hoteljében	hotel	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	LOCY	14	4	_	_
 14	rendezték	rendez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	COORD	6	4	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	4		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	4	_	arb
 15	meg	meg	[/Prev]	PART	_	PREVERB	14	4	_	_
 16	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
@@ -340,7 +340,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 11	jelentené	jelent	[/V][Cond.Def.3Sg]	VERB	Definite=Def|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	15	_	_
 12	,	,	[Punct]	PUNCT	_	PUNCT	11	15	_	_
 13	ha	ha	[/Cnj]	SCONJ	_	CONJ	11	15	_	_
-14	Oroszország	Oroszország	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	18	15	12:6	_
+14	Oroszország	Oroszország	[/N][Nom]	PROPN	Case=Nom|Number=Sing	SUBJ	18	15	12:6	coref
 15	egy	egy	[/Det|Art.NDef]	DET	Definite=Ind|PronType=Art	DET	17	15	_	_
 16	átláthatóbb	átlátható	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	17	15	_	_
 17	ország	ország	[/N][Nom]	NOUN	Case=Nom|Number=Sing	PRED	18	15	_	_

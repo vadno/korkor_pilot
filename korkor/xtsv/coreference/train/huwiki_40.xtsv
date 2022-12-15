@@ -20,7 +20,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 17	hasonlít	hasonlít	[/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	8.1	1	_	_
 18	.	.	[Punct]	PUNCT	_	ROOT	0	1	_	_
 
-1	Lényege	lényeg	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	1.1	2		
+1	Lényege	lényeg	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	PRED	1.1	2	_	_
 1.POSS	DROP	_	_	_	_	POSS	1	2	1:11.POSS	prs
 1.1	KOPULA	_	_	_	_	ROOT	0	2	_	_
 2	,	,	[Punct]	PUNCT	_	PUNCT	1.1	2	_	_
@@ -32,7 +32,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	ún.	ún.	[/Adj|Abbr][Nom][]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	9	2	_	_
 9	rezonátort	rezonátor	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	10	2	_	_
 10	alkalmaznak	alkalmaz	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	3	2	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	2		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	2	_	arb
 11	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	12	2	_	_
 12	hangszer	hangszer	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	13	2	1:3	coref
 13	hangerejének	hangerő	[/N][Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	POSS	14	2	_	_
@@ -228,7 +228,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	gitárjaira	gitár	[/N][Pl.Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	OBL	4	11	_	_
 4	jellemző	jellemző	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	4.1	11	_	_
 4.1	KOPULA	_	_	_	_	ROOT	0	11	_	_
-4.1.SUBJ	DROP	_	_	_	_	SUBJ	4.1	11	11:18	_
+4.1.SUBJ	DROP	_	_	_	_	SUBJ	4.1	11	11:18	prs
 5	,	,	[Punct]	PUNCT	_	PUNCT	4.1	11	_	_
 6	hogy	hogy	[/Cnj]	SCONJ	_	CONJ	4.1	11	_	_
 7	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	8	11	_	_
@@ -269,7 +269,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	feltalálóinak	feltaláló	[/N][Pl.Poss.3Sg][Dat]	NOUN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	DAT	14	13	_	_
 13	is	is	[/Adv]	ADV	_	MODE	12	13	_	_
 14	tartják	tart	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	5.1	13	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	13		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	13	_	arb
 15	.	.	[Punct]	PUNCT	_	ROOT	0	13	_	_
 
 1	Az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	3	14	_	_

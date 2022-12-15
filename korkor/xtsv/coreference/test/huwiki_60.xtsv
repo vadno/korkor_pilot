@@ -122,7 +122,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	nagyszámú	nagyszámú	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	7	9	_	_
 7	lakást	lakás	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	8	9	_	_
 8	építeni	épít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	5	9	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	9		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	9	_	arb
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	9	_	_
 
 1	Ez	ez	[/N|Pro][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Dem	SUBJ	3	10	9:5	dem
@@ -237,7 +237,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	összefirkált	összefirkált	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	15	16	_	_
 15	aluljáróban	aluljáró	[/N][Ine]	NOUN	Case=Ine|Number=Sing	LOCY	19	16	_	_
 16	már	már	[/Adv]	ADV	_	TLOCY	19	16	_	_
-17	szervezett	szervezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	16		
+17	szervezett	szervezett	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	18	16	_	_
 18	formában	forma	[/N][Ine]	NOUN	Case=Ine|Number=Sing	MODE	19	16	_	_
 19	adott	ad	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	16	_	_
 20	lehetőséget	lehetőség	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	19	16	_	_

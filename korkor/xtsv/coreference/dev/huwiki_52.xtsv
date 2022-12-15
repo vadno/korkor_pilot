@@ -20,7 +20,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	18	1	_	_
 20	lekvárt	lekvár	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	19	1	_	_
 21	töltenek	tölt	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	10	1	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	1		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	1	_	arb
 22	.	.	[Punct]	PUNCT	_	PUNCT	0	1	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	2	_	_
@@ -33,7 +33,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	7	2	_	_
 9	olívaolajjal	olívaolaj	[/N][Ins]	NOUN	Case=Ins|Number=Sing	COORD	8	2	_	_
 10	kenik	ken	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	2		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	2	_	arb
 11	meg	meg	[/Prev]	PART	_	PREVERB	10	2	_	_
 12	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
@@ -53,7 +53,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 14	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	15	3	_	_
 15	kártya	kártya	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	16	3	_	_
 16	iránti	iránti	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	17	3	_	_
-17	szenvedélye	szenvedély	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	18	3		
+17	szenvedélye	szenvedély	[/N][Poss.3Sg][Nom]	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	ATT	18	3	_	_
 17.POSS	DROP	_	_	_	_	POSS	17	3	3:13	prs
 18	miatt	miatt	[/Post]	ADP	_	MODE	19	3	_	_
 19	vonult	vonul	[/V][Pst.NDef.3Sg]	VERB	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ATT	9	3	_	_
@@ -126,7 +126,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 5	vagy	vagy	[/Cnj]	CCONJ	_	CONJ	4	6	_	_
 6	uzsonnára	uzsonna	[/N][Subl]	NOUN	Case=Sub|Number=Sing	COORD	5	6	_	_
 7	fogyasztják	fogyaszt	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	6	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	6		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	6	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	7	6	_	_
 9	de	de	[/Cnj]	CCONJ	_	CONJ	7	6	_	_
 10	főétkezésként	főétkezés	[/N][EssFor:ként]	NOUN	Case=Ess|Number=Sing	OBL	12	6	_	_
@@ -169,7 +169,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 12	nagy	nagy	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	13	8	_	_
 13	öregnek	öreg	[/N][Dat]	NOUN	Case=Dat|Number=Sing	COORD	9	8	8:9	coref
 14	tulajdonítják	tulajdonít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	8	_	_
-14.SUBJ	DROP	_	_	_	_	SUBJ	14	8		arb
+14.SUBJ	DROP	_	_	_	_	SUBJ	14	8	_	arb
 15	,	,	[Punct]	PUNCT	_	PUNCT	14	8	_	_
 16	aki	aki	[/N|Pro|Rel][Nom]	PRON	Case=Nom|Number=Sing|Person=3|PronType=Rel	SUBJ	23	8	8:13	rel
 17	állítólag	állítólag	[/Adv]	ADV	_	MODE	23	8	_	_
@@ -243,7 +243,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 7	negyedik	négy	[/Num][_Ord/Adj][Nom]	ADJ	Case=Nom|Number=Sing|NumType=Ord	ATT	8	12	_	_
 8	grófjáról	gróf	[/N][Poss.3Sg][Del]	NOUN	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	COORD	4	12	12:8	coref
 9	nevezték	nevez	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	12	_	_
-9.SUBJ	DROP	_	_	_	_	SUBJ	9	12		arb
+9.SUBJ	DROP	_	_	_	_	SUBJ	9	12	_	arb
 9.OBJ	DROP	_	_	_	_	OBJ	9	12	11:2	prs
 10	el	el	[/Prev]	ADV	_	PREVERB	9	12	_	_
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	12	_	_

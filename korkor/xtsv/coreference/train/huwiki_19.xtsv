@@ -168,7 +168,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	(	(	[Punct]	PUNCT	_	PUNCT	21	8	_	_
 20	2012-ben	2012	[/Num|Digit][Ine]	NUM	Case=Ine|Number=Sing|NumType=Card	TLOCY	21	8	_	_
 21	lebontották	lebont	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	APPEND	17	8	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	8		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	8	_	arb
 21.OBJ	DROP	_	_	_	_	OBJ	21	8	8:16	prs
 22	,	,	[Punct]	PUNCT	_	PUNCT	21	8	_	_
 23	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	25	8	_	_
@@ -216,7 +216,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 4	sok	sok	[/Num][Nom]	NUM	Case=Nom|Number=Sing|NumType=Card	ATT	5	10	_	_
 5	hamisítványt	hamisítvány	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	6	10	_	_
 6	árusítanak	árusít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	10	_	_
-6.SUBJ	DROP	_	_	_	_	SUBJ	6	10		arb
+6.SUBJ	DROP	_	_	_	_	SUBJ	6	10	_	arb
 7	„	„	[Punct]	PUNCT	_	PUNCT	8	10	_	_
 8	téliszalámi	téliszalámi	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	10	10	_	_
 9	”	”	[Punct]	PUNCT	_	PUNCT	8	10	_	_
@@ -249,7 +249,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 19	és	és	[/Cnj]	CCONJ	_	CONJ	18	11	_	_
 20	Veronában	Verona	[/N][Ine]	PROPN	Case=Ine|Number=Sing	COORD	19	11	_	_
 21	készítenek	készít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ATT	6.1	11	_	_
-21.SUBJ	DROP	_	_	_	_	SUBJ	21	11		arb
+21.SUBJ	DROP	_	_	_	_	SUBJ	21	11	_	arb
 22	.	.	[Punct]	PUNCT	_	PUNCT	0	11	_	_
 
 1	Fűszerül	fűszer	[/N][Ess]	NOUN	Case=Ess|Number=Sing	MODE	3	12	_	_

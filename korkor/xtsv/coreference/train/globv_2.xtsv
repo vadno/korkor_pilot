@@ -113,7 +113,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	óta	óta	[/Post]	ADP	_	TFROM	8	4	_	_
 7	nem	nem	[/Adv]	ADV	PronType=Neg	NEG	8	4	_	_
 8	frissítették	frissít	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	4	_	_
-8.SUBJ	DROP	_	_	_	_	SUBJ	8	4		arb
+8.SUBJ	DROP	_	_	_	_	SUBJ	8	4	_	arb
 9	.	.	[Punct]	PUNCT	_	PUNCT	0	4	_	_
 
 1	A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	2	5	_	_

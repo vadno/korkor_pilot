@@ -23,7 +23,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 3	tevékenység	tevékenység	[/N][Nom]	NOUN	Case=Nom|Number=Sing	POSS	4	2	_	_
 4	céljára	cél	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	OBL	5	2	_	_
 5	építik	épít	[/V][Prs.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	2	_	_
-5.SUBJ	DROP	_	_	_	_	SUBJ	5	2		arb
+5.SUBJ	DROP	_	_	_	_	SUBJ	5	2	_	arb
 5.OBJ	DROP	_	_	_	_	OBJ	5	2	1:9	prs
 6	.	.	[Punct]	PUNCT	_	PUNCT	0	2	_	_
 
@@ -62,13 +62,13 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 6	szokásos	szokásos	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	PRED	6.1	5	_	_
 6.1	KOPULA	_	_	_	_	ROOT	0	5	_	_
 7	alkalmazni	alkalmaz	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	6	5	_	_
-7.SUBJ	DROP	_	_	_	_	SUBJ	7	5		arb
+7.SUBJ	DROP	_	_	_	_	SUBJ	7	5	_	arb
 8	,	,	[Punct]	PUNCT	_	PUNCT	6.1	5	_	_
 9	pl.	pl.	[/Adv|Abbr][Punct]	ADV	_	MODE	12	5	_	_
 10	nagyobb	nagy	[/Adj][_Comp/Adj][Nom]	ADJ	Case=Nom|Degree=Cmp|Number=Sing	ATT	11	5	_	_
 11	tárgyalóteret	tárgyalótér	[/N][Acc]	NOUN	Case=Acc|Number=Sing	OBJ	12	5	_	_
 12	alakítanak	alakít	[/V][Prs.NDef.3Pl]	VERB	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	COORD	6.1	5	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	5		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	5	_	arb
 13	ki	ki	[/Prev]	ADV	_	PREVERB	12	5	_	_
 14	,	,	[Punct]	PUNCT	_	PUNCT	12	5	_	_
 15	és	és	[/Cnj]	CCONJ	_	CONJ	12	5	_	_
@@ -221,7 +221,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 9	a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art	DET	10	14	_	_
 10	fűtőberendezést	fűtőberendezés	[/N][Acc]	NOUN	Case=Acc|Number=Sing	COORD	7	14	_	_
 11	elkezdték	elkezd	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ROOT	0	14	_	_
-11.SUBJ	DROP	_	_	_	_	SUBJ	11	14		arb
+11.SUBJ	DROP	_	_	_	_	SUBJ	11	14	_	arb
 12	kiváltani	kivált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	14	_	_
 12.SUBJ	DROP	_	_	_	_	SUBJ	12	14	14:11.SUBJ	prs
 13	Diesel	diesel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	14	_	_
@@ -271,7 +271,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 8	is	is	[/Adv]	ADV	_	MODE	7	17	_	_
 9	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	17	_	_
 10	építeni	épít	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	9	17	_	_
-10.SUBJ	DROP	_	_	_	_	SUBJ	10	17		arb
+10.SUBJ	DROP	_	_	_	_	SUBJ	10	17	_	arb
 11	.	.	[Punct]	PUNCT	_	PUNCT	0	17	_	_
 
 1	Már	már	[/Adv]	ADV	_	TLOCY	11	18	_	_
@@ -286,7 +286,7 @@ id	form	lemma	xpostag	upostag	feats	deprel	head	sent_id	corefhead	coreftype
 10	ki	ki	[/Prev]	ADV	_	PREVERB	12	18	_	_
 11	lehet	van	[/V][_Mod/V][Prs.NDef.3Sg]	VERB	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ROOT	0	18	_	_
 12	váltani	vált	[/V][Inf]	VERB	VerbForm=Inf|Voice=Act	INF	11	18	_	_
-12.SUBJ	DROP	_	_	_	_	SUBJ	12	18		arb
+12.SUBJ	DROP	_	_	_	_	SUBJ	12	18	_	arb
 13	dízel	dízel	[/N][Nom]	NOUN	Case=Nom|Number=Sing	ATT	14	18	_	_
 14	üzemanyaggal	üzemanyag	[/N][Ins]	NOUN	Case=Ins|Number=Sing	OBL	15	18	_	_
 15	működtethető	működtethető	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing	ATT	16	18	_	_

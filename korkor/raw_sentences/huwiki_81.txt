@@ -1,0 +1,16 @@
+A titok olyan ismeret, adat, információ, amely egy adott időpontban vagy időszakban csak korlátozott körben ismert vagy korlátozott.
+Minden titok a nyilvánosságra hozatallal szűnik meg, azaz azáltal, hogy a korlátozott körön kívül is megismerhetővé válik.
+A jogszabályok meghatározzák a titok fogalmát, mivel jogos állami vagy magánérdek fűződhet bizonyos információk titokban tartásához.
+A jogszabály meghatározza, mely szerv, milyen feltételekkel, esetleg meddig nyilváníthat egy adott információt titokká.
+A személyhez fűződő jogok sérelmét jelenti, ha valaki más levéltitkát megsérti, ami magántitok vagy üzleti titok birtokába jut és azt jogosulatlanul nyilvánosságra hozza vagy azzal egyéb módon visszaél.
+Levéltitoknak minősül az a közlést tartalmazó zárt küldemény, melyet a feladó szándéka szerint csak a címzett ismerhet meg.
+Üzleti titoknak minősül a jogi személy vagy magánszemély gazdasági tevékenységéhez kötődő minden olyan adat, megoldás amelynek titokban maradásához a jogosultnak méltányolható érdeke fűződik és amelynek titokban tartásához a jogosult a szükséges intézkedéseket megtette.
+Az egyes országok büntetőjogi törvényei meghatározzák az államtitok, a szolgálati titok és a magántitok fogalmát és egyben a titoksértést büntetni rendelik.
+A szabadalmi jog meghatározza, hogy mely új műszaki megoldásokra, találmányokra lehet szabadalmat engedélyezni.
+Sajátos szabályok vonatkoznak a már nyilvánosságra jutott megoldásokra.
+A know-how olyan ipari titok, amely forgalomképes, vagyis adható-vehető, a használata engedélyezhető stb.
+Nem lehet know-how tárgya olyan tudás, ami nyilvánosságra jutott szabadalmi leírásból megismerhető.
+A személyes adatokhoz való jogot jogszabályok rendezik.
+Ez az ún.
+adatvédelem.
+Adatvédelmi kérdésekben bármely magánszemély ombudsmanhoz fordulhat.

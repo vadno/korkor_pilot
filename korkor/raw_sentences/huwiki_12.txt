@@ -1,0 +1,27 @@
+Az univerzális motor olyan villamos forgógép, amely képes egyenfeszültségről, és váltakozó feszültségről is egyaránt működni.
+A szerkezete megegyezik a soros kapcsolású egyenáramú motor szerkezetével, emiatt ha a tápfeszültség pólusát megfordítjuk, az álló- és forgórészben is megfordul az áram iránya, így az erő ami forgatja a motort azonos marad.
+Váltakozó áramú táplálás esetén a motor állórészének nem csak az ohmos ellenállását kell figyelembe venni, hanem annak az induktív ellenállását is.
+A vasúti vontatásnál többek között ezét vezették be a 16 2/3 (50/3) Hz táplálást.
+Az egyen- és váltakozó feszültségű táplálásra egyaránt méretezett motorok esetén feltüntetik a névleges egyen és váltakozó tápfeszültséget is.
+Az univerzális motorokra jellemző a magas indítónyomaték és magas üresjárati fordulatszám (3000-20 000/min).
+Az univerzális motorok viszonylag kis méretű kompakt gépek.
+A fordulatszámuk a tápláló frekvencia által meghatározottnál jelentősen magasabb is lehet.
+A magas üzemi fordulatszám miatt a forgórész kiegyensúlyozása különösen fontos.
+A legjelentősebb szerkezeti eltérés az egyenáramú géphez képest, hogy a váltakozó áramú táplálás miatt az állórészt is lemezelt kivitelben kell elkészíteni.
+Univerzális motorokat gyakran használják háztartási gépekben (kávédaráló, porszívó), kéziszerszámokban (fúrógépek, sarokcsiszolók, fűszegély nyírók), illetve vasúti vontatásban.
+Az univerzális motorok fordulatszáma (a soros gerjesztésű egyenáramú motorokhoz hasonlóan) a terhelés növekedésének hatására csökken, ennek hatására a hálózati áramfelvétele nő, amelynek hatására az áram négyzetével arányosan növekszik a nyomatéka.
+Ha a motor tengelyét rögzítjük, akkor az átfolyó áramot az álló és a forgórész - a hálózat tápláló frekvenciájára számított - rezisztenciájának az összege határozza meg.
+Ebben az állapotban az áram és a nyomaték is nagyon nagy.
+Ha a gép nincs erre az állapotra méretezve akkor a nagy áram túlmelegedést, a nagy nyomaték törést okozhat.
+Generátor üzemben értelemszerűen nem célszerű használni, mert a soros géphez hasonlóan a terhelő áram emelkedésével a kapocsfeszültség is emelkedik.
+Generátor üzemben véletlenszerű polaritással egyenfeszültséget szolgáltat.
+Az univerzális motorokat tipikusan kétpólusú kivitelben készítik.
+A kommutáció okozta zavarok miatt általában szükséges rádiófrekvenciás zavarszűrő beépítése.
+Az univerzális gépek hatásfoka nem különösen magas.
+A kisebbeké 30% körüli, a nagyobbaké 70-75% körül alakul.
+A más villamos gépeknél megszokottaktól eltérően nem a leadott, hanem az univerzális motor felvett teljesítményét szokták megadni.
+Az univerzális motor indítási árama és nyomtéka is jelentős.
+Az indítóáramot nagyobb teljesítményű motorok esetében a hálózat védelmében, illetve az indító nyomaték korlátozásának érdekében korlátozni kell.
+Ennek a korszerű megoldása az elektronikus lágyindító berendezés.
+Régebben soros ellenállásokkal korlátozták az indítóáramot, amelyeket a motor fordulatszámának emelkedésével párhuzamosan fokozatosan kiiktattak.
+Az univerzális motorok fordulatszámát a kapocsfeszültség változtatásával folyamatosa, vagy (speciális állórész tekercselés esetén) az állórész tekercselés átkapcsolásával fokozatosan valósítható meg.

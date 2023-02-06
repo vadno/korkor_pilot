@@ -1,0 +1,21 @@
+A ragasztó olyan anyag, amelyet ragasztásra használnak, vagyis arra, hogy szilárd testek között tartós kötést hozzon létre anélkül, hogy az összekötött anyagok szerkezeti felépítése vagy eredeti tulajdonságai lényegesen megváltoznának.
+A ragasztót a leggyakrabban folyékony állapotban (például kolloid oldat vagy ömledék formájában) viszik fel a felületekre, majd az összeillesztés után megkeményedik.
+Alapvető fontosságú, hogy a ragasztóanyag folyékony állapotában nedvesítse a ragasztandó felületet, tapadjon rá.
+A ragasztás a ragasztó és a ragasztandó tárgy közötti adhézión, másrészt a ragasztó molekulái közötti kohéziós erőn alapul.
+A ragasztó kötése, kikeményedése során a kialakult kölcsönhatások fixálódnak, létrejön a szilárd kötés.
+Ha az anyagok összekötése három dimenzióban történik, ragasztó helyett kötőanyagról beszélünk.
+Tágabb értelemben a kittek, tapaszok is a ragasztók körébe sorolhatók.
+A ragasztók megszilárdulását fizikai, vagy kémiai folyamat eredményezheti.
+A fizikai úton kötő ragasztók közé tartoznak a melegen ömlesztett, majd a ragasztási felületen kihűlve megszilárduló anyagok, mint a méhviasz, a bitumen, az üvegömledék-ragasztók, vagy a szintetikus ömledékragasztók.
+Ide sorolhatók azok a ragasztóanyagok is, melyek kötését folyékony oldószerük eltávozása eredményezi, például a kaucsukragasztók vagy a glutinenyv.
+A plastisolokat hidegen, pasztaszerű állapotban viszik fel a felületre, és hő hatására keményednek meg.
+A kémiai reakcióval keményedő ragasztók kis molekulájú vegyületekből állnak, amik a kötés során a ragasztórétegben nagy molekulájú vegyületekké alakulnak, vagyis térhálósodás útján szilárdulnak meg.
+Ez a folyamat lehet polikondenzáció, poliaddíció vagy polimerizáció.
+Polikondenzációs ragasztók például a poliészterragasztók és a szilikonragasztók, poliaddíciós ragasztó az epoxiragasztó, polimerizációs ragasztó a fehér enyv meg a pillanatragasztó.
+A ragasztók egy része természetes eredetű, ezek használata gyakran több évezredes múltra tekint vissza.
+A modern vegyipar által előállított szintetikus ragasztók a 20. század közepétől kezdték felváltani ezeket a hagyományos ragasztókat.
+A természetes eredetű ragasztók készülhetnek növényi, állati vagy ásványi alapanyagból.
+Növényi eredetűek a cellulóz-észterek, cellulóz-éterek, a keményítőből készült csiriz, a kaucsukragasztó.
+Állati eredetű a méhviasz, a glutinenyv, a kazeinenyv, a véralbuminenyv.
+Ásványi eredetűek a bitumen, az üveg, a kerámiaragasztó.
+A szintetikus ragasztók fő típusai a fenoplasztok, az aminoplasztok, a poliamid ömledékragasztók, a poliuretán oldatok, az epoxigyanták, a poliakrilátok.

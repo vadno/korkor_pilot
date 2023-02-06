@@ -1,0 +1,17 @@
+A kisajtolás a fémek képlékeny alakításának az az eljárása, amikor egy fémtuskót egy eléje helyezett nyíláson átpréselünk.
+A kisajtolás régebben használt neve az extrudálás volt.
+A kiáramló anyag szelvénye megegyezik a nyílás keresztmetszetével.
+A kisajtolt profil lehet tömör, de lehet igen változatos üreges alakú is.
+A nyílást tartalmazó elemet sajtolószerszámnak nevezik, a sajtolóerőt kifejtő részt sajtolótüskének, a préstuskót felvevő, az körbeölelő alkatrészt pedig recipiensnek vagy felvevőnek.
+A kisajtolás célja különböző alakú rudak (idomok, profilok), csövek és kábelköpenyek előállítása.
+Direkt kisajtoláskor a sajtolótüske mozgásiránya megegyezik a termék kifolyási irányával.
+Indirekt kisajtoláskor a sajtolótüske és a kisajtolt anyag mozgásának iránya ellentétes.
+Kisajtolással minden képlékenyen alakítható fém, fémötvözet feldolgozható.
+A kiinduló anyag általában kör szelvényű öntött tuskó.
+Direkt kisajtoláskor a préstuskót az alakítási folyamat során végigtolják a recipiensben, aminek következtében a két felület között komoly súrlódóerő lép fel, ami az alakító gép nyomóerejét terheli – a hasznosítható alakítóerő rovására.
+A súrlódás csökkentése érdekében a tuskó felületét kenni kell (de a súrlódóerőt küszöböli ki az indirekt kisajtolás is).
+A kenőanyag függ az alakított anyagtól és a hőmérséklettől.
+700 °C fölött igen jó kenőhatást biztosítanak a különböző szilikátüvegek.
+Magasabb hőmérsékleteken fémporokat, fémvegyületeket stb.
+használnak.
+A kisajtolást általában fekvő helyzetű hidraulikus sajtóval végzik, de álló mechanikus sajtó is szóba jöhet.

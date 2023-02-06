@@ -13,7 +13,6 @@ A játék bázisfoglalással kezdődik, amikor a gép elhelyezi mindhárom ját�
 Miután elfogyott a térképről az összes szabad megye, megkezdődik a foglalás, amikor a játékosok egymás megyéinek elfoglalására törekednek (harcolnak).
 A játékban egy megye elfoglalásáért helyes választ kell kiválasztani a négyből; amennyiben mindkét játékos helyesen válaszol, egy tippelős kérdésre közelebbi számot kell megadni, mint az ellenfél, vagy ha ugyanazt a számot adja meg az ellenfél is, akkor a gyorsabban válaszoló játékosé lesz a megye.
 Egy vár elfoglalásáért háromszor kell végigcsinálni ezt.
-A játékban több játékmód van (pl.
-: villámháború, hosszú hadjárat, junior játék, mini bajnokság, játék barátokkal stb.).
+A játékban több játékmód van (pl.: villámháború, hosszú hadjárat, junior játék, mini bajnokság, játék barátokkal stb.).
 A külföldi változatok játékmenete nem tér el nagyban, csak a Magyarország-térkép helyett az adott ország térképén lehet játszani.
 Továbbá mobilalkalmazásként is le lehet tölteni iOS-re és Android készülékre.

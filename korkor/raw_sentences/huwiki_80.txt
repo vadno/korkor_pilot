@@ -13,8 +13,7 @@ A Thomas-konvertert a gyártás kezdetén vízszintes helyzetbe állították, �
 A konvertert függőleges helyzetbe hozva kezdődött a levegőfúvatás.
 Az eljárás szempontjából fontos elemek, a szilícium, a mangán és a szén kiégése a bessemerezéshez hasonlóan megy végbe.
 A 14–15 perc után visszaeső láng jelezte a karbonkiégés végét.
-Ezután alkalmazták az ún.
-utánfúvatást, amikor a foszfor oxidálódott, amit a konverter száján kiáramló sűrű, barna füstgáz jelzett.
+Ezután alkalmazták az ún. utánfúvatást, amikor a foszfor oxidálódott, amit a konverter száján kiáramló sűrű, barna füstgáz jelzett.
 A próbavétel eredményétől függően megtörtént a csapolás, majd a kokillákba öntés.
 Az adagidő az utánfúvatás miatt valamivel hosszabb a Bessemer-módszerétől.
 A korszerű Thomas-acélművekben az acél nitrogéntartalmának csökkentése céljából oxigénnel dúsított fúvólevegőt használtak.

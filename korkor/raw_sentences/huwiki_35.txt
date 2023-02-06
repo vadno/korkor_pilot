@@ -12,6 +12,5 @@ Direkt kisajtoláskor a préstuskót az alakítási folyamat során végigtoljá
 A súrlódás csökkentése érdekében a tuskó felületét kenni kell (de a súrlódóerőt küszöböli ki az indirekt kisajtolás is).
 A kenőanyag függ az alakított anyagtól és a hőmérséklettől.
 700 °C fölött igen jó kenőhatást biztosítanak a különböző szilikátüvegek.
-Magasabb hőmérsékleteken fémporokat, fémvegyületeket stb.
-használnak.
+Magasabb hőmérsékleteken fémporokat, fémvegyületeket stb. használnak.
 A kisajtolást általában fekvő helyzetű hidraulikus sajtóval végzik, de álló mechanikus sajtó is szóba jöhet.

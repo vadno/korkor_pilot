@@ -11,6 +11,5 @@ Sajátos szabályok vonatkoznak a már nyilvánosságra jutott megoldásokra.
 A know-how olyan ipari titok, amely forgalomképes, vagyis adható-vehető, a használata engedélyezhető stb.
 Nem lehet know-how tárgya olyan tudás, ami nyilvánosságra jutott szabadalmi leírásból megismerhető.
 A személyes adatokhoz való jogot jogszabályok rendezik.
-Ez az ún.
-adatvédelem.
+Ez az ún. adatvédelem.
 Adatvédelmi kérdésekben bármely magánszemély ombudsmanhoz fordulhat.

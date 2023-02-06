@@ -1,6 +1,5 @@
 A rezonátoros gitár egy húros, pengetős hangszer, mely testformáját tekintve leginkább egy akusztikus gitárhoz hasonlít.
-Lényege, hogy a rezgőtestben fémből készült ún.
-rezonátort alkalmaznak a hangszer hangerejének növelésére.
+Lényege, hogy a rezgőtestben fémből készült ún. rezonátort alkalmaznak a hangszer hangerejének növelésére.
 Az ilyen gitárok megjelenése az 1920-as évekre tehető, amikor a gitárosoknak már nem volt elegendő az akusztikus gitárok rezgőteste által lehetővé tett hangerő, mivel az együttesben játszó többi hangszer elnyomta a gitárhangot.
 A fejlesztések később az elektromos gitárok megjelenéséhez vezettek, de egy mellékvonalon megjelentek a különböző rezonátoros megoldások.
 A rezonátor lényege, hogy a húrok rezgésbe hoznak egy, vagy több fémtányért, melyek a hangszórók membránjához hasonlóan rezgésbe jönnek és közvetve felerősítik a húrok által keltett hangot.

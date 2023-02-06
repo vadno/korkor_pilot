@@ -3,13 +3,11 @@ A munkaviszony munkaszerződéssel jön létre.
 A munkaszerződés alapján a munkavállaló köteles a munkáltató irányítása szerint munkát végezni, míg
 a munkáltató köteles a munkavállalót foglalkoztatni és munkabért fizetni.
 A munkaszerződés formai és tartalmi követelményeit a Munka törvénykönyvéről szóló 2012. évi I. törvény határozza meg.
-Korábban a munkaszerződés követelményeit a Munka Törvénykönyvéről szóló 1992. évi XXII.
-törvény határozta meg.
+Korábban a munkaszerződés követelményeit a Munka Törvénykönyvéről szóló 1992. évi XXII. törvény határozta meg.
 A munkaszerződést írásba kell foglalni.
 Az írásba foglalás elmulasztása miatt a munkaszerződés érvénytelenségére csak a munkavállaló - a munkába lépést követő harminc napon belül - hivatkozhat.
 a szerződő felek munkaviszony szempontjából lényeges adatai, a munkavégzés helye, a személyi alapbér (nem azonos a munkabérrel) és a munkakör.
-Ezen kívül ún.
-természetes elemei a napi munkaidő és a munkaviszony időtartama, azaz ha nem írják bele, akkor napi nyolc órára és határozatlan időre jön létre.
+Ezen kívül ún. természetes elemei a napi munkaidő és a munkaviszony időtartama, azaz ha nem írják bele, akkor napi nyolc órára és határozatlan időre jön létre.
 A szabályozás részlegesen diszpozitiv, előírásai szerint a munkaszerződés - jogszabály eltérő rendelkezése hiányában - a 2012. évi I. törvény Második Részében foglaltaktól, valamint munkaviszonyra vonatkozó szabálytól a munkavállaló javára eltérhet.
 Az eltérést az egymással összefüggő rendelkezések összehasonlításával kell elbírálni.
 A kötött elemeken kívül a munkaszerződésben rögzíthető minden olyan jog vagy kötelezettség, amelyet az egyik fél fontosnak tart és a másik fél elfogad.

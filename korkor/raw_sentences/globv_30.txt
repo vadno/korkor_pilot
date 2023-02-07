@@ -1,0 +1,15 @@
+Már folyamatban van az orosz Samsung-felhasználók személyes adatainak továbbítása egy moszkvai adatszerverre annak érdekében, hogy a dél-koreai technológiai vállalat eleget tegyen egy nyár végén hatályba lépő ún. adatlokalizációs törvénynek, mely szükségessé teszi weboldalak és különböző alkalmazások számára, hogy minden felhasználói adatot egy Oroszországon belül elhelyezkedő szerveren tároljanak.
+A Vedomoszty szerint a Samsung egy DataPro nevű cégtől bérel tárhelyet, mely részben egy olyan személy tulajdonában van, aki a Rosznefty volt vezérigazgatójának, Szergej Bogdancsikovnak a rokona.
+A Samsung nem kívánt a Vedomoszty állításaira reagálni.
+A feltevés, hogy a Samsung engedni fog Oroszország új adatlokalizációs követeléseinek, egyike azoknak a híreszteléseknek, melyek szerint más jelentős tech vállalatok is beleegyeztek, hogy felhasználói adataik egy részét oroszországi szerverekre helyezzék át.
+Múlt héten a kínai Lenovo bejelentette, hogy megkezdte ügyfelei személyes adatainak olyan orosz szerverekre való költöztetését, melyek a Lenovo tulajdonában állnak.
+A vállalat alelnöke és vezérigazgatója azt nyilatkozta a Vedomosztynak, hogy az adatok áthelyezése eddig körülbelül 50 000 dollárba került.
+Június 6-án orosz tisztviselők azt állították, hogy a Booking.com szintén beleegyezett, hogy valamennyi felhasználójának a személyes adatait oroszországi adatszerverekre helyezzék át.
+Magáért beszél, hogy később a Booking.com egy olyan nyilatkozatot adott ki, melyben elismerte, hogy tárgyalásokat folytat az orosz kormánnyal, de arra is utalt, hogy még nem tekintik lezártnak az ügyet.
+Az Acer oroszországi vállalatának a vezérigazgatója azt mondta, cégük azt vizsgálja, hogy az általuk birtokolt adatok Oroszország új lokalizációs törvényének a hatálya alá tartoznak-e. Ha igen, akkor a vezérigazgató szerint az Acer vagy továbbítja az adatokat Oroszországnak, vagy azonnal megsemmisíti őket.
+De a példákat tovább is lehet sorolni.
+Az eBay szintén azt mondta, hogy az orosz felhasználóinak az adatait továbbítani fogják oroszországi tárolásra.
+Meg nem erősített beszámolók szerint a kínai elektronikus kereskedelmi vállalat, az AliExpress és még a Google is hajlandóak az új törvénynek eleget tenni, és a felhasználói adatokat Oroszországban tárolni.
+A Google állítása szerint az ügyet érintő jelentések pontatlanok.
+Miközben orosz tisztviselők rendszeresen túloznak a külföldi internetes források oroszországi törvényekkel való összehangoltságuk mértékét illetően, úgy tűnik, hogy egyre nő azon jelentős weboldalak száma, melyek váratlan és azonnali engedményeket tesznek Moszkva felé.
+Az, hogy ez a tendencia Oroszország kormányának a növekvő befolyását, vagy csak a tech cégek engedékenységét jelenti, egyértelmű lesz 2015. szeptember 1-jére, amikor Oroszország új adatköltöztetési törvénye hatályba lép.

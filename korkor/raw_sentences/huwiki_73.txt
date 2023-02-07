@@ -1,7 +1,6 @@
 A munkaszerződés a munkaviszony létesítésére szolgáló szerződésfajta.
 A munkaviszony munkaszerződéssel jön létre.
-A munkaszerződés alapján a munkavállaló köteles a munkáltató irányítása szerint munkát végezni, míg
-a munkáltató köteles a munkavállalót foglalkoztatni és munkabért fizetni.
+A munkaszerződés alapján a munkavállaló köteles a munkáltató irányítása szerint munkát végezni, míg a munkáltató köteles a munkavállalót foglalkoztatni és munkabért fizetni.
 A munkaszerződés formai és tartalmi követelményeit a Munka törvénykönyvéről szóló 2012. évi I. törvény határozza meg.
 Korábban a munkaszerződés követelményeit a Munka Törvénykönyvéről szóló 1992. évi XXII. törvény határozta meg.
 A munkaszerződést írásba kell foglalni.
@@ -11,8 +10,7 @@ Ezen kívül ún. természetes elemei a napi munkaidő és a munkaviszony időta
 A szabályozás részlegesen diszpozitiv, előírásai szerint a munkaszerződés - jogszabály eltérő rendelkezése hiányában - a 2012. évi I. törvény Második Részében foglaltaktól, valamint munkaviszonyra vonatkozó szabálytól a munkavállaló javára eltérhet.
 Az eltérést az egymással összefüggő rendelkezések összehasonlításával kell elbírálni.
 A kötött elemeken kívül a munkaszerződésben rögzíthető minden olyan jog vagy kötelezettség, amelyet az egyik fél fontosnak tart és a másik fél elfogad.
-Ez alól szigorú kivétel, hogy a munkavállaló jogszabályban rögzített jogáról általánosan előre nem mondhat le (pl.
-nem fogadhat el a minimálbérnél alacsonyabb bért, vagy a jogszabály által maximált munkaidőnél hosszabb munkaidőt).
+Ez alól szigorú kivétel, hogy a munkavállaló jogszabályban rögzített jogáról általánosan előre nem mondhat le (pl. nem fogadhat el a minimálbérnél alacsonyabb bért, vagy a jogszabály által maximált munkaidőnél hosszabb munkaidőt).
 A munkaszerződést, mint kétoldalú, egybehangzó szándéknyilatkozatot egészíti ki a munkáltató egyoldalú, de törvény által rögzített tartalmú tájékoztatása.
 Ebben kötelező a munkáltatónak tájékoztatnia a munkavállalót a képzettségi követelményekről, a munkaköri feladatokról, a munkába lépés napjáról, munkarendről, a bér egyéb elemeiről, a bérfizetés napjáról, a szabadság mértékéről és kiadásának módjáról, a felmondási idő mértékéről, valamint arról, hogy a munkáltatónál működik-e üzemi tanács vagy szakszervezet.
 E tájékoztatást a munkaviszony létrejöttét követő 30 napon belül írásban kell közölni a munkavállalóval a munkáltatónál szokásos módon.

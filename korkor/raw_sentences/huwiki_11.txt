@@ -11,6 +11,6 @@ Afrika országainak többsége igen szegény, az egy főre eső GDP/PPP Afrika �
 (Összehasonlításul Magyarországon 15 500 USD, az Európai Unió egészében 26 900 USD.)
 A legszegényebb afrikai országok Szomália, Malawi és a Comore-szigetek, amelyekben az egy főre eső éves GDP csupán 600 USD.
 Az országok lakossága a 2005-ös állapotokat mutatja, a fővárosok lakossága pedig a zárójelben megadott évre vonatkozik.
-Az adatok nem a közigazgatási városhatárokat, hanem az egybefüggő városterületet veszik figyelembe, amely a városhatároknál lehet szűkebb vagy tágabb is (agglomeráció).
+Az adatok nem a közigazgatási városhatárokat, hanem az egybefüggő városterületet veszik figyelembe, amely a városhatároknál lehet szűkebb vagy tágabb is.
 Azoknál az országoknál, ahol nem a főváros a legnagyobb város, zárójelben az ország legnépesebb városát is megadtuk.
 Az országok lakosságának és népsűrűségének forrása: USA Népszámlálási Hivatala

@@ -8,7 +8,7 @@ Az univerzális motorok viszonylag kis méretű kompakt gépek.
 A fordulatszámuk a tápláló frekvencia által meghatározottnál jelentősen magasabb is lehet.
 A magas üzemi fordulatszám miatt a forgórész kiegyensúlyozása különösen fontos.
 A legjelentősebb szerkezeti eltérés az egyenáramú géphez képest, hogy a váltakozó áramú táplálás miatt az állórészt is lemezelt kivitelben kell elkészíteni.
-Univerzális motorokat gyakran használják háztartási gépekben (kávédaráló, porszívó), kéziszerszámokban (fúrógépek, sarokcsiszolók, fűszegély nyírók), illetve vasúti vontatásban.
+Az univerzális motorokat gyakran használják háztartási gépekben (kávédaráló, porszívó), kéziszerszámokban (fúrógépek, sarokcsiszolók, fűszegély nyírók), illetve vasúti vontatásban.
 Az univerzális motorok fordulatszáma (a soros gerjesztésű egyenáramú motorokhoz hasonlóan) a terhelés növekedésének hatására csökken, ennek hatására a hálózati áramfelvétele nő, amelynek hatására az áram négyzetével arányosan növekszik a nyomatéka.
 Ha a motor tengelyét rögzítjük, akkor az átfolyó áramot az álló és a forgórész - a hálózat tápláló frekvenciájára számított - rezisztenciájának az összege határozza meg.
 Ebben az állapotban az áram és a nyomaték is nagyon nagy.
